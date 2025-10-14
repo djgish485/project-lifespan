@@ -21,62 +21,60 @@ tags:
 
 # Epigenetic Information (Sinclair)
 
-{{ popper_card() }}
+## Simple Summary
 
-> Seed links to incorporate and trace to primary: web posts and social media are treated as Web sources until confirmed in the literature.
+- Idea: Aging is driven largely by loss/mis‑specification of epigenetic information; partial reprogramming (e.g., OSK) can reset gene‑expression programs and restore youthful function.
+- Not just biomarkers: lifespan extension at whole‑animal level must be shown while managing tumor risk; tissue wins are strongest so far (e.g., retina/optic nerve).
+- Practical signature: state reset improves function and hazard with acceptable safety; strong gains without enumerating/repairing all damages would favor this view.
 
-- Web: https://x.com/davidasinclair/status/1969276595895455925
-- Web (evolutionary commentary): https://x.com/dwarkesh_sp/status/1957842812604674255
+## Conflicts With Other Theories
 
-## Lay Summary
+<ul>
+  <li>SENS Damage Repair (de Grey)
+    <ul>
+      <li>SENS: Multiple damages jointly cause aging; targeted repairs are necessary.</li>
+      <li>Sinclair: A correct state reset can obviate many repairs; large, safe OSK wins would weigh against damage‑first primacy.</li>
+    </ul>
+  </li>
+  <li>Classic Models (Medawar, Williams, Hamilton, Kirkwood)
+    <ul>
+      <li>Classics: Gains should show tradeoffs/costs; no “program” to reset.</li>
+      <li>Sinclair: Durable max‑lifespan gains from reprogramming with limited costs would challenge strict tradeoff/budget constraints.</li>
+    </ul>
+  </li>
+  <li>Pathogen Control (Lidsky)
+    <ul>
+      <li>PC: Under pathogen challenge, rejuvenation should face infection penalties unless anti‑pathogen measures co‑apply.</li>
+      <li>Sinclair: OSK can succeed without infection penalties under challenge; clean wins favor epigenetic primacy over PC.</li>
+    </ul>
+  </li>
+  <li>Resilience / Criticality (Fedichev)
+    <ul>
+      <li>Resilience: Hazard reductions can occur by tuning dynamics without a state reset.</li>
+      <li>Sinclair: A state reset should reduce hazard more broadly than non‑epigenetic resilience interventions if epigenetic mis‑specification is primary.</li>
+    </ul>
+  </li>
+  <li>Bioelectric / Morphogenetic Control (Levin)
+    <ul>
+      <li>Levin: Pattern goals sit “above” gene expression; spatial cues write targets.</li>
+      <li>Sinclair: Reprogramming can indirectly restore pattern control via gene networks; OSK may substitute for pattern cues in some tissues.</li>
+    </ul>
+  </li>
+  <li>Longevity Bottleneck (Various Proponents)
+    <ul>
+      <li>Bottleneck: Specific damage‑response pathways drive aging.</li>
+      <li>Sinclair: A global epigenetic reset can normalize many pathways without bespoke fixes; strong wins support epigenetic primacy.</li>
+    </ul>
+  </li>
+</ul>
 
-The idea: cells lose “epigenetic instructions” over time, scrambling which genes turn on or off. If you reset these instructions, cells can act young again. Experiments with partial reprogramming (e.g., OSK factors) appear to rejuvenate certain tissues in mice.
+## Questions
 
-## Technical Summary
+## Sources
 
-- Hypothesis: age-associated phenotypes are largely driven by epigenetic drift/misalignment rather than irreversible damage; resetting epigenetic state realigns gene expression and function [@Yang2023].
-- Mechanisms: DNA/histone modifications, chromatin remodeling, transcription factor networks; partial reprogramming (OSK) aims to revert epigenome without dedifferentiation [@Ocampo2016; @Lu2020].
-- Distinguish biomarkers (epigenetic clocks) from causal mechanisms; epigenetic age reversal may not imply lifespan extension.
-
-## Evolutionary Context
-
-Speculates that organisms trade off plasticity and stability; noise in epigenetic maintenance accumulates with age. Requires a mechanistic rationale for why selection leaves large reversible epigenetic liabilities.
-
-## Core Claims
-
-- {{ claim('c1', 'Loss of epigenetic information is a principal cause of aging phenotypes.', 'Restoring epigenetic state restores function independent of other repair.') }}
-- {{ claim('c2', 'Partial reprogramming can rejuvenate tissues without oncogenic transformation.', 'OSK in adult mice improves function and extends healthspan with acceptable tumor risk.') }}
-
-## Predictions (Operationalized)
-
-- Partial reprogramming in adult mice reduces all-cause hazard vs control and increases maximum lifespan by ≥10% without increasing tumor incidence.
-- Tissue-specific reprogramming restores function (e.g., optic nerve regeneration) in aged mice with pre-registered endpoints.
-
-## Evidence
-
-### For
-
-- Tissue rejuvenation and functional improvements following OSK in retina/optic nerve injury and glaucoma models [@Lu2020].
-- Induced epigenetic perturbations accelerate aging-like phenotypes; partial reset restores function in selected contexts [@Yang2023].
-- Partial reprogramming ameliorates age-associated hallmarks and improves survival in progeroid mice [@Ocampo2016].
-
-### Against / Disconfirmations
-
-- Tumorigenesis risk with reprogramming; mixed or absent whole-organism lifespan results to date; potential confounding by stress responses and off-target effects.
-- Epigenetic clocks may reverse without corresponding lifespan gains; need pre-registered, blinded lifespan studies.
-
-## Rival Theories and Comparisons
-
-- Damage-first (SENS), hyperfunction/mTOR, mitochondrial dysfunction, cellular senescence; assess which uniquely predicts lifespan changes beyond biomarker shifts.
-
-## Critiques
-
-### Outbound (Sinclair → others)
-
-#### [SENS Damage Repair (de Grey)](sens_damage_repair.md)
-
-- If loss of epigenetic information is primary, resetting state should extend maximum lifespan without needing to enumerate and repair all damage classes. Large, clean OSK wins with low toxicity would reduce the need for a broad repair stack.
-- SENS expects that adding specific repairs should still be required for major lifespan gains; if OSK alone matches or exceeds stacked repairs, that challenges a damage‑first primacy.
+- Tweet: https://vxtwitter.com/davidasinclair/status/1969276595895455925
+- Commentary: https://vxtwitter.com/dwarkesh_sp/status/1957842812604674255
+- Primary: Nature 2020 (Lu): https://doi.org/10.1038/s41586-020-2975-4; Cell 2016 (Ocampo): https://doi.org/10.1016/j.cell.2016.11.052; Cell 2023 (Yang): https://doi.org/10.1016/j.cell.2022.12.027
 
 - Discriminator experiment(s):
   <ul>

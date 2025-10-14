@@ -21,62 +21,60 @@ tags:
 
 # Pathogen Control (Lidsky)
 
-{{ popper_card() }}
+## Simple Summary
 
-> Seed: https://x.com/lidskypeter/status/1962526281863508444 (Web). Primary publications and a recent talk provide detail.
+- Idea: Aging evolves to curb pathogen spread/persistence; finite lifespan limits epidemics. Senescent cells act as an antiviral “militia” when timed/cleared correctly.
+- Infection tradeoffs: In high‑burden settings, big longevity gains should come with infection penalties unless anti‑pathogen measures co‑apply.
+- Comparative/experimental signature: longevity wins without infection costs under challenge weigh against this view.
 
-## Lay Summary
+## Conflicts With Other Theories
 
-Aging may be the body’s way to keep chronic infections in check. By limiting how long individuals live, pathogens have less time to persist and spread. On this view, aging is not just wear and tear but an evolved “program” tuned by infectious disease pressure. At the cellular level, senescent cells may act like an “immune militia” during infection—useful short-term, harmful if not cleared.
-
-## Technical Summary
-
-- Pathogen Control Hypothesis: selection can favor finite lifespan setpoints to limit epidemic spread and pathogen persistence in host populations [@LidskyAndino2020; @LidskyAndino2022].
-- Predictions emerge from epidemiological models: shorter lifespans reduce basic reproduction number or chronic carriage windows for certain pathogens; selection for lifespan depends on pathogen parameters and transmission ecology.
-- Cellular senescence as “immune militia”: transient senescence provides antiviral benefits (resistance, paracrine signaling, orchestration with immune cells); chronic senescence is deleterious (requires immune clearance) — articulated in talks and lab aims (Web) and consistent with broader inflammaging literature [@Franceschi2018].
-- Contrasts with nonprogrammed theories (disposable soma, antagonistic pleiotropy) by proposing direct adaptive benefit of aging via pathogen control.
-
-## Evolutionary Context
-
-Integrates life history theory with infectious disease dynamics: in environments with high transmission or chronic infections, finite lifespan can increase group-level and kin-level fitness by curbing epidemics; testable against comparative datasets [@LidskyYuanAndino2023].
-
-## Core Claims
-
-- {{ claim('lid-c1', 'Finite lifespan is an adaptation to limit infectious disease spread/persistence.', 'Species in high-pathogen environments evolve shorter lifespan setpoints, controlling for confounders.') }}
-- {{ claim('lid-c2', 'Cellular senescence provides short-term antiviral benefits (immune militia) but is harmful if persistent.', 'Perturbing senescence/clearance alters viral control and post-infection outcomes.') }}
-
-## Predictions (Operationalized)
-
-- Comparative: Across species/populations, historical pathogen pressure correlates with lifespan after adjusting for body size, ecology, and extrinsic mortality.
-- Experimental (mice): In a controlled chronic-infection model, selection or engineering toward shorter reproductive lifespan reduces pathogen prevalence; conversely, pathogen-free settings relax selection on lifespan.
-- Senescence-virology: Senolytics or enhanced senescent cell clearance may impair resistance to certain viral infections; timed senescence induction/clearance improves outcomes.
-
-## Evidence
-
-- Modeling and theory: lifespan setpoints emerge in epidemiological models balancing pathogen dynamics and host fitness [@LidskyAndino2020; @LidskyAndino2022].
-- Comparative framing and open questions outlined in [@LidskyYuanAndino2023] and long-form review [@LidskyEtAl2022].
-- Related: inflammaging and chronic activation of damage/injury responses plausibly intersect with infection-driven aging [@Franceschi2018; @Ogrodnik2025].
-
-## Rival Theories and Comparisons
-
-- Nonprogrammed theories (disposable soma, antagonistic pleiotropy, mutation accumulation) explain aging without direct adaptive benefits; they predict different comparative patterns and intervention responses.
-- Hyperfunction/mTOR and damage-repair (SENS) emphasize intrinsic drivers; pathogen-control posits extrinsic disease ecology as a primary selector.
-
-## Critiques
-
-### Outbound (Lidsky → others)
-
-#### [Classic Models (Damage/AP/Disposable Soma)](classic_models.md)
-
-- Classic Models say aging isn’t on purpose — it’s damage and selection tradeoffs. Under those assumptions, true rejuvenation (resetting to a younger state) shouldn’t be broadly available or strategically deployed; yet in nature, it is observed in some taxa and often under stress. PC explains this by epidemic risk: extended lifespan increases pathogen persistence/spread, so organisms avoid rejuvenation unless stress flips the fitness calculus.
-- What occurs: Natural, stress‑induced rejuvenation in animals (e.g., jellyfish, comb jellies, some insects), referenced in Lidsky’s talk and posts.
-
-- Discriminator experiment(s):
+<ul>
+  <li>Epigenetic Information (Sinclair)
     <ul>
-      <li>Compare species that can “rejuvenate” under stress with the kinds of infections they face. If rejuvenators mostly live with high infection pressure and flip back only when stressed, it supports Pathogen Control; if not, it favors Classic Models. (1–3 months; $5k–$25k)</li>
-      <li><a href="../experiments/rejuvenation_pathogen_tradeoff.md">Rejuvenation vs Pathogen Tradeoff</a> — Give older mice a rejuvenation treatment. Half also get an anti‑infection plan. If rejuvenation alone makes infections worse or doesn’t improve survival, but adding anti‑infection fixes that, it supports Pathogen Control. If rejuvenation alone helps with no infection downside, it favors Classic Models. (12–18 months; $400k–$800k)</li>
+      <li>Sinclair: Partial reprogramming can rejuvenate without infection penalties.</li>
+      <li>PC: Under challenge, rejuvenation should incur infection costs unless anti‑pathogen control is added.</li>
     </ul>
-- Sources: Web (tweet mirror) <a href="https://vxtwitter.com/lidskypeter/status/1962526281863508444">vxtwitter</a>; Talk summary (<a href="https://foresight.org/resource/peter-lidsky-why-do-we-age-searching-for-a-paradigm/">Foresight</a>); [Classic Models](classic_models.md).
+  </li>
+  <li>SENS Damage Repair (de Grey)
+    <ul>
+      <li>SENS: Repairs extend lifespan independent of infection ecology.</li>
+      <li>PC: In high‑burden contexts, repairs alone risk increased pathogen persistence unless co‑applied with anti‑pathogen strategies.</li>
+    </ul>
+  </li>
+  <li>Resilience / Criticality (Fedichev)
+    <ul>
+      <li>Resilience: Hazard falls by improving system dynamics even without infection changes.</li>
+      <li>PC: Reducing pathogen burden is the primary driver; resilience without infection change should be limited.</li>
+    </ul>
+  </li>
+  <li>Classic Models (Medawar, Williams, Hamilton, Kirkwood)
+    <ul>
+      <li>Classics: Longevity gains need not show infection costs; tradeoffs are resource‑based.</li>
+      <li>PC: Longevity gains often trade off with infection ecology; lifespan is selected to constrain epidemics.</li>
+    </ul>
+  </li>
+  <li>Bioelectric / Morphogenetic Control (Levin)
+    <ul>
+      <li>Levin: Pattern control is upstream; rejuvenation shouldn’t inherently impose infection costs.</li>
+      <li>PC: Under challenge, pattern‑based gains still face infection penalties unless anti‑pathogen measures co‑apply.</li>
+    </ul>
+  </li>
+  <li>Longevity Bottleneck (Various Proponents)
+    <ul>
+      <li>Bottleneck: Chronic damage‑response activation is intrinsic and central.</li>
+      <li>PC: Chronic activation is often maintained by infections; anti‑pathogen interventions should calm pathways/hazard.</li>
+    </ul>
+  </li>
+</ul>
+
+## Questions
+
+## Sources
+
+- Tweet (seed): https://vxtwitter.com/lidskypeter/status/1962526281863508444
+- PNAS 2020 (lifespan setpoints): https://doi.org/10.1073/pnas.1920988117
+- TREE 2022 (PC hypothesis): https://doi.org/10.1016/j.tree.2022.08.003
 
 #### [SENS Damage Repair (de Grey)](sens_damage_repair.md)
 
