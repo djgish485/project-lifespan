@@ -21,102 +21,58 @@ tags:
 
 # SENS Damage Repair (de Grey)
 
-{{ popper_card() }}
+## Simple Summary
 
-> Seed link: Telomere discussion thread to be contextualized; de Grey does not claim telomeres-only. Add primary SENS references.
+- Idea: Aging is caused by a manageable set of damages; periodic, targeted repairs can maintain youthful function and extend lifespan.
+- Not just biomarkers: decisive wins are durable max‑lifespan gains from combined repair stacks with acceptable safety; manage diminishing returns/toxicity.
 
-- Web (telomere commentary): https://x.com/jpsenescence/status/1962604483357106366
+## Conflicts With Other Theories
 
-## Lay Summary
-
-SENS treats aging as fixable damage types (e.g., senescent cells, extracellular junk, mitochondrial mutations). If you regularly repair each, you can keep the organism youthful regardless of upstream causes.
-
-## Technical Summary
-
-- Enumerate damage classes and proposed interventions (e.g., senescent cells and senolytics; extracellular/crosslink junk and breakers; intracellular aggregates; mitochondrial mutations and allotopic expression; loss of stem cells; cancerous cells; extracellular matrix stiffening).
-
-## Core Claims
-
-- {{ claim('sens-c1', 'A manageable set of damage classes suffices to prevent age-related functional decline.', 'Periodic repair of each class maintains youthful function and extends max lifespan.') }}
-
-## Predictions
-
-- Combined repair addressing multiple SENS classes in mice extends maximum lifespan beyond the best single interventions.
-
-## Evidence
-
-### For
-
-- Senolytic benefits in mice: improved function and increased survival following D+Q treatment in old mice [@Xu2018]; genetic clearance of p16Ink4a+ cells delays age-associated disorders [@Baker2011].
-- Telomerase gene therapy increases median lifespan in adult and old mice without increased cancer [@deJesus2012].
-
-### Against / Disconfirmations
-
-- Limited demonstrations of combined, comprehensive repair; long-term safety unknown.
-
-## Rivals
-
-- Epigenetic reset-first, hyperfunction/mTOR, mitochondrial centrality; compare predictions on maximum vs median lifespan.
-
-## Critiques
-
-### Inbound (from Pathogen Control (Lidsky))
-
-- Big lifespan gains from repair could let infections linger unless anti‑infection measures co‑apply.
-  - Discriminator experiment(s):
+<ul>
+  <li>Epigenetic Information (Sinclair)
     <ul>
-      <li><a href="../experiments/sens_stack_infection_tradeoff.md">Stacked Damage‑Repair Under Chronic Infection</a> — Give older, infected mice multiple repairs; half also get anti‑infection. If repairs alone cleanly help, that supports SENS; if the combo is required to avoid infection costs, that supports Pathogen Control. (18–30 months; $700k–$1.5M)</li>
+      <li>Sinclair: Correcting epigenetic state can restore function without enumerating damage.</li>
+      <li>SENS: Repaired damages are necessary and sufficient for large lifespan gains; biomarker resets may not translate without repairs.</li>
     </ul>
-- Sources: [Tweet mirror](https://vxtwitter.com/lidskypeter/status/1962526281863508444), [Talk (Foresight)](https://foresight.org/resource/peter-lidsky-why-do-we-age-searching-for-a-paradigm/)
+  </li>
+  <li>Classic Models (Medawar, Williams, Hamilton, Kirkwood)
+    <ul>
+      <li>Classics: Repairs should show costs/limits; big gains are unlikely.</li>
+      <li>SENS: Carefully targeted, stacked repairs can push max lifespan beyond best single agents with manageable toxicity, challenging strict budget constraints.</li>
+    </ul>
+  </li>
+  <li>Pathogen Control (Lidsky)
+    <ul>
+      <li>PC: Under pathogen challenge, extensions should trade off with infection unless paired with anti‑pathogen measures.</li>
+      <li>SENS: Repairs can extend lifespan without infection penalties; clean wins under challenge weigh against PC.</li>
+    </ul>
+  </li>
+  <li>Resilience / Criticality (Fedichev)
+    <ul>
+      <li>Resilience: Hazard can drop by tuning dynamics without repairs.</li>
+      <li>SENS: Fixing concrete damages shifts the whole hazard curve; resilience‑only wins should be smaller/transient if damage is primary.</li>
+    </ul>
+  </li>
+  <li>Bioelectric / Morphogenetic Control (Levin)
+    <ul>
+      <li>Levin: Pattern reset may obviate some repairs.</li>
+      <li>SENS: If damage blocks pattern control, repairs are prerequisite; strong repair‑first wins favor SENS primacy.</li>
+    </ul>
+  </li>
+  <li>Longevity Bottleneck (Various Proponents)
+    <ul>
+      <li>Bottleneck: One/few pathways dominate; relieve the chokepoint.</li>
+      <li>SENS: Multiple damages jointly matter; broad, combined repairs outperform single‑pathway relief.</li>
+    </ul>
+  </li>
+</ul>
 
-### Inbound (from Sinclair (Epigenetic Information))
+## Questions
 
-- Resetting epigenetic information could obviate the need to enumerate/repair all damage classes.
-- Discriminator experiment(s):
-  <ul>
-    <li><a href="../experiments/osk_mouse_lifespan.md">OSK Lifespan Study</a> — If OSK alone delivers strong max‑lifespan gains with safety, that challenges SENS primacy. (18–30 months; $600k–$1.2M)</li>
-  </ul>
-- Sources: <a href="https://doi.org/10.1038/s41586-020-2975-4">Lu2020</a>; <a href="https://doi.org/10.1016/j.cell.2022.12.027">Yang2023</a>
+## Sources
 
-### Inbound (from Classic Models)
-
-- Major repair stacks should reveal tradeoffs/toxicity or limited returns; large safe gains would challenge strict tradeoff constraints.
-- Discriminator experiment(s):
-  <ul>
-    <li><a href="../experiments/sens_stack_mouse.md">SENS Stacked Repairs</a> — Track toxicity and fitness costs alongside lifespan. (24–36 months; $1.2M–$2.5M)</li>
-  </ul>
-- Sources: Foundational classics
-
-### Inbound (from Resilience/Criticality)
-
-- System‑level dynamics can reduce hazard; repairing specific damages may be neither necessary nor sufficient if dynamics dominate.
-- Discriminator experiment(s):
-  <ul>
-    <li><a href="../experiments/resilience_training.md">Resilience Training</a> — Compare hazard reductions to stacked repairs. (12–24 months; $150k–$300k)</li>
-  </ul>
-- Sources: <a href="https://doi.org/10.1038/s41467-021-23014-1">Pyrkov2021</a>
-
-### Inbound (from Bioelectric / Morphogenetic)
-
-- Pattern control might enable regeneration without addressing all damage classes; repairs could be secondary.
-- Discriminator experiment(s):
-  <ul>
-    <li><a href="../experiments/vmem_regeneration.md">Bioelectric Modulation</a> — If pattern reset alone yields strong gains, that weighs against repair primacy. (3–6 months; $100k–$200k)</li>
-  </ul>
-- Sources: <a href="https://doi.org/10.1016/j.cell.2021.02.034">Levin2021</a>
-
-### Inbound (from Longevity Bottleneck)
-
-- A small number of chronic activation bottlenecks could dominate; broad repair may be unnecessary if a chokepoint exists.
-- Discriminator experiment(s):
-  <ul>
-    <li><a href="../experiments/anti_pathogen_bottleneck.md">Resolve Damage‑Response Bottleneck</a> — Targeted relief vs stacked repairs. (6–9 months; $100k–$220k)</li>
-  </ul>
-- Sources: <a href="https://doi.org/10.1038/s41574-018-0059-4">Franceschi2018</a>; <a href="https://doi.org/10.1038/s41467-025-64462-3">Ogrodnik2025</a>
-
-### Outbound (SENS → others)
-
-#### [Epigenetic Information (Sinclair)](epigenetic_information.md)
+- Web: https://vxtwitter.com/jpsenescence/status/1962604483357106366
+- Primary: Senolytics (Xu 2018): https://doi.org/10.1038/s41591-018-0092-9; Genetic clearance (Baker 2011): https://doi.org/10.1038/nature10600; Telomerase gene therapy (de Jesus 2012): https://doi.org/10.1002/emmm.201200245
 
 - SENS argues that defined classes of damage drive aging; repairing them should extend maximum lifespan, whereas biomarker resets without addressing damage may not. If OSK improves biomarkers but fails to deliver robust max‑lifespan gains, that supports SENS.
 
