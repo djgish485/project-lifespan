@@ -25,6 +25,7 @@ tags:
 
 - Idea: Aging evolves to curb pathogen spread/persistence; finite lifespan limits epidemics. Senescent cells act as an antiviral “militia” when timed/cleared correctly.
 - Infection tradeoffs: In pathogen‑rich environments, longevity gains should increase infection risk unless combined with anti‑pathogen measures (e.g., vaccination/antivirals/barrier housing).
+- Population structure: Unusual aging often appears in species with unusual population structures (high dispersal in birds/bats, eusocial colonies, synchronized migrations) because those structures change epidemic dynamics — and with it, selection on lifespan.
 - Comparative/experimental signature: longevity wins without infection costs under pathogen challenge weigh against this view.
 
 ## Conflicts With Other Theories
