@@ -76,6 +76,12 @@ tags:
 
 ## Questions
 
+### Do longevity gains actually show infection tradeoffs in pathogen‑rich environments?
+
+Often, studies run in ultra‑clean SPF facilities, so direct evidence is limited; most interventions haven’t been tested head‑to‑head under pathogen challenge with infection endpoints. Where host‑defense is taxed or dosing is immunosuppressive, tradeoffs do appear: for example, transplant‑style mTOR inhibitor regimens increase infections, while lower, TORC1‑selective doses in older adults improved vaccine responses and reduced infections, showing the direction depends on context and dose (Mannick 2014: https://doi.org/10.1126/scitranslmed.3009892; Mannick 2018: https://doi.org/10.1126/scitranslmed.aaq1564). “Dirty mice” and rewilding work also show that moving from SPF to natural exposure reshapes immune tone and can blunt or flip effects seen in clean rooms (Beura 2016: https://doi.org/10.1038/nature19801; Rosshart 2019: https://doi.org/10.1126/science.aau5145).
+
+What’s still missing are decisive, lifespan‑oriented tests under deliberate pathogen challenge. That’s why the discriminators here propose running OSK and stacked repairs with and without anti‑pathogen plans, and comparing naturalistic exposure against resilience arms with pre‑registered infection endpoints (OSK under infection: ../experiments/osk_infection_tradeoff.md; Stacked repairs under infection: ../experiments/sens_stack_infection_tradeoff.md; Pathogen burden vs resilience: ../experiments/pathogen_burden_resilience.md). If clean, penalty‑free longevity gains persist under pathogen challenge, that weakens Pathogen Control; if penalties appear unless anti‑pathogen measures co‑apply, it supports it.
+
 ## Sources
 
 - Tweet (seed): https://vxtwitter.com/lidskypeter/status/1962526281863508444
