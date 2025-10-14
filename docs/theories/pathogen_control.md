@@ -26,9 +26,11 @@ tags:
 - Idea: Aging evolves to curb pathogen spread/persistence; finite lifespan limits epidemics. Senescent cells act as an antiviral “militia” when timed/cleared correctly.
 - Infection tradeoffs: In pathogen‑rich environments, longevity gains should increase infection risk unless combined with anti‑pathogen measures (e.g., vaccination/antivirals/barrier housing).
  - Population structure: How a species lives and mixes (who meets whom, how often, how long) changes epidemic dynamics — and with it, selection on lifespan.
-   - High dispersal (birds/bats): Moving a lot and mixing across groups breaks long local transmission chains. Epidemics fizzle faster, so long life is less costly — helping explain unusual longevity in flyers.
-   - Eusocial colonies (ants/bees/termites; naked mole rats): One queen, many workers; close kin structure. Colonies can isolate/cull infected workers quickly — a kind of colony‑level immunity — so aging programs can split (very long‑lived queens, short‑lived workers).
-   - Synchronized migrations/semelparity (salmon): One big, same‑time spawn then death. Cohorts “reset” together, reducing pathogen carryover to juveniles; programmed post‑spawn death curbs transmission.
+   <ul>
+     <li><strong>High dispersal (birds/bats):</strong> Moving a lot and mixing across groups breaks long local transmission chains. Epidemics fizzle faster, so long life is less costly — helping explain unusual longevity in flyers.</li>
+     <li><strong>Eusocial colonies (ants/bees/termites; naked mole rats):</strong> One queen, many workers; close kin structure. Colonies can isolate/cull infected workers quickly — a kind of colony‑level immunity — so aging programs can split (very long‑lived queens, short‑lived workers).</li>
+     <li><strong>Synchronized migrations/semelparity (salmon):</strong> One big, same‑time spawn then death. Cohorts “reset” together, reducing pathogen carryover to juveniles; programmed post‑spawn death curbs transmission.</li>
+   </ul>
 - Comparative/experimental signature: longevity wins without infection costs under pathogen challenge weigh against this view.
 
 ## Conflicts With Other Theories
