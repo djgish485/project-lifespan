@@ -25,7 +25,7 @@ tags:
 
 - Idea: Aging evolves to curb pathogen spread/persistence; finite lifespan limits epidemics. Senescent cells act as an antiviral “militia” when timed/cleared correctly.
 - Infection tradeoffs: In high‑burden settings, big longevity gains should come with infection penalties unless anti‑pathogen measures co‑apply.
-- Comparative/experimental signature: longevity wins without infection costs under challenge weigh against this view.
+- Comparative/experimental signature: longevity wins without infection costs under pathogen challenge weigh against this view.
 
 ## Conflicts With Other Theories
 
@@ -33,7 +33,7 @@ tags:
   <li>Epigenetic Information (Sinclair)
     <ul>
       <li>Sinclair: Partial reprogramming can rejuvenate without infection penalties.</li>
-      <li>PC: Under challenge, rejuvenation should incur infection costs unless anti‑pathogen control is added.</li>
+      <li>PC: under pathogen challenge, rejuvenation should incur infection costs unless anti‑pathogen control is added.</li>
     </ul>
   </li>
   <li>SENS Damage Repair (de Grey)
@@ -57,7 +57,7 @@ tags:
   <li>Bioelectric / Morphogenetic Control (Levin)
     <ul>
       <li>Levin: Pattern control is upstream; rejuvenation shouldn’t inherently impose infection costs.</li>
-      <li>PC: Under challenge, pattern‑based gains still face infection penalties unless anti‑pathogen measures co‑apply.</li>
+      <li>PC: under pathogen challenge, pattern‑based gains still face infection penalties unless anti‑pathogen measures co‑apply.</li>
     </ul>
   </li>
   <li>Longevity Bottleneck (Various Proponents)
@@ -75,4 +75,3 @@ tags:
 - Tweet (seed): https://vxtwitter.com/lidskypeter/status/1962526281863508444
 - PNAS 2020 (lifespan setpoints): https://doi.org/10.1073/pnas.1920988117
 - TREE 2022 (PC hypothesis): https://doi.org/10.1016/j.tree.2022.08.003
-

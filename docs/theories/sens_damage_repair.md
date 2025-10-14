@@ -44,7 +44,7 @@ tags:
   <li>Pathogen Control (Lidsky)
     <ul>
       <li>PC: Under pathogen challenge, extensions should trade off with infection unless paired with anti‑pathogen measures.</li>
-      <li>SENS: Repairs can extend lifespan without infection penalties; clean wins under challenge weigh against PC.</li>
+      <li>SENS: Repairs can extend lifespan without infection penalties; clean wins under pathogen challenge weigh against PC.</li>
     </ul>
   </li>
   <li>Resilience / Criticality (Fedichev)
@@ -73,4 +73,3 @@ tags:
 
 - Web: https://vxtwitter.com/jpsenescence/status/1962604483357106366
 - Primary: Senolytics (Xu 2018): https://doi.org/10.1038/s41591-018-0092-9; Genetic clearance (Baker 2011): https://doi.org/10.1038/nature10600; Telomerase gene therapy (de Jesus 2012): https://doi.org/10.1002/emmm.201200245
-

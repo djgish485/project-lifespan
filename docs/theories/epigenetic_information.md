@@ -45,7 +45,7 @@ tags:
   <li>Pathogen Control (Lidsky)
     <ul>
       <li>PC: Under pathogen challenge, rejuvenation should face infection penalties unless anti‑pathogen measures co‑apply.</li>
-      <li>Sinclair: OSK can succeed without infection penalties under challenge; clean wins favor epigenetic primacy over PC.</li>
+      <li>Sinclair: OSK can succeed without infection penalties under pathogen challenge; clean wins favor epigenetic primacy over PC.</li>
     </ul>
   </li>
   <li>Resilience / Criticality (Fedichev)
@@ -75,4 +75,3 @@ tags:
 - Tweet: https://vxtwitter.com/davidasinclair/status/1969276595895455925
 - Commentary: https://vxtwitter.com/dwarkesh_sp/status/1957842812604674255
 - Primary: Nature 2020 (Lu): https://doi.org/10.1038/s41586-020-2975-4; Cell 2016 (Ocampo): https://doi.org/10.1016/j.cell.2016.11.052; Cell 2023 (Yang): https://doi.org/10.1016/j.cell.2022.12.027
-
