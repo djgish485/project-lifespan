@@ -1,0 +1,112 @@
+site_name: Project Lifespan
+site_description: Popperian analysis of human aging theories, evidence, and experiments.
+site_url: https://djgish485.github.io/project-lifespan
+repo_url: https://github.com/djgish485/project-lifespan
+theme:
+  name: material
+  language: en
+  features:
+    - search.suggest
+    - search.share
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - toc.follow
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+  icon:
+    logo: material/lifebuoy
+
+plugins:
+  - search
+  - macros:
+      module_name: main
+  - bibtex:
+      bib_file: references/references.bib
+  - awesome-pages
+  - glightbox
+  - redirects
+  - section-index
+
+markdown_extensions:
+  - admonition
+  - def_list
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+
+extra_css:
+  - assets/css/extra.css
+
+extra_javascript:
+  - assets/js/popperscore.js
+
+nav:
+  - Overview: index.md
+  - Theories:
+      - theories/index.md
+      - Classic Models (Medawar, Williams, Hamilton, Kirkwood): theories/classic_models.md
+      - Epigenetic Information (Sinclair): theories/epigenetic_information.md
+      - Bioelectric / Morphogenetic Control (Levin): theories/bioelectric_morphogenetic_control.md
+      - SENS Damage Repair (de Grey): theories/sens_damage_repair.md
+      - Resilience / Criticality (Fedichev): theories/resilience_criticality.md
+      - Pathogen Control (Lidsky): theories/pathogen_control.md
+      - Longevity Bottleneck (Various Proponents): theories/longevity_bottleneck.md
+  - Evidence: evidence/index.md
+  - Experiments: experiments/index.md
+  - Experiment Blueprints:
+      - OSK Lifespan Study: experiments/osk_mouse_lifespan.md
+      - SENS Stacked Repairs: experiments/sens_stack_mouse.md
+      - Resilience Training: experiments/resilience_training.md
+      - Bioelectric Modulation: experiments/vmem_regeneration.md
+      - Rejuvenation vs Pathogen: experiments/rejuvenation_pathogen_tradeoff.md
+      - OSK Under Infection: experiments/osk_infection_tradeoff.md
+      - Stacked Repairs Under Infection: experiments/sens_stack_infection_tradeoff.md
+      - Pathogen Burden and Resilience: experiments/pathogen_burden_resilience.md
+      - Bioelectric Under Pathogen Challenge: experiments/bioelectric_infection_tradeoff.md
+      - Anti-Pathogen Resolves Bottleneck: experiments/anti_pathogen_bottleneck.md
+  - Concepts: concepts/index.md
+  - Compare: compare/index.md
+  - Rubric: compare/rubric.md
+  - Contribute: contribute.md
+  - About: about.md
+
+extra:
+  popper:
+    criteria:
+      - id: falsifiability
+        label: Falsifiability
+        weight: 1
+      - id: riskiness
+        label: Riskiness
+        weight: 1
+      - id: precision
+        label: Precision
+        weight: 1
+      - id: empirical_content
+        label: Empirical Content
+        weight: 1
+      - id: novel_predictions
+        label: Novel Predictions
+        weight: 1
+      - id: severe_tests
+        label: Survived Severe Tests
+        weight: 1
+      - id: exposure
+        label: Exposure to Refutation
+        weight: 1
+      - id: rival_comparison
+        label: Rival Comparison
+        weight: 1
+      - id: consilience
+        label: Consilience
+        weight: 1

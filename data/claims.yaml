@@ -1,0 +1,29 @@
+# Registry of claims and associated predictions.
+# This is optional scaffolding for future automation.
+
+theories:
+  - id: sinclair
+    name: Sinclair (Epigenetic Information)
+    claims:
+      - id: sinclair-c1
+        text: Loss of epigenetic information is a principal cause of aging phenotypes.
+        predictions:
+          - id: sinclair-p1
+            text: Partial reprogramming in adult mice extends maximum lifespan by >= 10% without increasing tumor incidence.
+            severity: high
+  - id: levin
+    name: Michael Levin (Bioelectricity)
+    claims: []
+  - id: de_grey
+    name: Aubrey de Grey (SENS)
+    claims: []
+  - id: fedichev
+    name: Peter Fedichev (Resilience/Criticality)
+    claims: []
+  - id: lidsky
+    name: Peter Lidsky
+    claims: []
+  - id: longevity_bottleneck
+    name: Longevity Bottleneck
+    claims: []
+

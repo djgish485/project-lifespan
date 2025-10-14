@@ -1,0 +1,28 @@
+.popper-card {border: 1px solid var(--md-default-fg-color--lighter); border-radius: 6px; padding: 0.5rem 0.75rem; margin: 0.5rem 0;}
+.popper-card__header {font-weight: 600; opacity: 0.8;}
+.popper-card__score {font-size: 1.8rem; font-weight: 700; margin: 0.25rem 0 0.5rem;}
+.popper-card__details summary {cursor: pointer;}
+.popper-card__list {list-style: none; padding-left: 0; margin: 0;}
+.popper-card__list li {display: flex; justify-content: space-between; padding: 0.125rem 0;}
+.claim {border-left: 3px solid var(--md-accent-fg-color); padding: 0.5rem 0.75rem; margin: 0.5rem 0;}
+.claim__label {font-weight: 700; opacity: 0.7;}
+.experiment {border: 1px dashed var(--md-default-fg-color--lighter); border-radius: 6px; padding: 0.5rem 0.75rem; margin: 0.75rem 0;}
+.experiment__title {font-weight: 700;}
+
+/* Inline reference popover */
+.ref-popover {
+  position: absolute;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 6px 8px;
+  border-radius: 4px;
+  z-index: 1000;
+  font-size: 0.85rem;
+  max-width: 420px;
+  word-break: break-all;
+}
+.ref-popover__summary { margin-bottom: 4px; opacity: 0.9; }
+.ref-popover a { color: var(--md-accent-fg-color); text-decoration: none; }
+.ref-popover a:hover { text-decoration: underline; }
