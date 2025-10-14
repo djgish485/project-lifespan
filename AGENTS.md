@@ -3,6 +3,25 @@ Project Lifespan – Agent Notes
 
 These notes capture working conventions and operational SOPs for agents contributing to this repository. Keep this file up to date as we standardize more sections and flows.
 
+Remote Verification SOP (No Local Serve)
+---------------------------------------
+
+We do not run a local `mkdocs serve` in this repo. Always verify using the live GitHub Pages site.
+
+1) Optional: strict build locally to catch issues early
+   - `source .venv/bin/activate`
+   - `mkdocs build --strict`
+
+2) Commit and push changes to `main` (CI builds + deploys Pages)
+
+3) Verify on GitHub Pages with a cache‑buster
+   - Example: `curl -sSf "http://dangish.net/project-lifespan/?_cb=TIMESTAMP"`
+   - Confirm expected new text renders on the target page(s).
+
+Notes
+- Do not keep any local dev servers running.
+- If a stale local server is suspected, kill any `mkdocs serve` processes and delete `.mkdocs*.pid`, but do not start a new one.
+
 Service Restart SOP (MkDocs dev server)
 ---------------------------------------
 
@@ -87,7 +106,7 @@ Auto-Commit/Push Policy (Always)
 - Post-push verification:
   - Poll the live Pages URL with a cache-buster (e.g., `?_cb=TIMESTAMP`) to confirm that the new content is visible.
   - Only return success after the expected content renders on the live page; otherwise, investigate and repeat build/serve/verify locally and re-push if needed.
-- Local preview remains required during iteration: run the strict build and restart the dev server per the SOP before committing to reduce CI churn.
+- Local preview is optional: a strict build can help catch errors, but do not start a local dev server.
 
 Formatting – Questions Sections
 -------------------------------
