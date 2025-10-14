@@ -76,3 +76,10 @@ GitHub Pages Deployment (CI)
 - Workflow: `.github/workflows/pages.yml` builds the site with `mkdocs build --strict` and publishes the `site/` artifact using `actions/deploy-pages`.
 - Agent policy: do not ask the user to run deploy commands; commit changes and rely on CI to publish. Provide the final Pages URL after CI completes.
 - Repo settings: Pages → Build and deployment should be set to “GitHub Actions”. If this is not yet enabled, the agent should request access or note that the setting needs to be toggled once; after that, deploys are automatic.
+
+Formatting – Questions Sections
+-------------------------------
+
+- Location/order: place the `## Questions` section after the main content blocks (e.g., after Conflicts). Within that section, always append new questions at the bottom. Do not reorder existing items unless explicitly requested by the user.
+- Structure: each question uses a `###` heading (single sentence), followed by a concise answer (1–2 paragraphs). Include hyperlinks or popover footnotes for key sources when available.
+- Consistency: keep tone plain and accessible; avoid duplicating material covered elsewhere on the page. Link out to experiments or related sections when helpful.
