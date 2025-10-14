@@ -25,7 +25,7 @@ tags:
 
 - Idea: Aging evolves to curb pathogen spread/persistence; finite lifespan limits epidemics. Senescent cells act as an antiviral “militia” when timed/cleared correctly.
 - Infection tradeoffs: In pathogen‑rich environments, longevity gains should increase infection risk unless combined with anti‑pathogen measures (e.g., vaccination/antivirals/barrier housing).
- - Population structure: How a species lives and mixes (who meets whom, how often, how long) changes epidemic dynamics — and with it, selection on lifespan.
+ - Population structure: Lidsky’s theory explains why lifespan varies with how a species lives and mixes (who meets whom, how often, how long): population structure changes epidemic dynamics, and that changes selection on lifespan.
    <ul>
      <li><strong>High dispersal (birds/bats):</strong> Moving a lot and mixing across groups breaks long local transmission chains. Epidemics fizzle faster, so long life is less costly — helping explain unusual longevity in flyers.</li>
      <li><strong>Eusocial colonies (ants/bees/termites; naked mole rats):</strong> One queen, many workers; close kin structure. Colonies can isolate/cull infected workers quickly — a kind of colony‑level immunity — so aging programs can split (very long‑lived queens, short‑lived workers).</li>
