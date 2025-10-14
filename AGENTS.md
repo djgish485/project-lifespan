@@ -114,3 +114,10 @@ Formatting – Questions Sections
 - Location/order: place the `## Questions` section after the main content blocks (e.g., after Conflicts). Within that section, always append new questions at the bottom. Do not reorder existing items unless explicitly requested by the user.
 - Structure: each question uses a `###` heading (single sentence), followed by a concise answer (1–2 paragraphs). Include hyperlinks or popover footnotes for key sources when available.
 - Consistency: keep tone plain and accessible; avoid duplicating material covered elsewhere on the page. Link out to experiments or related sections when helpful.
+
+Template Reference (Levin)
+-------------------------
+
+- Use `Bioelectric / Morphogenetic Control (Levin)` as the reference template for theory pages, especially for the `## Questions` section.
+- Footnotes/links: prefer popover footnotes using `<sup><a class="ref-pop" href="..." data-ref-url="..." data-ref-summary="...">†</a></sup>` placed directly after the relevant sentence. Avoid bare URLs in the prose.
+- Keep answers short (1–2 paragraphs), with superscripted DOIs or stable links (talk pages, mirrors) and a brief `data-ref-summary` for reader context.
