@@ -77,6 +77,18 @@ GitHub Pages Deployment (CI)
 - Agent policy: do not ask the user to run deploy commands; commit changes and rely on CI to publish. Provide the final Pages URL after CI completes.
 - Repo settings: Pages → Build and deployment should be set to “GitHub Actions”. If this is not yet enabled, the agent should request access or note that the setting needs to be toggled once; after that, deploys are automatic.
 
+Auto-Commit/Push Policy (Always)
+---------------------------------
+
+- After any content/config change that affects the site, the agent must:
+  - Create a clear, concise commit on `main` (use conventional commits when obvious, e.g., `docs(theories): add Longevity Bottleneck page`).
+  - Push immediately to `main` to trigger the Pages workflow.
+  - Do not pause for manual approval unless repository protections prevent pushing; if blocked, request the needed permission.
+- Post-push verification:
+  - Poll the live Pages URL with a cache-buster (e.g., `?_cb=TIMESTAMP`) to confirm that the new content is visible.
+  - Only return success after the expected content renders on the live page; otherwise, investigate and repeat build/serve/verify locally and re-push if needed.
+- Local preview remains required during iteration: run the strict build and restart the dev server per the SOP before committing to reduce CI churn.
+
 Formatting – Questions Sections
 -------------------------------
 
