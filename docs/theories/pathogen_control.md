@@ -24,7 +24,7 @@ tags:
 ## Simple Summary
 
 - Idea: Aging evolves to curb pathogen spread/persistence; finite lifespan limits epidemics. Senescent cells act as an antiviral “militia” when timed/cleared correctly.
-- Infection tradeoffs: In high‑burden settings, big longevity gains should come with infection penalties unless anti‑pathogen measures co‑apply.
+- Infection tradeoffs: In pathogen‑rich environments, longevity gains should increase infection risk unless combined with anti‑pathogen measures (e.g., vaccination/antivirals/barrier housing).
 - Comparative/experimental signature: longevity wins without infection costs under pathogen challenge weigh against this view.
 
 ## Conflicts With Other Theories
