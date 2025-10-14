@@ -46,6 +46,7 @@ tags:
     <ul>
       <li>PC: Under pathogen challenge, rejuvenation should face infection penalties unless anti‑pathogen measures co‑apply.</li>
       <li>Sinclair: OSK can succeed without infection penalties under pathogen challenge; clean wins favor epigenetic primacy over PC.</li>
+      <li>PC also claims lifespan patterns track population structure (dispersal, eusociality, cohorting), which epigenetic reset alone does not predict.</li>
     </ul>
   </li>
   <li>Resilience / Criticality (Fedichev)

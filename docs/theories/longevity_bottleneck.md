@@ -64,9 +64,9 @@ tags:
     <ul>
       <li>PC: Chronic activation is often maintained by infections; anti‑pathogen measures should calm pathways and reduce hazard.</li>
       <li>Bottleneck: Chronic activation can be intrinsic/self‑sustaining; targeted pathway relief should reduce hazard even when pathogen burden is unchanged. If anti‑pathogen plans fail to normalize bottleneck markers while targeted relief works, that favors Bottleneck; the reverse favors PC.</li>
+      <li>PC further claims lifespan varies with population structure (dispersal, eusociality, cohorting), which single‑pathway bottlenecks don’t explain on their own.</li>
     </ul>
   </li>
 </ul>
 
 ## Questions
-

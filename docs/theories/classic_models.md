@@ -46,6 +46,7 @@ tags:
     <ul>
       <li>PC: Longevity gains often trade off with infection ecology.</li>
       <li>Classics: No intrinsic infection penalty required; tradeoffs are resource‑based. If rejuvenation under pathogen challenge shows no infection downside, that favors Classics; if penalties appear without anti‑pathogen measures, it favors PC.</li>
+      <li>PC highlights lifespan differences that track population structure (dispersal, eusociality, cohorting) — patterns Classics do not naturally predict.</li>
     </ul>
   </li>
   <li>Resilience / Criticality (Fedichev)
@@ -73,4 +74,3 @@ tags:
 ## Sources
 
 - Foundational: Medawar (1952), Williams (1957), Hamilton (1966), Kirkwood (1977)
-

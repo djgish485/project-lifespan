@@ -37,6 +37,7 @@ tags:
     <ul>
       <li>PC: Aging is an adaptation to limit infections; big rejuvenation should trade off with infection unless paired with anti-pathogen measures.</li>
       <li>Levin: Aging can arise without infection, from loss of goal-directedness; pattern-based rejuvenation shouldn’t inherently incur infection penalties. If strong rejuvenation shows no infection downside under pathogen challenge, that’s a hit against PC.</li>
+      <li>PC also explains lifespan variation by population structure (dispersal, eusociality, cohorting), which pattern-only views don’t predict by themselves.</li>
     </ul>
   </li>
   <li>SENS Damage Repair (de Grey)

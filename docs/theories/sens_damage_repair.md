@@ -45,6 +45,7 @@ tags:
     <ul>
       <li>PC: Under pathogen challenge, extensions should trade off with infection unless paired with anti‑pathogen measures.</li>
       <li>SENS: Repairs can extend lifespan without infection penalties; clean wins under pathogen challenge weigh against PC.</li>
+      <li>PC argues lifespan varies with population structure (dispersal, eusociality, cohorting), which repair‑first frameworks do not explain by default.</li>
     </ul>
   </li>
   <li>Resilience / Criticality (Fedichev)

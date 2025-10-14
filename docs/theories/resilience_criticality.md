@@ -38,6 +38,7 @@ tags:
     <ul>
       <li>PC: Reducing pathogen burden is the main lever for hazard improvements.</li>
       <li>Resilience: Hazard can be lowered by improving recovery dynamics without infection changes; similar/better gains vs anti‑pathogen plans favor this view.</li>
+      <li>PC further predicts lifespan differences that track population structure (dispersal, eusociality, cohorting), which resilience alone does not specify.</li>
     </ul>
   </li>
   <li>Epigenetic Information (Sinclair) and SENS Damage Repair (de Grey)
