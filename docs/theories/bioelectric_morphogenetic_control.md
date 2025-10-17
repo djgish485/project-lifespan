@@ -29,6 +29,7 @@ tags:
 - Pattern memory: Even after tissue loss, the “map” of what should be there still lingers and can be reactivated.
 - Best rejuvenation: Don’t blast the whole tissue; give targeted, pattern-aware signals to the damaged region and its neighbors — that works better than uniform stimulation.
 - Measurable signatures: As the goal fades, information-flow metrics shift (more active information storage, more transfer entropy; spatial entropy distinguishes true structure loss from “morphological noise”).
+- Unification claim: Birth defects, failure to regenerate, cancer, degenerative disease, and aging reflect the same root issue — loss or corruption of morphogenetic goal-directedness — so advances in “regeneration control” apply across them (and critiques of longevity research implicitly touch those areas too).
 
 ## Conflicts With Other Theories
 
@@ -98,7 +99,7 @@ Yes — likely as a primer and partner. Epigenetic resets can restore the expres
 
 ### How much progress has been made in morphogenetic rejuvenation?
 
-Early but promising. The strongest demonstrations are in highly regenerative systems (planaria, axolotl, Xenopus), where bioelectric or gap‑junction interventions can reset target anatomy or enable organ/tissue repair without changing DNA — consistent with a network‑level “goal” that can be rewritten <sup><a class="ref-pop" href="https://doi.org/10.1016/j.cell.2021.02.034" data-ref-url="https://doi.org/10.1016/j.cell.2021.02.034" data-ref-summary="Cell review on bioelectric signaling and reprogrammable morphogenesis across development and regeneration.">†</a></sup>. In mammals, related pieces exist — improved wound and bone healing with electrical stimulation or ion‑channel modulation; organoid pattern control — but we lack a clear, durable “goal reset” of aged organs that persists across re‑injury. The information‑dynamics framing (active information storage, transfer entropy, spatial entropy) is new and currently model‑level <sup><a class="ref-pop" href="https://doi.org/10.20944/preprints202412.2354.v1" data-ref-url="https://doi.org/10.20944/preprints202412.2354.v1" data-ref-summary="Preprint: aging as loss of goal-directedness modeled via neural cellular automata; predicts targeted, pattern-aware rejuvenation and info-dynamics signatures.">†</a></sup>. Net: compelling proof‑of‑principle outside mammals; in mammals, we’re at feasibility/protocol‑finding.
+Early but promising. The strongest demonstrations are in highly regenerative systems (planaria, axolotl, Xenopus), where bioelectric or gap‑junction interventions can reset target anatomy or enable organ/tissue repair without changing DNA — consistent with a network‑level “goal” that can be rewritten <sup><a class="ref-pop" href="https://doi.org/10.1016/j.cell.2021.02.034" data-ref-url="https://doi.org/10.1016/j.cell.2021.02.034" data-ref-summary="Cell review on bioelectric signaling and reprogrammable morphogenesis across development and regeneration.">†</a></sup>. In mammals, related pieces exist — improved wound and bone healing with electrical stimulation or ion‑channel modulation; organoid pattern control — but we lack a clear, durable “goal reset” of aged organs that persists across re‑injury. The information‑dynamics framing (active information storage, transfer entropy, spatial entropy) is now peer‑reviewed but still model‑level <sup><a class="ref-pop" href="https://doi.org/10.1002/advs.202509872" data-ref-url="https://doi.org/10.1002/advs.202509872" data-ref-summary="Advanced Science (2025): Aging as a Loss of Goal‑Directedness — evolutionary simulation unifying regeneration with anatomical rejuvenation; predicts pattern‑aware interventions and info‑dynamics signatures.">†</a></sup>. Net: compelling proof‑of‑principle outside mammals; in mammals, we’re at feasibility/protocol‑finding.
 
 ### Has Levin collaborated with epigenetic reprogramming groups?
 
@@ -108,5 +109,8 @@ Practically, the most promising integration would be sequential: use epigenetic 
 
 ## Sources
 
-- Tweet mirror: https://vxtwitter.com/drmichaellevin/status/1977876002958115177
-- Primary (Preprint): 10.20944/preprints202412.2354.v1
+- Tweet mirror (statement on goal‑directedness and unifying aging with cancer/defects/regeneration): https://vxtwitter.com/drmichaellevin/status/1979239556680683735
+- Tweet mirror (final‑version announcement): https://vxtwitter.com/drmichaellevin/status/1977876002958115177
+- Peer‑reviewed: https://doi.org/10.1002/advs.202509872
+- Concept essay (BioEssays): https://doi.org/10.1002/bies.202400196
+- Preprints: https://doi.org/10.20944/preprints202412.2354.v1, https://doi.org/10.31219/osf.io/m5bnx_v1
