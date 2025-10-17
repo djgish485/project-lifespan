@@ -107,6 +107,12 @@ As of now, there’s no published, co‑authored work between the Levin lab and 
 
 Practically, the most promising integration would be sequential: use epigenetic reprogramming to restore competence and reduce noise, then apply pattern‑aware bioelectric cues to write and lock in the spatial target. We will track preprints and updates; if a formal collaboration or joint manuscript emerges (e.g., shared authorship between Levin and OSK‑group labs), we’ll add it here and cross‑link to the study.
 
+### Does Levin’s theory preclude Pathogen Control, or can PC be the evolutionary driver while bioelectric control is the mechanism?
+
+They don’t have to conflict. Pathogen Control can provide the “ultimate” (evolutionary) rationale—pathogen ecology and population structure shape how much long‑term morphostasis is worth maintaining—while Levin provides the “proximate” (mechanistic) account: aging as drift when the morphogenetic “keep this form” goal weakens, with tissues controllable via bioelectric interfaces to restore that goal<sup><a class="ref-pop" href="https://doi.org/10.1002/advs.202509872" data-ref-url="https://doi.org/10.1002/advs.202509872" data-ref-summary="Advanced Science (2025): Aging as a Loss of Goal‑Directedness — evolutionary simulation; predicts info‑dynamics signatures and pattern‑aware interventions.">†</a></sup><sup><a class="ref-pop" href="https://doi.org/10.1002/bies.202400196" data-ref-url="https://doi.org/10.1002/bies.202400196" data-ref-summary="BioEssays (2024): The Multiscale Wisdom of the Body — bioelectric networks as a tractable, top‑down interface to organ‑level control.">†</a></sup>.
+
+Where they may diverge is predictive: PC expects infection tradeoffs unless anti‑pathogen measures co‑apply, whereas Levin’s mechanism doesn’t require such penalties. That makes for joint tests: do strong, pattern‑aware rejuvenation protocols increase infection risk under pathogen challenge; do information‑dynamics markers track pathogen burden; and do low‑transmission ecologies evolve more robust long‑term morphostasis? If evidence supports those links, the two views dovetail (ultimate vs proximate); if not, it weighs against PC’s specific tradeoff claims.
+
 ## Sources
 
 - Tweet mirror (statement on goal‑directedness and unifying aging with cancer/defects/regeneration): https://vxtwitter.com/drmichaellevin/status/1979239556680683735
