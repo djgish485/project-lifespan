@@ -29,7 +29,7 @@ tags:
 - Pattern memory: Even after tissue loss, the “map” of what should be there still lingers and can be reactivated.
 - Best rejuvenation: Don’t blast the whole tissue; give targeted, pattern-aware signals to the damaged region and its neighbors — that works better than uniform stimulation.
 - Measurable signatures: As the goal fades, information-flow metrics shift (more active information storage, more transfer entropy; spatial entropy distinguishes true structure loss from “morphological noise”).
-- Unification claim: Birth defects, failure to regenerate, cancer, degenerative disease, and aging reflect the same root issue — loss or corruption of morphogenetic goal-directedness — so advances in “regeneration control” apply across them (and critiques of longevity research implicitly touch those areas too).
+- Unification claim: Birth defects, failure to regenerate, cancer, degenerative disease, and aging reflect the same root issue — loss or corruption of morphogenetic goal-directedness — so advances in “regeneration control” apply across them. Because these share the same control mechanism, opposing longevity research also undercuts work on defects, cancer, degeneration, and regeneration.
 
 ## Conflicts With Other Theories
 
