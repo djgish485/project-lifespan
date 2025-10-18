@@ -61,23 +61,6 @@ nav:
       - Resilience / Criticality (Fedichev): theories/resilience_criticality.md
       - Pathogen Control (Lidsky): theories/pathogen_control.md
       - Longevity Bottleneck (Various Proponents): theories/longevity_bottleneck.md
-  - Evidence: evidence/index.md
-  - Experiments: experiments/index.md
-  - Experiment Blueprints:
-      - OSK Lifespan Study: experiments/osk_mouse_lifespan.md
-      - SENS Stacked Repairs: experiments/sens_stack_mouse.md
-      - Resilience Training: experiments/resilience_training.md
-      - Bioelectric Modulation: experiments/vmem_regeneration.md
-      - Rejuvenation vs Pathogen: experiments/rejuvenation_pathogen_tradeoff.md
-      - OSK Under Infection: experiments/osk_infection_tradeoff.md
-      - Stacked Repairs Under Infection: experiments/sens_stack_infection_tradeoff.md
-      - Pathogen Burden and Resilience: experiments/pathogen_burden_resilience.md
-      - Bioelectric Under Pathogen Challenge: experiments/bioelectric_infection_tradeoff.md
-      - Anti-Pathogen Resolves Bottleneck: experiments/anti_pathogen_bottleneck.md
-  - Concepts: concepts/index.md
-  - Compare: compare/index.md
-  - Rubric: compare/rubric.md
-  - Contribute: contribute.md
   - About: about.md
 
 extra:
