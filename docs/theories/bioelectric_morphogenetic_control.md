@@ -86,7 +86,9 @@ Rejuvenation means resetting the tissue’s target‑shape setpoint and restorin
 
 You then close the loop: verify convergence with information‑dynamics metrics (for example, restoration of structured spatial entropy; normalization of active information storage and transfer entropy), perturb gently to test stability, and iterate dosing/timing to avoid dedifferentiation or oncogenesis. Two testable implications follow: pattern‑aware (lesion+neighbor) stimulation should outperform uniform “bath” signals in aged tissue, and the restored target should persist across re‑injury cycles without continuous input.
 
+### Could stray ambient electrical fields randomly trigger morphogenetic “goal resets,” and how sensitive is the system to the environment?
 
+No: tissues are tuned to slow, spatially patterned DC gradients and coupling changes (via gap junctions), while ambient AC fields (Wi‑Fi, power lines) are largely filtered and shunted by body tissues, are far weaker inside the body, and lack the required lesion–neighbor contrast; endogenous “injury fields” are ~10–100 mV/mm at wound edges, and moving a tissue’s setpoint typically needs minutes–hours of sustained, spatially specific input, so the system is moderately sensitive to the right, targeted cues but robust to random background noise and broad, uniform fields.
 
 ### How does progress here compare to progress in epigenetic rejuvenation?
 
