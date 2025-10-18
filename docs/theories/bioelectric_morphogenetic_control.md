@@ -20,8 +20,6 @@ tags:
 
 # Bioelectric / Morphogenetic Control (Levin)
 
-<div class="page-build-id">Last updated: <!--BUILD_ID-->1760403200<!--/BUILD_ID--></div>
-
 ## Simple Summary
 
 - Idea: Your body isn’t just parts; it’s a pattern with a target shape. During development it actively pursues that target. Later in life, the “keep this form” goal weakens, so the pattern drifts — that drift is aging.
