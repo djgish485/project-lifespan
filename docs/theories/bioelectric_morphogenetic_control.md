@@ -26,7 +26,7 @@ tags:
 - Not just wear-and-tear: Damage, noise, and communication failures speed aging up, but they’re not the root cause in this view.
 - Pattern memory: Even after tissue loss, the “map” of what should be there still lingers and can be reactivated.
 - Best rejuvenation: Don’t blast the whole tissue; give targeted, pattern-aware signals to the damaged region and its neighbors — that works better than uniform stimulation.
-- Measurable signatures: As the goal fades, information-flow metrics shift (more active information storage, more transfer entropy; spatial entropy distinguishes true structure loss from “morphological noise”).
+- Model‑predicted, falsifiable signs: more local “memory” (each spot sticks to its recent state), more “neighbor nudging” (nearby regions push each other), and a messier shape map — all markers of a weaker pattern controller.
 - Unification claim: Birth defects, failure to regenerate, cancer, degenerative disease, and aging reflect the same root issue — loss or corruption of morphogenetic goal-directedness — so advances in “regeneration control” apply across them. Because these share the same control mechanism, opposing longevity research also undercuts work on defects, cancer, degeneration, and regeneration.
 - Anthrobots note: Changing a cell’s context alone can trigger self‑repair, big gene‑expression shifts (including embryonic/ancient programs), and a small “younger” reading on epigenetic clocks — without gene edits or reprogramming factors — supporting top‑down control. But it’s early and in vitro: the age shift is modest and needs cross‑checks, mechanisms aren’t nailed down, and there’s no in vivo or infection/immune data yet.
 
