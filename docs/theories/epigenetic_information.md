@@ -24,7 +24,7 @@ tags:
 ## Simple Summary
 
 - Idea: Aging is driven by loss/mis‑placement of epigenetic information that scrambles gene control; partial reprogramming (e.g., OSK) can restore youthful programs without changing DNA.
-- Mechanism: DNA breaks and stresses pull chromatin regulators (e.g., SIRT1, cohesin) to repair sites; they don’t fully reset afterward. Over time, 3D genome architecture and marks drift, cells “misread” their program, and tissue function declines.
+- Mechanism: Everyday repair jobs slightly scramble the “labels and shelving” of DNA (chemical tags and how DNA folds into loops). Over time, cells start turning on the wrong genes for the job; partial reprogramming attempts to put the labels and folding back to a youthful layout.
 - Evidence so far: Tissue wins are strongest (retina/optic nerve; progeroid models). The ICE mouse shows that inducing repair‑heavy breaks accelerates aging phenotypes that OSK partially reverses. Whole‑animal lifespan extension with acceptable safety is still unproven.
 - Testable prediction: If epigenetic mis‑specification is primary, carefully dosed resets should restore function across diverse tissues without enumerating specific damages — and benefits should persist beyond short‑term stress responses and without cell identity loss.
 - Safety envelope: Gains must come with low tumor risk, preserved cell identity, and dosing cycles that avoid dedifferentiation.
