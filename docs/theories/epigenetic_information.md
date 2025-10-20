@@ -74,6 +74,18 @@ tags:
 
 ## Questions
 
+### Where is the “youthful blueprint” if epigenetic marks drift?
+
+It lives in the DNA’s own signposts and folding rules — short sequences that tell genes when/where to turn on (promoters/enhancers) and boundary elements (like CTCF sites) that help DNA fold into loops so the right switches touch the right genes. Cells can re‑read these rules to rebuild a youthful layout when nudged, which is why reprogramming can work — it doesn’t change DNA letters, it helps the system re‑apply the instructions already encoded there <sup><a class="ref-pop" href="https://doi.org/10.1016/j.cell.2014.11.021" data-ref-url="https://doi.org/10.1016/j.cell.2014.11.021" data-ref-summary="Cell (2014): kilobase-resolution 3D genome map; principles of chromatin looping and TADs.">†</a></sup><sup><a class="ref-pop" href="https://doi.org/10.1016/j.cell.2006.07.024" data-ref-url="https://doi.org/10.1016/j.cell.2006.07.024" data-ref-summary="Cell (2006): adult cells reprogrammed to pluripotency with defined factors (iPSC).">†</a></sup><sup><a class="ref-pop" href="https://doi.org/10.1038/s41586-020-2975-4" data-ref-url="https://doi.org/10.1038/s41586-020-2975-4" data-ref-summary="Nature (2020): OSK reverses aging features and restores vision in mouse retina.">†</a></sup>.
+
+### If DNA gets damaged with age, how can reprogramming still work?
+
+Damage happens, but most “signposts” remain intact in most cells, DNA repair runs constantly, and many control elements are redundant. Partial reprogramming doesn’t fix DNA letters; it resets the “labels and shelving” (chemical tags and folding) so cells read the right genes again. Limits remain: mutations and large rearrangements won’t be undone by OSK, and whole‑animal lifespan/safety still need proof. Evidence consistent with this view: break‑heavy models accelerate aging that OSK partly reverses, and in‑vivo partial reprogramming improves hallmarks in progeroid mice <sup><a class="ref-pop" href="https://doi.org/10.1016/j.cell.2022.12.027" data-ref-url="https://doi.org/10.1016/j.cell.2022.12.027" data-ref-summary="Cell (2023): loss of epigenetic information as a cause of mammalian aging (ICE model).">†</a></sup><sup><a class="ref-pop" href="https://doi.org/10.1016/j.cell.2016.11.052" data-ref-url="https://doi.org/10.1016/j.cell.2016.11.052" data-ref-summary="Cell (2016): in‑vivo partial reprogramming improves aging hallmarks in progeroid mice.">†</a></sup>.
+
+### Does “older parents have healthy young offspring” prove the blueprint is undamaged?
+
+It shows that the blueprint is in DNA and can be re‑applied each generation: embryos largely erase and rebuild epigenetic marks, and germ cells have stricter repair/selection than somatic cells. Offspring inherit germline DNA (relatively clean) and undergo a normal epigenetic reset — that’s why they start young, even if parents’ somatic tissues have aged <sup><a class="ref-pop" href="https://doi.org/10.1371/journal.pgen.1002514" data-ref-url="https://doi.org/10.1371/journal.pgen.1002514" data-ref-summary="PLoS Genet (2012): epigenetic reprogramming/erasure in the mammalian life cycle.">†</a></sup>.
+
 ## Sources
 
 - Tweet: https://vxtwitter.com/davidasinclair/status/1969276595895455925
