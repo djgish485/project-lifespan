@@ -28,6 +28,7 @@ tags:
 - Evidence so far: Tissue wins are strongest (retina/optic nerve; progeroid models). The ICE mouse shows that inducing repair‑heavy breaks accelerates aging phenotypes that OSK partially reverses. Whole‑animal lifespan extension with acceptable safety is still unproven.
 - Testable prediction: If epigenetic mis‑specification is primary, carefully dosed resets should restore function across diverse tissues without enumerating specific damages — and benefits should persist beyond short‑term stress responses and without cell identity loss.
 - Safety envelope: Gains must come with low tumor risk, preserved cell identity, and dosing cycles that avoid dedifferentiation.
+- Why reset can work: Cells still carry the “blueprint” in DNA sequence cues and the cell’s gene‑control machinery (pioneer factors, writer/eraser enzymes, and folding organizers like CTCF/cohesin); OSK rereads this — a functional backup, not a separate stored copy.
 
 ## Conflicts With Other Theories
 
