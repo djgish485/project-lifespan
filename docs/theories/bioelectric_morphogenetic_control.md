@@ -28,7 +28,7 @@ tags:
 - Best rejuvenation: Don’t blast the whole tissue; give targeted, pattern-aware signals to the damaged region and its neighbors — that works better than uniform stimulation.
 - Model‑predicted, falsifiable signs: more local “memory” (each spot sticks to its recent state), more “neighbor nudging” (nearby regions push each other), and a messier shape map — all markers of a weaker pattern controller.
 - Unification claim: Birth defects, failure to regenerate, cancer, degenerative disease, and aging reflect the same root issue — loss or corruption of morphogenetic goal-directedness — so advances in “regeneration control” apply across them. Because these share the same control mechanism, opposing longevity research also undercuts work on defects, cancer, degeneration, and regeneration.
-- Anthrobots note: Changing a cell’s context alone can trigger self‑repair, big gene‑expression shifts (including embryonic/ancient programs), and a small “younger” reading on epigenetic clocks — without gene edits or reprogramming factors — supporting top‑down control. But it’s early and in vitro: the age shift is modest and needs cross‑checks, mechanisms aren’t nailed down, and there’s no in vivo or infection/immune data yet.
+ 
 
 ## Conflicts With Other Theories
 
@@ -119,6 +119,10 @@ Where they may diverge is predictive: PC expects infection tradeoffs unless anti
 First, test the model’s simple signs in lab tissues: as tissues “age,” you should see more local “memory” (each spot sticks to its recent state), more “neighbor nudging” (nearby regions push each other), and a messier shape map. Measure these with voltage/Ca2+ imaging and standard analyses, then apply spatially targeted bioelectric cues; the theory predicts those numbers drop and repair improves if the controller is restored <sup><a class="ref-pop" href="https://doi.org/10.1002/advs.202509872" data-ref-url="https://doi.org/10.1002/advs.202509872" data-ref-summary="Advanced Science (2025): goal‑directedness model; predicts information‑metric shifts and benefits of pattern‑aware interventions.">†</a></sup>.
 
 Second, make the Anthrobots case tighter and push to mammals. Cross‑check the “younger” reading with multiple epigenetic clocks and single‑cell data, add matched 2D/3D/organoid controls, and show causality by directly changing membrane voltage and gap junctions to move age/repair readouts. A decisive next step is an adult‑mammal study that durably “resets the goal” of a tissue (ear punch/skin/tendon) using pattern‑aware bioelectric programs that beat uniform stimulation and match or augment OSK, with gains that persist after re‑injury <sup><a class="ref-pop" href="https://doi.org/10.1002/advs.202409330" data-ref-url="https://doi.org/10.1002/advs.202409330" data-ref-summary="Advanced Science (2025): Anthrobots life‑cycle, transcriptomics, and epigenetic age shift.">†</a></sup><sup><a class="ref-pop" href="https://doi.org/10.1038/s41586-020-2975-4" data-ref-url="https://doi.org/10.1038/s41586-020-2975-4" data-ref-summary="Nature (2020): OSK partial reprogramming restores vision; a benchmark for comparison/augmentation.">†</a></sup>.
+
+## Additional Notes
+
+- Anthrobots: Changing a cell’s context alone can trigger self‑repair, big gene‑expression shifts (including embryonic/ancient programs), and a small “younger” reading on epigenetic clocks — without gene edits or reprogramming factors — supporting top‑down control. But it’s early and in vitro: the age shift is modest and needs cross‑checks, mechanisms aren’t nailed down, and there’s no in vivo or infection/immune data yet.
 
 ## Sources
 
