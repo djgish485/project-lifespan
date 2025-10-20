@@ -23,9 +23,11 @@ tags:
 
 ## Simple Summary
 
-- Idea: Aging is driven largely by loss/mis‑specification of epigenetic information; partial reprogramming (e.g., OSK) can reset gene‑expression programs and restore youthful function.
-- Not just biomarkers: lifespan extension at whole‑animal level must be shown while managing tumor risk; tissue wins are strongest so far (e.g., retina/optic nerve).
-- Practical signature: state reset improves function and hazard with acceptable safety; strong gains without enumerating/repairing all damages would favor this view.
+- Idea: Aging is driven by loss/mis‑placement of epigenetic information that scrambles gene control; partial reprogramming (e.g., OSK) can restore youthful programs without changing DNA.
+- Mechanism: DNA breaks and stresses pull chromatin regulators (e.g., SIRT1, cohesin) to repair sites; they don’t fully reset afterward. Over time, 3D genome architecture and marks drift, cells “misread” their program, and tissue function declines.
+- Evidence so far: Tissue wins are strongest (retina/optic nerve; progeroid models). The ICE mouse shows that inducing repair‑heavy breaks accelerates aging phenotypes that OSK partially reverses. Whole‑animal lifespan extension with acceptable safety is still unproven.
+- Testable prediction: If epigenetic mis‑specification is primary, carefully dosed resets should restore function across diverse tissues without enumerating specific damages — and benefits should persist beyond short‑term stress responses and without cell identity loss.
+- Safety envelope: Gains must come with low tumor risk, preserved cell identity, and dosing cycles that avoid dedifferentiation.
 
 ## Conflicts With Other Theories
 
@@ -33,38 +35,38 @@ tags:
   <li>SENS Damage Repair (de Grey)
     <ul>
       <li>SENS: Multiple damages jointly cause aging; targeted repairs are necessary.</li>
-      <li>Sinclair: A correct state reset can obviate many repairs; large, safe OSK wins would weigh against damage‑first primacy.</li>
+      <li>Sinclair: If a correct state reset (e.g., OSK) restores function broadly without bespoke repairs, that undercuts damage‑first primacy. If repairs match or beat resets with lower cancer risk, that challenges Sinclair.</li>
     </ul>
   </li>
   <li>Classic Models (Medawar, Williams, Hamilton, Kirkwood)
     <ul>
       <li>Classics: Gains should show tradeoffs/costs; no “program” to reset.</li>
-      <li>Sinclair: Durable max‑lifespan gains from reprogramming with limited costs would challenge strict tradeoff/budget constraints.</li>
+      <li>Sinclair: Durable max‑lifespan gains from reprogramming with limited costs would strain strict tradeoff accounts; failure to show such gains keeps Classics favored.</li>
     </ul>
   </li>
   <li>Pathogen Control (Lidsky)
     <ul>
-      <li>PC: Under pathogen challenge, rejuvenation should face infection penalties unless anti‑pathogen measures co‑apply.</li>
-      <li>Sinclair: OSK can succeed without infection penalties under pathogen challenge; clean wins favor epigenetic primacy over PC.</li>
-      <li>PC also claims lifespan patterns track population structure (dispersal, eusociality, cohorting), which epigenetic reset alone does not predict.</li>
+      <li>PC: In pathogen‑rich settings, longevity gains should carry infection penalties unless anti‑pathogen measures co‑apply.</li>
+      <li>Sinclair: Clean OSK wins under pathogen challenge (no elevated infection risk) would favor epigenetic primacy; penalties would support PC tradeoffs.</li>
+      <li>PC further predicts lifespan patterns that track population structure (dispersal, eusociality, cohorting), which epigenetic reset alone does not specify.</li>
     </ul>
   </li>
   <li>Resilience / Criticality (Fedichev)
     <ul>
       <li>Resilience: Hazard reductions can occur by tuning dynamics without a state reset.</li>
-      <li>Sinclair: A state reset should reduce hazard more broadly than non‑epigenetic resilience interventions if epigenetic mis‑specification is primary.</li>
+      <li>Sinclair: If resets reduce hazard more broadly and durably than non‑epigenetic tuning, that favors epigenetic primacy; if dynamic tuning matches resets, resilience can suffice.</li>
     </ul>
   </li>
   <li>Bioelectric / Morphogenetic Control (Levin)
     <ul>
       <li>Levin: Pattern goals sit “above” gene expression; spatial cues write targets.</li>
-      <li>Sinclair: Reprogramming can indirectly restore pattern control via gene networks; OSK may substitute for pattern cues in some tissues.</li>
+      <li>Sinclair: A global reset can indirectly restore pattern control via gene networks. If spatially targeted bioelectric programs outperform OSK on durable form/function without dedifferentiation, that challenges epigenetic primacy.</li>
     </ul>
   </li>
   <li>Longevity Bottleneck (Various Proponents)
     <ul>
       <li>Bottleneck: Specific damage‑response pathways drive aging.</li>
-      <li>Sinclair: A global epigenetic reset can normalize many pathways without bespoke fixes; strong wins support epigenetic primacy.</li>
+      <li>Sinclair: If resets normalize many pathways at once and outperform bottleneck fixes on function/hazard at similar risk, that favors Sinclair; if targeted pathway relief equals OSK with lower risk, that favors Bottleneck.</li>
     </ul>
   </li>
 </ul>
