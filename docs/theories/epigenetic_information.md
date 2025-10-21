@@ -104,6 +104,7 @@ Example fixes:
 - Mitochondrial DNA: shift the mix toward healthy copies or edit mtDNA (mitoTALENs; DdCBE) in cells/animals <sup><a class="ref-pop" href="https://doi.org/10.1038/s41586-020-2477-4" data-ref-url="https://doi.org/10.1038/s41586-020-2477-4" data-ref-summary="Nature (2020): DdCBE enables base editing of mitochondrial DNA.">†</a></sup><sup><a class="ref-pop" href="https://doi.org/10.1038/s41591-018-0124-7" data-ref-url="https://doi.org/10.1038/s41591-018-0124-7" data-ref-summary="Nat Med (2018): mitoTALENs reduce mutant mtDNA and rescue function in vivo.">†</a></sup>.
 - Mutated clones (e.g., blood): remove and replace the cells (stem‑cell transplant or gene‑corrected autologous HSCs); screen early to limit expansion <sup><a class="ref-pop" href="https://doi.org/10.1038/s41576-021-00380-3" data-ref-url="https://doi.org/10.1038/s41576-021-00380-3" data-ref-summary="Nat Rev Genet (2021): clinical genome editing — progress and challenges.">†</a></sup>.
 - Big rearrangements/extra or missing chromosomes: no general repair today; practical path is replacement, with possible targeted edits in the future.
+
 Where SENS fits: these are SENS‑style “repair/replace” moves that cover letter‑level and structural problems; they complement Sinclair‑style resets. See <a href="sens_damage_repair.md">SENS Damage Repair</a>.
 
 ### Whole‑body rejuvenation: has systemic OSK been tried in mice, and why not run a full‑mouse lifespan trial now?
