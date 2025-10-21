@@ -110,9 +110,9 @@ Example fixes:
 
 Sinclair has said in interview that collaborators from the Church lab injected OSK systemically (via vein) in old mice as a “hail‑mary” pilot and reported a large survival effect (“another 109% longer”), and he framed whole‑body rejuvenation as a near‑term goal after first‑in‑human trials <sup><a class="ref-pop" href="https://www.youtube.com/watch?v=1l3lGy07Fgo" data-ref-url="https://www.youtube.com/watch?v=1l3lGy07Fgo" data-ref-summary="Diamandis × Sinclair (2025): describes systemic OSK pilot in old mice (\"109% longer\" claim) and a ‘year or two’ timeline to whole‑body rejuvenation.">†</a></sup><sup><a class="ref-pop" href="http://nitter.net/davidasinclair/status/1501193622804389890" data-ref-url="http://nitter.net/davidasinclair/status/1501193622804389890" data-ref-summary="Sinclair (2022) tweet: ‘Reprogramming of an entire mouse’ — broad‑tissue reprogramming claim; details not peer‑reviewed.">†</a></sup>. Clarification: “109%” likely means remaining life after treatment, not total lifespan — so the real total‑lifespan bump is modest.
 
-Nevertheless, none of these cautions seem compelling enough to delay well‑designed, whole‑body mouse attempts now — the upside from even modest, material lifespan gains would be extraordinarily high.
-
 Why not “just try” whole‑mouse lifespan now? Systemic reprogramming has a narrow safety window (dedifferentiation/tumors if dosing drifts), delivery at body scale is hard (vector dose, tropism, immune/liver toxicity; on/off control), and a convincing result needs old wild‑type mice, big N, blinded pathology, identity preservation, and long follow‑up — expensive and slow. Teams are de‑risking with organ‑specific trials and more controllable delivery before committing to multi‑year, systemic lifespan studies; that path maximizes the odds that a future whole‑body study is both safe and decisive.
+
+Nevertheless, none of these cautions seem compelling enough to delay well‑designed, whole‑body mouse attempts now — the upside from even modest, material lifespan gains would be extraordinarily high.
 
 ## Additional Notes
 
