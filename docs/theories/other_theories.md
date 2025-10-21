@@ -3,10 +3,15 @@
 Short, plain‑English summaries of additional aging frameworks beyond the seven core pages. Each item notes what the theory claims, recent progress, and what would most decisively test it.
 
 ## Hyperfunction / Quasi‑Program (mTOR)
-- What it says: Aging comes from growth/development programs running too long (e.g., mTOR). Turning down this “run‑on” slows many age‑related declines.
-- Recent progress: Rapamycin/rapalogs extend lifespan and healthspan in many mouse studies; mid‑life dosing still helps. Small human studies suggest immune benefits (better vaccine responses) and ongoing trials explore dosing windows.
-- Key tests: In normal aged animals, does late‑life, low‑risk mTOR inhibition lower mortality and broadly improve function vs. controls, and outperform non‑mTOR levers at similar risk?
-- Sources: Rapamycin late‑life mouse lifespan (Nature 2009, 10.1038/nature08221); reviews by Blagosklonny (Aging, multiple); elderly immune studies (Mannick et al., Sci Transl Med 2014; 2018).
+- What it says: Aging partly comes from growth programs running too long (mTOR “run‑on”); dialing them down can slow decline.
+- What works (in animals): Late‑life rapamycin extends mouse lifespan and healthspan, including starts at ~20 months<sup><a class="ref-pop" href="https://doi.org/10.1038/nature08221" data-ref-url="https://doi.org/10.1038/nature08221" data-ref-summary="Harrison et al. 2009: dietary rapamycin begun late extends lifespan in genetically heterogeneous mice.">†</a></sup>. Low‑dose TORC1 inhibition improved flu vaccine responses in older adults<sup><a class="ref-pop" href="https://doi.org/10.1126/scitranslmed.3009892" data-ref-url="https://doi.org/10.1126/scitranslmed.3009892" data-ref-summary="Mannick et al. 2014: mTORC1‑preferential inhibition enhances elderly immune/vaccine responses.">†</a></sup>.
+- Criticisms/caveats: Effects depend on dose/schedule/sex/strain; high/continuous dosing can impair glucose handling (intermittent or combo regimens help)<sup><a class="ref-pop" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3727050" data-ref-url="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3727050" data-ref-summary="Lamming et al. 2013: dietary rapamycin causes glucose intolerance in HET3 mice with nuances vs injection.">†</a></sup><sup><a class="ref-pop" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5892694" data-ref-url="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5892694" data-ref-summary="Weiss et al. 2018: metformin blunts rapamycin‑induced glucose intolerance in female mice.">†</a></sup>. Benefits may be driven partly by anticancer effects (median > max lifespan gains). Human lifespan data are absent; a dog lifespan/healthspan trial is ongoing<sup><a class="ref-pop" href="https://dogagingproject.org/triad" data-ref-url="https://dogagingproject.org/triad" data-ref-summary="Dog Aging Project TRIAD: randomized trial of rapamycin in companion dogs.">†</a></sup>.
+- How it stacks with other theories: Best used with complementary levers—
+  - SENS‑style repair (fixes existing lesions) while mTOR dialing reduces “run‑on” damage.
+  - Senescent‑cell clearance to cut SASP/inflammation, then maintain with rapamycin.
+  - Proteostasis/autophagy boosters (lysosome/TFEB or chaperones) for housekeeping beyond mTOR.
+  - Systemic milieu/microbiome resets to improve the top‑down environment.
+- What would convince skeptics: In normal aged animals, intermittent TORC1‑preferential regimens that (a) lower mortality and improve multi‑organ function, (b) show hazard‑shape changes beyond anticancer delay, and (c) translate in dogs—with acceptable safety.
 
 ## Somatic Mutation / Mosaicism
 - What it says: DNA “letter” changes build up in tissues, forming mutant clones that impair function and raise disease risk; this burden scales with lifespan and cell turnover.
@@ -61,4 +66,3 @@ Short, plain‑English summaries of additional aging frameworks beyond the seven
 - Recent progress: Telomerase gene therapy extends lifespan in mice without increasing cancer in specific settings; human work focuses on safety and disease targets.
 - Key tests: Safe, targeted telomere restoration that improves function and lowers hazard in normal aged mammals.
 - Sources: de Jesus et al., EMBO Mol Med 2012 (10.1002/emmm.201200245); reviews by Blackburn/Greider/Szostak field.
-
