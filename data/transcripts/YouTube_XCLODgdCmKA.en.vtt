@@ -1,0 +1,4332 @@
+WEBVTT
+00:00:40,560 --> 00:00:44,560
+Today I have the pleasure of interviewing Jacob  Kimmel, who is the president and co-founder of
+
+00:00:44,560 --> 00:00:48,480
+NewLimit, where they're trying to epigenetically  reprogram cells to their younger states.
+
+00:00:48,480 --> 00:00:50,960
+Jacob, thanks so much for coming on the podcast. Thanks so much for having me. Looking
+
+00:00:50,960 --> 00:00:53,120
+forward to the conversation. All right, first question.
+
+00:00:53,120 --> 00:00:58,720
+What's the first principles argument for  why evolution just discards us so easily?
+
+00:00:58,720 --> 00:01:03,920
+I know evolution cares about our kids. But if we have longer, healthier lifespans,
+
+00:01:03,920 --> 00:01:06,240
+we can have more kids, right? We can care for them longer,
+
+00:01:06,240 --> 00:01:12,080
+we can care for our grandkids. Is there some pleiotropic effect that an
+
+00:01:12,080 --> 00:01:18,000
+anti-aging medicine would have which actually  selects against you staying young for longer?
+
+00:01:18,000 --> 00:01:20,320
+I think there are a couple  different ways one can tackle this.
+
+00:01:20,320 --> 00:01:23,040
+One is you have to think about what's  the selective pressure that would
+
+00:01:23,040 --> 00:01:27,600
+make one live longer and encode for  higher health over longer durations.
+
+00:01:27,600 --> 00:01:30,880
+Do you have that selective pressure present? There's another which is, are there any
+
+00:01:30,880 --> 00:01:33,840
+anti-selective pressures that are  actually pushing against that?
+
+00:01:33,840 --> 00:01:37,600
+There's a third piece of this, which is  something like the constraints of your optimizer.
+
+00:01:37,600 --> 00:01:40,560
+If we think about the genome as a set  of parameters and the optimizer is
+
+00:01:40,560 --> 00:01:44,000
+natural selection, then you've got some  constraints on how that actually works.
+
+00:01:44,000 --> 00:01:47,520
+You can only do so many mutations at a time. You have to spend your steps that
+
+00:01:47,520 --> 00:01:51,120
+update your genome in certain ways. Tackling those from a few different directions,
+
+00:01:51,120 --> 00:01:55,920
+what would the positive possible selection be? As you highlighted, it might be something like,
+
+00:01:55,920 --> 00:01:58,880
+"If I'm able to extend the lifespan of an  individual, they can have more children,
+
+00:01:58,880 --> 00:02:02,240
+they can care for those children more effectively. That genome should propagate more
+
+00:02:02,240 --> 00:02:06,080
+readily into the population." One of the challenges then—if you're
+
+00:02:06,080 --> 00:02:13,040
+trying to think back in a thought experiment style  of evolutionary simulation here—would be: What
+
+00:02:13,040 --> 00:02:17,840
+were the conditions under which a person would  actually live long enough for that phenotype to
+
+00:02:17,840 --> 00:02:22,320
+be selected for, and how often would that occur? This brings us back to some very hypothetical
+
+00:02:22,320 --> 00:02:23,520
+questions. Things like,
+
+00:02:23,520 --> 00:02:28,320
+what was the baseline hazard rate during  the majority of human and primate evolution?
+
+00:02:28,320 --> 00:02:32,480
+The hazard rate is simply, "What is the likelihood  you're going to die on any given day?" That
+
+00:02:32,480 --> 00:02:36,560
+integrates everything. That's diseases from aging,  that's getting eaten by a tiger, that's falling
+
+00:02:36,560 --> 00:02:41,360
+off a cliff, that's scraping your foot on a rock  and getting an infection and dying from that.
+
+00:02:41,360 --> 00:02:45,360
+From the best evidence we have, the  baseline hazard rate was very, very high.
+
+00:02:45,920 --> 00:02:51,520
+Even absent aging, you're unlikely to actually  reach those outer limits of possible health
+
+00:02:51,520 --> 00:02:55,600
+where aging is one of the main limitations. The number of individuals in the population that
+
+00:02:55,600 --> 00:03:00,880
+are going to make it later in that lifespan, where  using some of your evolutionary updates to try and
+
+00:03:01,440 --> 00:03:06,240
+push your lifespan upward, is relatively limited. The amount of gradient signal flowing back to
+
+00:03:06,240 --> 00:03:09,840
+the genome then is not as high  as one might intuitively think.
+
+00:03:10,880 --> 00:03:16,160
+On that, often people who are trying  to forecast AI will discuss how hard
+
+00:03:16,160 --> 00:03:21,120
+evolution tried to optimize for intelligence,  and what were the things which optimizing for
+
+00:03:21,120 --> 00:03:24,800
+intelligence would have prevented evolution  from selecting for at the same time?
+
+00:03:25,520 --> 00:03:30,960
+So even if intelligence were a relatively  easy thing to build in this universe,
+
+00:03:30,960 --> 00:03:34,000
+it would have taken evolution so long  to get at human-level intelligence.
+
+00:03:34,000 --> 00:03:38,880
+And, potentially, if intelligence were really  easy, then it might imply that we're going to get
+
+00:03:38,880 --> 00:03:46,080
+superintelligence and Jupiter-level intelligence,  etc. The sky's the limit. One argument is birth
+
+00:03:46,080 --> 00:03:53,120
+canal sizes, etc., or the fact that we had to  spend most of our resources on the immune system.
+
+00:03:53,120 --> 00:03:59,200
+But what you just hinted at is an independent  argument that if you have this high hazard rate,
+
+00:03:59,200 --> 00:04:06,880
+that would imply you can't be a kid for too long. Kids die all the time and you have to become an
+
+00:04:06,880 --> 00:04:09,200
+adult so that you can have your kids. You’ve got to contribute
+
+00:04:09,200 --> 00:04:11,440
+resources back to the group. You can't just be a freeloader.
+
+00:04:11,440 --> 00:04:13,840
+You need to get calories, go out  in the jungle, get some berries.
+
+00:04:15,120 --> 00:04:19,120
+If you're just hanging out learning stuff for  50 years, you're just going to die before you
+
+00:04:19,120 --> 00:04:21,840
+get to have kids yourself. Obviously, humans have
+
+00:04:21,840 --> 00:04:26,080
+bigger brains than other primates. We also have longer adolescences,
+
+00:04:26,080 --> 00:04:30,560
+which help us make use potentially of  the extra capacity our brain gives us.
+
+00:04:30,560 --> 00:04:35,360
+But if you made the adolescence too long, then  you would just die before you get to have kids.
+
+00:04:36,000 --> 00:04:38,960
+If that's going to happen anyways, what's  the point of making the brain bigger?
+
+00:04:38,960 --> 00:04:42,880
+AKA, maybe intelligence is easier  than we think, and there's a bunch
+
+00:04:42,880 --> 00:04:46,080
+of contingent reasons evolution didn't churn  as hard on this variable as it could have.
+
+00:04:46,080 --> 00:04:49,920
+I entirely agree with that particular thesis. In biology in general, when you're trying
+
+00:04:49,920 --> 00:04:54,000
+to engineer a given property, be it being  healthier longer or be it making something
+
+00:04:54,000 --> 00:04:57,920
+more intelligent… This is true even at the  micro-level of trying to engineer a system
+
+00:04:57,920 --> 00:05:02,480
+to manufacture a protein at high efficiency. You always have to start by asking yourself, "Did
+
+00:05:02,480 --> 00:05:07,280
+evolution spend a lot of time optimizing this? If yes, my job is going to be insanely hard.
+
+00:05:07,280 --> 00:05:09,920
+If not, potentially there  are some low-hanging fruit."
+
+00:05:09,920 --> 00:05:13,600
+This is a good argument for why, potentially,  intelligence wasn't strongly selected for.
+
+00:05:14,160 --> 00:05:17,280
+The lifespan argument plays back  into intelligence to a degree.
+
+00:05:17,280 --> 00:05:22,720
+You start to ask, "If I have intelligence that's  able to compound over time and for instance, in
+
+00:05:22,720 --> 00:05:27,440
+some hypothetical universe, my fluid intelligence  lasts much longer into my lifespan…" If the number
+
+00:05:27,440 --> 00:05:31,600
+of people who are reaching something like  65 is very small in a population, you're not
+
+00:05:31,600 --> 00:05:36,000
+necessarily going to select for alleles that lead  to fluid intelligence preservation late into life.
+
+00:05:36,000 --> 00:05:40,320
+This is part of my own pet hypothesis around  some of the interesting phenomenology in when
+
+00:05:40,320 --> 00:05:43,920
+discoveries are made throughout lifespans. There  are some famous results. For instance—and I'm
+
+00:05:43,920 --> 00:05:47,680
+going to get the exact age a little bit wrong—but  in mathematics, most great discoveries happen
+
+00:05:47,680 --> 00:05:52,000
+roughly before 30. Why should that be true?  That doesn't make sense. You can put down
+
+00:05:52,000 --> 00:05:56,560
+a bunch of societal reasons for it. Maybe you become staid in your ways.
+
+00:05:56,560 --> 00:05:59,760
+Your teachers have caused you to  restrict your thinking by that point.
+
+00:05:59,760 --> 00:06:03,120
+But really, that's true across centuries? Is that true across many different
+
+00:06:03,120 --> 00:06:05,760
+unique cultures around the world? That's true in both cultures from
+
+00:06:05,760 --> 00:06:10,720
+the East and cultures from the West? That seems  unlikely to me. A much simpler explanation is that
+
+00:06:10,720 --> 00:06:15,600
+for whatever reason, our fluid intelligence is  roughly maximized at the time where the population
+
+00:06:15,600 --> 00:06:20,080
+size during human evolution was maximal. If you had to pick an age at which fluid
+
+00:06:20,080 --> 00:06:25,360
+intelligence was selected most strongly  for, it's probably around 25 or 30.
+
+00:06:25,360 --> 00:06:28,960
+That's probably about the age of the adults  in the large populations that were being
+
+00:06:28,960 --> 00:06:33,120
+selected for during most of evolution. There's a lot of reason here to think
+
+00:06:33,120 --> 00:06:38,240
+that there's interplay between many features  of modern humans and how long we were living,
+
+00:06:38,240 --> 00:06:42,640
+and how that dictates some of the features that  occur that rise and fall throughout our lives.
+
+00:06:42,640 --> 00:06:49,360
+In one way, this is a very interesting RL problem. It's a long-horizon RL problem, a 20-year horizon
+
+00:06:49,360 --> 00:06:53,760
+length, and then there's a scalar value of how  many kids you have, I guess that survive, etc.
+
+00:06:57,200 --> 00:07:01,760
+If you've heard from your friends about  how hard RL is on these models for just
+
+00:07:01,760 --> 00:07:06,320
+very intermediate goals that last an hour  or a couple of hours, it's surprising that
+
+00:07:06,320 --> 00:07:12,720
+any signal propagates across a 20-year horizon. On the point about fluid intelligence peaking,
+
+00:07:12,720 --> 00:07:18,240
+it’s not only the case that in many  fields achievement peaks before 30.
+
+00:07:18,240 --> 00:07:21,920
+In many cases, if you look at the greatest  scientists ever, they had many of their greatest
+
+00:07:21,920 --> 00:07:25,186
+achievements in a single year. Yeah, the annus mirabilis.
+
+00:07:25,186 --> 00:07:26,160
+Yeah, exactly. Yeah, exactly.
+
+00:07:26,160 --> 00:07:30,160
+Newton, what is it? Optics,  gravity, calculus at 21.
+
+00:07:30,160 --> 00:07:32,720
+Do you know the Alexander von Humboldt story? No.
+
+00:07:32,720 --> 00:07:34,640
+Alexander von Humboldt is one  of the most famous scientists in
+
+00:07:34,640 --> 00:07:38,640
+history who is kind of forgotten now. He had this one expedition to South
+
+00:07:38,640 --> 00:07:42,720
+America where he climbed Mount Chimborazo at  a time when very few Europeans had done that.
+
+00:07:42,720 --> 00:07:46,640
+He was able to observe various  ecological layers that were
+
+00:07:46,640 --> 00:07:51,600
+repeated across latitudes and across altitudes. It caused him to formulate an understanding of
+
+00:07:51,600 --> 00:07:56,080
+how selection was operating on plants  at different layers in the ecosystem.
+
+00:07:56,080 --> 00:07:58,880
+That one expedition was the  basis of his entire career.
+
+00:07:58,880 --> 00:08:02,160
+When you see something named Humboldt, just  to give you a sense of how famous this guy is,
+
+00:08:02,160 --> 00:08:05,360
+it's usually Alexander von Humboldt. It's not like this is some massive,
+
+00:08:05,360 --> 00:08:10,400
+prosperous German family name that just happens  to be really common. It's this one guy. So really
+
+00:08:10,400 --> 00:08:14,000
+it was like this singular year in which he  conceived a lot of our modern understanding
+
+00:08:14,000 --> 00:08:17,600
+of botany and selective pressure. Interesting. So that's one out of
+
+00:08:17,600 --> 00:08:21,920
+three components of the evolutionary story. The next piece of the evolutionary story is,
+
+00:08:21,920 --> 00:08:25,680
+"Is there anything selecting against longevity?" Let's just pretend everything I said was wrong.
+
+00:08:25,680 --> 00:08:31,280
+Can I still make an argument that maybe evolution  hasn't maximally optimized for our longevity?
+
+00:08:31,280 --> 00:08:34,240
+One argument that comes up, and I'll  caveat and say I don't know how strong
+
+00:08:34,240 --> 00:08:36,560
+some of the mathematical models  that people put together here are.
+
+00:08:36,560 --> 00:08:39,600
+You can find people using the same  idea to argue for and against.
+
+00:08:39,600 --> 00:08:41,840
+But there's this notion of  what's called kin selection.
+
+00:08:41,840 --> 00:08:46,560
+If you take a selfish gene view of the world—that  really this is the genome optimizing for the
+
+00:08:46,560 --> 00:08:51,840
+genome's propagation, it's not trying to optimize  for any one individual—then actually optimizing
+
+00:08:51,840 --> 00:08:56,240
+for longevity is a pretty tricky problem  because you have this nasty regularization term.
+
+00:08:57,040 --> 00:09:00,880
+If you're able to make a member of the  population live longer, but you don't also
+
+00:09:00,880 --> 00:09:05,360
+counteract the decrease in their fitness over  time—meaning you maybe extend maximum lifespan
+
+00:09:05,360 --> 00:09:09,920
+but you haven't totally eliminated aging—then  the number of net calories contributed to the
+
+00:09:09,920 --> 00:09:14,880
+genome as a function of that person's marginal  year and their own calorie consumption is less
+
+00:09:14,880 --> 00:09:18,240
+than if you were to allow that individual  to die and actually have two 20 year olds,
+
+00:09:18,240 --> 00:09:23,040
+for instance, that follow behind them. So there is a notion by which a population being
+
+00:09:23,040 --> 00:09:28,640
+laden demographically with many aged individuals,  even if they did have fecundity persisting out
+
+00:09:28,640 --> 00:09:32,880
+some period later in life, is actually net  negative for the genome's proliferation
+
+00:09:32,880 --> 00:09:37,440
+and that really a genome should optimize for  turnover and population size at max fitness.
+
+00:09:37,440 --> 00:09:44,160
+I love this idea of aging as a length regularizer. People might be familiar with the idea that when
+
+00:09:44,160 --> 00:09:48,640
+companies are training models, they'll have a  regularizer for, "You can do chain of thought,
+
+00:09:48,640 --> 00:09:52,800
+but don't make the chain of thought too long." You're saying how many calories you consume over
+
+00:09:52,800 --> 00:10:00,560
+the course of your life, is one such regularizer?  That's interesting. The third point was...
+
+00:10:00,560 --> 00:10:02,880
+The third piece is basically  optimization constraints.
+
+00:10:02,880 --> 00:10:08,880
+So this is where another ML analogy is helpful. Well, actually a two-layer neural network is
+
+00:10:08,880 --> 00:10:13,440
+technically a universal approximator, but we can  never actually fit them in such a way. Why does
+
+00:10:13,440 --> 00:10:16,320
+that occur? People will wave their hands, but it  basically comes down to the fact that we don't
+
+00:10:16,320 --> 00:10:19,520
+really know how to optimize them, even  if you can prove out in a formal sense
+
+00:10:19,520 --> 00:10:23,520
+that they are universal approximators. I think we have similar optimization
+
+00:10:23,520 --> 00:10:28,240
+challenges with our genome as the parameters  and evolution as the optimization algorithm.
+
+00:10:28,240 --> 00:10:31,840
+One of those is that your mutation rate  basically bounds the step size you can take.
+
+00:10:31,840 --> 00:10:35,040
+So if you imagine that at each  generation, you get some number of inputs,
+
+00:10:35,040 --> 00:10:39,680
+you can select for some number of alleles. The max number of variations in the genome
+
+00:10:39,680 --> 00:10:41,920
+is set by your mutation rate. If you dial your mutation rate
+
+00:10:41,920 --> 00:10:45,600
+up too high, you probably get a bunch  of cancers, so you're selected against.
+
+00:10:45,600 --> 00:10:47,840
+If you have it too low, you  can't really adapt to anything.
+
+00:10:47,840 --> 00:10:50,640
+You end up with this happy medium,  but that limits your total step size.
+
+00:10:50,640 --> 00:10:52,720
+Then the number of variants  you can screen in parallel is
+
+00:10:52,720 --> 00:10:56,000
+basically limited by your population size. So for most of evolution, there are lots
+
+00:10:56,000 --> 00:11:00,080
+of forces constraining population size as well. One of the dominant sources of selection on the
+
+00:11:00,080 --> 00:11:05,200
+genome is really prevention of infectious disease. It seems like when you study the history of early
+
+00:11:05,200 --> 00:11:09,440
+modern man, infectious disease is actually what  shaped a lot of our population demographics.
+
+00:11:10,080 --> 00:11:14,320
+There's a lot of pressure pushing for those  step sizes, those updates to the genome,
+
+00:11:14,320 --> 00:11:18,560
+really to be optimizing for protection against  infectious disease rather than other things.
+
+00:11:19,120 --> 00:11:25,120
+Even if you imagine that maybe the arguments  on the first and the second of these possible
+
+00:11:25,120 --> 00:11:29,600
+positive selection being absent for longevity  and potentially some negative selection existing,
+
+00:11:29,600 --> 00:11:33,280
+you could construct a reasonable argument  for why humans don't live forever and why
+
+00:11:33,280 --> 00:11:37,040
+the genome hasn't optimized for that, simply  based on these optimization constraints.
+
+00:11:37,040 --> 00:11:39,920
+You have to imagine not only that the  positive selection is there and the
+
+00:11:39,920 --> 00:11:44,160
+negative selection is absent, but that when you  think about the weighted loss term of all the
+
+00:11:44,160 --> 00:11:48,480
+things the genome is optimizing for, that the  weight on longevity is high enough to matter.
+
+00:11:48,480 --> 00:11:51,920
+Even if you imagine it's there, if you simply  imagine that the lambdas are dialed toward
+
+00:11:51,920 --> 00:11:56,320
+infectious disease resilience more effectively,  then you can construct an argument for yourself.
+
+00:11:56,320 --> 00:11:59,440
+And so I think really when you start  to ask "why don't we live forever,
+
+00:11:59,440 --> 00:12:03,440
+why didn't evolution solve this?" you actually  have to think about an incredibly contingent
+
+00:12:03,440 --> 00:12:08,160
+scenario where both the positive selection is  there, the negative selection is absent, and you
+
+00:12:08,160 --> 00:12:11,840
+have a lot of our evolutionary pressure going  toward longevity to solve this incredibly hard
+
+00:12:11,840 --> 00:12:17,120
+problem in order to construct the counterfactual  in which longevity is selected for and does arise
+
+00:12:17,120 --> 00:12:21,840
+in modern man and in which we are optimal. So I think that puts human aging and longevity
+
+00:12:21,840 --> 00:12:26,400
+and health really in this category of problems  in which evolution has not optimized for it.
+
+00:12:26,400 --> 00:12:32,000
+Ergo, it should be, relatively speaking,  relative to a problem evolution had worked on,
+
+00:12:32,000 --> 00:12:36,560
+easy to try and intervene and provide health. In many ways, the existence of modern medicines,
+
+00:12:36,560 --> 00:12:41,200
+which are incredibly simplistic—we are targeting  a single gene in the genome and turning it off
+
+00:12:41,200 --> 00:12:45,840
+everywhere at the same time—the fact that these  provide massive benefit to individuals is another
+
+00:12:45,840 --> 00:12:50,240
+sort of positive emission or piece of evidence. Antibiotics are an even more clear case
+
+00:12:50,240 --> 00:12:53,760
+of that because here's something that  evolution actually cares a lot about.
+
+00:12:54,320 --> 00:12:57,360
+It feels like antibiotics should be… Why didn't humans evolve their own antibiotics?
+
+00:12:57,360 --> 00:12:59,040
+Yeah. It's an excellent question that I haven't
+
+00:12:59,040 --> 00:13:03,680
+heard posed before. Where do antibiotics come  from? To your point, we could synthesize them.
+
+00:13:03,680 --> 00:13:07,040
+They're just metabolites, largely  of other bacteria or other fungi.
+
+00:13:07,040 --> 00:13:10,480
+You think about the story of penicillin. What  happens? Alexander Fleming finds some fungi
+
+00:13:10,480 --> 00:13:12,240
+growing on a dish. The fungi secrete
+
+00:13:12,240 --> 00:13:16,000
+this penicillin antibiotic compound. So there's no bacteria growing near the fungi.
+
+00:13:16,000 --> 00:13:18,800
+He says he has this light bulb moment  of, "Oh my gosh, they're probably
+
+00:13:18,800 --> 00:13:22,080
+making something that kills bacteria." There's no prima facie reason that you
+
+00:13:22,080 --> 00:13:26,080
+couldn't imagine encoding an antibiotic  cassette into a mammalian genome.
+
+00:13:26,080 --> 00:13:30,000
+Part of the challenge that you run into is  that you're always in evolutionary competition.
+
+00:13:30,000 --> 00:13:32,960
+There's this notion of what's  called the Red Queen hypothesis.
+
+00:13:32,960 --> 00:13:36,240
+It's an allusion to the story in Lewis  Carroll's Through the Looking Glass,
+
+00:13:36,240 --> 00:13:39,680
+where the Red Queen is running  really fast just to stay in place.
+
+00:13:39,680 --> 00:13:44,800
+When you look at pathogen-host interactions or  competition between bacteria and fungi that are
+
+00:13:44,800 --> 00:13:48,560
+all trying to compete for the same niche, what  you find is they're evolving very rapidly in
+
+00:13:48,560 --> 00:13:51,760
+competition with one another. It's an arms  race. Every time a bacteria evolves a new
+
+00:13:51,760 --> 00:13:56,640
+evasion mechanism, the fungus that occupies  the niche will evolve some new antibiotic.
+
+00:13:56,640 --> 00:14:00,400
+Part of why there is this competitiveness  between the two is they both have very
+
+00:14:00,400 --> 00:14:05,280
+large population sizes in terms of number of  genomes per unit resource they're consuming.
+
+00:14:05,280 --> 00:14:08,480
+There are trillions of bacteria in a  drop of water that you might pick up.
+
+00:14:08,480 --> 00:14:13,600
+There's trillions of copies of the genome. Massive  analog parallel computation. And at the same time,
+
+00:14:13,600 --> 00:14:18,080
+they can tolerate really high mutation rates  because they're prokaryotic. They don't have
+
+00:14:18,080 --> 00:14:24,400
+multiple cells. If one cell manages to mutate too  much and it isn't viable, or it grows too fast,
+
+00:14:24,400 --> 00:14:26,800
+it doesn't really compromise the  population and the whole genome.
+
+00:14:26,800 --> 00:14:30,400
+Whereas for metazoans like you and I, if  even one of our cells has too many mutations,
+
+00:14:30,400 --> 00:14:33,440
+it might turn into a cancer and  eventually kill off the organism.
+
+00:14:34,080 --> 00:14:38,720
+What I'm getting at, and this is a long-winded  way of getting there, is that bacteria and other
+
+00:14:38,720 --> 00:14:44,720
+types of microorganisms are very well adapted to  building these complex metabolic cascades that are
+
+00:14:44,720 --> 00:14:50,160
+necessary to make something like antibiotics. It's necessary to maintain that same mutation
+
+00:14:50,160 --> 00:14:53,520
+rate and population size in order  to maintain the competition.
+
+00:14:53,520 --> 00:14:57,760
+Even if our human genome stumbled into making  an antibiotic, most pathogens probably would
+
+00:14:57,760 --> 00:15:04,880
+have mutated around it pretty quickly. That should imply that through evolutionary
+
+00:15:04,880 --> 00:15:10,800
+history there are millions of "naive  antibiotics" which could have acted as
+
+00:15:10,800 --> 00:15:15,760
+antibiotics, but now, basically, all  the bacteria have evolved around it.
+
+00:15:15,760 --> 00:15:19,440
+Do we see evidence of these historical  antibiotics that some fungi came up
+
+00:15:19,440 --> 00:15:23,360
+with and the bacteria revolved around and  there's evidence for remnants in their DNA?
+
+00:15:23,360 --> 00:15:28,160
+I'm going a bit beyond my own knowledge  here, but my strong hypothesis would be yes.
+
+00:15:28,160 --> 00:15:31,680
+I can't point to direct evidence today. There are some examples of this.
+
+00:15:31,680 --> 00:15:35,840
+For instance, bacteria that fight  off viruses that infect them,
+
+00:15:35,840 --> 00:15:40,400
+bacteriophages, have things like CRISPR systems. You can actually go and look at the spacers,
+
+00:15:40,400 --> 00:15:44,080
+the individual guide sequences that tell  the CRISPR system, "Which genome do you
+
+00:15:44,080 --> 00:15:48,080
+go? Where do you cut?" And you find some  of these guides that are very ancient.
+
+00:15:48,080 --> 00:15:50,720
+It seems like this bacterial genome  might not have encountered that
+
+00:15:50,720 --> 00:15:54,160
+particular pathogen for quite a while. So you can actually get an evolutionary
+
+00:15:54,160 --> 00:15:58,480
+history of what the warfare was like, what the  various conflicts were throughout this genomic
+
+00:15:58,480 --> 00:16:02,480
+history just by looking at those sequences. In mammals where I do know a bit better,
+
+00:16:02,480 --> 00:16:06,560
+we do have examples of this where there  is this co-evolution of pathogen and host.
+
+00:16:06,560 --> 00:16:12,080
+Imagine you have some antipathogen gene A fighting  off some virus X. Well you then actually update.
+
+00:16:12,080 --> 00:16:18,560
+Now you have virus X’ and antipathogen gene A’. Now virus X’ goes away, but actually virus X
+
+00:16:18,560 --> 00:16:22,880
+still exists and we've lost our ability to fight  it. Those examples really do happen. There's a
+
+00:16:22,880 --> 00:16:26,640
+prominent one in the human genome. We have a gene called TRIM5alpha.
+
+00:16:26,640 --> 00:16:32,560
+It actually binds an endogenous retrovirus that is  no longer present, but was at one point actually
+
+00:16:32,560 --> 00:16:35,920
+resurrected by a bunch of researchers. It was demonstrated that this is the case.
+
+00:16:35,920 --> 00:16:40,800
+We have this endogenous gene which basically fits  around the capsid of the virus like a baseball
+
+00:16:40,800 --> 00:16:44,160
+in a glove and prevents it from infecting. It turns out if you look at the evolutionary
+
+00:16:44,160 --> 00:16:46,720
+history of that gene and you trace it  back through monkeys, you can actually
+
+00:16:46,720 --> 00:16:51,680
+find that a previous iteration inhibited  SIV, which is the cousin of HIV in humans.
+
+00:16:52,240 --> 00:16:58,640
+Old World monkeys actually can't get SIV, whereas  New World monkeys can and humans can, obviously.
+
+00:16:58,640 --> 00:17:01,760
+So it seems like what happened—and you  can actually make a few mutations in
+
+00:17:01,760 --> 00:17:06,560
+TRIM5alpha and find that this is true—is  that TRIM5alpha once protected against an
+
+00:17:06,560 --> 00:17:10,480
+HIV-like pathogen in the primate genomes. And then there was this challenge from
+
+00:17:10,480 --> 00:17:15,040
+this massive endogenous retrovirus. It was so bad that the genome lost the
+
+00:17:15,040 --> 00:17:19,520
+ability to fight off these HIV-like viruses in  order to restrict this endogenous retrovirus.
+
+00:17:19,520 --> 00:17:22,240
+You can see it because that  retrovirus integrates into our genome.
+
+00:17:22,240 --> 00:17:27,200
+There are latent copies, like the half bodies  of this virus all throughout our DNA code.
+
+00:17:27,200 --> 00:17:31,520
+Then this particular retrovirus went extinct. Reasons unknown, no one knows why.
+
+00:17:31,520 --> 00:17:36,320
+But we didn't re-update that piece of our  host defense machinery to fight off HIV again.
+
+00:17:36,320 --> 00:17:39,360
+So we're in a situation where you can  go in and take human cells and make just
+
+00:17:39,360 --> 00:17:43,200
+a couple edits in that TRIM5alpha gene. It's currently protecting against a virus
+
+00:17:43,200 --> 00:17:45,520
+which no longer exists. You can edit it back to
+
+00:17:45,520 --> 00:17:48,400
+actually restrict HIV dramatically. So there are plenty of examples.
+
+00:17:48,400 --> 00:17:51,360
+You could imagine the same thing for  antibiotics where like, "hey, this
+
+00:17:51,360 --> 00:17:56,080
+particular defense mechanism went away because  the pathogen evolved its own defense to it."
+
+00:17:56,080 --> 00:17:58,720
+Well, the pathogen might have  lost that defense long ago.
+
+00:17:58,720 --> 00:18:03,280
+If you could extract that historical  antibiotic, that historical antifungal,
+
+00:18:03,280 --> 00:18:06,720
+potentially it actually has efficacy. Isn't the mutation rate per base pair per
+
+00:18:06,720 --> 00:18:09,120
+generation like one in a billion or something? It's quite low.
+
+00:18:10,000 --> 00:18:17,760
+You're saying that in our genomes we can find  some extended sequence which encodes how to bind
+
+00:18:17,760 --> 00:18:23,120
+specifically to the kind of virus that SIV is. The amount of evolutionary signal you would need
+
+00:18:23,120 --> 00:18:29,760
+in order to have a multiple base pair sequence…  So each nucleotide consecutively would have to
+
+00:18:29,760 --> 00:18:35,760
+mutate in order to finally get the sequence that  binds to SIV. That seems almost implausible.
+
+00:18:36,800 --> 00:18:41,840
+I guess evolution works, so we can come up  with new genes, but how would that even work?
+
+00:18:41,840 --> 00:18:46,720
+A great explanation for understanding a lot of  evolution and how you're able to actually adapt
+
+00:18:46,720 --> 00:18:52,000
+to new environments, new pathogens, is that gene  duplication is possible. This explains a whole
+
+00:18:52,000 --> 00:18:56,240
+lot. If you look at most genes in the genome,  they actually arise at least at some point in
+
+00:18:56,240 --> 00:18:59,200
+evolution from a duplication event. That means you've got gene A,
+
+00:19:00,000 --> 00:19:03,920
+it's performing some job, and then some  new environmental concern comes along.
+
+00:19:03,920 --> 00:19:09,120
+Maybe it's a lack of a particular source of  nutrient, maybe it's a pathogen challenging you.
+
+00:19:09,120 --> 00:19:13,200
+Maybe gene A, if it were to dedicate all  of its energies, so to speak and you were
+
+00:19:13,200 --> 00:19:17,760
+to mutate it to solve this new problem, could  be adapted with a minimal number of mutations.
+
+00:19:17,760 --> 00:19:21,440
+But then you lose its original function. So we have this nice feature of the genome
+
+00:19:21,440 --> 00:19:24,320
+which is that it can just copy and paste. So occasionally what will happen in evolution
+
+00:19:24,320 --> 00:19:27,120
+is you get a copy paste event. Now I've got two copies of gene
+
+00:19:27,120 --> 00:19:30,960
+A and I can preserve my original  function in the original copy.
+
+00:19:30,960 --> 00:19:34,080
+Then this new copy can actually mutate  pretty freely because it doesn't have a
+
+00:19:34,080 --> 00:19:36,960
+strong selective pressure on it. So most mutations might be null.
+
+00:19:36,960 --> 00:19:40,400
+I've got two copies of the gene, I can  have lots of mutations in it accumulate.
+
+00:19:40,400 --> 00:19:43,680
+Nothing bad really happens because  I've got my backup copy, my original.
+
+00:19:43,680 --> 00:19:46,400
+So you can end up with drift. You're saying that even though
+
+00:19:46,400 --> 00:19:50,720
+the per base pair mutation rate might be one in  a billion, if you've got 100 copies of a gene,
+
+00:19:50,720 --> 00:19:58,480
+then the mutation rate on a gene, or on a  low Hamming distance sequence to the one
+
+00:19:58,480 --> 00:20:01,760
+you're aiming for, might actually be quite high,  and you can actually get the target sequence.
+
+00:20:01,760 --> 00:20:06,160
+It's not that the base rate goes up. It's not like DNA polymerase is more
+
+00:20:06,160 --> 00:20:10,720
+erroneous or that you're just doubling it. That is true, but I don't think
+
+00:20:10,720 --> 00:20:13,200
+it's the main mechanism. One of the main mechanisms
+
+00:20:13,200 --> 00:20:18,800
+that just makes it difficult for evolution to  solve a problem is if a mutation breaks a gene.
+
+00:20:18,800 --> 00:20:22,880
+Somewhere along the path of edits, imagine  there are three edits that take a host defense
+
+00:20:22,880 --> 00:20:28,560
+gene from restricting SIV to restricting  this new nasty PT endogenous retrovirus.
+
+00:20:28,560 --> 00:20:33,680
+Well, if one edit just breaks the gene, two edits  just breaks the gene, three edits fixes it, it's
+
+00:20:33,680 --> 00:20:38,640
+really hard for evolution to find a path whereby  you're actually able to make those first two edits
+
+00:20:38,640 --> 00:20:42,320
+because they're net negative for fitness. So you need some really weird
+
+00:20:42,320 --> 00:20:46,080
+contingent circumstances. Through duplication, you can create a scenario
+
+00:20:46,080 --> 00:20:49,600
+where those first two edits are totally tolerated. They have no effect on fitness.
+
+00:20:49,600 --> 00:20:54,560
+You've got your backup copy, it's doing its job. Even though the mutation rate is low, some of
+
+00:20:54,560 --> 00:20:57,440
+these edits actually aren't that large. I'm going to forget the number of edits,
+
+00:20:57,440 --> 00:21:02,800
+for instance in TRIM5alpha, for this  particular phenomenon, but it's in the tens.
+
+00:21:02,800 --> 00:21:06,640
+It's not that you need massive  kilobase scale rearrangements.
+
+00:21:06,640 --> 00:21:11,200
+It's actually a fairly small number of edits. Basically you can just align the sequence of
+
+00:21:11,200 --> 00:21:15,040
+this gene in New World versus Old World  monkeys and then for humans and you find
+
+00:21:15,040 --> 00:21:20,800
+there's a very high degree of conservation. Conceptually, is there some phylogenetic
+
+00:21:20,800 --> 00:21:25,120
+tree of gene families where you've got the  transposons and you've got the gene itself,
+
+00:21:25,120 --> 00:21:28,320
+but then you've got the descendant  genes which are low Hamming distance?
+
+00:21:30,080 --> 00:21:32,480
+Is there some conceptual way  in which they're categorized?
+
+00:21:32,480 --> 00:21:35,440
+You can arrange genes in the human  genome by homology to one another.
+
+00:21:35,440 --> 00:21:39,280
+What you find is even in our current genome,  even without having the full historical record,
+
+00:21:39,280 --> 00:21:43,200
+there are many, many genes which are  likely resulting from duplication events.
+
+00:21:43,200 --> 00:21:48,080
+One trivial way that you can check this for  yourself is just go look at the names of genes.
+
+00:21:48,080 --> 00:21:50,960
+Very often you'll see something  where it's like gene one, gene two,
+
+00:21:50,960 --> 00:21:55,040
+gene three or type one, type two, type three. If you then go look at the sequences,
+
+00:21:55,040 --> 00:21:58,240
+sometimes those names arise from the fact that  they were discovered in a common pathway and they
+
+00:21:58,240 --> 00:22:00,560
+have nothing to do with each other. A lot of the time it's because the
+
+00:22:00,560 --> 00:22:04,640
+sequences are actually quite darn similar. Really what probably happened is they evolved
+
+00:22:04,640 --> 00:22:07,680
+through a duplication event and then maybe  did some swapping with some other genes.
+
+00:22:07,680 --> 00:22:11,040
+And you ended up with these  quite similar, quite homologous
+
+00:22:11,040 --> 00:22:14,800
+genes that now have specialized functions. So when evolution has a new problem to solve,
+
+00:22:14,800 --> 00:22:18,160
+it doesn't have to start from scratch. It starts from what was the last copy
+
+00:22:18,160 --> 00:22:21,920
+of the parameters for encoding a gene  that is getting close to solving this.
+
+00:22:21,920 --> 00:22:26,400
+Okay, let's do a copy paste on that and then  iterate and fine-tune on those parameters as
+
+00:22:26,400 --> 00:22:30,000
+opposed to having to start with "ab initio,  some random stretch of sequence somewhere
+
+00:22:30,000 --> 00:22:36,000
+in the genome has to become a gene." This is fascinating. Back to aging.
+
+00:22:36,000 --> 00:22:38,640
+You’ll have to cancel your evening plans. I've got so many questions for you.
+
+00:22:39,280 --> 00:22:47,120
+Keep going man. So the second reason you gave was that there's
+
+00:22:47,120 --> 00:22:57,680
+selective pressure against people who get old but  still keep living, but they're slightly less fit.
+
+00:22:57,680 --> 00:23:01,600
+They’re suboptimal from a calorie input  perspective, the number of calories they can
+
+00:23:01,600 --> 00:23:03,120
+gather for the population is lower. That's how people love
+
+00:23:03,120 --> 00:23:07,920
+thinking about their grandpas. Suboptimal calorie provider right there.
+
+00:23:10,560 --> 00:23:15,360
+A concern you might have about the effects  of longevity treatments on your own body
+
+00:23:15,360 --> 00:23:19,840
+is that you will fix some part of the  aging process, but not the whole thing.
+
+00:23:20,560 --> 00:23:25,920
+It seems like you're saying that you actually  think this is the default way in which an
+
+00:23:25,920 --> 00:23:30,880
+anti-aging procedure would work, because that's  the reason evolution didn't optimize for it.
+
+00:23:31,520 --> 00:23:34,640
+We're only fixing half of the aging  process and not the whole thing.
+
+00:23:34,640 --> 00:23:40,000
+Whereas sometimes I hear longevity proponents  be like, "No, we'll get the whole thing.
+
+00:23:40,000 --> 00:23:43,600
+There's going to be a source that  explains all of aging and we'll get it."
+
+00:23:44,320 --> 00:23:47,680
+Whereas, your evolutionary argument  for why evolution didn't optimize
+
+00:23:47,680 --> 00:23:55,200
+against aging relies on the fact that aging  actually is not monocausal and evolution
+
+00:23:55,200 --> 00:24:00,160
+didn't bother to just fix one cause of aging. That's correct. I don't think that there is a
+
+00:24:00,160 --> 00:24:05,200
+single monocausal explanation for aging. I think there are layers of molecular
+
+00:24:05,200 --> 00:24:08,160
+regulation that explain a lot. For instance, I have dedicated
+
+00:24:08,160 --> 00:24:11,200
+my career now to working on epigenetics  and trying to change which genes cells
+
+00:24:11,200 --> 00:24:15,200
+use because I think that explains a lot of it. But it's not that there is some upstream "bad
+
+00:24:15,200 --> 00:24:19,600
+gene X" and all we have to do is turn  that off and suddenly aging is solved.
+
+00:24:19,600 --> 00:24:24,000
+The most likely outcome is that when we eventually  develop medicines that prolong health in each of
+
+00:24:24,000 --> 00:24:29,040
+us, it's not going to fix everything all at once. There's not going to be a singular magic pill.
+
+00:24:29,040 --> 00:24:32,640
+Rather you're going to have medicines that  add multiple healthy years to your life,
+
+00:24:32,640 --> 00:24:35,760
+years you can't otherwise get back. But it's not going to fix
+
+00:24:35,760 --> 00:24:39,040
+everything at the same time. You are still going to experience, for the
+
+00:24:39,040 --> 00:24:44,080
+first medicine, some amount of decline over time. This gives you an example, if you think about
+
+00:24:44,080 --> 00:24:48,240
+evolution as a medicine maker in this sort  of anthropomorphic context, of why it might
+
+00:24:48,240 --> 00:26:12,960
+not have been selected for immediately. So evolution didn't select for aging. What are you
+
+00:26:12,960 --> 00:26:19,440
+doing? What's your approach at NewLimit that you  think is likely to find the true cause of aging?
+
+00:26:19,440 --> 00:26:23,200
+We're working on something called epigenetic  reprogramming, which very broadly is using
+
+00:26:23,200 --> 00:26:25,920
+genes called transcription factors. I like to think about these as the
+
+00:26:25,920 --> 00:26:29,040
+orchestra conductors of the genome. They don't perform many functions
+
+00:26:29,040 --> 00:26:33,200
+directly themselves, but they bind specific  pieces of DNA and then they tell which
+
+00:26:33,200 --> 00:26:36,880
+genes to turn on, which genes to turn off. They eventually put chemical marks on top
+
+00:26:36,880 --> 00:26:41,680
+of DNA, on some proteins that DNA surrounds. This is one of the answers, this particular
+
+00:26:41,680 --> 00:26:45,360
+layer of regulation called the epigenome. It's the answer to this fundamental biological
+
+00:26:45,360 --> 00:26:49,360
+question of how do all my cells have the same  genome but ultimately do very different things?
+
+00:26:49,360 --> 00:26:52,960
+Your eyeball and your kidney have the same code,  and yet they're performing different functions.
+
+00:26:52,960 --> 00:26:57,920
+That may sound a little bit simplistic, but  ultimately, it's kind of a profound realization.
+
+00:26:57,920 --> 00:27:01,280
+That epigenetic code is really what's  important for cells to define their functions.
+
+00:27:01,280 --> 00:27:04,240
+That's what's telling them which  genes to evoke from your genome.
+
+00:27:04,240 --> 00:27:10,080
+What has now become relatively apparent is that  the epigenome can degrade with age. It changes.
+
+00:27:10,080 --> 00:27:14,320
+The particular marks that tell your cells  which genes to use can shift as you get older.
+
+00:27:14,320 --> 00:27:17,200
+This means that cells aren't able to  use the right genetic programs at the
+
+00:27:17,200 --> 00:27:21,440
+right times to respond to their environment. You're then more susceptible to disease, you have
+
+00:27:22,560 --> 00:27:25,440
+less resilience to many insults  that you might experience.
+
+00:27:25,440 --> 00:27:30,080
+Our hope is that by remodeling the epigenome back  towards the state it was in when you were young
+
+00:27:30,080 --> 00:27:34,080
+right after development, that you'll be able  to actually address myriad different diseases
+
+00:27:34,080 --> 00:27:38,400
+whose one of strong contributing factors is  that cells are less functional than when you
+
+00:27:38,400 --> 00:27:42,320
+were at an earlier point in your life. We're going after this by trying to find
+
+00:27:42,320 --> 00:27:47,040
+combinations of these transcription factors that  are able to actually remodel the epigenome so
+
+00:27:47,040 --> 00:27:51,280
+that they can bind to just the right places in the  DNA and then shift the chemical marks back toward
+
+00:27:51,280 --> 00:27:57,600
+that state when you are a young individual. If you're just making these broad changes to
+
+00:27:57,600 --> 00:28:03,520
+a cell state through these transcription factors  which have many effects, are there other aspects
+
+00:28:03,520 --> 00:28:08,960
+of a cell state that are likely to get modified at  the same time in a way that would be deleterious.
+
+00:28:08,960 --> 00:28:13,840
+Or would it be a straightforward  effect on cell state?
+
+00:28:13,840 --> 00:28:19,440
+How I wish it were straightforward. No, it's very  likely. Each of these transcription factors binds
+
+00:28:19,440 --> 00:28:23,520
+hundreds to thousands of places in the genome. One way of thinking about it is if you imagine the
+
+00:28:23,520 --> 00:28:28,080
+genome as the base components of cell function,  then these transcription factors are kind of like
+
+00:28:28,080 --> 00:28:30,640
+the basis set in linear algebra. It's different combinations and
+
+00:28:30,640 --> 00:28:35,440
+different weights of each of the genes. Most of them are targeting pretty broad programs.
+
+00:28:35,440 --> 00:28:40,720
+There are no guarantees that aging actually  involves moving perfectly along any of
+
+00:28:40,720 --> 00:28:44,400
+the vectors in this particular basis set. And so it's probably going to be a little
+
+00:28:44,400 --> 00:28:47,200
+tricky to figure out a combination  that actually takes you backward.
+
+00:28:47,200 --> 00:28:50,880
+There's, again, no guarantees from  evolution that it's just a simple reset.
+
+00:28:50,880 --> 00:28:54,960
+It's actually a critical part of the process  that we run through as we try to discover these
+
+00:28:54,960 --> 00:29:00,000
+medicinal combinations of transcription factors  we can turn on, ensuring that they not only are
+
+00:29:00,000 --> 00:29:03,600
+making an aged cell revert to a younger state... We measure that a couple different ways.
+
+00:29:03,600 --> 00:29:06,000
+One is simply measuring which  genes those cells are using.
+
+00:29:06,000 --> 00:29:09,360
+They use different genes as they get older. You can measure that just by sequencing all
+
+00:29:09,360 --> 00:29:12,480
+of the mRNAs, which are really  the expressed form of the genes
+
+00:29:12,480 --> 00:29:16,160
+being utilized in the genome at a given time. You see that aged cells use different genes.
+
+00:29:16,160 --> 00:29:20,240
+Can I revert them back to a younger state? Colloquially, we call this a "looks like" assay.
+
+00:29:20,240 --> 00:29:23,360
+Can I make an old cell look like a  young one based on the genes it's using?
+
+00:29:23,360 --> 00:29:25,840
+More importantly, we go down and  drill to the functional level.
+
+00:29:25,840 --> 00:29:29,520
+We measure, "Can I actually make an aged cell  perform its functions, its object roles within
+
+00:29:29,520 --> 00:29:32,480
+the body, the same way a young cell would?" These are the really critical things
+
+00:29:32,480 --> 00:29:36,720
+you care about for treating diseases. Can I make a hepatocyte, a liver cell in Greek,
+
+00:29:36,720 --> 00:29:40,880
+function better in your liver so it's able to  process metabolites like the foods you eat,
+
+00:29:40,880 --> 00:29:44,160
+how it's able to process toxins  like alcohol and caffeine?
+
+00:29:44,160 --> 00:29:48,720
+Can I make a T cell respond to pathogens and other  antigens that are presented within your body?
+
+00:29:48,720 --> 00:29:52,240
+These are the ways in which we measure age. We need to ensure that not only does the
+
+00:29:52,240 --> 00:29:56,160
+combination of TFs that we find actually  have positive effects along those axes.
+
+00:29:56,160 --> 00:30:00,320
+But we then want to also measure any  potential detrimental effects that emerge.
+
+00:30:00,320 --> 00:30:04,080
+There are canonical examples where you  can seemingly reverse the age of a cell,
+
+00:30:04,080 --> 00:30:07,280
+for instance, at the level of a  transcriptome, but simultaneously, you
+
+00:30:07,280 --> 00:30:12,160
+might be changing that cell's type or identity. Shinya Yamanaka was a scientist who won the Nobel
+
+00:30:12,160 --> 00:30:16,240
+in 2012 for some work he did in about 2007,  where he discovered that you could just take
+
+00:30:16,240 --> 00:30:20,960
+four transcription factors and actually, just by  turning on these four genes, turn an adult cell
+
+00:30:20,960 --> 00:30:25,920
+all the way back into a young embryonic stem cell. It's a pretty amazing existence proof that shows
+
+00:30:25,920 --> 00:30:30,880
+that you can reprogram a cell's type and a cell's  age simultaneously, just by turning on four genes.
+
+00:30:30,880 --> 00:30:34,640
+Out of the 20,000 genes in the genome, the  tens of millions of biomolecular interactions,
+
+00:30:34,640 --> 00:30:39,520
+just four genes is enough. That's a shocking  fact. We actually have known for many years
+
+00:30:39,520 --> 00:30:43,520
+now that you can reprogram the age of a cell. The challenge is that simultaneously, you're doing
+
+00:30:43,520 --> 00:30:46,000
+a bunch of other stuff, as you alluded to. You're changing its type,
+
+00:30:46,000 --> 00:30:49,040
+and that might be pathological. If you did that in the body, it would probably
+
+00:30:49,040 --> 00:30:52,640
+cause a type of tumor called a teratoma. So we measure not only at the level
+
+00:30:52,640 --> 00:30:55,120
+of the genes a cell is using. Do you still look like the right type
+
+00:30:55,120 --> 00:30:59,680
+of cell? Are you still hepatocyte? Are you still a  T cell? If not, that's probably pathological. You
+
+00:30:59,680 --> 00:31:04,000
+can also use that same information to check for  a number of other pathologies that might develop.
+
+00:31:04,000 --> 00:31:07,200
+Did I make this T cell hyperinflammatory  in a way that would be bad?
+
+00:31:07,200 --> 00:31:12,320
+Did I make this liver cell potentially  neoplastic, proliferate too much even
+
+00:31:12,320 --> 00:31:15,760
+when the organism's healthy and undamaged? You can check for each of those at the level
+
+00:31:15,760 --> 00:31:18,240
+of gene expression programs  and likewise, functionally.
+
+00:31:18,240 --> 00:31:22,160
+Before you put these molecules in a human, you  actually just functionally check in an animal.
+
+00:31:22,160 --> 00:31:24,720
+You make an itemized list of the  possible risks you might run into.
+
+00:31:24,720 --> 00:31:27,680
+Here are the ways it might be toxic,  here are the ways it might cause cancer.
+
+00:31:27,680 --> 00:31:32,960
+Are we able to measure deterministically and  empirically that that doesn't actually occur?
+
+00:31:32,960 --> 00:31:38,480
+This is a dumb question, but it will help me  understand why an AI model is necessary to do
+
+00:31:38,480 --> 00:31:43,920
+any of this work. You mentioned the Yamanaka  factors. From my understanding, the way he
+
+00:31:43,920 --> 00:31:52,480
+identified these four transcription factors was  that he found the 24 transcription factors that
+
+00:31:52,480 --> 00:31:58,960
+have high expression in embryonic cells, and then  he just turned them all on in a somatic cell.
+
+00:31:58,960 --> 00:32:04,240
+Basically, he systematically removed from  this set until he found the minimal set that
+
+00:32:04,240 --> 00:32:10,560
+still induces a cell to become a stem cell. That doesn't require any fancy AI models.
+
+00:32:11,680 --> 00:32:16,880
+Why can't we do the same things for the  transcription factors that are expressed more in
+
+00:32:16,880 --> 00:32:21,040
+younger cells as opposed to older cells, and then  keep eliminating from them until we find the ones
+
+00:32:21,040 --> 00:32:25,600
+that are necessary to just make a cell young? I wish it were so easy. You're entirely right.
+
+00:32:25,600 --> 00:32:29,520
+Shinya Yamanaka was able to do  this with a relatively small team,
+
+00:32:29,520 --> 00:32:33,040
+with relatively few resources, and achieve  this remarkable feat. It's entirely worth
+
+00:32:33,040 --> 00:32:38,000
+asking. Why can't a similar procedure work for  arbitrary problems in reprogramming cell state?
+
+00:32:38,000 --> 00:32:42,000
+Whether it be trying to make an aged cell act like  a young one, a disease cell act like a healthy
+
+00:32:42,000 --> 00:32:45,840
+one, why can't you just take 24 transcription  factors and randomly sort through them?
+
+00:32:45,840 --> 00:32:49,120
+There were two features of Shinya's  problem that I think make it amenable
+
+00:32:49,120 --> 00:32:52,960
+to that sort of interrogation that aren't  present for many other types of problems.
+
+00:32:52,960 --> 00:32:56,400
+This is why he's such a remarkable scientist. Most of science is problem selection.
+
+00:32:56,400 --> 00:32:59,520
+You don't actually get better at pipetting  or running experiments after a certain age,
+
+00:32:59,520 --> 00:33:03,760
+but you do get better at picking what to do.  He's amazing at this. The first feature is that
+
+00:33:03,760 --> 00:33:07,840
+measuring your success criterion is trivial  in the particular case he was investigating.
+
+00:33:07,840 --> 00:33:12,320
+He's starting with somatic cells that, in this  case, were a type of fibroblast, which literally
+
+00:33:12,320 --> 00:33:16,080
+is defined as cells that stick to glass and  grow in a dish when you grind up a tissue.
+
+00:33:16,080 --> 00:33:20,240
+It sounds fancy, but it's a very simplistic thing. He's starting with fibroblasts, you can look
+
+00:33:20,240 --> 00:33:24,400
+at them under a microscope, and you can see  they’re fibroblasts just based on how they look.
+
+00:33:24,400 --> 00:33:27,440
+Then the cells he's reprogramming  toward are embryonic stem cells.
+
+00:33:27,440 --> 00:33:33,280
+These are tiny cells, they're mostly nucleus. They  grow really fast. They look different, they detach
+
+00:33:33,280 --> 00:33:38,720
+from a dish, they grow up into a 3D structure. They express some genes that will just never be
+
+00:33:38,720 --> 00:33:43,200
+turned on in a fibroblast by definition. How he ran the experiment was he just
+
+00:33:43,200 --> 00:33:46,160
+set up a simple reporter system. He took a gene that should never be
+
+00:33:46,160 --> 00:33:49,520
+on in a fibroblast, should only be on in  the embryo, and he put a little reporter
+
+00:33:49,520 --> 00:33:53,200
+behind it so that these cells would actually  turn blue when you dumped a chemical on them.
+
+00:33:53,200 --> 00:33:58,240
+Then he ran this experiment in many, many  dishes with millions upon millions of cells.
+
+00:33:58,240 --> 00:34:01,200
+The second really key feature of the  problem is this notion that those
+
+00:34:01,200 --> 00:34:05,760
+cells he's converting into amplify. They divide and grow really quickly.
+
+00:34:05,760 --> 00:34:09,040
+In order for you to find a successful  combination, you don't actually
+
+00:34:09,040 --> 00:34:12,960
+need it to be efficient almost at all. The original efficiency Yamanaka published,
+
+00:34:12,960 --> 00:34:17,440
+the number of cells in the dish that convert from  somatic to an induced pluripotent state, back into
+
+00:34:17,440 --> 00:34:24,080
+a stem cell, is something like a basis point  or a tenth of a basis point, so 0.01%, 0.001%.
+
+00:34:24,080 --> 00:34:28,000
+If these cells were not growing and  they were not proliferating like mad,
+
+00:34:28,000 --> 00:34:32,080
+you probably would never be able to detect that  you had actually found anything successful.
+
+00:34:32,080 --> 00:34:36,400
+It's only because success is easy to  measure once you have it and—even being
+
+00:34:36,400 --> 00:34:41,760
+successful in very rare cases, one in a  million—amplifies and you can detect it,
+
+00:34:41,760 --> 00:34:46,880
+that this was amenable to his particular approach. In practice, what he would do is dump these
+
+00:34:46,880 --> 00:34:51,200
+factors or this group of 24 minus some  number, eventually whittling it down to four.
+
+00:34:51,200 --> 00:34:55,120
+He would dump these onto a group of cells  and over the course of about 30 days,
+
+00:34:55,120 --> 00:34:59,760
+just a few cells in that dish, like a countable  number on your fingers, would actually reprogram.
+
+00:34:59,760 --> 00:35:04,800
+But they would proliferate like mad. They form  these big colonies. It's a single cell that
+
+00:35:04,800 --> 00:35:08,800
+just proliferates and forms a bunch of copies of  itself. They form these colonies. You can see with
+
+00:35:08,800 --> 00:35:13,520
+your eyeballs by holding the dish up to the light  and looking for opaque little dots on the bottom.
+
+00:35:13,520 --> 00:35:16,160
+You don't need any fancy instruments. Then you could stain them with this
+
+00:35:16,160 --> 00:35:19,600
+particular stain and they would turn blue  based on the genetic reporter he had.
+
+00:35:19,600 --> 00:35:22,800
+We look at those key features of the problem and  we pick any other problem we're interested in.
+
+00:35:22,800 --> 00:35:26,000
+I'm interested in aging, so that's the  one I'm going to pick for explanation.
+
+00:35:26,000 --> 00:35:29,200
+How difficult is it to measure the  likelihood of success or whether
+
+00:35:29,200 --> 00:35:33,040
+you've achieved success for cell age? It turns out age is much more complicated
+
+00:35:33,040 --> 00:35:37,520
+in terms of discriminating function than  actually just comparing two types of cells.
+
+00:35:37,520 --> 00:35:42,080
+An old liver cell and a young liver cell,  prima facie, actually look pretty darn similar.
+
+00:35:42,080 --> 00:35:45,360
+It's actually quite nuanced the  ways in which they're distinct.
+
+00:35:45,360 --> 00:35:50,160
+There isn't a simple, trivial system where you  just label your one favorite gene or you can just…
+
+00:35:50,160 --> 00:35:54,640
+Give the young cells cancer. They'll grow. Just make the old ones cancer,
+
+00:35:54,640 --> 00:35:57,120
+and then they'll grow. Dwarkesh, you've solved it for me.
+
+00:35:58,400 --> 00:36:01,200
+There's no trivial way that you can  tell whether or not you've succeeded.
+
+00:36:01,200 --> 00:36:03,840
+You actually need a pretty  complex molecular measurement.
+
+00:36:03,840 --> 00:36:07,120
+For us, a real key enabling technology—I  don't think our approach would really
+
+00:36:07,120 --> 00:36:10,000
+have been possible until it emerged—was  something called single-cell genomics.
+
+00:36:10,000 --> 00:36:13,840
+You now take a cell, rip it open,  sequence all the mRNAs it's using.
+
+00:36:13,840 --> 00:36:18,000
+At the level of individual cells, you can actually  measure every gene that they're using at a given
+
+00:36:18,000 --> 00:36:21,600
+time and get this really complete picture  of a cell's state, everything it's doing,
+
+00:36:21,600 --> 00:36:25,760
+lots of mutual information to other features. From that profile, you can train something
+
+00:36:25,760 --> 00:36:30,080
+like a model that discriminates young and  aged cells with really high performance.
+
+00:36:30,080 --> 00:36:33,520
+It turns out there's no one gene that  actually has that same characteristic.
+
+00:36:33,520 --> 00:36:38,400
+Unlike in Yamanaka's case, where a single gene  on or off is an amazing binary classifier,
+
+00:36:38,400 --> 00:36:41,920
+you don't have that same feature of  easy detection of success in aging.
+
+00:36:41,920 --> 00:36:45,200
+The second feature is, as you highlighted,  we can't just turn these into cancer cells.
+
+00:36:45,200 --> 00:36:50,160
+Success doesn't amplify. In some ways, the bar  for a medicine is higher than what Yamanaka
+
+00:36:50,160 --> 00:36:55,520
+achieved in his laboratory discovery. You can't just have 0.001% success and
+
+00:36:55,520 --> 00:36:59,760
+then wait for the cells to grow a whole bunch in  order to treat a patient's disease or make their
+
+00:36:59,760 --> 00:37:02,800
+liver younger, make their immune system  younger, make their endothelium younger.
+
+00:37:02,800 --> 00:37:06,240
+You need to actually have it be fairly  efficient across many cells at a time.
+
+00:37:06,960 --> 00:37:11,520
+Because of this, we don't have the same luxury  Yamanaka did of taking a relatively small
+
+00:37:11,520 --> 00:37:17,040
+number of factors and finding a success case  within there that was pretty low efficiency.
+
+00:37:17,040 --> 00:37:21,360
+We actually need to search a much broader  portion of TF space in order to be successful.
+
+00:37:21,360 --> 00:37:25,440
+And when you start playing that game,  and you think "How many TFs are there?"
+
+00:37:25,440 --> 00:37:28,320
+Somewhere between 1000 and 2000, it  depends on exactly where you draw the line.
+
+00:37:28,960 --> 00:37:33,520
+Developmental biologists love to argue about  this over beer, but let's call it 2000 for now.
+
+00:37:33,520 --> 00:37:36,880
+You want to choose some combination. Let's say you guess somewhere between one
+
+00:37:36,880 --> 00:37:39,520
+and six factors might be required. The number of possible
+
+00:37:39,520 --> 00:37:43,760
+combinations is about 10^16. If you do any math on the back of a napkin,
+
+00:37:43,760 --> 00:37:47,600
+in order to just screen through all of those, you  would need to do many orders of magnitude more
+
+00:37:47,600 --> 00:37:52,400
+single-cell sequencing than the entire world has  done to date cumulatively across all experiments.
+
+00:37:52,400 --> 00:37:57,040
+It's just not tractable to do exhaustively. That's where actually having models that
+
+00:37:57,040 --> 00:37:59,600
+can predict the effect of  these interventions comes in.
+
+00:37:59,600 --> 00:38:03,520
+If I can do a sparse sampling, I can test  a large number of these combinations.
+
+00:38:03,520 --> 00:38:07,120
+I can start to learn the relationship  of what a given transcription factor
+
+00:38:07,120 --> 00:38:09,840
+is going to do to an aged cell. Is it going to make it look younger?
+
+00:38:09,840 --> 00:38:12,880
+Is it going to preserve the same type? I can learn that across combinations.
+
+00:38:12,880 --> 00:38:17,040
+I can start to learn their interaction terms. Now I can use those models to actually predict
+
+00:38:17,040 --> 00:38:21,600
+in silico for all the combinations I haven't seen,  which are most likely to give me the state I want.
+
+00:38:21,600 --> 00:38:25,280
+You can actually treat that as a generative  problem and start sampling and asking which
+
+00:38:25,280 --> 00:38:29,920
+of these combinations is most likely to take my  cell to some target destination in state space.
+
+00:38:29,920 --> 00:38:32,560
+In our case, I want to take an old  cell to a young state, but you could
+
+00:38:32,560 --> 00:38:36,640
+imagine some arbitrary mappings as well. As you get to these more complex problems,
+
+00:38:36,640 --> 00:38:40,880
+you don't have the same features that Shinya  benefited from, which were the ability to
+
+00:38:40,880 --> 00:38:44,000
+measure success really easily—you can see it  with your bare eyes, you don't even need a
+
+00:38:44,000 --> 00:38:47,840
+microscope—and two, amplification, as you  get into these more challenging problems.
+
+00:38:47,840 --> 00:38:52,160
+You're going to need to be able to search a larger  fraction of the space to hit that higher bar.
+
+00:38:52,160 --> 00:38:55,760
+So we can think of these transcription  factors as these basis directions,
+
+00:38:55,760 --> 00:39:00,240
+and you can get a little bit of this thing, a  little bit of that thing and some combination.
+
+00:39:00,240 --> 00:39:04,720
+And evolution has designed these  transcription factors to…Is that your claim?
+
+00:39:04,720 --> 00:39:10,240
+They have relatively modular, self-contained  effects that work in predictable ways with
+
+00:39:10,240 --> 00:39:18,000
+other transcription factors and so we  can use that same handle to our own ends?
+
+00:39:18,000 --> 00:39:21,840
+That would be very much my contention. One piece of evidence for this is
+
+00:39:21,840 --> 00:39:24,800
+that's the way development works. It's a crazy thing to think about,
+
+00:39:24,800 --> 00:39:28,480
+but you and I were both just a single cell. Then we were a bag of undifferentiated cells
+
+00:39:28,480 --> 00:39:31,280
+that were all exactly alike. Somehow we became humans with
+
+00:39:31,280 --> 00:39:34,000
+hundreds of different cell types  all doing very different things.
+
+00:39:34,000 --> 00:39:37,120
+When you look at how development  specifies those unique fates of cells,
+
+00:39:37,120 --> 00:39:42,800
+it is through groups of these transcription  factors that each identify a unique type.
+
+00:39:42,800 --> 00:39:47,120
+In many cases, the groups of transcription  factors, the sets that specify very different
+
+00:39:47,120 --> 00:39:53,440
+fates, are actually pretty similar to one another. Evolution has optimized to just swap one TF in
+
+00:39:53,440 --> 00:39:57,600
+or swap one TF out of a combination  and get pretty different effects.
+
+00:39:57,600 --> 00:40:03,600
+You have this sort of local change in sequence  or gene set space leading to a pretty large
+
+00:40:03,600 --> 00:40:06,560
+global change in output. Likewise, many of these
+
+00:40:06,560 --> 00:40:10,240
+TFs are duplicated in the genome. Because mutations are going to be
+
+00:40:10,240 --> 00:40:14,800
+random and they're inherently small changes  at the level of sequence at a given time,
+
+00:40:14,800 --> 00:40:19,520
+evolution needs a substrate where, in order to  function effectively, these small changes can
+
+00:40:19,520 --> 00:40:25,200
+give you relatively large changes in phenotype. Otherwise it would just take a very long time
+
+00:40:25,200 --> 00:40:28,800
+across evolutionary history for enough  mutations to accumulate in some duplicated
+
+00:40:28,800 --> 00:40:32,640
+copy of the gene for you to evolve a  new TF that does something interesting.
+
+00:40:32,640 --> 00:40:36,560
+I think we're actually in most cases in  biology—due to that evolution constraint,
+
+00:40:36,560 --> 00:40:42,640
+small edits need to lead to meaningful phenotypic  changes—in a relatively favorable regime for
+
+00:40:42,640 --> 00:40:47,200
+generic, gradient-like optimizers. It would be a little bit overstating
+
+00:40:47,200 --> 00:40:50,480
+to say evolution is using the  gradient, but there is a system.
+
+00:40:51,120 --> 00:40:54,960
+If you've heard of evolution strategies, where  basically the way you optimize parameters
+
+00:40:54,960 --> 00:40:58,320
+is you can't take a gradient on your loss. So you make a bunch of copies of your parameters,
+
+00:40:58,320 --> 00:41:02,560
+you randomly modify them, and then you compute  a gradient on your parameters against your loss,
+
+00:41:02,560 --> 00:41:06,320
+and so you can take a gradient in that space. That's how I imagine evolution is working.
+
+00:41:06,320 --> 00:41:11,440
+So you need lots of those little edits to actually  lead you to have meaningful step sizes in terms of
+
+00:41:11,440 --> 00:41:14,960
+the ultimate output that you have. Interesting. You're just like
+
+00:41:14,960 --> 00:41:23,520
+designing a little LoRA that goes on top. In a way. Maybe this is getting too
+
+00:41:23,520 --> 00:41:27,040
+giga-brained about it, but why does the  genome even have transcription factors?
+
+00:41:27,040 --> 00:41:31,360
+What's the point? Why not just have it so every  time you want a new cell type, you engineer some
+
+00:41:31,360 --> 00:41:36,560
+new cassette of genes or some new, totally de  novo set of promoters or something like this?
+
+00:41:36,560 --> 00:41:41,680
+One possible explanation for their existence,  rather than just an appreciation for their
+
+00:41:41,680 --> 00:41:47,120
+presence, is that having transcription  factors allows a very small number of
+
+00:41:47,120 --> 00:41:52,080
+base pair edits at the substrate of the genome  to lead to very large phenotypic differences.
+
+00:41:52,080 --> 00:41:55,440
+If I break a transcription factor, I can  delete a whole cell type in the body.
+
+00:41:55,440 --> 00:41:59,200
+If I retarget a transcription factor  to different genes, I can dramatically
+
+00:41:59,200 --> 00:42:03,440
+change when cells respond and have hundreds  of their downstream effector genes change
+
+00:42:03,440 --> 00:42:07,680
+their behavior in response to the environment. It puts you in this regime where transcription
+
+00:42:07,680 --> 00:42:11,280
+factors are a really nice substrate to  manipulate as targets for medicines.
+
+00:42:11,280 --> 00:42:16,880
+In some ways they might be evolution's levers  upon the broader architecture of the genome.
+
+00:42:16,880 --> 00:42:21,280
+By pulling on those same levers that evolution  has gifted us, there are probably many useful
+
+00:42:21,280 --> 00:42:26,080
+things we can engender upon biology. You're sort of hinting that if we
+
+00:42:26,080 --> 00:42:28,480
+analogize it to some code base, we're  going to find a couple of lines that
+
+00:42:28,480 --> 00:42:34,400
+are commented out that's like, "de-aging,"  and then "un-hyphen" or "un-parenthesize."
+
+00:42:34,400 --> 00:42:38,720
+I don't know about that, but I can give you a  real cringe analogy that sometimes I deploy.
+
+00:42:38,720 --> 00:42:41,840
+It requires a very special audience. I think you'll probably be one who fits into it.
+
+00:42:41,840 --> 00:42:46,320
+You're flattering our listeners. "Only  cringe listeners will appreciate it,
+
+00:42:46,320 --> 00:42:51,920
+but your audience will love this." I don't know about your audience, but you will.
+
+00:42:51,920 --> 00:42:55,200
+You can think about it like this. If you think about how attention works—queries,
+
+00:42:55,200 --> 00:43:00,880
+keys, values—TFs are like the queries. The genome sequences they bind to are like
+
+00:43:00,880 --> 00:43:06,720
+the keys. Genes are like the values. It turns  out that that structure then allows you to very
+
+00:43:06,720 --> 00:43:10,960
+efficiently, in terms of editing space, change  just one of those embedding vectors, in this case
+
+00:43:10,960 --> 00:43:15,840
+one of those sequences, and get dramatically  different performances or total outputs.
+
+00:43:15,840 --> 00:43:20,160
+So I do think it's interesting how these  structures recur throughout biology,
+
+00:43:20,160 --> 00:43:24,080
+in the same way that the attention mechanism  seems to exist in some neural structures.
+
+00:43:24,080 --> 00:43:29,280
+It's interesting that you can very easily  see how that same sort of querying and
+
+00:43:29,280 --> 00:43:33,200
+information storage might exist in the genome. Interesting. A previous guest and a mutual friend,
+
+00:43:33,200 --> 00:43:39,600
+Trenton Bricken, had a paper in grad school  about how the brain implements attention.
+
+00:43:39,600 --> 00:43:42,960
+Eddie Chang has found positional encodings  probably exist in humans using neuropixels,
+
+00:43:42,960 --> 00:43:46,160
+if you haven't read these papers. He implants these neuropixel probes
+
+00:43:46,160 --> 00:43:50,880
+into individuals and then he's able to talk  to them, look at them as they read sentences.
+
+00:43:50,880 --> 00:43:53,920
+What he finds is that there seem to be  certain representations which function
+
+00:43:53,920 --> 00:43:57,840
+as a positional encoding across sentences. They fire at a certain frequency and it just
+
+00:43:57,840 --> 00:44:03,120
+increases as the sentence goes on and then resets. It seems exactly like what we do when
+
+00:44:03,120 --> 00:44:05,920
+we train large language models. It's so funny the way we're going
+
+00:44:05,920 --> 00:44:11,040
+to learn how the brain works is just trying to  first-principles engineer intelligence in AI.
+
+00:44:11,040 --> 00:44:14,720
+Then it just happens to be the case that each  one of these things has a neural correlate.
+
+00:45:24,000 --> 00:45:31,760
+If you're right that transcription factors are  the modality evolution has used to have complex
+
+00:45:31,760 --> 00:45:37,920
+phenotypic effects, optimize for different  things... Two-part question. One, why haven't
+
+00:45:37,920 --> 00:45:43,840
+pathogens, which have a strong interest in  having complex phenotypic effects on your body,
+
+00:45:43,840 --> 00:45:51,920
+also utilized the transcription factors as the  way to fuck you over and steal your resources?
+
+00:45:52,560 --> 00:45:57,360
+Two, we've been trying to  design drugs for centuries.
+
+00:45:57,360 --> 00:46:01,760
+Why aren't all the big drugs, the  top-selling drugs, ones that just
+
+00:46:02,640 --> 00:46:06,000
+modulate transcription factors? Why don't we have a million of these pills?
+
+00:46:06,000 --> 00:46:09,360
+I'll try and take those in stride. They're pretty  different answers. The first answer is that there
+
+00:46:09,360 --> 00:46:12,960
+are pathogens that utilize transcription  factors as part of their life cycle.
+
+00:46:12,960 --> 00:46:17,200
+A famous example of this is HIV. HIV encodes a protein called Tat,
+
+00:46:17,200 --> 00:46:22,840
+and Tat actually activates NF-κB. HIV, to back up a little bit, is a retrovirus.
+
+00:46:22,840 --> 00:46:28,320
+It starts out as RNA, turns itself into DNA,  shoves itself into the genome of your CD4+ T cells
+
+00:46:28,880 --> 00:46:32,240
+It needs this ornate machinery to  actually control when it makes more
+
+00:46:32,240 --> 00:46:36,560
+HIV and when it goes latent so it can hide  and your immune system can't clear it out.
+
+00:46:36,560 --> 00:46:40,640
+This is why HIV is so pernicious. You can kill every single cell in the body that's
+
+00:46:40,640 --> 00:46:45,040
+actively making HIV with a really good drug. But then a few of them that have lingered
+
+00:46:45,040 --> 00:46:48,720
+and hunkered down just turn back on. People call this the latent reservoir.
+
+00:46:48,720 --> 00:46:51,760
+Similar to Hep B, right? Hep B, Hep C, can both
+
+00:46:51,760 --> 00:46:57,520
+do this sort of latent behavior. HIV is probably the most pernicious of these.
+
+00:46:57,520 --> 00:47:00,800
+One way it does it is that this gene  called Tat actually interacts with NF-κB.
+
+00:47:00,800 --> 00:47:04,640
+NF-κB is a master transcription  factor within immune cells.
+
+00:47:04,640 --> 00:47:08,960
+Typically if I'm going to horribly reduce  what it does, and some immunologists can
+
+00:47:08,960 --> 00:47:12,560
+crucify me later, it increases the  inflammatory response of most cells.
+
+00:47:12,560 --> 00:47:16,480
+They become more likely to attack given  pathogens around them on the margin.
+
+00:47:17,360 --> 00:47:21,680
+It'll turn on NF-κB activity and then  use that to drive its own transcription
+
+00:47:21,680 --> 00:47:24,560
+and its own life cycle. I can't remember quite
+
+00:47:24,560 --> 00:47:28,320
+all the details now exactly of how it works. But part of this circuitry is what allows it
+
+00:47:28,320 --> 00:47:32,560
+to—in some subset of cells where some of that  upstream transcription factor machinery in the
+
+00:47:32,560 --> 00:47:37,440
+host might be deactivated—it goes latent. As long as the population of cells it's
+
+00:47:37,440 --> 00:47:41,360
+infecting always has a few that are turning  off the transcription factors upstream that
+
+00:47:41,360 --> 00:47:45,440
+drive its own transcription, then HIV is  able to persist in this latent reservoir
+
+00:47:45,440 --> 00:47:50,080
+within human cells. It's just one example  offhand. There are a number of other pathogens.
+
+00:47:50,080 --> 00:47:52,640
+Unfortunately, I don't have quite as  much molecular detail in some of these.
+
+00:47:52,640 --> 00:47:57,680
+But they will interface with other parts of the  cell that eventually result in transcription
+
+00:47:57,680 --> 00:48:01,440
+factor translocation to the nucleus and  then transcription factors being active.
+
+00:48:01,440 --> 00:48:04,320
+This actually segues a little  bit to your second question on
+
+00:48:04,320 --> 00:48:09,840
+why there aren’t more medicines targeting TFs. In a way many of our medicines, ultimately
+
+00:48:09,840 --> 00:48:15,360
+downstream, are leading to changes in TF activity,  but we haven't been able to directly target them
+
+00:48:15,360 --> 00:48:19,680
+due to their physical location within cells. So we go several layers upstream.
+
+00:48:19,680 --> 00:48:23,680
+If you think about how a cell works in sensing its  environment, it has many receptors on the surface.
+
+00:48:23,680 --> 00:48:26,960
+It has the ability to sense mechanical  tension and things like this.
+
+00:48:26,960 --> 00:48:31,200
+Ultimately, most of what these signaling pathways  lead to is to tell the cell, "Use some different
+
+00:48:31,200 --> 00:48:35,040
+genes than you're using right now." That's  often what's occurring. That ultimately leads
+
+00:48:35,040 --> 00:48:39,120
+to transcription factors being some of the  final effectors in these signaling cascades.
+
+00:48:39,120 --> 00:48:43,680
+A lot of the drugs we have that, for instance,  inhibit a particular cytokine that might bind a
+
+00:48:43,680 --> 00:48:49,280
+receptor, or they block that receptor directly,  or maybe they hit a certain signaling pathway…
+
+00:48:49,280 --> 00:48:52,560
+Ultimately, the way that they're exerting  their effect is then downstream of that
+
+00:48:52,560 --> 00:48:56,960
+signaling pathway, some transcription factor  is either being turned on or not turned on.
+
+00:48:56,960 --> 00:49:00,720
+You're using different genes in the cell. We're kind of taking these crazy bank shots
+
+00:49:00,720 --> 00:49:04,000
+because we can't hit the TFs directly. That sort of begs the question,
+
+00:49:04,000 --> 00:49:08,320
+"Why can't you just go after the TF directly?" Traditionally, we use what are called small
+
+00:49:08,320 --> 00:49:10,560
+molecule drugs, where they're  defined just by their size.
+
+00:49:10,560 --> 00:49:13,120
+The reason they have to be small is they  need to be small enough to wiggle through
+
+00:49:13,120 --> 00:49:16,960
+the membrane of a cell and get inside. Then you run into a challenge.
+
+00:49:16,960 --> 00:49:21,200
+If you want to actually stick a small molecule  between two proteins that have a pretty big
+
+00:49:21,200 --> 00:49:25,600
+interface—meaning they've got big swaths on  the side of them that all sort of line up and
+
+00:49:26,240 --> 00:49:30,880
+form a synapse with one another—then you would  need a big molecule in order to inhibit that.
+
+00:49:30,880 --> 00:49:35,120
+It turns out that TF's binding  DNA is a pretty darn big surface.
+
+00:49:35,120 --> 00:49:39,520
+Small molecules aren't great at disrupting  that and certainly even worse at activating it.
+
+00:49:39,520 --> 00:49:41,760
+Small molecules can get all  the way into the nucleus,
+
+00:49:41,760 --> 00:49:45,360
+but they can't do much once they're there.  They're just too small. The other classic
+
+00:49:45,360 --> 00:49:49,920
+modalities we have are recombinant proteins. We make a protein like a hormone in a big vat.
+
+00:49:49,920 --> 00:49:53,600
+We grow it in some Chinese hamster ovary  cells, we extract it, we inject it into you.
+
+00:49:53,600 --> 00:49:56,640
+This is how, for instance, human  insulin works that we make today.
+
+00:49:56,640 --> 00:49:59,360
+Or you make antibodies  produced by the immune system.
+
+00:49:59,360 --> 00:50:02,640
+These run around and find proteins that  have a particular sequence, they bind to it,
+
+00:50:02,640 --> 00:50:06,800
+and often they just stop it from working  by glomming a big thing onto the side.
+
+00:50:06,800 --> 00:50:08,640
+Those are too big to get  through the cell membrane.
+
+00:50:08,640 --> 00:50:10,880
+Then they can't actually get to  a TF or do anything directly.
+
+00:50:10,880 --> 00:50:14,560
+So we take these bank shots. What changes that today, and why
+
+00:50:14,560 --> 00:50:19,040
+I think it's pretty exciting, is we now have new  nucleic acid and genetic medicines where you can,
+
+00:50:19,040 --> 00:50:23,600
+for instance, deliver RNAs to a cell that can get  through using tricks like lipid nanoparticles.
+
+00:50:23,600 --> 00:50:26,080
+You wrap them in a fat bubble. It looks kind of like a cell membrane.
+
+00:50:26,080 --> 00:50:28,640
+It can fuse with a cell, and  put the mRNAs in the cytosol.
+
+00:50:28,640 --> 00:50:30,640
+You can make a copy of a  transcription factor there,
+
+00:50:30,640 --> 00:50:34,800
+and then it translocates to the nucleus the same  way a natural one would and exerts its effect.
+
+00:50:34,800 --> 00:50:37,760
+Likewise, there are other ways to do  this using things like viral vectors,
+
+00:50:37,760 --> 00:50:42,400
+but we've only very recently actually gotten the  tools we need to start addressing transcription
+
+00:50:42,400 --> 00:50:46,960
+factors as first-class targets rather  than treating them as maybe some ancillary
+
+00:50:46,960 --> 00:50:51,040
+third-order thing that's going to happen. Interesting. So the drugs we have can't
+
+00:50:51,040 --> 00:50:55,280
+target them, but your claim is that a lot  of drugs actually do work by binding to
+
+00:50:55,280 --> 00:51:00,160
+the things we actually can target and those  have some effect on transcription factors.
+
+00:51:01,200 --> 00:51:05,520
+This brings us to questions about delivery,  which is the next thing I want to ask you.
+
+00:51:05,520 --> 00:51:09,840
+You mentioned lipid nanoparticles. This  is what the COVID vaccines were made of.
+
+00:51:09,840 --> 00:51:17,680
+The ultimate question if we're going to work on  de-aging… Even if you identify what is the right
+
+00:51:17,680 --> 00:51:22,720
+transcription factor to de-age a cell, and even  if they're shared across cell types, or you figure
+
+00:51:22,720 --> 00:51:26,880
+out the right one for every single cell type, how  do you get it to every single cell in the body?
+
+00:51:30,240 --> 00:51:32,080
+How do you deliver stuff?  How do you get them in there?
+
+00:51:32,960 --> 00:51:36,480
+There are many ways one could imagine solving it. I'll narrow the scope of the problem.
+
+00:51:37,520 --> 00:51:41,040
+Delivering nucleic acid is a  pretty good first-order primitive.
+
+00:51:41,040 --> 00:51:44,800
+Ultimately, the genome is nucleic acids, the  RNAs that come out of it are nucleic acids.
+
+00:51:44,800 --> 00:51:47,840
+If you can get nucleic acid into  a cell, you can drug pretty much
+
+00:51:47,840 --> 00:51:50,880
+anything in the genome effectively. You can reduce this problem to asking,
+
+00:51:50,880 --> 00:51:54,560
+"How do I get nucleic acids wherever I want  them to any cell type very specifically?"
+
+00:51:55,280 --> 00:51:59,680
+Today, there are two main modalities that  people use, both of which have some downsides.
+
+00:51:59,680 --> 00:52:02,720
+The first one that we've touched on already  is lipid nanoparticles. These are basically
+
+00:52:02,720 --> 00:52:07,680
+fat bubbles. By default, they get taken up  by tissues which take up fat, like the liver.
+
+00:52:08,240 --> 00:52:11,600
+They can be used like trojan horses. They can release some arbitrary nucleic
+
+00:52:11,600 --> 00:52:15,120
+acid—usually RNA, maybe encoding your  favorite genes, in our case, transcription
+
+00:52:15,120 --> 00:52:18,800
+factors—into the cell types of interest. You can play with the fats, and you can
+
+00:52:18,800 --> 00:52:22,560
+also tie stuff onto the outside of the fat. You can attach part of an antibody, for example,
+
+00:52:22,560 --> 00:52:27,680
+to make it go to different cell types in the body. The field is making a lot of progress on being
+
+00:52:27,680 --> 00:52:31,680
+able to target various different  cell types with lipid nanoparticles.
+
+00:52:31,680 --> 00:52:36,000
+Even if nothing else worked for the next  several decades, companies like ours would
+
+00:52:36,000 --> 00:52:39,920
+have more than enough problems to solve  with the cells that we can actually target.
+
+00:52:39,920 --> 00:52:42,720
+Another prominent way people go  after this is using viral vectors.
+
+00:52:42,720 --> 00:52:45,280
+The basic idea being viruses  had a lot of evolutionary
+
+00:52:45,280 --> 00:52:48,800
+history and very large population sizes. They've evolved to get into our cells.
+
+00:52:48,800 --> 00:52:51,760
+Maybe we can learn something from  them, even better than Trojan horses.
+
+00:52:51,760 --> 00:52:58,240
+One type of virus people use a lot is called an  AAV. Those AAVs carry DNA genomes. You can get
+
+00:52:58,240 --> 00:53:01,600
+genes, whole genes, into cells. They've  got some packaging sizes. You can think
+
+00:53:01,600 --> 00:53:04,800
+of it like a very small delivery truck, so  you can't put everything you want into it.
+
+00:53:04,800 --> 00:53:08,720
+They can go to certain cell types as well. On top of just where you actually get the
+
+00:53:08,720 --> 00:53:11,760
+nucleic acid to begin with, you can  engineer the sequences a bit, and that
+
+00:53:11,760 --> 00:53:17,680
+basically allows you to add a NOT gate on it. You can make it turn off the nucleic acid in
+
+00:53:17,680 --> 00:53:20,400
+certain cell types, but you're never  going to use the sequence engineering
+
+00:53:20,400 --> 00:53:23,680
+to get nucleic acid into cells where it  didn't get delivered in the first place.
+
+00:53:23,680 --> 00:53:28,320
+You can start broad with your delivery vector  and then use sequence to narrow down to make it
+
+00:53:28,320 --> 00:53:33,120
+more specific, but not the other way around. Both of those methods are super promising.
+
+00:53:33,120 --> 00:53:37,600
+If nothing else emerged for decades, we'd  still have tons and tons of problems as a
+
+00:53:37,600 --> 00:53:40,960
+therapeutic development community  to solve, even using just those.
+
+00:53:40,960 --> 00:53:45,360
+I have one very controversial opinion  which people can roast me for later.
+
+00:53:45,360 --> 00:53:48,480
+You have just one? You're trying to  solve aging and you have only one?
+
+00:53:48,480 --> 00:53:53,040
+I have many controversial opinions. One of  them is that both of these probably in the
+
+00:53:53,040 --> 00:53:57,120
+limit will not be the way that we're  delivering medicines in the year 2100.
+
+00:53:57,120 --> 00:53:59,520
+If you think about viral vectors, no matter what,
+
+00:53:59,520 --> 00:54:02,080
+they're always going to be  some amount of immunogenic.
+
+00:54:02,080 --> 00:54:04,080
+You're always going to have your  immune system trying to fight them off.
+
+00:54:04,080 --> 00:54:07,600
+You can play tricks, you can try and cloak  them, etc., but they're always going to have
+
+00:54:07,600 --> 00:54:12,720
+some toxicity risk. They also don't go everywhere.  It's not that we have examples of a single viral
+
+00:54:12,720 --> 00:54:16,880
+species that infects every cell type in the body  and we just need to engineer it to make it safe.
+
+00:54:16,880 --> 00:54:20,720
+We would have to also engineer the virus  to go to new cell types. There's some
+
+00:54:20,720 --> 00:54:24,640
+limitations there. LNPs likewise have some  problems. They can go to tons of cell types.
+
+00:54:24,640 --> 00:54:27,520
+That's largely what we're working on.  We're super excited about it. But there
+
+00:54:27,520 --> 00:54:30,080
+are some physical constraints. They just have a certain size.
+
+00:54:30,080 --> 00:54:34,720
+They have to get from your bloodstream out of  your bloodstream toward a given target cell,
+
+00:54:34,720 --> 00:54:37,680
+and they have to not fuse into any  of the other cells along the way.
+
+00:54:37,680 --> 00:54:41,520
+There's a whole gamut they have to run. Ultimately, we're probably going to have
+
+00:54:41,520 --> 00:54:44,960
+to solve delivery the way that  our own genome solved delivery.
+
+00:54:44,960 --> 00:54:47,200
+We have the same problem  that arose during evolution.
+
+00:54:47,840 --> 00:54:51,840
+How do I patrol the body, find  arbitrary signals in the environment,
+
+00:54:51,840 --> 00:54:55,280
+and then deliver some important cargo  there when some set of events happens?
+
+00:54:55,280 --> 00:55:00,480
+How do I find a specific place and only  near those cell types release my cargo?
+
+00:55:01,600 --> 00:55:04,880
+The problem was solved by the immune system. We have cell types in our body,
+
+00:55:04,880 --> 00:55:10,000
+T cells and B cells, which are effectively  engineered by evolution to run around,
+
+00:55:10,000 --> 00:55:13,920
+invaginate whatever tissues they need to. They can climb almost anywhere in the body.
+
+00:55:13,920 --> 00:55:18,720
+There's nowhere they can't get access to, almost. Once they sense a particular set of signals—and
+
+00:55:18,720 --> 00:55:22,160
+they've got a very ornate circuitry to  do this, they run basically an AND gate
+
+00:55:22,160 --> 00:55:27,040
+logic—they can release a specified payload. Right now, the way our genome sets them up,
+
+00:55:27,040 --> 00:55:32,480
+the payload they release is largely either  enzymes that will kill some cell that they're
+
+00:55:32,480 --> 00:55:36,560
+targeting or kill some pathogen, or some signal  flares that call in other parts of the immune
+
+00:55:36,560 --> 00:55:40,960
+system to do the same thing. So that's super  cool. But you can think about it as a modular
+
+00:55:40,960 --> 00:55:44,560
+system that evolution's already gifted us. We've got some signal and environmental
+
+00:55:44,560 --> 00:55:48,960
+recognition systems so we can find particular  areas of the body that we want to find.
+
+00:55:48,960 --> 00:55:52,800
+Then we have some sort of payload delivery system. I can deliver some arbitrary set of things.
+
+00:55:52,800 --> 00:55:57,120
+I imagine if we were to Rip Van Winkle  ourselves into 2100 and wake up,
+
+00:55:57,120 --> 00:56:01,680
+the way we will be delivering these nucleic acid  payloads is actually by engineering cells to do
+
+00:56:01,680 --> 00:56:05,360
+it, to perform this very ornate function. Those cells might actually live with you.
+
+00:56:05,360 --> 00:56:09,600
+You probably will get engrafted with them, and  they might persist with you for many years.
+
+00:56:09,600 --> 00:56:12,080
+They deliver the medicine only  when the environment within your
+
+00:56:12,080 --> 00:56:16,800
+body actually dictates that you need it. You actually won't be seeing a physician
+
+00:56:16,800 --> 00:56:19,520
+every time this medicine is active. Rather, you'll have a more ornate,
+
+00:56:19,520 --> 00:56:22,160
+responsive circuit. The other exciting thing about cells
+
+00:56:22,160 --> 00:56:27,120
+is that they're big and they have big genomes. You actually have a large palette to encode
+
+00:56:27,120 --> 00:56:31,760
+complex infrastructure and complex circuitry. You don't need to limit yourself to the very small
+
+00:56:31,760 --> 00:56:36,400
+RNAs you can get in that might encode a gene or  two, or in our case, a few transcription factors.
+
+00:56:36,400 --> 00:56:40,240
+You don't have to limit yourself to this  tiny AAV genome that's only a few kilobases.
+
+00:56:40,240 --> 00:56:44,000
+You've got billions of base pairs to play  with in terms of encoding all your logic.
+
+00:56:44,000 --> 00:56:46,720
+So I think that's ultimately  how delivery will get solved.
+
+00:56:46,720 --> 00:56:48,640
+We've got many, many stepping  stones along the way.
+
+00:56:48,640 --> 00:56:52,960
+But if I could clone myself and work on an even  riskier endeavor, that's probably what I would do.
+
+00:56:54,560 --> 00:56:57,440
+In a way, we treat cancer this  way with CAR-T therapy, right?
+
+00:56:57,440 --> 00:57:03,920
+We take the T cells out and then we tell them to  go find a cancer with this receptor and kill it.
+
+00:57:04,640 --> 00:57:07,840
+Is the reason that works that the cancer  cells we're trying to target are also free
+
+00:57:07,840 --> 00:57:13,120
+floating in the blood? Is that what it  targets? Basically, could this deliver to
+
+00:57:13,120 --> 00:57:17,440
+literally every single cell in the body? Not literally every single cell. I'll
+
+00:57:17,440 --> 00:57:20,560
+asterisk it there. For example,  T cells don't go into your brain.
+
+00:57:21,600 --> 00:57:24,320
+They can, but it's generally a  pathology when they get in there.
+
+00:57:24,320 --> 00:57:27,920
+It's not literally every cell, but  almost every cell in your body is
+
+00:57:27,920 --> 00:57:30,800
+surveilled by the immune system. There are very, very few what we
+
+00:57:30,800 --> 00:57:35,120
+call immune-privileged compartments in your body. It's things like the joints of your knees and your
+
+00:57:35,120 --> 00:57:39,200
+shoulders, your eyeball, and your brain. There might be a couple of others.
+
+00:57:39,200 --> 00:57:42,480
+The ear probably falls into that category. A funny way of thinking about this is that all
+
+00:57:42,480 --> 00:57:46,400
+the gene-therapy people using viruses, they want  to deliver to the immune-privileged compartments
+
+00:57:46,400 --> 00:57:51,360
+because their drugs are immunogenic, and they're  limited to a very, very small set of diseases.
+
+00:57:51,360 --> 00:57:54,800
+In a way, it's like the shadow of all the  diseases you can't address with viruses
+
+00:57:54,800 --> 00:57:57,920
+is what you can address with cells. Given the complementarity between them,
+
+00:57:58,480 --> 00:58:02,640
+you can probably cover the entire body.  They can't literally go everywhere. But your
+
+00:58:02,640 --> 00:58:07,760
+analogy to the CAR-T work is very apt as well. You can think about that two-component system.
+
+00:58:07,760 --> 00:58:11,840
+I've got some detection mechanism for  the environment I want to sense to
+
+00:58:11,840 --> 00:58:15,440
+perform some function, and then I have  some sort of payload that I deliver.
+
+00:58:15,440 --> 00:58:19,600
+CAR-Ts engineer the first of those and leave the  second exactly the same as the immune system does.
+
+00:58:19,600 --> 00:58:23,360
+They engineer—go recognize this other  antigen that you wouldn't usually target,
+
+00:58:23,360 --> 00:58:27,520
+some protein on the surface of a cell, for  instance—and then deliver the payload you would
+
+00:58:27,520 --> 00:58:31,120
+usually deliver if it was infected by a virus  or if you saw that it was foreign in some way.
+
+00:58:31,120 --> 00:58:33,600
+Whereas cancer cells usually  don't actually look that foreign.
+
+00:58:33,600 --> 00:58:37,040
+Most of their genes are the same genes that are  in your normal genome, and that's why it's hard
+
+00:58:37,040 --> 00:58:40,080
+for the immune system to surveil it. Interesting. Interesting. It's funny
+
+00:58:40,080 --> 00:58:44,400
+that whenever we're trying to cure infectious  diseases, we just have to deal with, "Fuck,
+
+00:58:44,400 --> 00:58:49,760
+viruses have been evolving for billions of years  with our oldest common ancestor, and they know
+
+00:58:49,760 --> 00:58:54,720
+exactly what they're doing, and it's so hard." Then whenever we're trying to do something else,
+
+00:58:54,720 --> 00:58:58,160
+we're like, "Fuck, the immune system has been  evolving for billions of years, and it knows
+
+00:58:58,160 --> 00:59:03,360
+what it's doing, and how do we get past it?" The Red Queen race is quite sophisticated.
+
+00:59:03,360 --> 00:59:06,400
+If you want to just throw a new  tool into biology, you somehow have
+
+00:59:06,400 --> 00:59:12,320
+to get around one side of that equation. Given the fact that it's somewhere between
+
+00:59:12,320 --> 00:59:22,240
+impossible and very far away but it's necessary  for full curing of aging, does that mean that in
+
+00:59:22,240 --> 00:59:27,680
+the short run, in the next few decades, we'll  have some parts of our body which will have
+
+00:59:27,680 --> 00:59:33,120
+these amazing therapies, and then other parts  which will just be stuck the way they are?
+
+00:59:33,680 --> 00:59:38,560
+You mentioned hepatocytes are some of the  cells that you're able to actually study in
+
+00:59:38,560 --> 00:59:43,440
+or deliver to. These are our liver cells. So  you're saying, "Look, I can get drunk as much
+
+00:59:43,440 --> 00:59:47,760
+as I want and it's not going to have an impact on  my long-run liver health because then you'll just
+
+00:59:47,760 --> 00:59:50,480
+inject me with this therapy." But for the rest of my body,
+
+00:59:50,480 --> 00:59:53,600
+it's going to age as normal? What is the implication of the
+
+00:59:53,600 --> 01:00:00,240
+fact that the delivery seems to be lagging  much behind your understanding of aging?
+
+01:00:01,120 --> 01:00:04,000
+Just to give the delivery folks  credit, they're currently ahead.
+
+01:00:04,000 --> 01:00:06,720
+There are currently no reprogramming  medicines for aging, and there are
+
+01:00:06,720 --> 01:00:09,440
+medicines that deliver nucleic acids. They're still winning the race against
+
+01:00:09,440 --> 01:00:16,320
+us right now, but to your point, I hope the  lines cross. I hope we outcompete them. Even
+
+01:00:16,320 --> 01:00:21,600
+if you were able to only target some subsets of  cells, it's not that you would see this strange,
+
+01:00:21,600 --> 01:00:26,880
+Frankensteinian benefit in health in some  aspects and lack of benefit entirely in others.
+
+01:00:27,440 --> 01:00:31,760
+What we've found across the history  of medicine is that the body's an
+
+01:00:31,760 --> 01:00:36,320
+incredibly interconnected, complex system. If you're able to rescue function even in
+
+01:00:36,320 --> 01:00:40,400
+one cell type in one tissue, you often  have knock-on benefits in many places
+
+01:00:40,400 --> 01:00:44,400
+that you didn't initially anticipate. One way we can get examples of this
+
+01:00:44,400 --> 01:00:48,640
+is through transplant experiments. Both in bone marrow and in liver,
+
+01:00:48,640 --> 01:00:53,440
+for example, we have fairly common  transplant procedures that occur in humans.
+
+01:00:54,160 --> 01:00:59,120
+We can compare old humans who get livers  from young people or old people and ask a
+
+01:00:59,120 --> 01:01:01,360
+pretty controlled question. What occurs as a function
+
+01:01:01,360 --> 01:01:05,200
+of just having a young liver? Is it that, for example, you can eat a
+
+01:01:05,200 --> 01:01:09,920
+lot of fatty food and drink a lot and be fine? Or is it that you see broader benefits?
+
+01:01:09,920 --> 01:01:12,640
+The latter seems to be true. They have reduced risk of
+
+01:01:12,640 --> 01:01:16,160
+several other diseases and overall better  survival as a function of having a younger
+
+01:01:16,160 --> 01:01:20,160
+liver than they do for an older one. Suggesting that because these tissues
+
+01:01:20,160 --> 01:01:22,880
+are so interconnected, many of  these organs like the liver,
+
+01:01:22,880 --> 01:01:26,560
+like your adipose tissue, are endocrine organs. They're also sending out signals to many other
+
+01:01:26,560 --> 01:01:30,640
+places in your body, helping coordinate  your health across multiple tissue systems.
+
+01:01:30,640 --> 01:01:36,400
+Even just one tissue can benefit other tissue  systems in your body at the same time. HSCs are
+
+01:01:36,400 --> 01:01:44,640
+another example. These are mostly examples taken  from a wonderful book by Frederick Appelbaum,
+
+01:01:44,640 --> 01:01:49,920
+who trained with Don Thomas, the physician  who invented human bone marrow transplants.
+
+01:01:49,920 --> 01:01:54,000
+There are many circumstances where patients  got a bone marrow transplant and actually
+
+01:01:54,000 --> 01:01:58,640
+cured another disease they had as a result,  maybe unanticipated, where it's even just the
+
+01:01:58,640 --> 01:02:03,120
+replacement of this one special cell type, HSCs,  that has knock-on effects throughout the body.
+
+01:02:03,120 --> 01:02:06,560
+There were symptoms of these diseases that  presented in myriad ways throughout their
+
+01:02:06,560 --> 01:02:10,320
+system, but ultimately, its root  cause was even just a single cell.
+
+01:02:10,320 --> 01:02:14,560
+There are counterexamples as well where you  can go into animals and break even just one
+
+01:02:14,560 --> 01:02:18,880
+gene in one specific subset of T cells. You can break a gene in there that encodes
+
+01:02:18,880 --> 01:02:22,080
+for a transcription factor in their  mitochondria called TFAM, and you
+
+01:02:22,080 --> 01:02:27,120
+dramatically shorten the lifespan of mice. One gene in one special type of T cells
+
+01:02:27,120 --> 01:02:31,280
+can give you that type of pathology. So it implies the inverse may also exist.
+
+01:02:31,280 --> 01:02:35,680
+Is this related to why Ozempic has so  many downstream positive effects that
+
+01:02:35,680 --> 01:02:41,760
+seem even not totally related to its  effects just on making you leaner?
+
+01:02:42,320 --> 01:02:48,880
+I think it's one example. It is a hormone,  and your endocrine system coordinates a lot
+
+01:02:48,880 --> 01:02:53,920
+of the complex interplay between your tissues. I don't think the story is fully written yet
+
+01:02:53,920 --> 01:02:59,600
+on exactly why GLP-1 and GIP-1, broadly  incretin mimetic medicines like Ozempic,
+
+01:02:59,600 --> 01:03:03,600
+have so many knock-on benefits, but  they're a great example of this phenomenon.
+
+01:03:03,600 --> 01:03:06,640
+If someone told you, "I'm going to find a  single molecule, and I'm going to drug it,
+
+01:03:06,640 --> 01:03:10,880
+and it's not only going to have benefits for  weight loss but also for cardiovascular disease,
+
+01:03:10,880 --> 01:03:14,640
+also possibly for addictive behavior, and  maybe even preventing neurodegeneration,"
+
+01:03:14,640 --> 01:03:18,560
+you would have told them they were crazy. Yet, just by acting on the small number of
+
+01:03:18,560 --> 01:03:22,640
+cells in your body which are receiving this  signal, the interplay and the communication
+
+01:03:22,640 --> 01:03:26,880
+between those cells and the rest of your body  seems to have many of these knock-on benefits.
+
+01:03:26,880 --> 01:03:29,520
+It's just one existence proof that  very small numbers of cells in your
+
+01:03:29,520 --> 01:03:34,800
+body can have health benefits everywhere. Even if cellular delivery does not emerge by 2100,
+
+01:03:34,800 --> 01:03:39,280
+as I imagine it will, I still think that  you're going to have the ability to add
+
+01:03:39,280 --> 01:03:43,360
+decades of healthy life to individuals  by reprogramming the age of individual
+
+01:03:43,360 --> 01:03:47,200
+cell types and individual tissues. How big will the payload have to be?
+
+01:03:47,200 --> 01:03:50,640
+How many transcription factors? I  think it's just a countable number.
+
+01:03:50,640 --> 01:03:55,280
+Some of those that we've found today that have  efficacy are somewhere between one and five.
+
+01:03:56,000 --> 01:04:00,000
+That's a small enough number that you can  encapsulate it in current mRNA medicines.
+
+01:04:00,720 --> 01:04:05,760
+Already in the clinic today, there are medicines  that deliver many different genes as RNA.
+
+01:04:05,760 --> 01:04:09,440
+There are medicines where, for instance, it's  a vaccine as a combination of flu and COVID
+
+01:04:09,440 --> 01:04:14,000
+proteins, and they're delivering 20 different  unique transcripts all at the same time.
+
+01:04:14,560 --> 01:04:17,360
+When you think about that already as a  medicine that's being injected into people
+
+01:04:17,360 --> 01:04:22,640
+in trials, the idea of delivering just a few  transcription factors is seemingly quotidian.
+
+01:04:22,640 --> 01:04:27,760
+Thankfully, I don't think we'll be limited by  the size of the payloads that one can deliver.
+
+01:04:27,760 --> 01:04:32,640
+One other really cool thing about transcription  factors is that the endogenous biology is
+
+01:04:32,640 --> 01:04:36,880
+very favorable for drug development. The expression level of transcription
+
+01:04:36,880 --> 01:04:40,960
+factors in your genome relative  to other genes is incredibly low.
+
+01:04:40,960 --> 01:04:45,280
+If you just look at the rank-ordered list of what  are the most frequently expressed genes in the
+
+01:04:45,280 --> 01:04:50,000
+genome by the count of how many mRNAs are in the  cell, transcription factors are near the bottom.
+
+01:04:50,000 --> 01:04:53,200
+That means you don't actually need to get  that many copies of a transcription factor
+
+01:04:53,200 --> 01:04:58,080
+into a cell in order to have benefits. What we've seen so far, and what I
+
+01:04:58,080 --> 01:05:02,080
+imagine will continue to play out, is that  even fairly low doses of these medicines,
+
+01:05:02,080 --> 01:05:07,440
+which are well within the realm of what folks  have been taking for more than a decade.
+
+01:05:07,440 --> 01:05:13,120
+They are able to induce really strong efficacy. We're hopeful that not only will the actual size
+
+01:05:13,120 --> 01:05:15,680
+of the payload in terms of number  of base pairs not be limiting,
+
+01:05:15,680 --> 01:05:19,120
+but the dose shouldn't be limiting either. Would it have to be a chronic treatment,
+
+01:05:19,120 --> 01:05:24,080
+or could it just be a one-time dose? In principle, it could be one time.
+
+01:05:24,080 --> 01:05:28,480
+I think that would be an overstatement for today. I can talk you through the evidence from the
+
+01:05:28,480 --> 01:05:32,240
+first principles back to the reality of  what's the hardest thing we have in hand.
+
+01:05:32,800 --> 01:05:36,640
+Epigenetic reprogramming is basically how the  cell types in our bodies right now are able
+
+01:05:36,640 --> 01:05:41,520
+to adopt the identities that they have. The existence proof that those epigenetic
+
+01:05:41,520 --> 01:05:45,840
+reprogramming events can last decades is that my  tongue doesn't spontaneously turn into a kidney.
+
+01:05:45,840 --> 01:05:50,720
+These epigenetic marks can persist for  decades throughout a human life, or hundreds
+
+01:05:50,720 --> 01:05:54,960
+of years if you want to take the example of a  bowhead whale which uses the same mechanism.
+
+01:05:56,720 --> 01:06:01,040
+We also know that with very targeted edits,  other groups have done this, folks like Luke
+
+01:06:01,040 --> 01:06:05,840
+Gilbert now at the Arc Institute, who I think of  as one of the great unsung scientists of our time,
+
+01:06:05,840 --> 01:06:09,680
+have been able to make a targeted edit in  a single locus and then show that you can
+
+01:06:09,680 --> 01:06:14,640
+actually make cells divide 400-plus times over  multiple years in an incubator in the lab.
+
+01:06:14,640 --> 01:06:18,720
+Imagine a hothouse where you're just trying  as hard as you can to break this mark down,
+
+01:06:18,720 --> 01:06:23,120
+and it can actually persist for many years. Other companies have actually now dosed
+
+01:06:23,120 --> 01:06:26,880
+some editors similar to the ones that  Luke developed in his lab in monkeys
+
+01:06:26,880 --> 01:06:31,200
+and shown they last at least a couple of years. In principle, the upper bound here is really long.
+
+01:06:31,200 --> 01:06:35,520
+You could potentially have one dose and it  lasts a very long time, potentially decades, as
+
+01:06:35,520 --> 01:06:39,760
+long as it took you to age the first time maybe. We don't have data like that today. I don't want
+
+01:06:39,760 --> 01:06:45,840
+to overstate. We do have data that these positive  effects can last several weeks after a dose.
+
+01:06:46,480 --> 01:06:50,400
+You could imagine, even without many leaps  of faith up toward this upper bound limit
+
+01:06:50,400 --> 01:06:55,600
+of what's possible just from the data we have in  hand now, that you could get doses every month,
+
+01:06:55,600 --> 01:06:59,840
+every few months and actually have really  dramatic benefits that persist over time,
+
+01:06:59,840 --> 01:07:03,360
+rather than needing to get an IV every  day, which might not be tractable.
+
+01:07:03,360 --> 01:07:06,160
+We've got 1600 transcription  factors in the human genome.
+
+01:07:06,160 --> 01:07:10,880
+Is it worth looking at non-human TFs  and seeing what effects they might have,
+
+01:07:10,880 --> 01:07:17,280
+or are they unlikely to be the right search space? I think it's less likely. I think you have a prior
+
+01:07:17,280 --> 01:07:21,840
+that evolution has given you a reasonable  basis set for navigating the states that
+
+01:07:21,840 --> 01:07:25,360
+human cells might want to occupy. In our case, we know that the state
+
+01:07:25,360 --> 01:07:29,360
+we're trying to access is encoded  by some combination of these TFs.
+
+01:07:29,360 --> 01:07:32,640
+It does arise in development obviously. We're trying to make an old cell look young,
+
+01:07:32,640 --> 01:07:35,600
+not look like some Frankenstein  cell that's never been seen before.
+
+01:07:35,600 --> 01:07:40,160
+That said, we don't have any guarantees that the  way aging progresses is by following the same
+
+01:07:40,160 --> 01:07:45,760
+basis set of these transcription factor programs  in the genome that are encoded during development.
+
+01:07:45,760 --> 01:07:50,080
+I don't think it's unreasonable to ask, "Would  your eventual ideal reprogramming medicine
+
+01:07:50,080 --> 01:07:55,280
+necessarily be a composition of the natural TFs,  or would it include something like TFs from other
+
+01:07:55,280 --> 01:07:59,120
+organisms, as you posit, or even entirely  synthetic transcription factors as well?"
+
+01:07:59,120 --> 01:08:03,840
+Things like Super-SOX. Super-SOX is  a particular publication from Sergiy
+
+01:08:05,040 --> 01:08:11,520
+Velychko where they mutated the SOX2 gene and  they made more efficient iPSC reprogramming.
+
+01:08:11,520 --> 01:08:15,440
+They could take somatic cells and turn them  into pluripotent stem cells more effectively
+
+01:08:15,440 --> 01:08:22,400
+than you could with just the canonical Yamanaka  factors, which are Oct-4, Sox2, KLF4, and Myc.
+
+01:08:22,400 --> 01:08:26,560
+iPSC reprogramming never happens in nature,  so there's no reason to necessarily believe
+
+01:08:26,560 --> 01:08:30,000
+that the natural TFs are optimal. So even really simple optimizations,
+
+01:08:30,000 --> 01:08:33,520
+like just mutagenizing one of the four  Yamanaka factors we already know about
+
+01:08:33,520 --> 01:08:37,760
+or swapping some domains between a few  TFs, seem to improve things dramatically.
+
+01:08:37,760 --> 01:08:41,760
+I think that's a pretty good signal that  actually there's a lot of gradient to climb
+
+01:08:41,760 --> 01:08:47,200
+here and that potentially for us, the end-state  products we're developing in 2100 are more like
+
+01:08:47,200 --> 01:08:51,280
+synthetic genes that have never existed, rather  than just compositions of the natural set.
+
+01:08:51,280 --> 01:08:57,520
+What about the effects of aging? Your skin starts to sag because of the
+
+01:08:57,520 --> 01:09:02,800
+effects of gravity over the course of decades? Is  that a cellular process? How would some cellular
+
+01:09:02,800 --> 01:09:04,800
+therapy deal with that? The best evidence is
+
+01:09:04,800 --> 01:09:07,760
+that it's probably not cellular. The reason your skin sags is there's a protein
+
+01:09:07,760 --> 01:09:11,040
+in your skin called elastin, which does exactly  what you'd think it would based on the name.
+
+01:09:11,040 --> 01:09:15,200
+It kind of keeps your skin elastic-y, like  a waistband, and holds it to your face.
+
+01:09:15,200 --> 01:09:18,960
+You have these big polymerized  fibers of elastin in your face.
+
+01:09:18,960 --> 01:09:23,440
+As far as we understand it, you only polymerize  it and form a long fiber during development.
+
+01:09:23,440 --> 01:09:26,400
+Then the rest of your life, you make  the individual units of the polymer,
+
+01:09:26,400 --> 01:09:30,240
+but for reasons no one as far as I can  tell understands, they fail to polymerize.
+
+01:09:30,240 --> 01:09:34,000
+You can't make new long cords to  hold your skin up to your face.
+
+01:09:34,000 --> 01:09:38,720
+So the eventual solution for something like  that is likely that you need to program cells
+
+01:09:38,720 --> 01:09:42,640
+to states that are extra-physiological. There might not be a cell in your body.
+
+01:09:42,640 --> 01:09:46,400
+It's not just like a young skin cell from a  20-year-old is better at making these fibers.
+
+01:09:46,400 --> 01:09:50,560
+As far as we can tell, they don't. But you could probably program a cell to
+
+01:09:50,560 --> 01:09:54,720
+be able to reinvigorate that polymerization  process, to run along the fiber and repair
+
+01:09:54,720 --> 01:09:58,000
+it in places where it's damaged. Obviously these things get made
+
+01:09:58,000 --> 01:10:01,680
+during development, so it's totally  physically feasible for this to occur.
+
+01:10:01,680 --> 01:10:04,080
+Maybe there's even a developmental  state which would be sufficient to
+
+01:10:04,080 --> 01:10:08,000
+achieve this. I don't think anyone knows. But  that would be the kind of state that one might
+
+01:10:08,000 --> 01:10:12,560
+have to engineer de novo, even if our genome  doesn't necessarily encode for it explicitly.
+
+01:10:12,560 --> 01:10:18,640
+Interesting. Okay, what is Eroom's Law? Eroom's Law is a funny portmanteau created
+
+01:10:18,640 --> 01:10:22,400
+by a friend of mine, Jack Scannell. He inverted the notion of Moore's Law,
+
+01:10:22,400 --> 01:10:27,520
+which is the doubling of compute density  on silicon chips every few years.
+
+01:10:27,520 --> 01:10:30,560
+Moore's Law has graciously given  us massive increases in compute
+
+01:10:30,560 --> 01:10:34,400
+performance over several decades. Eroom's Law is the inverse of that.
+
+01:10:34,400 --> 01:10:38,320
+In biopharma, what we're actually seeing  is that there's a very consistent decrease
+
+01:10:38,320 --> 01:10:41,840
+in the number of new molecular entities,  new medicines that we're able to invent,
+
+01:10:41,840 --> 01:10:44,800
+per billion dollars invested. This trend actually starts way
+
+01:10:44,800 --> 01:10:49,440
+back in the 1950s and persists through many  different technological transitions along the way.
+
+01:10:49,440 --> 01:10:52,640
+It seems to be an incredibly consistent  feature of trying to make new medicines.
+
+01:10:54,480 --> 01:10:59,120
+In a weird way, Eroom's Law is actually  very similar to the scaling laws you
+
+01:10:59,120 --> 01:11:02,960
+have in ML, where you have this very  consistent logarithmic relationship.
+
+01:11:03,600 --> 01:11:07,440
+You throw in more inputs and you get  consistently diminishing outputs.
+
+01:11:08,000 --> 01:11:15,200
+The difference, of course, is that this trend  in ML has been used to raise exponentially more
+
+01:11:15,200 --> 01:11:22,960
+investment and to drive more hype towards AI. Whereas in biotech, modulo NewLimit's new round,
+
+01:11:22,960 --> 01:11:26,240
+it has driven down valuations,  driven down excitement and energy.
+
+01:11:26,240 --> 01:11:31,040
+With AI at least you can internalize the extra  cost and the extra benefits because there's
+
+01:11:31,040 --> 01:11:34,400
+this general purpose model you're training. This year you spend $100 million training
+
+01:11:34,400 --> 01:11:36,640
+a model, next year $1 billion,  the year after that, $10 billion.
+
+01:11:36,640 --> 01:11:40,720
+But it's one general purpose model, unlike, "We  made money on this drug and now we're going to
+
+01:11:40,720 --> 01:11:43,840
+use that money to invest in 10 different  drugs in 10 different bespoke ways."
+
+01:11:44,480 --> 01:11:50,480
+I was gearing up to ask you, what would a general  purpose platform—where even if you had diminishing
+
+01:11:50,480 --> 01:11:55,920
+returns, at least you can have this less bespoke  way of designing drugs—look like for biotech?
+
+01:11:55,920 --> 01:11:58,880
+I'm going to slightly dodge your question  first to maybe analyze something really
+
+01:11:58,880 --> 01:12:01,760
+interesting that you highlighted. You have these two phenomena:
+
+01:12:01,760 --> 01:12:05,600
+ML scaling and then scaling in terms  of the cost for new drug discovery.
+
+01:12:05,600 --> 01:12:08,240
+Why is it that the patterns of  investment have been so different?
+
+01:12:08,240 --> 01:12:10,880
+There are probably two key features  that might explain this difference.
+
+01:12:10,880 --> 01:12:15,040
+One is that the returns to the scaled  output in the case of ML actually are
+
+01:12:15,040 --> 01:12:20,080
+expected to increase super exponentially. If you actually reach AGI, it's going to be a much
+
+01:12:20,080 --> 01:12:25,120
+larger value than just even a few logs back on  the performance curve that people are following.
+
+01:12:25,120 --> 01:12:28,720
+Whereas in the life sciences thus  far, each of those products we're
+
+01:12:28,720 --> 01:12:32,240
+generating further and further out on the  Eroom's Law curve as time moves forward,
+
+01:12:32,240 --> 01:12:36,880
+haven't necessarily scaled in their potential  revenue and their potential returns quite so much.
+
+01:12:36,880 --> 01:12:40,400
+You're seeing these increased costs  not counterbalanced by increased ROI.
+
+01:12:40,400 --> 01:12:44,800
+The other piece of it that you highlighted is  that it’s unlike building a general model where
+
+01:12:44,800 --> 01:12:49,040
+potentially by making larger investments, you can  be able to solve a broader addressable market,
+
+01:12:49,040 --> 01:12:52,480
+moving from solving very narrow  tasks to eventually replacing large
+
+01:12:52,480 --> 01:12:56,880
+fractions of white collar intelligence. In biotech, when you're traditionally
+
+01:12:56,880 --> 01:12:59,920
+able to develop a medicine in a given  indication—"I was able to treat disease
+
+01:12:59,920 --> 01:13:05,040
+X"—it doesn't necessarily engender you to be  able to then treat "disease Y" more readily.
+
+01:13:05,040 --> 01:13:09,360
+Typically where these biotech firms in general  have been able to develop unique expertise is on
+
+01:13:09,360 --> 01:13:13,520
+making molecules to target particular genes,  so "I'm really good at making a molecule
+
+01:13:13,520 --> 01:13:18,160
+that intervenes on gene X or gene Y." It turns out that the ability to make
+
+01:13:18,160 --> 01:13:22,320
+those molecules more rapidly isn't actually  reducing the largest risk in the process.
+
+01:13:22,320 --> 01:13:26,560
+This means that the ability to go from  one or two outputs one year to then
+
+01:13:26,560 --> 01:13:29,840
+four the next is much more limited. This brings us then to the question
+
+01:13:29,840 --> 01:13:35,200
+of what the general model would be in biology. I think it reduces down to how do you actually
+
+01:13:35,200 --> 01:13:41,440
+imbue those two properties that create the ML  scaling law curve of hope and bring those over
+
+01:13:41,440 --> 01:13:45,120
+to biology so that you can take the Eroom's  law curve and potentially give it the same
+
+01:13:45,120 --> 01:13:49,280
+sort of potential beneficial spin. There are a few different versions
+
+01:13:49,280 --> 01:13:52,240
+of this you could imagine. But I'll address the first point.
+
+01:13:52,240 --> 01:13:55,840
+How do you get to a place where you're  actually able to generate more revenue per
+
+01:13:55,840 --> 01:13:58,640
+medicine so that potentially the outputs  you're generating are more valuable,
+
+01:13:58,640 --> 01:14:03,280
+even if each output might cost a bit more? Traditionally, when we've developed medicines,
+
+01:14:03,280 --> 01:14:09,040
+we go after fairly narrow indications, meaning  diseases that fairly small numbers of people get.
+
+01:14:09,040 --> 01:14:14,000
+That's actually increased, in terms of the  narrow scope of what medicines are addressing,
+
+01:14:14,000 --> 01:14:17,680
+as we've gone forward in time. This is sort of an ironic situation
+
+01:14:17,680 --> 01:14:21,280
+where we've gone from addressing pretty broad  categories of disease, like infectious disease,
+
+01:14:21,280 --> 01:14:25,520
+to narrower and narrower genetically-defined  diseases that have small patient populations.
+
+01:14:25,520 --> 01:14:29,600
+Because these only affect a few people—if you  think about the value function of a medicine as
+
+01:14:29,600 --> 01:14:33,280
+how many years of healthy life it gives how many  people—if the "how many people" is pretty small,
+
+01:14:33,280 --> 01:14:36,080
+it just really bounds the amount  of value you're able to generate.
+
+01:14:36,080 --> 01:14:39,520
+You need to then be able to find  medicines that treat most people.
+
+01:14:39,520 --> 01:14:43,680
+All of us will one day get sick and die. So arguably, the TAM for any really successful
+
+01:14:43,680 --> 01:14:48,240
+medicine could be everybody on planet Earth. We need to find a way to be able to route
+
+01:14:48,240 --> 01:14:51,200
+toward medicines that address  these very large populations.
+
+01:14:51,200 --> 01:14:55,280
+The second piece then is, how do we  actually build models that enable us
+
+01:14:55,280 --> 01:14:59,280
+to take the success in one medicine we've  developed and lead that to an increased
+
+01:14:59,280 --> 01:15:03,040
+probability of success on the next medicine? Traditionally, we haven't been able to do that.
+
+01:15:03,040 --> 01:15:07,360
+Maybe you're better at making an antibody for gene  Y because you made one for gene X five years ago.
+
+01:15:07,360 --> 01:15:11,360
+But it turns out making an antibody isn't  really the hard part of drug discovery.
+
+01:15:11,360 --> 01:15:15,120
+Figuring out what to make an antibody to  target is the hard thing about drug discovery.
+
+01:15:15,120 --> 01:15:19,920
+What gene do I intervene upon in order to  actually treat a disease in a given patient?
+
+01:15:19,920 --> 01:15:24,000
+Most of the time, we just don't know. That's why even if a given drug firm
+
+01:15:24,000 --> 01:15:27,440
+becomes very good at making antibodies to  gene X and they have a successful approval,
+
+01:15:27,440 --> 01:15:31,840
+when they then go to treat disease Y they  don't necessarily know what gene to go after.
+
+01:15:31,840 --> 01:15:36,640
+Most of the risk is not in how to make an antibody  to treat my particular target, it's in figuring
+
+01:15:36,640 --> 01:15:41,840
+out what to target in the first place. I'm not sure how to understand this
+
+01:15:41,840 --> 01:15:49,120
+claim that we know how to engage with  the right hook, we just don't know
+
+01:15:49,120 --> 01:15:52,640
+what that hook is supposed to do in the body. I don't know if that's the way you describe it.
+
+01:15:53,280 --> 01:15:57,520
+Another claim that I've seen is that with small  molecules we have this Goldilocks problem.
+
+01:15:57,520 --> 01:16:01,840
+They have to be small enough to percolate  through the body and through cell walls,
+
+01:16:01,840 --> 01:16:07,200
+etc., but big enough to interfere  with protein-protein interactions that
+
+01:16:07,200 --> 01:16:10,720
+transcription factors might have. There it seems like getting the
+
+01:16:10,720 --> 01:16:14,240
+hook is the big problem. In this particular case,
+
+01:16:14,240 --> 01:16:18,800
+if we bound ourselves to, "We must use small  molecules as our modality," then there are lots
+
+01:16:18,800 --> 01:16:22,720
+of targets which are very difficult to drug. There are many other modalities by which you
+
+01:16:22,720 --> 01:16:25,840
+can drug some of these genes. I would say–I don't have formal
+
+01:16:25,840 --> 01:16:30,960
+way of explaining this–if you were to write  out a list of well-known targets that many,
+
+01:16:30,960 --> 01:16:35,360
+many folks would agree are the correct genes to  go after and to try and inhibit or activate in
+
+01:16:35,360 --> 01:16:39,040
+order to treat a given set of diseases—and  the only reason we don't have medicines is
+
+01:16:39,040 --> 01:16:43,040
+that we can't figure out a trick in order to  be able to drug them—it's a fairly small list.
+
+01:16:43,040 --> 01:16:46,880
+It would probably fit on a single page. Whereas the number of possible indications
+
+01:16:46,880 --> 01:16:50,560
+that one could go after, and the number  of possible genes that one could intervene
+
+01:16:50,560 --> 01:16:53,520
+upon especially when you consider  their combinations, is astronomical.
+
+01:16:54,240 --> 01:16:58,240
+The experiment you could run here is if you  lock 10 really smart drug developers in a room.
+
+01:16:58,240 --> 01:17:03,360
+You tell them to write down some incredibly  high-conviction target disease pairs where
+
+01:17:03,360 --> 01:17:06,560
+they're sure if they modulate this biology,  these patients are going to benefit.
+
+01:17:06,560 --> 01:17:11,120
+All they need is some molecular hook, as  you put it, in order to do this. It's a
+
+01:17:11,120 --> 01:17:15,200
+relatively short list. What you're not going  to get is anything approximating the panoply
+
+01:17:15,200 --> 01:17:18,320
+of human pathologies that develop. You can actually look for this.
+
+01:17:18,320 --> 01:17:20,640
+There are some existence proofs you  can look for out in the universe.
+
+01:17:21,600 --> 01:17:26,320
+If the only problem was that we didn't have  the ability to drug something using current
+
+01:17:26,320 --> 01:17:30,240
+therapeutics that we can put in humans, we  should still be able to treat it in the best
+
+01:17:30,240 --> 01:17:34,160
+animal models of that disease because we  can use things like transgenic systems.
+
+01:17:34,160 --> 01:17:37,360
+You can go in and you can engineer  the genome of that animal.
+
+01:17:37,360 --> 01:17:40,560
+This gives you all sorts of superpowers that  you don't have in patients, but allow you to,
+
+01:17:40,560 --> 01:17:45,920
+for instance, turn on arbitrarily complex groups  of genes in arbitrarily specific or broad groups
+
+01:17:45,920 --> 01:17:50,160
+of cells in the organism, at any time you  want, at any dose you want in the animal.
+
+01:17:50,160 --> 01:17:54,000
+For the majority of pathologies, we  just don't have many of those examples.
+
+01:17:55,600 --> 01:18:01,840
+What is the answer to what is the general purpose  thing where every marginal discovery increases the
+
+01:18:01,840 --> 01:18:05,600
+odds you make the next discovery? There are multiple ways one might
+
+01:18:05,600 --> 01:18:08,160
+approach this problem. The most common today,
+
+01:18:08,160 --> 01:18:11,200
+this is often what people are describing  when they talk about a virtual cell.
+
+01:18:11,200 --> 01:18:17,280
+This is a very nebulous idea, sometimes numinous,  if you'll let me describe it in that way as well.
+
+01:18:18,160 --> 01:18:22,720
+Concretely, what most people are trying  to do is measure some number of molecules,
+
+01:18:22,720 --> 01:18:28,400
+or perceived emissions like the morphology of  a cell, and then perturb it many times, turn
+
+01:18:28,400 --> 01:18:33,680
+some genes on, turn some genes off, and measure  how that molecular morphological state changes.
+
+01:18:33,680 --> 01:18:36,480
+The notion is that there's a lot  of mutual information in biology.
+
+01:18:36,480 --> 01:18:40,560
+If I measure something, most commonly all the  genes the cell is using at a given moment,
+
+01:18:40,560 --> 01:18:44,800
+which you can get by RNA sequencing,  I get a decent enough picture of
+
+01:18:44,800 --> 01:18:50,000
+most of the other complexity going on. I can take a bunch of healthy cells and a bunch
+
+01:18:50,000 --> 01:18:54,800
+of cells that are in a diseased or aged state. I'm able then to compare those profiles and say,
+
+01:18:54,800 --> 01:18:58,080
+"Okay, my diseased cells use these  genes, my healthy cells use these.
+
+01:18:58,080 --> 01:19:01,600
+Are there any interventions that I'm  able to experimentally find in the
+
+01:19:01,600 --> 01:19:05,040
+lab that shift one toward the other?" The hope would be that, because you're
+
+01:19:05,040 --> 01:19:10,080
+never going to be able to scan combinatorially all  the possible groups of genes to make it concrete.
+
+01:19:10,080 --> 01:19:15,840
+There's something like 20,000 genes in the genome. You can then choose however many
+
+01:19:15,840 --> 01:19:19,200
+genes in your combination you want. It's not crazy to think of hundreds at a time.
+
+01:19:19,200 --> 01:19:22,960
+That's what transcription factors control. That's  how development works. So the number of possible
+
+01:19:22,960 --> 01:19:25,760
+combinations is truly astronomical. You just can't test it all.
+
+01:19:25,760 --> 01:19:29,600
+The hope would be that by doing some sparse  sampling of those pairs—what your inputs are,
+
+01:19:29,600 --> 01:19:32,320
+here's what the cell looked like  beforehand, here's the particular
+
+01:19:32,320 --> 01:19:36,560
+genes I perturbed—you have some measurement  then of the state that the cell resulted in.
+
+01:19:36,560 --> 01:19:39,200
+Here's which genes went  up, here's which went down.
+
+01:19:40,720 --> 01:19:44,480
+Once I've trained a model to predict from  the perturbations to the output on the cell
+
+01:19:44,480 --> 01:19:47,760
+state, you can start to ask what would happen  for some arbitrary combinations of genes.
+
+01:19:47,760 --> 01:19:51,920
+Now in silico I can search all possible  things that one might do and potentially
+
+01:19:51,920 --> 01:19:55,840
+discover targets that take my diseased  cells back to something like healthy cells.
+
+01:19:55,840 --> 01:19:58,880
+So that's another version  of what an all-encompassing
+
+01:19:58,880 --> 01:20:02,400
+model would look like where you actually  have compounding returns in drug discovery.
+
+01:20:02,400 --> 01:20:07,040
+You basically described one of the models  you guys are working on at NewLimit.
+
+01:20:07,040 --> 01:20:10,320
+You're training this model based  on this data where you're taking
+
+01:20:10,320 --> 01:20:17,120
+the entire transcriptome and just labeling  it based on how old that cell actually is.
+
+01:20:17,120 --> 01:20:21,760
+If you've got all this data you're collecting  on how different perturbations are having
+
+01:20:21,760 --> 01:20:29,200
+different phenotypic effects on a  cell, why only record whether that
+
+01:20:29,200 --> 01:20:35,520
+effect correlates with more or less aging? Why can't you also label it with all the other
+
+01:20:36,240 --> 01:20:41,520
+effects that we might eventually care about  and eventually get the full virtual cell?
+
+01:20:41,520 --> 01:20:48,640
+That's a more general purpose model, not just the  one that predicts whether a cell looks old or not.
+
+01:20:48,640 --> 01:20:54,240
+Absolutely, we actually do both today. We can train these models where the inputs
+
+01:20:54,240 --> 01:20:58,480
+are a notion of what that cell looked like at  the starting place, here's what a generic old
+
+01:20:58,480 --> 01:21:02,240
+cell looked like, and then representations  of the transcription factors themselves.
+
+01:21:02,240 --> 01:21:05,840
+We derive those from protein foundation models. They're language models trained
+
+01:21:05,840 --> 01:21:08,160
+on protein sequences. It turns out that gives you a
+
+01:21:08,160 --> 01:21:13,280
+really good base level understanding of biology. The model's starting from a pretty smart place.
+
+01:21:13,280 --> 01:21:17,040
+Then you can predict a number of different targets  from some learned embedding, the same way you
+
+01:21:17,040 --> 01:21:21,360
+could have multiple heads on a language model. One of those for us is actually just predicting
+
+01:21:21,360 --> 01:21:25,040
+every gene the cell is expressing. Can I just recapitulate the entire state
+
+01:21:25,040 --> 01:21:28,880
+and guess what effect these transcription  factors will have on every given gene?
+
+01:21:28,880 --> 01:21:32,720
+You can think about that as an objective  rather than a value judgment on the cell.
+
+01:21:32,720 --> 01:21:35,440
+I'm not asking whether or not I  want this particular transcriptome.
+
+01:21:35,440 --> 01:21:40,080
+I'm just asking what it will look like. Then we also have something more like
+
+01:21:40,080 --> 01:21:42,160
+value judgments. I believe that that
+
+01:21:42,160 --> 01:21:46,240
+transcriptome looks like a younger cell. I'm going to select on that and train ahead
+
+01:21:46,240 --> 01:21:49,920
+to predict it where I can denoise across  genes and then select for younger cells.
+
+01:21:49,920 --> 01:21:52,320
+But you could do that for arbitrary  numbers of additional heads.
+
+01:21:52,320 --> 01:21:56,080
+What are some other states you might want? Do I want to polarize T cells to a less
+
+01:21:56,080 --> 01:21:59,040
+inflammatory state in somebody  with an autoimmune disease?
+
+01:21:59,040 --> 01:22:03,440
+Do I want to make liver cells more functional  in a patient who's suffering from certain
+
+01:22:03,440 --> 01:22:07,440
+types of metabolic syndrome, maybe even  orthogonal to the way that they age?
+
+01:22:07,440 --> 01:22:10,560
+Do I want to go in and change the way a neuron  is functioning to a different state to treat a
+
+01:22:10,560 --> 01:22:13,520
+particular type of neurodegenerative disease? These are all questions you can ask.
+
+01:22:13,520 --> 01:22:16,480
+They're not the ones we're going after, but  that is the more general, broader vision.
+
+01:22:16,480 --> 01:22:23,920
+This is so similar to, in LLMs, you first have  imitation learning with pre-training that builds
+
+01:22:23,920 --> 01:22:31,440
+a general-purpose representation of the world. Then you do RL about a particular objective in
+
+01:22:31,440 --> 01:22:36,400
+math or coding or whatever that you care about. You are describing an extremely similar
+
+01:22:36,400 --> 01:22:43,360
+procedure where first you just learn  to predict perturbations in genes to
+
+01:22:43,360 --> 01:22:47,600
+broad effects on the cell. That's the pre-training,
+
+01:22:47,600 --> 01:22:52,160
+just learning how cells work. Then there's another afterward
+
+01:22:52,160 --> 01:22:58,640
+layer of these value judgments of, "How would  we have to perturb it to have effect X?"
+
+01:22:58,640 --> 01:23:03,440
+That actually seems very similar to "How  do we get the base model to answer this
+
+01:23:03,440 --> 01:23:08,160
+math problem or answer this coding problem?" I don't know if people usually put it this way,
+
+01:23:08,160 --> 01:23:13,120
+but it actually just seems extremely similar. That makes me more optimistic on this. LLMs
+
+01:23:13,120 --> 01:23:16,320
+work and RL works. Yeah, they do. I
+
+01:23:16,320 --> 01:23:20,400
+think the conceptual analogy is very apt. We don't actually use RL at the moment,
+
+01:23:20,400 --> 01:23:22,800
+so I don't want to overstate the  level of sophistication we've got.
+
+01:23:22,800 --> 01:23:25,840
+But I think the general problem  reduces down in a similar way.
+
+01:23:25,840 --> 01:23:28,960
+You can think about your earlier  question of what does the general
+
+01:23:28,960 --> 01:23:33,520
+model look like that enables you to actually  have compounding returns in drug discovery.
+
+01:23:33,520 --> 01:23:36,960
+You might have something like this base model,  which as you said, just predicts this object
+
+01:23:36,960 --> 01:23:40,880
+function of, "How are these perturbations  hitting these targets going to change which
+
+01:23:40,880 --> 01:23:44,800
+genes are turned on and off in this cell?" Then there's an entirely other task, which is,
+
+01:23:44,800 --> 01:23:49,040
+well, which genes do you want to turn on and off? What state do I want the cell to adopt?
+
+01:23:49,040 --> 01:23:54,080
+Our lens on that is that across many  different diseases people have, age is
+
+01:23:54,080 --> 01:23:58,240
+one of the strongest predictors of how they're  going to progress, whether that disease arises.
+
+01:23:58,880 --> 01:24:02,320
+In many, many circumstances you have  evidence in humans where you can say,
+
+01:24:02,320 --> 01:24:05,520
+"Ah, if I could make the cell younger, maybe  that's not a perfect fix, but that's going to
+
+01:24:05,520 --> 01:24:09,920
+dramatically benefit not only patients who have a  diagnosed disease, but it might actually help most
+
+01:24:09,920 --> 01:24:15,440
+of us stay healthier longer, even subclinically  before anyone would formally say that we're sick."
+
+01:24:15,440 --> 01:24:19,120
+Now that's another more general function. The same way that in LLMs, you might have
+
+01:24:19,120 --> 01:24:24,000
+to create these particular RLHF environments,  you need to have places where you can state a
+
+01:24:24,000 --> 01:24:28,240
+value function of the particular task  that you're trying to optimize for.
+
+01:24:28,240 --> 01:24:31,200
+In drug discovery, you would then need  to know, "Well, what are the cell states
+
+01:24:31,200 --> 01:24:32,880
+I want to engineer for?" That's kind of the next
+
+01:24:32,880 --> 01:24:36,560
+generation of what a target might be. Beyond just which genes do I want to move
+
+01:24:36,560 --> 01:24:39,840
+up and down, and which gene perturbations  do I put in, you then need to know what
+
+01:24:39,840 --> 01:24:41,680
+cell state am I engineering for? What do I want this T cell to do?
+
+01:24:41,680 --> 01:24:44,880
+You’ll have a bunch of labelers in Nigeria  clicking different pictures of cells.
+
+01:24:44,880 --> 01:24:47,120
+Like, "Oh, this one looks  young. This one looks old."
+
+01:24:47,120 --> 01:24:51,200
+"This one looks really great. I love that  one." Potentially. Potentially. It's more
+
+01:24:51,200 --> 01:24:55,120
+like developmental biologists locked in a  room, as my friend Cole Trapnell would say.
+
+01:24:55,760 --> 01:24:59,200
+It seems like what you're describing  seems quite similar to Perturb-seq.
+
+01:25:00,640 --> 01:25:04,000
+I don't know when it was done, what year was it? There were three papers almost
+
+01:25:04,000 --> 01:25:07,680
+simultaneously in 2016. Okay, so almost a decade.
+
+01:25:08,960 --> 01:25:12,000
+We're still waiting, I guess, for the  big breakthroughs it's supposed to cause.
+
+01:25:12,720 --> 01:25:17,680
+This is the same procedure, so why  is this going to have an effect?
+
+01:25:17,680 --> 01:25:21,600
+Why has this taken so long? Good  question. The original procedure
+
+01:25:21,600 --> 01:25:24,880
+was created by a bunch of brilliant folks. There was a group in Ido Amit's lab at the
+
+01:25:24,880 --> 01:25:29,120
+Weizmann Institute, Aviv Regev's lab at the Broad,  where Atray Dixit, a friend of mine, helped work
+
+01:25:29,120 --> 01:25:33,360
+on this, and then Jonathan Weissman's lab at UCSF,  where Britt Adamson did a lot of the early work.
+
+01:25:33,360 --> 01:25:37,760
+They all constructed this idea  where you can go in and you label a
+
+01:25:37,760 --> 01:25:41,360
+perturbation that you're delivering to a cell. This is typically a transgenic perturbation,
+
+01:25:41,360 --> 01:25:44,640
+meaning you're integrating some  new gene into the genome of a cell.
+
+01:25:44,640 --> 01:25:47,760
+That turns another gene on or off. They used CRISPR, but there's lots of
+
+01:25:47,760 --> 01:25:52,560
+ways to do it and the concept's pretty general. Then you attach on that new transgene, that new
+
+01:25:52,560 --> 01:25:56,640
+gene you put into the genome of the cell, some  barcode that you can read out by DNA sequencing.
+
+01:25:56,640 --> 01:26:00,480
+Now when you rip the cells open, you're able  to not only measure every gene they're using,
+
+01:26:00,480 --> 01:26:04,160
+but you also sequence these barcodes, and you  know which genes you turned on and which are off.
+
+01:26:04,160 --> 01:26:06,960
+You can then start to ask questions like,  "Well, I've turned on genes A, B, and C,
+
+01:26:06,960 --> 01:26:10,800
+what did it do to the rest of the cell?" That's the general premise of the technology.
+
+01:26:10,800 --> 01:26:14,800
+It's useful to just set that up because it  explains why this didn't all happen earlier.
+
+01:26:14,800 --> 01:26:18,000
+The actual readout, ripping the cells open  and sequencing them, used to be pretty bad
+
+01:26:18,000 --> 01:26:21,360
+and it used to be really expensive. It's gotten much better over time.
+
+01:26:21,360 --> 01:26:24,800
+The metric people often think about  here is like cost per cell to sequence.
+
+01:26:24,800 --> 01:26:27,760
+It used to be measured in dollars  and now it's measured in cents,
+
+01:26:27,760 --> 01:26:33,200
+and down to the fractions of cents, because  that cost curve has improved dramatically.
+
+01:26:33,200 --> 01:26:37,200
+The cost of sequencing has likewise come down. So even beyond the actual reagents necessary to
+
+01:26:37,200 --> 01:26:40,800
+rip the cell open and turn its mRNAs into  DNAs that are ready for the sequencer,
+
+01:26:40,800 --> 01:26:43,600
+now the sequencer is cheaper. The other piece is, actually getting
+
+01:26:43,600 --> 01:26:48,000
+these genes in and then figuring out which  ones are there, it started out pretty bad.
+
+01:26:48,000 --> 01:26:50,800
+When we started with this technology,  it was a beautiful proof of concept,
+
+01:26:50,800 --> 01:26:54,320
+but I don't think anyone would tell  you it was 100% ready for prime time.
+
+01:26:54,320 --> 01:26:57,440
+When you sequenced a cell, only  about 50% of the time could you
+
+01:26:57,440 --> 01:27:01,280
+even tell which perturbation you put in. Sometimes you just wouldn't detect the barcode
+
+01:27:01,280 --> 01:27:04,960
+and you'd have to throw the cell away. Or you detect the wrong barcode and
+
+01:27:04,960 --> 01:27:08,960
+now you've mislabeled your data point. This might sound like a trivial sort of
+
+01:27:08,960 --> 01:27:11,840
+technical piece, but imagine you're running  this experiment the old-fashioned way.
+
+01:27:11,840 --> 01:27:14,960
+You test different groups of genes  in different test tubes on a bench.
+
+01:27:14,960 --> 01:27:18,720
+Now imagine you hired someone who  every other tube labels it wrong.
+
+01:27:18,720 --> 01:27:22,080
+When you then collect data from your experiment,  you basically have no idea what happened,
+
+01:27:22,080 --> 01:27:25,200
+because you've just randomized all  your data labels. You wouldn't do much
+
+01:27:25,200 --> 01:27:29,120
+science. You wouldn't get very far that way. A lot of those technologies have improved to
+
+01:27:29,120 --> 01:27:33,280
+the point where you had a number of processes  which are pretty inefficient and you multiplied
+
+01:27:33,280 --> 01:27:37,040
+a lot of these things together and ended  up with a very small outcome of successful
+
+01:27:37,040 --> 01:27:39,520
+cells you could actually sequence. They've all improved to the degree
+
+01:27:39,520 --> 01:27:44,080
+where now you can actually operate at scale. Groups like ours have had to do a bunch of
+
+01:27:44,080 --> 01:27:48,320
+work in order to actually enable combinatorial  perturbations, turning on more than just one gene
+
+01:27:48,320 --> 01:27:52,560
+at a time, which it turns out is much, much harder  for the same reason we were just alluding to.
+
+01:27:52,560 --> 01:27:55,600
+Imagine you're having trouble figuring  out which one gene you put in this cell
+
+01:27:55,600 --> 01:27:57,600
+and turned on or off. Now imagine you have to
+
+01:27:57,600 --> 01:28:02,000
+do that five times correctly in a row. Well, if you start out with the original
+
+01:28:02,000 --> 01:28:06,640
+performance where you could detect roughly 50%  of them, then the fraction of cells that would
+
+01:28:06,640 --> 01:28:11,440
+be correctly labeled is like 1/2^n, where n is  the number of genes you're trying to detect.
+
+01:28:11,440 --> 01:28:14,560
+Very quickly more of your data  is mislabeled than is labeled.
+
+01:28:14,560 --> 01:28:18,400
+There's lots of technical reasons like  this that have gotten worked out over time.
+
+01:28:18,400 --> 01:28:22,880
+Only now are we really able to scale up where  we're able to run experiments that are in the
+
+01:28:22,880 --> 01:28:27,920
+millions of cells in just a single day at,  for instance, a small company like NewLimit.
+
+01:28:27,920 --> 01:28:32,240
+There was a point even just six or seven  years ago where the companies that made
+
+01:28:32,240 --> 01:28:35,920
+these reagents were publishing the very  first million-cell data set just as a
+
+01:28:35,920 --> 01:28:39,440
+proof of concept and only they could do  it as the constructors of the technology.
+
+01:28:39,440 --> 01:28:42,960
+Now two scientists in our labs  can generate that in an afternoon.
+
+01:28:42,960 --> 01:28:52,080
+If it actually is the case that this is  very similar to the way LLM dynamics work,
+
+01:28:52,080 --> 01:28:58,800
+then once this technology is mature and you  get the GPT-3 equivalent of the virtual cell,
+
+01:28:58,800 --> 01:29:03,600
+what you would expect to happen is you get  many different companies, at least a couple,
+
+01:29:03,600 --> 01:29:08,960
+that are doing these cheap, Perturb-seq-like  experiments and building their own virtual cells.
+
+01:29:11,280 --> 01:29:17,120
+Then they're leasing this out to other people  who then have their own ideas about, "We want
+
+01:29:17,120 --> 01:29:24,000
+to see if we can come up with the labels for this  particular thing we care about and test for that."
+
+01:29:24,000 --> 01:29:28,000
+What it seems like is happening right now  is, at least at NewLimit, you are like,
+
+01:29:28,000 --> 01:29:35,200
+"We know the end use case we're going after." It would be as if Cursor in 2018 was like, "We're
+
+01:29:35,200 --> 01:29:40,320
+going to build our own LLM from scratch so that  we can enable our application," rather than some
+
+01:29:40,320 --> 01:29:43,360
+foundation model company being like, "We don't  care what you use it for, we're going to build
+
+01:29:43,360 --> 01:29:49,440
+this." Does that make sense? It seems like you're  combining two different layers of the stack.
+
+01:29:50,320 --> 01:29:55,200
+Because nobody else is doing the other  layer, you're just doing both of them.
+
+01:29:55,200 --> 01:30:00,240
+I don't know to what extent this analogy maps on. To play with the analogy a bit, imagine that
+
+01:30:00,240 --> 01:30:04,400
+you think about NewLimit as an LLM company. If I'm going to put us in the shoes of Cursor,
+
+01:30:04,400 --> 01:30:09,520
+which oh I so wish, imagine we're  trying to, in 2018, create Cursor Tab,
+
+01:30:09,520 --> 01:30:14,000
+but we're not trying to create a full LLM. I don't know enough about the underlying
+
+01:30:14,000 --> 01:30:17,680
+mechanics to know if that would have been  feasible, but it's a much more feasible problem
+
+01:30:17,680 --> 01:30:22,880
+than trying to create the most recent Cursor agent  or compete with modern Claude Code. That's roughly
+
+01:30:22,880 --> 01:30:29,680
+the equivalent. The problem we're breaking off is  a subset of the more general virtual cell problem.
+
+01:30:29,680 --> 01:30:32,560
+We're trying to predict, "What do  groups of transcription factors do
+
+01:30:32,560 --> 01:30:37,440
+to the age of very specific types of cells?" We only work on a few cell types at NewLimit
+
+01:30:37,440 --> 01:30:42,000
+because those are some of the only cell types  today with which we believe we can get really
+
+01:30:42,000 --> 01:30:45,200
+effective delivery of medicines. We think they're just more
+
+01:30:45,200 --> 01:30:48,560
+important because we can act on them today. If we solve the problem of what TFs to use,
+
+01:30:48,560 --> 01:30:52,240
+we can make a medicine pretty quickly. In a way, we're carving out a region of
+
+01:30:52,240 --> 01:30:56,880
+this massive parameter space and saying, "If we  can learn the distribution of effects even just
+
+01:30:56,880 --> 01:31:01,040
+in this small region, it's going to be really  effective for us, and we can make really amazing
+
+01:31:01,040 --> 01:31:06,080
+products, unlike the world has ever seen." Over time, we can expand to the corpus
+
+01:31:06,080 --> 01:31:10,480
+of predicting every possible gene  perturbation in every possible cell type.
+
+01:31:10,480 --> 01:31:13,280
+I think that's maybe the way the  analogy maps on, but it is true that
+
+01:31:13,280 --> 01:31:16,240
+we are vertically integrating here. We're generating our own data in a
+
+01:31:16,240 --> 01:31:18,480
+way that's proprietary. We think we have a much,
+
+01:31:18,480 --> 01:31:22,320
+much larger data set for this particular  regime than the rest of the world combined.
+
+01:31:22,320 --> 01:31:25,600
+That enables us to build what  we think are the best models.
+
+01:31:25,600 --> 01:31:30,640
+In many cases, what we found is that unlike  with LLMs, where a lot of the data that was
+
+01:31:30,640 --> 01:31:35,920
+necessary to build these was a common good—it was  produced as a function of the internet and shared
+
+01:31:35,920 --> 01:31:40,160
+across everyone, it's pretty common across all  the domains everyone wants to use it for—this
+
+01:31:40,160 --> 01:31:46,080
+biological data is still in its infancy. Imagine we're in the early 1980s and we
+
+01:31:46,080 --> 01:31:51,680
+are just now thinking about trying to create some  of the first web pages. That's the era we're in.
+
+01:31:51,680 --> 01:31:56,000
+We're going after and generating some of our own  data in this very niche circumstance, building
+
+01:31:56,000 --> 01:32:02,160
+the very high-quality corpus, the Wikipedia that  you might train your overly analogized- LLM on,
+
+01:32:02,160 --> 01:32:06,080
+and then building the first products based  on that and then expanding from there.
+
+01:32:06,080 --> 01:32:08,400
+We think that's necessary  because of where we are today.
+
+01:32:08,400 --> 01:32:12,960
+There isn't this Internet-like equivalent of data  that everyone can go out and reap rewards from.
+
+01:32:12,960 --> 01:32:19,280
+Interesting. This is more a question about the  broader pharma industry rather than just NewLimit.
+
+01:32:19,280 --> 01:32:28,000
+In the future, how are people going to make money? With the GLPs, we've got peptides from China that
+
+01:32:28,000 --> 01:32:30,880
+are just a gray market that  people can easily consume.
+
+01:32:31,680 --> 01:32:36,240
+Presumably, with these future AI models,  even if you have a patent on a molecule,
+
+01:32:36,240 --> 01:32:41,040
+finding an isomorphic molecule or an  isomorphic treatment is relatively easy.
+
+01:32:41,040 --> 01:32:44,160
+If you do come up with these crazy treatments and  if pharma in general is able to come up with these
+
+01:32:44,160 --> 01:32:50,640
+crazy treatments, will they be able to make money? The gray market piece, I'll put aside and say
+
+01:32:50,640 --> 01:32:56,480
+that’s IP enforcement at a geostrategic  level that I'm not qualified to speak to.
+
+01:32:57,200 --> 01:33:04,320
+It comes down to IP enforcement effectively. For that gray market piece, another reason that
+
+01:33:04,320 --> 01:33:08,640
+the traditional pharmaceutical industry will still  continue to reap the majority of rewards here is
+
+01:33:08,640 --> 01:33:14,000
+that most of the payment in the United States,  which provides most of the revenue for drug
+
+01:33:14,000 --> 01:33:18,320
+discovery in the world, goes through a payment  system that is not just direct-to-consumer. It
+
+01:33:18,320 --> 01:33:24,480
+goes through payers. If you have the opportunity  to either order a sketchy vial off of some website
+
+01:33:24,480 --> 01:33:29,520
+from some company in Shenzhen, or you can go  through your doctor and get a prescription
+
+01:33:29,520 --> 01:33:35,440
+with a relatively low co-pay for Tirzepatide, the  real thing, most patients will go for Tirzepatide.
+
+01:33:35,440 --> 01:33:39,360
+You and I probably live in a milieu of people who  are much more comfortable with ordering the vials
+
+01:33:39,360 --> 01:33:43,920
+from Shenzhen than most people might be. I don't consider that to be a tremendous
+
+01:33:43,920 --> 01:33:47,040
+concern writ large. The broader point is,
+
+01:33:47,040 --> 01:33:52,000
+if you have medicines with very long-term  durability, how do you reimburse them?
+
+01:33:52,000 --> 01:33:58,160
+If the benefits are very long term and accrue  in the out-years… A challenge we have in
+
+01:33:58,160 --> 01:34:02,480
+the US system is that the average person  churns insurers every three to four years.
+
+01:34:02,480 --> 01:34:05,440
+That number fluctuates around, but  that's the right order of magnitude.
+
+01:34:05,440 --> 01:34:09,280
+That means that if you had a medicine  which dramatically reduced the cost
+
+01:34:09,280 --> 01:34:12,960
+of all other healthcare incidents, but it  happened exactly five years after you got
+
+01:34:12,960 --> 01:34:17,360
+dosed with it, no insurer is technically  economically incentivized to cover that.
+
+01:34:17,360 --> 01:34:20,960
+I think there are a couple of  models here that can make sense.
+
+01:34:20,960 --> 01:34:26,480
+One is something called pay-for-performance where,  rather than reimbursing all of the cost of the
+
+01:34:26,480 --> 01:34:31,760
+drug upfront, you reimburse it over time. Say you get a medicine that just makes you
+
+01:34:31,760 --> 01:34:36,000
+generically healthier and you can measure the  reduced rates of heart attack and reduced rates
+
+01:34:36,000 --> 01:34:40,160
+of obesity and various other things, and you  get this one dose and it lasts for 10 years.
+
+01:34:40,160 --> 01:34:44,000
+Each year you would pay something like a tenth  of the cost of the medicine contingent on the
+
+01:34:44,000 --> 01:34:47,680
+idea that it was actually still working for  you and you had some way of measuring that.
+
+01:34:47,680 --> 01:34:51,760
+That's a big challenge in this industry. How would you demonstrate that any one of
+
+01:34:51,760 --> 01:34:55,760
+these medicines is still working for the patient? In the few examples we have today, these are
+
+01:34:55,760 --> 01:34:59,280
+things like gene therapies where you can just  measure the expression of the gene and it’s like,
+
+01:34:59,280 --> 01:35:02,400
+"Okay, the drug is still there." It gets more complicated when you
+
+01:35:02,400 --> 01:35:06,800
+have some of these longer-term net benefits. The idea would be that then each insurer is
+
+01:35:06,800 --> 01:35:10,640
+incentivized to just pay for the time  of coverage that you're on their plan.
+
+01:35:10,640 --> 01:35:15,440
+We already have a framework for this  post-Affordable Care Act in the US where
+
+01:35:15,440 --> 01:35:19,920
+pre-existing conditions no longer really exist. Patients are able to freely move between payers,
+
+01:35:19,920 --> 01:35:23,840
+and you could sort of treat the presence  of one of these therapeutics lowering
+
+01:35:23,840 --> 01:35:28,080
+this patient's overall healthcare costs the  same way we treat a pre-existing condition.
+
+01:35:28,080 --> 01:35:31,520
+This is something that the system  is still overall figuring out.
+
+01:35:31,520 --> 01:35:34,720
+What I'm saying here is one hypothesis  about what the future might look like,
+
+01:35:34,720 --> 01:35:39,120
+but there are alternative clever approaches  people might think about for reimbursement.
+
+01:35:39,120 --> 01:35:43,040
+I think over time we're going to move  more toward a direct-to-consumer model
+
+01:35:43,040 --> 01:35:47,680
+for many of these medicines which preserve and  promote health rather than just fixing disease.
+
+01:35:47,680 --> 01:35:51,120
+You're seeing what are really some of the  most innovative examples of this right now
+
+01:35:51,120 --> 01:35:55,280
+from Lilly around the incretin mimetics,  where they actually launched LillyDirect.
+
+01:35:55,280 --> 01:35:58,720
+For the first time, rather than going to  a pharmacy, which interacts with a PBM,
+
+01:35:58,720 --> 01:36:02,400
+which interacts with your primary care physician…  You can get a prescription from your doctor,
+
+01:36:02,400 --> 01:36:06,160
+go straight to Lilly, the source of the good  stuff, and you're able to order high-quality
+
+01:36:06,160 --> 01:36:10,320
+drugs from them, and not involve some  intermediary compounder in the middle that
+
+01:36:10,320 --> 01:36:16,400
+might not even make your molecules properly. As these medicines develop that have actual
+
+01:36:16,400 --> 01:36:20,560
+consumer demand—because you feel it in your daily  life and you're actually seeing a benefit from it,
+
+01:36:20,560 --> 01:36:23,520
+it's not just something that your  physician is trying to get you to
+
+01:36:23,520 --> 01:36:28,480
+take—that model will start to dominate. That means that this payment over time for
+
+01:36:28,480 --> 01:36:33,360
+some of these long-term benefits might be able  to be abstracted away from our current payer
+
+01:36:33,360 --> 01:36:38,720
+system where it churns every few years. A payment-over-time plan, the same way we
+
+01:36:38,720 --> 01:36:41,200
+finance other large purchases  in life, seems very feasible.
+
+01:36:41,200 --> 01:36:46,800
+The reason I'm interested in this is  that healthcare is already 20% of GDP.
+
+01:36:46,800 --> 01:36:51,280
+It's grown notable percentages  in the last few years.
+
+01:36:52,080 --> 01:37:02,400
+This is a fraction that is quickly growing. The overwhelming majority of this is going
+
+01:37:02,400 --> 01:37:06,560
+towards administering treatments  that have already been invented.
+
+01:37:07,200 --> 01:37:13,600
+That’s good, but nowhere near as good as  spending this enormous sum of resources
+
+01:37:13,600 --> 01:37:17,760
+towards coming up with new treatments that  in the future will improve the lives of
+
+01:37:17,760 --> 01:37:23,360
+people that will have these ailments. One question is just how do we make it
+
+01:37:23,360 --> 01:37:28,080
+so that more… If we're going to spend 20%  of GDP on healthcare, it should at least go
+
+01:37:28,080 --> 01:37:32,080
+towards coming up with new treatments rather  than just paying nurses and doctors to keep
+
+01:37:32,080 --> 01:37:40,320
+administering stuff that kind of works now. Two, if the cost of drugs, at least from the
+
+01:37:40,320 --> 01:37:44,880
+perspective of the payer, ends up being,  you need a doctor to give you some scan
+
+01:37:45,520 --> 01:37:51,040
+before he can write you a prescription and  then they need to administer it and they
+
+01:37:51,040 --> 01:37:58,400
+need to make sure that you're doing okay,  etc… Even if for you to manufacture this
+
+01:37:58,400 --> 01:38:05,520
+therapy it might cost tens of dollars per patient,  for the healthcare system overall, it might be
+
+01:38:05,520 --> 01:38:08,800
+tens of thousands of dollars per patient. I'm curious if you agree with those
+
+01:38:08,800 --> 01:38:10,960
+orders of magnitude. I think that's correct. I
+
+01:38:10,960 --> 01:38:14,240
+think the stat is something like drugs  are roughly 7% of healthcare spend.
+
+01:38:14,240 --> 01:38:16,640
+I could be a little bit wrong  on that, but the OOM is right.
+
+01:38:17,600 --> 01:38:22,480
+Basically, even if we invent de-aging technology,  or especially if we invent de-aging technology,
+
+01:38:22,480 --> 01:38:25,040
+how should we think about the way  it will net out in the fraction
+
+01:38:25,040 --> 01:38:29,680
+of GDP that we have to spend on healthcare? Will that increase because everybody's lining
+
+01:38:29,680 --> 01:38:34,560
+up at the doctor's office to get a prescription  and you gotta go into the clinic every week?
+
+01:38:34,560 --> 01:38:38,960
+Or will that decrease because the other downstream  ailments from aging aren't coming about?
+
+01:38:38,960 --> 01:38:42,640
+I think the latter is much more  likely to be the case. Here are some
+
+01:38:42,640 --> 01:38:47,600
+quick heuristics. There are many reasons  that healthcare costs so much in the US.
+
+01:38:47,600 --> 01:38:51,680
+One of them is something like Baumol's  cost disease, which is very unrelated to
+
+01:38:51,680 --> 01:38:55,520
+pharmaceutical discoveries but is something  that we will have to solve in the system.
+
+01:38:55,520 --> 01:39:00,000
+Part of it's the disintermediation of the  actual customer and the actual provider.
+
+01:39:00,560 --> 01:39:04,960
+These are things that biotech probably isn't  going to be able to solve as an industry alone.
+
+01:39:04,960 --> 01:39:10,480
+That's probably a larger economic problem. But when you think about how this will affect
+
+01:39:10,480 --> 01:39:12,720
+the total amount of healthcare  that will need to be delivered.
+
+01:39:12,720 --> 01:39:18,240
+If you have more of these medicines for everyone,  medicines that keep you healthier longer rather
+
+01:39:18,240 --> 01:39:23,280
+than medicines that only fix a problem once you're  already very sick, I think you actually avoid
+
+01:39:23,280 --> 01:39:27,600
+a lot of the types of administration costs. It’s not just administration like admins at
+
+01:39:27,600 --> 01:39:32,720
+hospitals, but the cost of administering existing  medicines and therapies to you. That’s going down.
+
+01:39:32,720 --> 01:39:36,560
+One stat on why I think that's true. Something like a third of all Medicare costs are
+
+01:39:36,560 --> 01:39:40,080
+spent in the final year of life, which is shocking  when you realize that the average person on
+
+01:39:40,080 --> 01:39:47,360
+Medicare is probably a decade-plus covered by it. There's an incredible concentration of the actual
+
+01:39:47,360 --> 01:39:53,520
+expenses once someone is already terribly sick. Helping prevent you from ever having to access
+
+01:39:53,520 --> 01:39:57,840
+the intensive healthcare system, something like  an inpatient hospital visit, if you can prevent
+
+01:39:57,840 --> 01:40:02,720
+even just a couple of those visits over a long  period of someone's life with a medicine like
+
+01:40:02,720 --> 01:40:06,880
+an incretin mimetic, like a reprogramming medicine  that keeps your liver, your immune system younger,
+
+01:40:06,880 --> 01:40:11,840
+on net that actually starts to drive healthcare  spend down because you're shifting some of
+
+01:40:11,840 --> 01:40:15,120
+that burden from the administration  system to the pharmaceutical system.
+
+01:40:15,120 --> 01:40:17,440
+The pharmaceutical system is  the only piece of healthcare
+
+01:40:17,440 --> 01:40:22,800
+where technology has made us more efficient. As drugs go generic, the cost of administering
+
+01:40:22,800 --> 01:40:27,200
+a given unit of healthcare is going down. The grand social contract is
+
+01:40:27,200 --> 01:40:30,720
+that they eventually go generic. That's the way our current IP system works.
+
+01:40:30,720 --> 01:40:35,200
+So if you were to get the question of, "When would  you like to be born as a patient?" you always want
+
+01:40:35,200 --> 01:40:38,880
+to be born as close to today as possible. Because for a given unit in terms of
+
+01:40:38,880 --> 01:40:43,760
+pharmaceuticals, for a given dollar unit of  expense, you can access more pharmaceutical
+
+01:40:43,760 --> 01:40:48,000
+technology today than has ever been possible  in history, even as healthcare costs
+
+01:40:48,000 --> 01:40:51,840
+everywhere else in the system have shot up. Pharmaceuticals are the one place where,
+
+01:40:51,840 --> 01:40:55,840
+because of the mechanism of things going  generic and the fact that our old medicines
+
+01:40:55,840 --> 01:41:01,120
+continue to work and persist over time,  you're able to get more benefit per dollar.
+
+01:41:01,120 --> 01:41:08,720
+Okay, final question. Pharma is spending billions  of dollars per new drug it comes up with.
+
+01:41:08,720 --> 01:41:12,320
+Surely they have noticed that the lack  of some general platform or some general
+
+01:41:12,320 --> 01:41:16,400
+model has made it more and more expensive  and difficult to come up with new drugs.
+
+01:41:16,400 --> 01:41:21,600
+You say Perturb-seq has existed since 2016. As far as you can tell, you have the most
+
+01:41:21,600 --> 01:41:26,560
+amount of that kind of data which would  feed into a general-purpose model.
+
+01:41:27,760 --> 01:41:33,040
+What is the traditional pharma  industry on the other coast up to?
+
+01:41:33,040 --> 01:41:37,280
+If I went to the head of R&D at  Eli Lilly or Pfizer or something,
+
+01:41:37,280 --> 01:41:42,080
+do they think that this is like they have some  different idea of the platform that needs to
+
+01:41:42,080 --> 01:41:46,560
+be built or they're like, "No, we're all in  on the bespoke game, bespoke for each drug?"
+
+01:41:47,360 --> 01:41:49,600
+I'll just correct one thing to  make sure I'm not overstating.
+
+01:41:49,600 --> 01:41:53,920
+We have way more data for the limited  subproblem we're tackling, which is
+
+01:41:53,920 --> 01:41:57,600
+overexpressing TFs in combinations. We have way more data than anyone,
+
+01:41:57,600 --> 01:42:00,400
+full stop, there. But even more specifically, I feel very,
+
+01:42:00,400 --> 01:42:04,080
+very confident we have more data than anyone  looking at trying to reprogram a cell's age.
+
+01:42:04,720 --> 01:42:07,840
+That's where we're way larger  than the rest of the world.
+
+01:42:07,840 --> 01:42:12,320
+When we think about just general single-cell  perturbation data of various flavors,
+
+01:42:12,960 --> 01:42:15,760
+there are other groups which have  very large data sets as well.
+
+01:42:15,760 --> 01:42:18,320
+We're still differentiated because we  do everything in human cells with the
+
+01:42:18,320 --> 01:42:21,760
+right number of chromosomes, whereas it's very  common to do things in cancer cell lines which
+
+01:42:21,760 --> 01:42:27,200
+have 200 chromosomes. Is that human? I don't know.  Depends on how you actually quantify these things.
+
+01:42:27,200 --> 01:42:30,960
+So then, if you’re going to go ask the leaders  of some of the traditional pharmaceutical firms,
+
+01:42:31,600 --> 01:42:35,920
+"Are you trying to build a general model?" I think some of them have in-house AI
+
+01:42:35,920 --> 01:42:38,880
+innovation teams that are working on this. There are really smart people there.
+
+01:42:38,880 --> 01:42:42,240
+But as a general trend, you  can think about some of the
+
+01:42:42,240 --> 01:42:49,520
+modern pharmas a bit like venture capital firms. They've over time externalized a lot of their R&D.
+
+01:42:49,520 --> 01:42:52,960
+They often have divisions of external  innovation, which you can think of as
+
+01:42:52,960 --> 01:42:57,600
+the corp dev version of venture capital. They work with the biotech ecosystem to
+
+01:42:57,600 --> 01:43:04,240
+have a number of smaller, nimble firms explore  really pioneer ideas, the types of things we're
+
+01:43:04,240 --> 01:43:08,800
+working on, and then eventually partner with them  once they have assets that are later downstream.
+
+01:43:09,680 --> 01:43:14,080
+The industry has sort of bifurcated  where smaller biotechs like ours
+
+01:43:14,080 --> 01:43:17,120
+take on most of the early discovery. I'm going to get it a little bit wrong
+
+01:43:17,120 --> 01:43:20,880
+from memory, but it's something like 70% of  molecules approved in a given year come from
+
+01:43:20,880 --> 01:43:24,880
+originally small biotechs rather than large  pharmas, even though you look at the actual
+
+01:43:24,880 --> 01:43:28,800
+dollars of R&D spend on the balance  sheet and it's largely in big pharma.
+
+01:43:28,800 --> 01:43:34,560
+Another level of disintermediation. Part of the reason for that difference in
+
+01:43:34,560 --> 01:43:37,920
+cost is they're running most of the trials. Most people partner with pharma to run
+
+01:43:37,920 --> 01:43:41,520
+trials where a lot of the costs are incurred. It's not just that all large pharmas are horribly
+
+01:43:41,520 --> 01:43:45,680
+inefficient or anything like that. Some of them would tell you,
+
+01:43:45,680 --> 01:43:49,200
+"These ideas are really exciting. We have an external innovation department, if we
+
+01:43:49,200 --> 01:43:53,520
+don't have one internally, or we're collaborating  with a startup that's doing something similar."
+
+01:43:53,520 --> 01:43:58,000
+You can think of the market structure like you  have a bunch of biotechs, which are the startups
+
+01:43:58,000 --> 01:44:02,640
+in your ecosystem, and then they're working  with something like an oligopsony of pharmas.
+
+01:44:02,640 --> 01:44:06,400
+It's a limited number of buyers for  this particular type of product,
+
+01:44:06,400 --> 01:44:10,640
+which is a therapeutic asset that is  ready for a phase one, phase two trial.
+
+01:44:10,640 --> 01:44:13,840
+There's a very liquid market for the phase  one, phase two assets, and that's the point at
+
+01:44:13,840 --> 01:44:18,000
+which these partnerships can come to fruition. That's what a lot of those leaders would say.
+
+01:44:19,200 --> 01:44:22,160
+By contrast, for instance, Roche  bought Genentech back in 2013.
+
+01:44:22,800 --> 01:44:26,160
+R&D is currently run by Aviv Regev, one of  the scientists I admire most in the world,
+
+01:44:26,160 --> 01:44:30,720
+who's like a thousand times smarter than me. She's one of the people who invented this
+
+01:44:30,720 --> 01:44:33,600
+technology and has a big group  doing this sort of work there.
+
+01:44:33,600 --> 01:44:36,880
+So it's not like every pharma takes  that view, but that's a general trend.
+
+01:44:38,240 --> 01:44:42,640
+Full disclosure, I am a small  angel investor in NewLimit now,
+
+01:44:42,640 --> 01:44:47,280
+but that did not influence the decision to have  Jacob on. This is super fascinating. Thanks so
+
+01:44:47,280 --> 01:44:53,760
+much for coming on the podcast. Awesome. Thanks, Dwarkesh.

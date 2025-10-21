@@ -106,6 +106,12 @@ Example fixes:
 - Big rearrangements/extra or missing chromosomes: no general repair today; practical path is replacement, with possible targeted edits in the future.
 - Where SENS fits: these are SENS‑style “repair/replace” moves that cover letter‑level and structural problems; they complement Sinclair‑style resets. See <a href="sens_damage_repair.md">SENS Damage Repair</a>.
 
+## Additional Notes
+
+Why look beyond the original Yamanaka factors? OSK (Oct4, Sox2, Klf4) proved the concept of epigenetic partial reprogramming — you can reset the cell’s “labels and shelving” without changing DNA letters — but it’s a blunt tool. Safer, more controllable programs that keep cell identity and work across diverse tissues are desirable (avoid oncogenic drivers like c‑Myc; avoid pushing cells toward pluripotency/dedifferentiation). Teams like NewLimit explore alternative/transcription‑factor sets and delivery modes to preserve identity while restoring housekeeping (better DNA repair, protein quality control/proteostasis, steadier mitochondria) with a wider safety window.
+
+Practical reasons: different tissues age differently and respond to different “nudges,” so cell‑type‑specific programs may beat one‑size‑fits‑all OSK (tailored transcription factors; CRISPRa to turn on endogenous genes; small‑molecule cocktails). Smaller or simpler payloads are also easier to deliver and dose (AAV packaging limits; mRNA; nanoparticles). Near‑term, many efforts focus ex vivo (rejuvenate cells outside the body, then return them); in vivo programs will follow as safety/control improve. The goal is to match or beat OSK on durable function and safety, not just clock reversal.
+
 ## Sources
 
 - Tweet: https://vxtwitter.com/davidasinclair/status/1969276595895455925

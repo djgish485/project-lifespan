@@ -1,0 +1,1444 @@
+[00:40.56] Today I have the pleasure of interviewing Jacob  Kimmel, who is the president and co-founder of
+[00:44.56] NewLimit, where they're trying to epigenetically  reprogram cells to their younger states.
+[00:48.48] Jacob, thanks so much for coming on the podcast. Thanks so much for having me. Looking
+[00:50.96] forward to the conversation. All right, first question.
+[00:53.12] What's the first principles argument for  why evolution just discards us so easily?
+[00:58.72] I know evolution cares about our kids. But if we have longer, healthier lifespans,
+[01:03.92] we can have more kids, right? We can care for them longer,
+[01:06.24] we can care for our grandkids. Is there some pleiotropic effect that an
+[01:12.08] anti-aging medicine would have which actually  selects against you staying young for longer?
+[01:18.00] I think there are a couple  different ways one can tackle this.
+[01:20.32] One is you have to think about what's  the selective pressure that would
+[01:23.04] make one live longer and encode for  higher health over longer durations.
+[01:27.60] Do you have that selective pressure present? There's another which is, are there any
+[01:30.88] anti-selective pressures that are  actually pushing against that?
+[01:33.84] There's a third piece of this, which is  something like the constraints of your optimizer.
+[01:37.60] If we think about the genome as a set  of parameters and the optimizer is
+[01:40.56] natural selection, then you've got some  constraints on how that actually works.
+[01:44.00] You can only do so many mutations at a time. You have to spend your steps that
+[01:47.52] update your genome in certain ways. Tackling those from a few different directions,
+[01:51.12] what would the positive possible selection be? As you highlighted, it might be something like,
+[01:55.92] "If I'm able to extend the lifespan of an  individual, they can have more children,
+[01:58.88] they can care for those children more effectively. That genome should propagate more
+[02:02.24] readily into the population." One of the challenges then—if you're
+[02:06.08] trying to think back in a thought experiment style  of evolutionary simulation here—would be: What
+[02:13.04] were the conditions under which a person would  actually live long enough for that phenotype to
+[02:17.84] be selected for, and how often would that occur? This brings us back to some very hypothetical
+[02:22.32] questions. Things like,
+[02:23.52] what was the baseline hazard rate during  the majority of human and primate evolution?
+[02:28.32] The hazard rate is simply, "What is the likelihood  you're going to die on any given day?" That
+[02:32.48] integrates everything. That's diseases from aging,  that's getting eaten by a tiger, that's falling
+[02:36.56] off a cliff, that's scraping your foot on a rock  and getting an infection and dying from that.
+[02:41.36] From the best evidence we have, the  baseline hazard rate was very, very high.
+[02:45.92] Even absent aging, you're unlikely to actually  reach those outer limits of possible health
+[02:51.52] where aging is one of the main limitations. The number of individuals in the population that
+[02:55.60] are going to make it later in that lifespan, where  using some of your evolutionary updates to try and
+[03:01.44] push your lifespan upward, is relatively limited. The amount of gradient signal flowing back to
+[03:06.24] the genome then is not as high  as one might intuitively think.
+[03:10.88] On that, often people who are trying  to forecast AI will discuss how hard
+[03:16.16] evolution tried to optimize for intelligence,  and what were the things which optimizing for
+[03:21.12] intelligence would have prevented evolution  from selecting for at the same time?
+[03:25.52] So even if intelligence were a relatively  easy thing to build in this universe,
+[03:30.96] it would have taken evolution so long  to get at human-level intelligence.
+[03:34.00] And, potentially, if intelligence were really  easy, then it might imply that we're going to get
+[03:38.88] superintelligence and Jupiter-level intelligence,  etc. The sky's the limit. One argument is birth
+[03:46.08] canal sizes, etc., or the fact that we had to  spend most of our resources on the immune system.
+[03:53.12] But what you just hinted at is an independent  argument that if you have this high hazard rate,
+[03:59.20] that would imply you can't be a kid for too long. Kids die all the time and you have to become an
+[04:06.88] adult so that you can have your kids. You’ve got to contribute
+[04:09.20] resources back to the group. You can't just be a freeloader.
+[04:11.44] You need to get calories, go out  in the jungle, get some berries.
+[04:15.12] If you're just hanging out learning stuff for  50 years, you're just going to die before you
+[04:19.12] get to have kids yourself. Obviously, humans have
+[04:21.84] bigger brains than other primates. We also have longer adolescences,
+[04:26.08] which help us make use potentially of  the extra capacity our brain gives us.
+[04:30.56] But if you made the adolescence too long, then  you would just die before you get to have kids.
+[04:36.00] If that's going to happen anyways, what's  the point of making the brain bigger?
+[04:38.96] AKA, maybe intelligence is easier  than we think, and there's a bunch
+[04:42.88] of contingent reasons evolution didn't churn  as hard on this variable as it could have.
+[04:46.08] I entirely agree with that particular thesis. In biology in general, when you're trying
+[04:49.92] to engineer a given property, be it being  healthier longer or be it making something
+[04:54.00] more intelligent… This is true even at the  micro-level of trying to engineer a system
+[04:57.92] to manufacture a protein at high efficiency. You always have to start by asking yourself, "Did
+[05:02.48] evolution spend a lot of time optimizing this? If yes, my job is going to be insanely hard.
+[05:07.28] If not, potentially there  are some low-hanging fruit."
+[05:09.92] This is a good argument for why, potentially,  intelligence wasn't strongly selected for.
+[05:14.16] The lifespan argument plays back  into intelligence to a degree.
+[05:17.28] You start to ask, "If I have intelligence that's  able to compound over time and for instance, in
+[05:22.72] some hypothetical universe, my fluid intelligence  lasts much longer into my lifespan…" If the number
+[05:27.44] of people who are reaching something like  65 is very small in a population, you're not
+[05:31.60] necessarily going to select for alleles that lead  to fluid intelligence preservation late into life.
+[05:36.00] This is part of my own pet hypothesis around  some of the interesting phenomenology in when
+[05:40.32] discoveries are made throughout lifespans. There  are some famous results. For instance—and I'm
+[05:43.92] going to get the exact age a little bit wrong—but  in mathematics, most great discoveries happen
+[05:47.68] roughly before 30. Why should that be true?  That doesn't make sense. You can put down
+[05:52.00] a bunch of societal reasons for it. Maybe you become staid in your ways.
+[05:56.56] Your teachers have caused you to  restrict your thinking by that point.
+[05:59.76] But really, that's true across centuries? Is that true across many different
+[06:03.12] unique cultures around the world? That's true in both cultures from
+[06:05.76] the East and cultures from the West? That seems  unlikely to me. A much simpler explanation is that
+[06:10.72] for whatever reason, our fluid intelligence is  roughly maximized at the time where the population
+[06:15.60] size during human evolution was maximal. If you had to pick an age at which fluid
+[06:20.08] intelligence was selected most strongly  for, it's probably around 25 or 30.
+[06:25.36] That's probably about the age of the adults  in the large populations that were being
+[06:28.96] selected for during most of evolution. There's a lot of reason here to think
+[06:33.12] that there's interplay between many features  of modern humans and how long we were living,
+[06:38.24] and how that dictates some of the features that  occur that rise and fall throughout our lives.
+[06:42.64] In one way, this is a very interesting RL problem. It's a long-horizon RL problem, a 20-year horizon
+[06:49.36] length, and then there's a scalar value of how  many kids you have, I guess that survive, etc.
+[06:57.20] If you've heard from your friends about  how hard RL is on these models for just
+[07:01.76] very intermediate goals that last an hour  or a couple of hours, it's surprising that
+[07:06.32] any signal propagates across a 20-year horizon. On the point about fluid intelligence peaking,
+[07:12.72] it’s not only the case that in many  fields achievement peaks before 30.
+[07:18.24] In many cases, if you look at the greatest  scientists ever, they had many of their greatest
+[07:21.92] achievements in a single year. Yeah, the annus mirabilis.
+[07:25.19] Yeah, exactly. Yeah, exactly.
+[07:26.16] Newton, what is it? Optics,  gravity, calculus at 21.
+[07:30.16] Do you know the Alexander von Humboldt story? No.
+[07:32.72] Alexander von Humboldt is one  of the most famous scientists in
+[07:34.64] history who is kind of forgotten now. He had this one expedition to South
+[07:38.64] America where he climbed Mount Chimborazo at  a time when very few Europeans had done that.
+[07:42.72] He was able to observe various  ecological layers that were
+[07:46.64] repeated across latitudes and across altitudes. It caused him to formulate an understanding of
+[07:51.60] how selection was operating on plants  at different layers in the ecosystem.
+[07:56.08] That one expedition was the  basis of his entire career.
+[07:58.88] When you see something named Humboldt, just  to give you a sense of how famous this guy is,
+[08:02.16] it's usually Alexander von Humboldt. It's not like this is some massive,
+[08:05.36] prosperous German family name that just happens  to be really common. It's this one guy. So really
+[08:10.40] it was like this singular year in which he  conceived a lot of our modern understanding
+[08:14.00] of botany and selective pressure. Interesting. So that's one out of
+[08:17.60] three components of the evolutionary story. The next piece of the evolutionary story is,
+[08:21.92] "Is there anything selecting against longevity?" Let's just pretend everything I said was wrong.
+[08:25.68] Can I still make an argument that maybe evolution  hasn't maximally optimized for our longevity?
+[08:31.28] One argument that comes up, and I'll  caveat and say I don't know how strong
+[08:34.24] some of the mathematical models  that people put together here are.
+[08:36.56] You can find people using the same  idea to argue for and against.
+[08:39.60] But there's this notion of  what's called kin selection.
+[08:41.84] If you take a selfish gene view of the world—that  really this is the genome optimizing for the
+[08:46.56] genome's propagation, it's not trying to optimize  for any one individual—then actually optimizing
+[08:51.84] for longevity is a pretty tricky problem  because you have this nasty regularization term.
+[08:57.04] If you're able to make a member of the  population live longer, but you don't also
+[09:00.88] counteract the decrease in their fitness over  time—meaning you maybe extend maximum lifespan
+[09:05.36] but you haven't totally eliminated aging—then  the number of net calories contributed to the
+[09:09.92] genome as a function of that person's marginal  year and their own calorie consumption is less
+[09:14.88] than if you were to allow that individual  to die and actually have two 20 year olds,
+[09:18.24] for instance, that follow behind them. So there is a notion by which a population being
+[09:23.04] laden demographically with many aged individuals,  even if they did have fecundity persisting out
+[09:28.64] some period later in life, is actually net  negative for the genome's proliferation
+[09:32.88] and that really a genome should optimize for  turnover and population size at max fitness.
+[09:37.44] I love this idea of aging as a length regularizer. People might be familiar with the idea that when
+[09:44.16] companies are training models, they'll have a  regularizer for, "You can do chain of thought,
+[09:48.64] but don't make the chain of thought too long." You're saying how many calories you consume over
+[09:52.80] the course of your life, is one such regularizer?  That's interesting. The third point was...
+[10:00.56] The third piece is basically  optimization constraints.
+[10:02.88] So this is where another ML analogy is helpful. Well, actually a two-layer neural network is
+[10:08.88] technically a universal approximator, but we can  never actually fit them in such a way. Why does
+[10:13.44] that occur? People will wave their hands, but it  basically comes down to the fact that we don't
+[10:16.32] really know how to optimize them, even  if you can prove out in a formal sense
+[10:19.52] that they are universal approximators. I think we have similar optimization
+[10:23.52] challenges with our genome as the parameters  and evolution as the optimization algorithm.
+[10:28.24] One of those is that your mutation rate  basically bounds the step size you can take.
+[10:31.84] So if you imagine that at each  generation, you get some number of inputs,
+[10:35.04] you can select for some number of alleles. The max number of variations in the genome
+[10:39.68] is set by your mutation rate. If you dial your mutation rate
+[10:41.92] up too high, you probably get a bunch  of cancers, so you're selected against.
+[10:45.60] If you have it too low, you  can't really adapt to anything.
+[10:47.84] You end up with this happy medium,  but that limits your total step size.
+[10:50.64] Then the number of variants  you can screen in parallel is
+[10:52.72] basically limited by your population size. So for most of evolution, there are lots
+[10:56.00] of forces constraining population size as well. One of the dominant sources of selection on the
+[11:00.08] genome is really prevention of infectious disease. It seems like when you study the history of early
+[11:05.20] modern man, infectious disease is actually what  shaped a lot of our population demographics.
+[11:10.08] There's a lot of pressure pushing for those  step sizes, those updates to the genome,
+[11:14.32] really to be optimizing for protection against  infectious disease rather than other things.
+[11:19.12] Even if you imagine that maybe the arguments  on the first and the second of these possible
+[11:25.12] positive selection being absent for longevity  and potentially some negative selection existing,
+[11:29.60] you could construct a reasonable argument  for why humans don't live forever and why
+[11:33.28] the genome hasn't optimized for that, simply  based on these optimization constraints.
+[11:37.04] You have to imagine not only that the  positive selection is there and the
+[11:39.92] negative selection is absent, but that when you  think about the weighted loss term of all the
+[11:44.16] things the genome is optimizing for, that the  weight on longevity is high enough to matter.
+[11:48.48] Even if you imagine it's there, if you simply  imagine that the lambdas are dialed toward
+[11:51.92] infectious disease resilience more effectively,  then you can construct an argument for yourself.
+[11:56.32] And so I think really when you start  to ask "why don't we live forever,
+[11:59.44] why didn't evolution solve this?" you actually  have to think about an incredibly contingent
+[12:03.44] scenario where both the positive selection is  there, the negative selection is absent, and you
+[12:08.16] have a lot of our evolutionary pressure going  toward longevity to solve this incredibly hard
+[12:11.84] problem in order to construct the counterfactual  in which longevity is selected for and does arise
+[12:17.12] in modern man and in which we are optimal. So I think that puts human aging and longevity
+[12:21.84] and health really in this category of problems  in which evolution has not optimized for it.
+[12:26.40] Ergo, it should be, relatively speaking,  relative to a problem evolution had worked on,
+[12:32.00] easy to try and intervene and provide health. In many ways, the existence of modern medicines,
+[12:36.56] which are incredibly simplistic—we are targeting  a single gene in the genome and turning it off
+[12:41.20] everywhere at the same time—the fact that these  provide massive benefit to individuals is another
+[12:45.84] sort of positive emission or piece of evidence. Antibiotics are an even more clear case
+[12:50.24] of that because here's something that  evolution actually cares a lot about.
+[12:54.32] It feels like antibiotics should be… Why didn't humans evolve their own antibiotics?
+[12:57.36] Yeah. It's an excellent question that I haven't
+[12:59.04] heard posed before. Where do antibiotics come  from? To your point, we could synthesize them.
+[13:03.68] They're just metabolites, largely  of other bacteria or other fungi.
+[13:07.04] You think about the story of penicillin. What  happens? Alexander Fleming finds some fungi
+[13:10.48] growing on a dish. The fungi secrete
+[13:12.24] this penicillin antibiotic compound. So there's no bacteria growing near the fungi.
+[13:16.00] He says he has this light bulb moment  of, "Oh my gosh, they're probably
+[13:18.80] making something that kills bacteria." There's no prima facie reason that you
+[13:22.08] couldn't imagine encoding an antibiotic  cassette into a mammalian genome.
+[13:26.08] Part of the challenge that you run into is  that you're always in evolutionary competition.
+[13:30.00] There's this notion of what's  called the Red Queen hypothesis.
+[13:32.96] It's an allusion to the story in Lewis  Carroll's Through the Looking Glass,
+[13:36.24] where the Red Queen is running  really fast just to stay in place.
+[13:39.68] When you look at pathogen-host interactions or  competition between bacteria and fungi that are
+[13:44.80] all trying to compete for the same niche, what  you find is they're evolving very rapidly in
+[13:48.56] competition with one another. It's an arms  race. Every time a bacteria evolves a new
+[13:51.76] evasion mechanism, the fungus that occupies  the niche will evolve some new antibiotic.
+[13:56.64] Part of why there is this competitiveness  between the two is they both have very
+[14:00.40] large population sizes in terms of number of  genomes per unit resource they're consuming.
+[14:05.28] There are trillions of bacteria in a  drop of water that you might pick up.
+[14:08.48] There's trillions of copies of the genome. Massive  analog parallel computation. And at the same time,
+[14:13.60] they can tolerate really high mutation rates  because they're prokaryotic. They don't have
+[14:18.08] multiple cells. If one cell manages to mutate too  much and it isn't viable, or it grows too fast,
+[14:24.40] it doesn't really compromise the  population and the whole genome.
+[14:26.80] Whereas for metazoans like you and I, if  even one of our cells has too many mutations,
+[14:30.40] it might turn into a cancer and  eventually kill off the organism.
+[14:34.08] What I'm getting at, and this is a long-winded  way of getting there, is that bacteria and other
+[14:38.72] types of microorganisms are very well adapted to  building these complex metabolic cascades that are
+[14:44.72] necessary to make something like antibiotics. It's necessary to maintain that same mutation
+[14:50.16] rate and population size in order  to maintain the competition.
+[14:53.52] Even if our human genome stumbled into making  an antibiotic, most pathogens probably would
+[14:57.76] have mutated around it pretty quickly. That should imply that through evolutionary
+[15:04.88] history there are millions of "naive  antibiotics" which could have acted as
+[15:10.80] antibiotics, but now, basically, all  the bacteria have evolved around it.
+[15:15.76] Do we see evidence of these historical  antibiotics that some fungi came up
+[15:19.44] with and the bacteria revolved around and  there's evidence for remnants in their DNA?
+[15:23.36] I'm going a bit beyond my own knowledge  here, but my strong hypothesis would be yes.
+[15:28.16] I can't point to direct evidence today. There are some examples of this.
+[15:31.68] For instance, bacteria that fight  off viruses that infect them,
+[15:35.84] bacteriophages, have things like CRISPR systems. You can actually go and look at the spacers,
+[15:40.40] the individual guide sequences that tell  the CRISPR system, "Which genome do you
+[15:44.08] go? Where do you cut?" And you find some  of these guides that are very ancient.
+[15:48.08] It seems like this bacterial genome  might not have encountered that
+[15:50.72] particular pathogen for quite a while. So you can actually get an evolutionary
+[15:54.16] history of what the warfare was like, what the  various conflicts were throughout this genomic
+[15:58.48] history just by looking at those sequences. In mammals where I do know a bit better,
+[16:02.48] we do have examples of this where there  is this co-evolution of pathogen and host.
+[16:06.56] Imagine you have some antipathogen gene A fighting  off some virus X. Well you then actually update.
+[16:12.08] Now you have virus X’ and antipathogen gene A’. Now virus X’ goes away, but actually virus X
+[16:18.56] still exists and we've lost our ability to fight  it. Those examples really do happen. There's a
+[16:22.88] prominent one in the human genome. We have a gene called TRIM5alpha.
+[16:26.64] It actually binds an endogenous retrovirus that is  no longer present, but was at one point actually
+[16:32.56] resurrected by a bunch of researchers. It was demonstrated that this is the case.
+[16:35.92] We have this endogenous gene which basically fits  around the capsid of the virus like a baseball
+[16:40.80] in a glove and prevents it from infecting. It turns out if you look at the evolutionary
+[16:44.16] history of that gene and you trace it  back through monkeys, you can actually
+[16:46.72] find that a previous iteration inhibited  SIV, which is the cousin of HIV in humans.
+[16:52.24] Old World monkeys actually can't get SIV, whereas  New World monkeys can and humans can, obviously.
+[16:58.64] So it seems like what happened—and you  can actually make a few mutations in
+[17:01.76] TRIM5alpha and find that this is true—is  that TRIM5alpha once protected against an
+[17:06.56] HIV-like pathogen in the primate genomes. And then there was this challenge from
+[17:10.48] this massive endogenous retrovirus. It was so bad that the genome lost the
+[17:15.04] ability to fight off these HIV-like viruses in  order to restrict this endogenous retrovirus.
+[17:19.52] You can see it because that  retrovirus integrates into our genome.
+[17:22.24] There are latent copies, like the half bodies  of this virus all throughout our DNA code.
+[17:27.20] Then this particular retrovirus went extinct. Reasons unknown, no one knows why.
+[17:31.52] But we didn't re-update that piece of our  host defense machinery to fight off HIV again.
+[17:36.32] So we're in a situation where you can  go in and take human cells and make just
+[17:39.36] a couple edits in that TRIM5alpha gene. It's currently protecting against a virus
+[17:43.20] which no longer exists. You can edit it back to
+[17:45.52] actually restrict HIV dramatically. So there are plenty of examples.
+[17:48.40] You could imagine the same thing for  antibiotics where like, "hey, this
+[17:51.36] particular defense mechanism went away because  the pathogen evolved its own defense to it."
+[17:56.08] Well, the pathogen might have  lost that defense long ago.
+[17:58.72] If you could extract that historical  antibiotic, that historical antifungal,
+[18:03.28] potentially it actually has efficacy. Isn't the mutation rate per base pair per
+[18:06.72] generation like one in a billion or something? It's quite low.
+[18:10.00] You're saying that in our genomes we can find  some extended sequence which encodes how to bind
+[18:17.76] specifically to the kind of virus that SIV is. The amount of evolutionary signal you would need
+[18:23.12] in order to have a multiple base pair sequence…  So each nucleotide consecutively would have to
+[18:29.76] mutate in order to finally get the sequence that  binds to SIV. That seems almost implausible.
+[18:36.80] I guess evolution works, so we can come up  with new genes, but how would that even work?
+[18:41.84] A great explanation for understanding a lot of  evolution and how you're able to actually adapt
+[18:46.72] to new environments, new pathogens, is that gene  duplication is possible. This explains a whole
+[18:52.00] lot. If you look at most genes in the genome,  they actually arise at least at some point in
+[18:56.24] evolution from a duplication event. That means you've got gene A,
+[19:00.00] it's performing some job, and then some  new environmental concern comes along.
+[19:03.92] Maybe it's a lack of a particular source of  nutrient, maybe it's a pathogen challenging you.
+[19:09.12] Maybe gene A, if it were to dedicate all  of its energies, so to speak and you were
+[19:13.20] to mutate it to solve this new problem, could  be adapted with a minimal number of mutations.
+[19:17.76] But then you lose its original function. So we have this nice feature of the genome
+[19:21.44] which is that it can just copy and paste. So occasionally what will happen in evolution
+[19:24.32] is you get a copy paste event. Now I've got two copies of gene
+[19:27.12] A and I can preserve my original  function in the original copy.
+[19:30.96] Then this new copy can actually mutate  pretty freely because it doesn't have a
+[19:34.08] strong selective pressure on it. So most mutations might be null.
+[19:36.96] I've got two copies of the gene, I can  have lots of mutations in it accumulate.
+[19:40.40] Nothing bad really happens because  I've got my backup copy, my original.
+[19:43.68] So you can end up with drift. You're saying that even though
+[19:46.40] the per base pair mutation rate might be one in  a billion, if you've got 100 copies of a gene,
+[19:50.72] then the mutation rate on a gene, or on a  low Hamming distance sequence to the one
+[19:58.48] you're aiming for, might actually be quite high,  and you can actually get the target sequence.
+[20:01.76] It's not that the base rate goes up. It's not like DNA polymerase is more
+[20:06.16] erroneous or that you're just doubling it. That is true, but I don't think
+[20:10.72] it's the main mechanism. One of the main mechanisms
+[20:13.20] that just makes it difficult for evolution to  solve a problem is if a mutation breaks a gene.
+[20:18.80] Somewhere along the path of edits, imagine  there are three edits that take a host defense
+[20:22.88] gene from restricting SIV to restricting  this new nasty PT endogenous retrovirus.
+[20:28.56] Well, if one edit just breaks the gene, two edits  just breaks the gene, three edits fixes it, it's
+[20:33.68] really hard for evolution to find a path whereby  you're actually able to make those first two edits
+[20:38.64] because they're net negative for fitness. So you need some really weird
+[20:42.32] contingent circumstances. Through duplication, you can create a scenario
+[20:46.08] where those first two edits are totally tolerated. They have no effect on fitness.
+[20:49.60] You've got your backup copy, it's doing its job. Even though the mutation rate is low, some of
+[20:54.56] these edits actually aren't that large. I'm going to forget the number of edits,
+[20:57.44] for instance in TRIM5alpha, for this  particular phenomenon, but it's in the tens.
+[21:02.80] It's not that you need massive  kilobase scale rearrangements.
+[21:06.64] It's actually a fairly small number of edits. Basically you can just align the sequence of
+[21:11.20] this gene in New World versus Old World  monkeys and then for humans and you find
+[21:15.04] there's a very high degree of conservation. Conceptually, is there some phylogenetic
+[21:20.80] tree of gene families where you've got the  transposons and you've got the gene itself,
+[21:25.12] but then you've got the descendant  genes which are low Hamming distance?
+[21:30.08] Is there some conceptual way  in which they're categorized?
+[21:32.48] You can arrange genes in the human  genome by homology to one another.
+[21:35.44] What you find is even in our current genome,  even without having the full historical record,
+[21:39.28] there are many, many genes which are  likely resulting from duplication events.
+[21:43.20] One trivial way that you can check this for  yourself is just go look at the names of genes.
+[21:48.08] Very often you'll see something  where it's like gene one, gene two,
+[21:50.96] gene three or type one, type two, type three. If you then go look at the sequences,
+[21:55.04] sometimes those names arise from the fact that  they were discovered in a common pathway and they
+[21:58.24] have nothing to do with each other. A lot of the time it's because the
+[22:00.56] sequences are actually quite darn similar. Really what probably happened is they evolved
+[22:04.64] through a duplication event and then maybe  did some swapping with some other genes.
+[22:07.68] And you ended up with these  quite similar, quite homologous
+[22:11.04] genes that now have specialized functions. So when evolution has a new problem to solve,
+[22:14.80] it doesn't have to start from scratch. It starts from what was the last copy
+[22:18.16] of the parameters for encoding a gene  that is getting close to solving this.
+[22:21.92] Okay, let's do a copy paste on that and then  iterate and fine-tune on those parameters as
+[22:26.40] opposed to having to start with "ab initio,  some random stretch of sequence somewhere
+[22:30.00] in the genome has to become a gene." This is fascinating. Back to aging.
+[22:36.00] You’ll have to cancel your evening plans. I've got so many questions for you.
+[22:39.28] Keep going man. So the second reason you gave was that there's
+[22:47.12] selective pressure against people who get old but  still keep living, but they're slightly less fit.
+[22:57.68] They’re suboptimal from a calorie input  perspective, the number of calories they can
+[23:01.60] gather for the population is lower. That's how people love
+[23:03.12] thinking about their grandpas. Suboptimal calorie provider right there.
+[23:10.56] A concern you might have about the effects  of longevity treatments on your own body
+[23:15.36] is that you will fix some part of the  aging process, but not the whole thing.
+[23:20.56] It seems like you're saying that you actually  think this is the default way in which an
+[23:25.92] anti-aging procedure would work, because that's  the reason evolution didn't optimize for it.
+[23:31.52] We're only fixing half of the aging  process and not the whole thing.
+[23:34.64] Whereas sometimes I hear longevity proponents  be like, "No, we'll get the whole thing.
+[23:40.00] There's going to be a source that  explains all of aging and we'll get it."
+[23:44.32] Whereas, your evolutionary argument  for why evolution didn't optimize
+[23:47.68] against aging relies on the fact that aging  actually is not monocausal and evolution
+[23:55.20] didn't bother to just fix one cause of aging. That's correct. I don't think that there is a
+[24:00.16] single monocausal explanation for aging. I think there are layers of molecular
+[24:05.20] regulation that explain a lot. For instance, I have dedicated
+[24:08.16] my career now to working on epigenetics  and trying to change which genes cells
+[24:11.20] use because I think that explains a lot of it. But it's not that there is some upstream "bad
+[24:15.20] gene X" and all we have to do is turn  that off and suddenly aging is solved.
+[24:19.60] The most likely outcome is that when we eventually  develop medicines that prolong health in each of
+[24:24.00] us, it's not going to fix everything all at once. There's not going to be a singular magic pill.
+[24:29.04] Rather you're going to have medicines that  add multiple healthy years to your life,
+[24:32.64] years you can't otherwise get back. But it's not going to fix
+[24:35.76] everything at the same time. You are still going to experience, for the
+[24:39.04] first medicine, some amount of decline over time. This gives you an example, if you think about
+[24:44.08] evolution as a medicine maker in this sort  of anthropomorphic context, of why it might
+[24:48.24] not have been selected for immediately. So evolution didn't select for aging. What are you
+[26:12.96] doing? What's your approach at NewLimit that you  think is likely to find the true cause of aging?
+[26:19.44] We're working on something called epigenetic  reprogramming, which very broadly is using
+[26:23.20] genes called transcription factors. I like to think about these as the
+[26:25.92] orchestra conductors of the genome. They don't perform many functions
+[26:29.04] directly themselves, but they bind specific  pieces of DNA and then they tell which
+[26:33.20] genes to turn on, which genes to turn off. They eventually put chemical marks on top
+[26:36.88] of DNA, on some proteins that DNA surrounds. This is one of the answers, this particular
+[26:41.68] layer of regulation called the epigenome. It's the answer to this fundamental biological
+[26:45.36] question of how do all my cells have the same  genome but ultimately do very different things?
+[26:49.36] Your eyeball and your kidney have the same code,  and yet they're performing different functions.
+[26:52.96] That may sound a little bit simplistic, but  ultimately, it's kind of a profound realization.
+[26:57.92] That epigenetic code is really what's  important for cells to define their functions.
+[27:01.28] That's what's telling them which  genes to evoke from your genome.
+[27:04.24] What has now become relatively apparent is that  the epigenome can degrade with age. It changes.
+[27:10.08] The particular marks that tell your cells  which genes to use can shift as you get older.
+[27:14.32] This means that cells aren't able to  use the right genetic programs at the
+[27:17.20] right times to respond to their environment. You're then more susceptible to disease, you have
+[27:22.56] less resilience to many insults  that you might experience.
+[27:25.44] Our hope is that by remodeling the epigenome back  towards the state it was in when you were young
+[27:30.08] right after development, that you'll be able  to actually address myriad different diseases
+[27:34.08] whose one of strong contributing factors is  that cells are less functional than when you
+[27:38.40] were at an earlier point in your life. We're going after this by trying to find
+[27:42.32] combinations of these transcription factors that  are able to actually remodel the epigenome so
+[27:47.04] that they can bind to just the right places in the  DNA and then shift the chemical marks back toward
+[27:51.28] that state when you are a young individual. If you're just making these broad changes to
+[27:57.60] a cell state through these transcription factors  which have many effects, are there other aspects
+[28:03.52] of a cell state that are likely to get modified at  the same time in a way that would be deleterious.
+[28:08.96] Or would it be a straightforward  effect on cell state?
+[28:13.84] How I wish it were straightforward. No, it's very  likely. Each of these transcription factors binds
+[28:19.44] hundreds to thousands of places in the genome. One way of thinking about it is if you imagine the
+[28:23.52] genome as the base components of cell function,  then these transcription factors are kind of like
+[28:28.08] the basis set in linear algebra. It's different combinations and
+[28:30.64] different weights of each of the genes. Most of them are targeting pretty broad programs.
+[28:35.44] There are no guarantees that aging actually  involves moving perfectly along any of
+[28:40.72] the vectors in this particular basis set. And so it's probably going to be a little
+[28:44.40] tricky to figure out a combination  that actually takes you backward.
+[28:47.20] There's, again, no guarantees from  evolution that it's just a simple reset.
+[28:50.88] It's actually a critical part of the process  that we run through as we try to discover these
+[28:54.96] medicinal combinations of transcription factors  we can turn on, ensuring that they not only are
+[29:00.00] making an aged cell revert to a younger state... We measure that a couple different ways.
+[29:03.60] One is simply measuring which  genes those cells are using.
+[29:06.00] They use different genes as they get older. You can measure that just by sequencing all
+[29:09.36] of the mRNAs, which are really  the expressed form of the genes
+[29:12.48] being utilized in the genome at a given time. You see that aged cells use different genes.
+[29:16.16] Can I revert them back to a younger state? Colloquially, we call this a "looks like" assay.
+[29:20.24] Can I make an old cell look like a  young one based on the genes it's using?
+[29:23.36] More importantly, we go down and  drill to the functional level.
+[29:25.84] We measure, "Can I actually make an aged cell  perform its functions, its object roles within
+[29:29.52] the body, the same way a young cell would?" These are the really critical things
+[29:32.48] you care about for treating diseases. Can I make a hepatocyte, a liver cell in Greek,
+[29:36.72] function better in your liver so it's able to  process metabolites like the foods you eat,
+[29:40.88] how it's able to process toxins  like alcohol and caffeine?
+[29:44.16] Can I make a T cell respond to pathogens and other  antigens that are presented within your body?
+[29:48.72] These are the ways in which we measure age. We need to ensure that not only does the
+[29:52.24] combination of TFs that we find actually  have positive effects along those axes.
+[29:56.16] But we then want to also measure any  potential detrimental effects that emerge.
+[30:00.32] There are canonical examples where you  can seemingly reverse the age of a cell,
+[30:04.08] for instance, at the level of a  transcriptome, but simultaneously, you
+[30:07.28] might be changing that cell's type or identity. Shinya Yamanaka was a scientist who won the Nobel
+[30:12.16] in 2012 for some work he did in about 2007,  where he discovered that you could just take
+[30:16.24] four transcription factors and actually, just by  turning on these four genes, turn an adult cell
+[30:20.96] all the way back into a young embryonic stem cell. It's a pretty amazing existence proof that shows
+[30:25.92] that you can reprogram a cell's type and a cell's  age simultaneously, just by turning on four genes.
+[30:30.88] Out of the 20,000 genes in the genome, the  tens of millions of biomolecular interactions,
+[30:34.64] just four genes is enough. That's a shocking  fact. We actually have known for many years
+[30:39.52] now that you can reprogram the age of a cell. The challenge is that simultaneously, you're doing
+[30:43.52] a bunch of other stuff, as you alluded to. You're changing its type,
+[30:46.00] and that might be pathological. If you did that in the body, it would probably
+[30:49.04] cause a type of tumor called a teratoma. So we measure not only at the level
+[30:52.64] of the genes a cell is using. Do you still look like the right type
+[30:55.12] of cell? Are you still hepatocyte? Are you still a  T cell? If not, that's probably pathological. You
+[30:59.68] can also use that same information to check for  a number of other pathologies that might develop.
+[31:04.00] Did I make this T cell hyperinflammatory  in a way that would be bad?
+[31:07.20] Did I make this liver cell potentially  neoplastic, proliferate too much even
+[31:12.32] when the organism's healthy and undamaged? You can check for each of those at the level
+[31:15.76] of gene expression programs  and likewise, functionally.
+[31:18.24] Before you put these molecules in a human, you  actually just functionally check in an animal.
+[31:22.16] You make an itemized list of the  possible risks you might run into.
+[31:24.72] Here are the ways it might be toxic,  here are the ways it might cause cancer.
+[31:27.68] Are we able to measure deterministically and  empirically that that doesn't actually occur?
+[31:32.96] This is a dumb question, but it will help me  understand why an AI model is necessary to do
+[31:38.48] any of this work. You mentioned the Yamanaka  factors. From my understanding, the way he
+[31:43.92] identified these four transcription factors was  that he found the 24 transcription factors that
+[31:52.48] have high expression in embryonic cells, and then  he just turned them all on in a somatic cell.
+[31:58.96] Basically, he systematically removed from  this set until he found the minimal set that
+[32:04.24] still induces a cell to become a stem cell. That doesn't require any fancy AI models.
+[32:11.68] Why can't we do the same things for the  transcription factors that are expressed more in
+[32:16.88] younger cells as opposed to older cells, and then  keep eliminating from them until we find the ones
+[32:21.04] that are necessary to just make a cell young? I wish it were so easy. You're entirely right.
+[32:25.60] Shinya Yamanaka was able to do  this with a relatively small team,
+[32:29.52] with relatively few resources, and achieve  this remarkable feat. It's entirely worth
+[32:33.04] asking. Why can't a similar procedure work for  arbitrary problems in reprogramming cell state?
+[32:38.00] Whether it be trying to make an aged cell act like  a young one, a disease cell act like a healthy
+[32:42.00] one, why can't you just take 24 transcription  factors and randomly sort through them?
+[32:45.84] There were two features of Shinya's  problem that I think make it amenable
+[32:49.12] to that sort of interrogation that aren't  present for many other types of problems.
+[32:52.96] This is why he's such a remarkable scientist. Most of science is problem selection.
+[32:56.40] You don't actually get better at pipetting  or running experiments after a certain age,
+[32:59.52] but you do get better at picking what to do.  He's amazing at this. The first feature is that
+[33:03.76] measuring your success criterion is trivial  in the particular case he was investigating.
+[33:07.84] He's starting with somatic cells that, in this  case, were a type of fibroblast, which literally
+[33:12.32] is defined as cells that stick to glass and  grow in a dish when you grind up a tissue.
+[33:16.08] It sounds fancy, but it's a very simplistic thing. He's starting with fibroblasts, you can look
+[33:20.24] at them under a microscope, and you can see  they’re fibroblasts just based on how they look.
+[33:24.40] Then the cells he's reprogramming  toward are embryonic stem cells.
+[33:27.44] These are tiny cells, they're mostly nucleus. They  grow really fast. They look different, they detach
+[33:33.28] from a dish, they grow up into a 3D structure. They express some genes that will just never be
+[33:38.72] turned on in a fibroblast by definition. How he ran the experiment was he just
+[33:43.20] set up a simple reporter system. He took a gene that should never be
+[33:46.16] on in a fibroblast, should only be on in  the embryo, and he put a little reporter
+[33:49.52] behind it so that these cells would actually  turn blue when you dumped a chemical on them.
+[33:53.20] Then he ran this experiment in many, many  dishes with millions upon millions of cells.
+[33:58.24] The second really key feature of the  problem is this notion that those
+[34:01.20] cells he's converting into amplify. They divide and grow really quickly.
+[34:05.76] In order for you to find a successful  combination, you don't actually
+[34:09.04] need it to be efficient almost at all. The original efficiency Yamanaka published,
+[34:12.96] the number of cells in the dish that convert from  somatic to an induced pluripotent state, back into
+[34:17.44] a stem cell, is something like a basis point  or a tenth of a basis point, so 0.01%, 0.001%.
+[34:24.08] If these cells were not growing and  they were not proliferating like mad,
+[34:28.00] you probably would never be able to detect that  you had actually found anything successful.
+[34:32.08] It's only because success is easy to  measure once you have it and—even being
+[34:36.40] successful in very rare cases, one in a  million—amplifies and you can detect it,
+[34:41.76] that this was amenable to his particular approach. In practice, what he would do is dump these
+[34:46.88] factors or this group of 24 minus some  number, eventually whittling it down to four.
+[34:51.20] He would dump these onto a group of cells  and over the course of about 30 days,
+[34:55.12] just a few cells in that dish, like a countable  number on your fingers, would actually reprogram.
+[34:59.76] But they would proliferate like mad. They form  these big colonies. It's a single cell that
+[35:04.80] just proliferates and forms a bunch of copies of  itself. They form these colonies. You can see with
+[35:08.80] your eyeballs by holding the dish up to the light  and looking for opaque little dots on the bottom.
+[35:13.52] You don't need any fancy instruments. Then you could stain them with this
+[35:16.16] particular stain and they would turn blue  based on the genetic reporter he had.
+[35:19.60] We look at those key features of the problem and  we pick any other problem we're interested in.
+[35:22.80] I'm interested in aging, so that's the  one I'm going to pick for explanation.
+[35:26.00] How difficult is it to measure the  likelihood of success or whether
+[35:29.20] you've achieved success for cell age? It turns out age is much more complicated
+[35:33.04] in terms of discriminating function than  actually just comparing two types of cells.
+[35:37.52] An old liver cell and a young liver cell,  prima facie, actually look pretty darn similar.
+[35:42.08] It's actually quite nuanced the  ways in which they're distinct.
+[35:45.36] There isn't a simple, trivial system where you  just label your one favorite gene or you can just…
+[35:50.16] Give the young cells cancer. They'll grow. Just make the old ones cancer,
+[35:54.64] and then they'll grow. Dwarkesh, you've solved it for me.
+[35:58.40] There's no trivial way that you can  tell whether or not you've succeeded.
+[36:01.20] You actually need a pretty  complex molecular measurement.
+[36:03.84] For us, a real key enabling technology—I  don't think our approach would really
+[36:07.12] have been possible until it emerged—was  something called single-cell genomics.
+[36:10.00] You now take a cell, rip it open,  sequence all the mRNAs it's using.
+[36:13.84] At the level of individual cells, you can actually  measure every gene that they're using at a given
+[36:18.00] time and get this really complete picture  of a cell's state, everything it's doing,
+[36:21.60] lots of mutual information to other features. From that profile, you can train something
+[36:25.76] like a model that discriminates young and  aged cells with really high performance.
+[36:30.08] It turns out there's no one gene that  actually has that same characteristic.
+[36:33.52] Unlike in Yamanaka's case, where a single gene  on or off is an amazing binary classifier,
+[36:38.40] you don't have that same feature of  easy detection of success in aging.
+[36:41.92] The second feature is, as you highlighted,  we can't just turn these into cancer cells.
+[36:45.20] Success doesn't amplify. In some ways, the bar  for a medicine is higher than what Yamanaka
+[36:50.16] achieved in his laboratory discovery. You can't just have 0.001% success and
+[36:55.52] then wait for the cells to grow a whole bunch in  order to treat a patient's disease or make their
+[36:59.76] liver younger, make their immune system  younger, make their endothelium younger.
+[37:02.80] You need to actually have it be fairly  efficient across many cells at a time.
+[37:06.96] Because of this, we don't have the same luxury  Yamanaka did of taking a relatively small
+[37:11.52] number of factors and finding a success case  within there that was pretty low efficiency.
+[37:17.04] We actually need to search a much broader  portion of TF space in order to be successful.
+[37:21.36] And when you start playing that game,  and you think "How many TFs are there?"
+[37:25.44] Somewhere between 1000 and 2000, it  depends on exactly where you draw the line.
+[37:28.96] Developmental biologists love to argue about  this over beer, but let's call it 2000 for now.
+[37:33.52] You want to choose some combination. Let's say you guess somewhere between one
+[37:36.88] and six factors might be required. The number of possible
+[37:39.52] combinations is about 10^16. If you do any math on the back of a napkin,
+[37:43.76] in order to just screen through all of those, you  would need to do many orders of magnitude more
+[37:47.60] single-cell sequencing than the entire world has  done to date cumulatively across all experiments.
+[37:52.40] It's just not tractable to do exhaustively. That's where actually having models that
+[37:57.04] can predict the effect of  these interventions comes in.
+[37:59.60] If I can do a sparse sampling, I can test  a large number of these combinations.
+[38:03.52] I can start to learn the relationship  of what a given transcription factor
+[38:07.12] is going to do to an aged cell. Is it going to make it look younger?
+[38:09.84] Is it going to preserve the same type? I can learn that across combinations.
+[38:12.88] I can start to learn their interaction terms. Now I can use those models to actually predict
+[38:17.04] in silico for all the combinations I haven't seen,  which are most likely to give me the state I want.
+[38:21.60] You can actually treat that as a generative  problem and start sampling and asking which
+[38:25.28] of these combinations is most likely to take my  cell to some target destination in state space.
+[38:29.92] In our case, I want to take an old  cell to a young state, but you could
+[38:32.56] imagine some arbitrary mappings as well. As you get to these more complex problems,
+[38:36.64] you don't have the same features that Shinya  benefited from, which were the ability to
+[38:40.88] measure success really easily—you can see it  with your bare eyes, you don't even need a
+[38:44.00] microscope—and two, amplification, as you  get into these more challenging problems.
+[38:47.84] You're going to need to be able to search a larger  fraction of the space to hit that higher bar.
+[38:52.16] So we can think of these transcription  factors as these basis directions,
+[38:55.76] and you can get a little bit of this thing, a  little bit of that thing and some combination.
+[39:00.24] And evolution has designed these  transcription factors to…Is that your claim?
+[39:04.72] They have relatively modular, self-contained  effects that work in predictable ways with
+[39:10.24] other transcription factors and so we  can use that same handle to our own ends?
+[39:18.00] That would be very much my contention. One piece of evidence for this is
+[39:21.84] that's the way development works. It's a crazy thing to think about,
+[39:24.80] but you and I were both just a single cell. Then we were a bag of undifferentiated cells
+[39:28.48] that were all exactly alike. Somehow we became humans with
+[39:31.28] hundreds of different cell types  all doing very different things.
+[39:34.00] When you look at how development  specifies those unique fates of cells,
+[39:37.12] it is through groups of these transcription  factors that each identify a unique type.
+[39:42.80] In many cases, the groups of transcription  factors, the sets that specify very different
+[39:47.12] fates, are actually pretty similar to one another. Evolution has optimized to just swap one TF in
+[39:53.44] or swap one TF out of a combination  and get pretty different effects.
+[39:57.60] You have this sort of local change in sequence  or gene set space leading to a pretty large
+[40:03.60] global change in output. Likewise, many of these
+[40:06.56] TFs are duplicated in the genome. Because mutations are going to be
+[40:10.24] random and they're inherently small changes  at the level of sequence at a given time,
+[40:14.80] evolution needs a substrate where, in order to  function effectively, these small changes can
+[40:19.52] give you relatively large changes in phenotype. Otherwise it would just take a very long time
+[40:25.20] across evolutionary history for enough  mutations to accumulate in some duplicated
+[40:28.80] copy of the gene for you to evolve a  new TF that does something interesting.
+[40:32.64] I think we're actually in most cases in  biology—due to that evolution constraint,
+[40:36.56] small edits need to lead to meaningful phenotypic  changes—in a relatively favorable regime for
+[40:42.64] generic, gradient-like optimizers. It would be a little bit overstating
+[40:47.20] to say evolution is using the  gradient, but there is a system.
+[40:51.12] If you've heard of evolution strategies, where  basically the way you optimize parameters
+[40:54.96] is you can't take a gradient on your loss. So you make a bunch of copies of your parameters,
+[40:58.32] you randomly modify them, and then you compute  a gradient on your parameters against your loss,
+[41:02.56] and so you can take a gradient in that space. That's how I imagine evolution is working.
+[41:06.32] So you need lots of those little edits to actually  lead you to have meaningful step sizes in terms of
+[41:11.44] the ultimate output that you have. Interesting. You're just like
+[41:14.96] designing a little LoRA that goes on top. In a way. Maybe this is getting too
+[41:23.52] giga-brained about it, but why does the  genome even have transcription factors?
+[41:27.04] What's the point? Why not just have it so every  time you want a new cell type, you engineer some
+[41:31.36] new cassette of genes or some new, totally de  novo set of promoters or something like this?
+[41:36.56] One possible explanation for their existence,  rather than just an appreciation for their
+[41:41.68] presence, is that having transcription  factors allows a very small number of
+[41:47.12] base pair edits at the substrate of the genome  to lead to very large phenotypic differences.
+[41:52.08] If I break a transcription factor, I can  delete a whole cell type in the body.
+[41:55.44] If I retarget a transcription factor  to different genes, I can dramatically
+[41:59.20] change when cells respond and have hundreds  of their downstream effector genes change
+[42:03.44] their behavior in response to the environment. It puts you in this regime where transcription
+[42:07.68] factors are a really nice substrate to  manipulate as targets for medicines.
+[42:11.28] In some ways they might be evolution's levers  upon the broader architecture of the genome.
+[42:16.88] By pulling on those same levers that evolution  has gifted us, there are probably many useful
+[42:21.28] things we can engender upon biology. You're sort of hinting that if we
+[42:26.08] analogize it to some code base, we're  going to find a couple of lines that
+[42:28.48] are commented out that's like, "de-aging,"  and then "un-hyphen" or "un-parenthesize."
+[42:34.40] I don't know about that, but I can give you a  real cringe analogy that sometimes I deploy.
+[42:38.72] It requires a very special audience. I think you'll probably be one who fits into it.
+[42:41.84] You're flattering our listeners. "Only  cringe listeners will appreciate it,
+[42:46.32] but your audience will love this." I don't know about your audience, but you will.
+[42:51.92] You can think about it like this. If you think about how attention works—queries,
+[42:55.20] keys, values—TFs are like the queries. The genome sequences they bind to are like
+[43:00.88] the keys. Genes are like the values. It turns  out that that structure then allows you to very
+[43:06.72] efficiently, in terms of editing space, change  just one of those embedding vectors, in this case
+[43:10.96] one of those sequences, and get dramatically  different performances or total outputs.
+[43:15.84] So I do think it's interesting how these  structures recur throughout biology,
+[43:20.16] in the same way that the attention mechanism  seems to exist in some neural structures.
+[43:24.08] It's interesting that you can very easily  see how that same sort of querying and
+[43:29.28] information storage might exist in the genome. Interesting. A previous guest and a mutual friend,
+[43:33.20] Trenton Bricken, had a paper in grad school  about how the brain implements attention.
+[43:39.60] Eddie Chang has found positional encodings  probably exist in humans using neuropixels,
+[43:42.96] if you haven't read these papers. He implants these neuropixel probes
+[43:46.16] into individuals and then he's able to talk  to them, look at them as they read sentences.
+[43:50.88] What he finds is that there seem to be  certain representations which function
+[43:53.92] as a positional encoding across sentences. They fire at a certain frequency and it just
+[43:57.84] increases as the sentence goes on and then resets. It seems exactly like what we do when
+[44:03.12] we train large language models. It's so funny the way we're going
+[44:05.92] to learn how the brain works is just trying to  first-principles engineer intelligence in AI.
+[44:11.04] Then it just happens to be the case that each  one of these things has a neural correlate.
+[45:24.00] If you're right that transcription factors are  the modality evolution has used to have complex
+[45:31.76] phenotypic effects, optimize for different  things... Two-part question. One, why haven't
+[45:37.92] pathogens, which have a strong interest in  having complex phenotypic effects on your body,
+[45:43.84] also utilized the transcription factors as the  way to fuck you over and steal your resources?
+[45:52.56] Two, we've been trying to  design drugs for centuries.
+[45:57.36] Why aren't all the big drugs, the  top-selling drugs, ones that just
+[46:02.64] modulate transcription factors? Why don't we have a million of these pills?
+[46:06.00] I'll try and take those in stride. They're pretty  different answers. The first answer is that there
+[46:09.36] are pathogens that utilize transcription  factors as part of their life cycle.
+[46:12.96] A famous example of this is HIV. HIV encodes a protein called Tat,
+[46:17.20] and Tat actually activates NF-κB. HIV, to back up a little bit, is a retrovirus.
+[46:22.84] It starts out as RNA, turns itself into DNA,  shoves itself into the genome of your CD4+ T cells
+[46:28.88] It needs this ornate machinery to  actually control when it makes more
+[46:32.24] HIV and when it goes latent so it can hide  and your immune system can't clear it out.
+[46:36.56] This is why HIV is so pernicious. You can kill every single cell in the body that's
+[46:40.64] actively making HIV with a really good drug. But then a few of them that have lingered
+[46:45.04] and hunkered down just turn back on. People call this the latent reservoir.
+[46:48.72] Similar to Hep B, right? Hep B, Hep C, can both
+[46:51.76] do this sort of latent behavior. HIV is probably the most pernicious of these.
+[46:57.52] One way it does it is that this gene  called Tat actually interacts with NF-κB.
+[47:00.80] NF-κB is a master transcription  factor within immune cells.
+[47:04.64] Typically if I'm going to horribly reduce  what it does, and some immunologists can
+[47:08.96] crucify me later, it increases the  inflammatory response of most cells.
+[47:12.56] They become more likely to attack given  pathogens around them on the margin.
+[47:17.36] It'll turn on NF-κB activity and then  use that to drive its own transcription
+[47:21.68] and its own life cycle. I can't remember quite
+[47:24.56] all the details now exactly of how it works. But part of this circuitry is what allows it
+[47:28.32] to—in some subset of cells where some of that  upstream transcription factor machinery in the
+[47:32.56] host might be deactivated—it goes latent. As long as the population of cells it's
+[47:37.44] infecting always has a few that are turning  off the transcription factors upstream that
+[47:41.36] drive its own transcription, then HIV is  able to persist in this latent reservoir
+[47:45.44] within human cells. It's just one example  offhand. There are a number of other pathogens.
+[47:50.08] Unfortunately, I don't have quite as  much molecular detail in some of these.
+[47:52.64] But they will interface with other parts of the  cell that eventually result in transcription
+[47:57.68] factor translocation to the nucleus and  then transcription factors being active.
+[48:01.44] This actually segues a little  bit to your second question on
+[48:04.32] why there aren’t more medicines targeting TFs. In a way many of our medicines, ultimately
+[48:09.84] downstream, are leading to changes in TF activity,  but we haven't been able to directly target them
+[48:15.36] due to their physical location within cells. So we go several layers upstream.
+[48:19.68] If you think about how a cell works in sensing its  environment, it has many receptors on the surface.
+[48:23.68] It has the ability to sense mechanical  tension and things like this.
+[48:26.96] Ultimately, most of what these signaling pathways  lead to is to tell the cell, "Use some different
+[48:31.20] genes than you're using right now." That's  often what's occurring. That ultimately leads
+[48:35.04] to transcription factors being some of the  final effectors in these signaling cascades.
+[48:39.12] A lot of the drugs we have that, for instance,  inhibit a particular cytokine that might bind a
+[48:43.68] receptor, or they block that receptor directly,  or maybe they hit a certain signaling pathway…
+[48:49.28] Ultimately, the way that they're exerting  their effect is then downstream of that
+[48:52.56] signaling pathway, some transcription factor  is either being turned on or not turned on.
+[48:56.96] You're using different genes in the cell. We're kind of taking these crazy bank shots
+[49:00.72] because we can't hit the TFs directly. That sort of begs the question,
+[49:04.00] "Why can't you just go after the TF directly?" Traditionally, we use what are called small
+[49:08.32] molecule drugs, where they're  defined just by their size.
+[49:10.56] The reason they have to be small is they  need to be small enough to wiggle through
+[49:13.12] the membrane of a cell and get inside. Then you run into a challenge.
+[49:16.96] If you want to actually stick a small molecule  between two proteins that have a pretty big
+[49:21.20] interface—meaning they've got big swaths on  the side of them that all sort of line up and
+[49:26.24] form a synapse with one another—then you would  need a big molecule in order to inhibit that.
+[49:30.88] It turns out that TF's binding  DNA is a pretty darn big surface.
+[49:35.12] Small molecules aren't great at disrupting  that and certainly even worse at activating it.
+[49:39.52] Small molecules can get all  the way into the nucleus,
+[49:41.76] but they can't do much once they're there.  They're just too small. The other classic
+[49:45.36] modalities we have are recombinant proteins. We make a protein like a hormone in a big vat.
+[49:49.92] We grow it in some Chinese hamster ovary  cells, we extract it, we inject it into you.
+[49:53.60] This is how, for instance, human  insulin works that we make today.
+[49:56.64] Or you make antibodies  produced by the immune system.
+[49:59.36] These run around and find proteins that  have a particular sequence, they bind to it,
+[50:02.64] and often they just stop it from working  by glomming a big thing onto the side.
+[50:06.80] Those are too big to get  through the cell membrane.
+[50:08.64] Then they can't actually get to  a TF or do anything directly.
+[50:10.88] So we take these bank shots. What changes that today, and why
+[50:14.56] I think it's pretty exciting, is we now have new  nucleic acid and genetic medicines where you can,
+[50:19.04] for instance, deliver RNAs to a cell that can get  through using tricks like lipid nanoparticles.
+[50:23.60] You wrap them in a fat bubble. It looks kind of like a cell membrane.
+[50:26.08] It can fuse with a cell, and  put the mRNAs in the cytosol.
+[50:28.64] You can make a copy of a  transcription factor there,
+[50:30.64] and then it translocates to the nucleus the same  way a natural one would and exerts its effect.
+[50:34.80] Likewise, there are other ways to do  this using things like viral vectors,
+[50:37.76] but we've only very recently actually gotten the  tools we need to start addressing transcription
+[50:42.40] factors as first-class targets rather  than treating them as maybe some ancillary
+[50:46.96] third-order thing that's going to happen. Interesting. So the drugs we have can't
+[50:51.04] target them, but your claim is that a lot  of drugs actually do work by binding to
+[50:55.28] the things we actually can target and those  have some effect on transcription factors.
+[51:01.20] This brings us to questions about delivery,  which is the next thing I want to ask you.
+[51:05.52] You mentioned lipid nanoparticles. This  is what the COVID vaccines were made of.
+[51:09.84] The ultimate question if we're going to work on  de-aging… Even if you identify what is the right
+[51:17.68] transcription factor to de-age a cell, and even  if they're shared across cell types, or you figure
+[51:22.72] out the right one for every single cell type, how  do you get it to every single cell in the body?
+[51:30.24] How do you deliver stuff?  How do you get them in there?
+[51:32.96] There are many ways one could imagine solving it. I'll narrow the scope of the problem.
+[51:37.52] Delivering nucleic acid is a  pretty good first-order primitive.
+[51:41.04] Ultimately, the genome is nucleic acids, the  RNAs that come out of it are nucleic acids.
+[51:44.80] If you can get nucleic acid into  a cell, you can drug pretty much
+[51:47.84] anything in the genome effectively. You can reduce this problem to asking,
+[51:50.88] "How do I get nucleic acids wherever I want  them to any cell type very specifically?"
+[51:55.28] Today, there are two main modalities that  people use, both of which have some downsides.
+[51:59.68] The first one that we've touched on already  is lipid nanoparticles. These are basically
+[52:02.72] fat bubbles. By default, they get taken up  by tissues which take up fat, like the liver.
+[52:08.24] They can be used like trojan horses. They can release some arbitrary nucleic
+[52:11.60] acid—usually RNA, maybe encoding your  favorite genes, in our case, transcription
+[52:15.12] factors—into the cell types of interest. You can play with the fats, and you can
+[52:18.80] also tie stuff onto the outside of the fat. You can attach part of an antibody, for example,
+[52:22.56] to make it go to different cell types in the body. The field is making a lot of progress on being
+[52:27.68] able to target various different  cell types with lipid nanoparticles.
+[52:31.68] Even if nothing else worked for the next  several decades, companies like ours would
+[52:36.00] have more than enough problems to solve  with the cells that we can actually target.
+[52:39.92] Another prominent way people go  after this is using viral vectors.
+[52:42.72] The basic idea being viruses  had a lot of evolutionary
+[52:45.28] history and very large population sizes. They've evolved to get into our cells.
+[52:48.80] Maybe we can learn something from  them, even better than Trojan horses.
+[52:51.76] One type of virus people use a lot is called an  AAV. Those AAVs carry DNA genomes. You can get
+[52:58.24] genes, whole genes, into cells. They've  got some packaging sizes. You can think
+[53:01.60] of it like a very small delivery truck, so  you can't put everything you want into it.
+[53:04.80] They can go to certain cell types as well. On top of just where you actually get the
+[53:08.72] nucleic acid to begin with, you can  engineer the sequences a bit, and that
+[53:11.76] basically allows you to add a NOT gate on it. You can make it turn off the nucleic acid in
+[53:17.68] certain cell types, but you're never  going to use the sequence engineering
+[53:20.40] to get nucleic acid into cells where it  didn't get delivered in the first place.
+[53:23.68] You can start broad with your delivery vector  and then use sequence to narrow down to make it
+[53:28.32] more specific, but not the other way around. Both of those methods are super promising.
+[53:33.12] If nothing else emerged for decades, we'd  still have tons and tons of problems as a
+[53:37.60] therapeutic development community  to solve, even using just those.
+[53:40.96] I have one very controversial opinion  which people can roast me for later.
+[53:45.36] You have just one? You're trying to  solve aging and you have only one?
+[53:48.48] I have many controversial opinions. One of  them is that both of these probably in the
+[53:53.04] limit will not be the way that we're  delivering medicines in the year 2100.
+[53:57.12] If you think about viral vectors, no matter what,
+[53:59.52] they're always going to be  some amount of immunogenic.
+[54:02.08] You're always going to have your  immune system trying to fight them off.
+[54:04.08] You can play tricks, you can try and cloak  them, etc., but they're always going to have
+[54:07.60] some toxicity risk. They also don't go everywhere.  It's not that we have examples of a single viral
+[54:12.72] species that infects every cell type in the body  and we just need to engineer it to make it safe.
+[54:16.88] We would have to also engineer the virus  to go to new cell types. There's some
+[54:20.72] limitations there. LNPs likewise have some  problems. They can go to tons of cell types.
+[54:24.64] That's largely what we're working on.  We're super excited about it. But there
+[54:27.52] are some physical constraints. They just have a certain size.
+[54:30.08] They have to get from your bloodstream out of  your bloodstream toward a given target cell,
+[54:34.72] and they have to not fuse into any  of the other cells along the way.
+[54:37.68] There's a whole gamut they have to run. Ultimately, we're probably going to have
+[54:41.52] to solve delivery the way that  our own genome solved delivery.
+[54:44.96] We have the same problem  that arose during evolution.
+[54:47.84] How do I patrol the body, find  arbitrary signals in the environment,
+[54:51.84] and then deliver some important cargo  there when some set of events happens?
+[54:55.28] How do I find a specific place and only  near those cell types release my cargo?
+[55:01.60] The problem was solved by the immune system. We have cell types in our body,
+[55:04.88] T cells and B cells, which are effectively  engineered by evolution to run around,
+[55:10.00] invaginate whatever tissues they need to. They can climb almost anywhere in the body.
+[55:13.92] There's nowhere they can't get access to, almost. Once they sense a particular set of signals—and
+[55:18.72] they've got a very ornate circuitry to  do this, they run basically an AND gate
+[55:22.16] logic—they can release a specified payload. Right now, the way our genome sets them up,
+[55:27.04] the payload they release is largely either  enzymes that will kill some cell that they're
+[55:32.48] targeting or kill some pathogen, or some signal  flares that call in other parts of the immune
+[55:36.56] system to do the same thing. So that's super  cool. But you can think about it as a modular
+[55:40.96] system that evolution's already gifted us. We've got some signal and environmental
+[55:44.56] recognition systems so we can find particular  areas of the body that we want to find.
+[55:48.96] Then we have some sort of payload delivery system. I can deliver some arbitrary set of things.
+[55:52.80] I imagine if we were to Rip Van Winkle  ourselves into 2100 and wake up,
+[55:57.12] the way we will be delivering these nucleic acid  payloads is actually by engineering cells to do
+[56:01.68] it, to perform this very ornate function. Those cells might actually live with you.
+[56:05.36] You probably will get engrafted with them, and  they might persist with you for many years.
+[56:09.60] They deliver the medicine only  when the environment within your
+[56:12.08] body actually dictates that you need it. You actually won't be seeing a physician
+[56:16.80] every time this medicine is active. Rather, you'll have a more ornate,
+[56:19.52] responsive circuit. The other exciting thing about cells
+[56:22.16] is that they're big and they have big genomes. You actually have a large palette to encode
+[56:27.12] complex infrastructure and complex circuitry. You don't need to limit yourself to the very small
+[56:31.76] RNAs you can get in that might encode a gene or  two, or in our case, a few transcription factors.
+[56:36.40] You don't have to limit yourself to this  tiny AAV genome that's only a few kilobases.
+[56:40.24] You've got billions of base pairs to play  with in terms of encoding all your logic.
+[56:44.00] So I think that's ultimately  how delivery will get solved.
+[56:46.72] We've got many, many stepping  stones along the way.
+[56:48.64] But if I could clone myself and work on an even  riskier endeavor, that's probably what I would do.
+[56:54.56] In a way, we treat cancer this  way with CAR-T therapy, right?
+[56:57.44] We take the T cells out and then we tell them to  go find a cancer with this receptor and kill it.
+[57:04.64] Is the reason that works that the cancer  cells we're trying to target are also free
+[57:07.84] floating in the blood? Is that what it  targets? Basically, could this deliver to
+[57:13.12] literally every single cell in the body? Not literally every single cell. I'll
+[57:17.44] asterisk it there. For example,  T cells don't go into your brain.
+[57:21.60] They can, but it's generally a  pathology when they get in there.
+[57:24.32] It's not literally every cell, but  almost every cell in your body is
+[57:27.92] surveilled by the immune system. There are very, very few what we
+[57:30.80] call immune-privileged compartments in your body. It's things like the joints of your knees and your
+[57:35.12] shoulders, your eyeball, and your brain. There might be a couple of others.
+[57:39.20] The ear probably falls into that category. A funny way of thinking about this is that all
+[57:42.48] the gene-therapy people using viruses, they want  to deliver to the immune-privileged compartments
+[57:46.40] because their drugs are immunogenic, and they're  limited to a very, very small set of diseases.
+[57:51.36] In a way, it's like the shadow of all the  diseases you can't address with viruses
+[57:54.80] is what you can address with cells. Given the complementarity between them,
+[57:58.48] you can probably cover the entire body.  They can't literally go everywhere. But your
+[58:02.64] analogy to the CAR-T work is very apt as well. You can think about that two-component system.
+[58:07.76] I've got some detection mechanism for  the environment I want to sense to
+[58:11.84] perform some function, and then I have  some sort of payload that I deliver.
+[58:15.44] CAR-Ts engineer the first of those and leave the  second exactly the same as the immune system does.
+[58:19.60] They engineer—go recognize this other  antigen that you wouldn't usually target,
+[58:23.36] some protein on the surface of a cell, for  instance—and then deliver the payload you would
+[58:27.52] usually deliver if it was infected by a virus  or if you saw that it was foreign in some way.
+[58:31.12] Whereas cancer cells usually  don't actually look that foreign.
+[58:33.60] Most of their genes are the same genes that are  in your normal genome, and that's why it's hard
+[58:37.04] for the immune system to surveil it. Interesting. Interesting. It's funny
+[58:40.08] that whenever we're trying to cure infectious  diseases, we just have to deal with, "Fuck,
+[58:44.40] viruses have been evolving for billions of years  with our oldest common ancestor, and they know
+[58:49.76] exactly what they're doing, and it's so hard." Then whenever we're trying to do something else,
+[58:54.72] we're like, "Fuck, the immune system has been  evolving for billions of years, and it knows
+[58:58.16] what it's doing, and how do we get past it?" The Red Queen race is quite sophisticated.
+[59:03.36] If you want to just throw a new  tool into biology, you somehow have
+[59:06.40] to get around one side of that equation. Given the fact that it's somewhere between
+[59:12.32] impossible and very far away but it's necessary  for full curing of aging, does that mean that in
+[59:22.24] the short run, in the next few decades, we'll  have some parts of our body which will have
+[59:27.68] these amazing therapies, and then other parts  which will just be stuck the way they are?
+[59:33.68] You mentioned hepatocytes are some of the  cells that you're able to actually study in
+[59:38.56] or deliver to. These are our liver cells. So  you're saying, "Look, I can get drunk as much
+[59:43.44] as I want and it's not going to have an impact on  my long-run liver health because then you'll just
+[59:47.76] inject me with this therapy." But for the rest of my body,
+[59:50.48] it's going to age as normal? What is the implication of the
+[59:53.60] fact that the delivery seems to be lagging  much behind your understanding of aging?
+[60:01.12] Just to give the delivery folks  credit, they're currently ahead.
+[60:04.00] There are currently no reprogramming  medicines for aging, and there are
+[60:06.72] medicines that deliver nucleic acids. They're still winning the race against
+[60:09.44] us right now, but to your point, I hope the  lines cross. I hope we outcompete them. Even
+[60:16.32] if you were able to only target some subsets of  cells, it's not that you would see this strange,
+[60:21.60] Frankensteinian benefit in health in some  aspects and lack of benefit entirely in others.
+[60:27.44] What we've found across the history  of medicine is that the body's an
+[60:31.76] incredibly interconnected, complex system. If you're able to rescue function even in
+[60:36.32] one cell type in one tissue, you often  have knock-on benefits in many places
+[60:40.40] that you didn't initially anticipate. One way we can get examples of this
+[60:44.40] is through transplant experiments. Both in bone marrow and in liver,
+[60:48.64] for example, we have fairly common  transplant procedures that occur in humans.
+[60:54.16] We can compare old humans who get livers  from young people or old people and ask a
+[60:59.12] pretty controlled question. What occurs as a function
+[61:01.36] of just having a young liver? Is it that, for example, you can eat a
+[61:05.20] lot of fatty food and drink a lot and be fine? Or is it that you see broader benefits?
+[61:09.92] The latter seems to be true. They have reduced risk of
+[61:12.64] several other diseases and overall better  survival as a function of having a younger
+[61:16.16] liver than they do for an older one. Suggesting that because these tissues
+[61:20.16] are so interconnected, many of  these organs like the liver,
+[61:22.88] like your adipose tissue, are endocrine organs. They're also sending out signals to many other
+[61:26.56] places in your body, helping coordinate  your health across multiple tissue systems.
+[61:30.64] Even just one tissue can benefit other tissue  systems in your body at the same time. HSCs are
+[61:36.40] another example. These are mostly examples taken  from a wonderful book by Frederick Appelbaum,
+[61:44.64] who trained with Don Thomas, the physician  who invented human bone marrow transplants.
+[61:49.92] There are many circumstances where patients  got a bone marrow transplant and actually
+[61:54.00] cured another disease they had as a result,  maybe unanticipated, where it's even just the
+[61:58.64] replacement of this one special cell type, HSCs,  that has knock-on effects throughout the body.
+[62:03.12] There were symptoms of these diseases that  presented in myriad ways throughout their
+[62:06.56] system, but ultimately, its root  cause was even just a single cell.
+[62:10.32] There are counterexamples as well where you  can go into animals and break even just one
+[62:14.56] gene in one specific subset of T cells. You can break a gene in there that encodes
+[62:18.88] for a transcription factor in their  mitochondria called TFAM, and you
+[62:22.08] dramatically shorten the lifespan of mice. One gene in one special type of T cells
+[62:27.12] can give you that type of pathology. So it implies the inverse may also exist.
+[62:31.28] Is this related to why Ozempic has so  many downstream positive effects that
+[62:35.68] seem even not totally related to its  effects just on making you leaner?
+[62:42.32] I think it's one example. It is a hormone,  and your endocrine system coordinates a lot
+[62:48.88] of the complex interplay between your tissues. I don't think the story is fully written yet
+[62:53.92] on exactly why GLP-1 and GIP-1, broadly  incretin mimetic medicines like Ozempic,
+[62:59.60] have so many knock-on benefits, but  they're a great example of this phenomenon.
+[63:03.60] If someone told you, "I'm going to find a  single molecule, and I'm going to drug it,
+[63:06.64] and it's not only going to have benefits for  weight loss but also for cardiovascular disease,
+[63:10.88] also possibly for addictive behavior, and  maybe even preventing neurodegeneration,"
+[63:14.64] you would have told them they were crazy. Yet, just by acting on the small number of
+[63:18.56] cells in your body which are receiving this  signal, the interplay and the communication
+[63:22.64] between those cells and the rest of your body  seems to have many of these knock-on benefits.
+[63:26.88] It's just one existence proof that  very small numbers of cells in your
+[63:29.52] body can have health benefits everywhere. Even if cellular delivery does not emerge by 2100,
+[63:34.80] as I imagine it will, I still think that  you're going to have the ability to add
+[63:39.28] decades of healthy life to individuals  by reprogramming the age of individual
+[63:43.36] cell types and individual tissues. How big will the payload have to be?
+[63:47.20] How many transcription factors? I  think it's just a countable number.
+[63:50.64] Some of those that we've found today that have  efficacy are somewhere between one and five.
+[63:56.00] That's a small enough number that you can  encapsulate it in current mRNA medicines.
+[64:00.72] Already in the clinic today, there are medicines  that deliver many different genes as RNA.
+[64:05.76] There are medicines where, for instance, it's  a vaccine as a combination of flu and COVID
+[64:09.44] proteins, and they're delivering 20 different  unique transcripts all at the same time.
+[64:14.56] When you think about that already as a  medicine that's being injected into people
+[64:17.36] in trials, the idea of delivering just a few  transcription factors is seemingly quotidian.
+[64:22.64] Thankfully, I don't think we'll be limited by  the size of the payloads that one can deliver.
+[64:27.76] One other really cool thing about transcription  factors is that the endogenous biology is
+[64:32.64] very favorable for drug development. The expression level of transcription
+[64:36.88] factors in your genome relative  to other genes is incredibly low.
+[64:40.96] If you just look at the rank-ordered list of what  are the most frequently expressed genes in the
+[64:45.28] genome by the count of how many mRNAs are in the  cell, transcription factors are near the bottom.
+[64:50.00] That means you don't actually need to get  that many copies of a transcription factor
+[64:53.20] into a cell in order to have benefits. What we've seen so far, and what I
+[64:58.08] imagine will continue to play out, is that  even fairly low doses of these medicines,
+[65:02.08] which are well within the realm of what folks  have been taking for more than a decade.
+[65:07.44] They are able to induce really strong efficacy. We're hopeful that not only will the actual size
+[65:13.12] of the payload in terms of number  of base pairs not be limiting,
+[65:15.68] but the dose shouldn't be limiting either. Would it have to be a chronic treatment,
+[65:19.12] or could it just be a one-time dose? In principle, it could be one time.
+[65:24.08] I think that would be an overstatement for today. I can talk you through the evidence from the
+[65:28.48] first principles back to the reality of  what's the hardest thing we have in hand.
+[65:32.80] Epigenetic reprogramming is basically how the  cell types in our bodies right now are able
+[65:36.64] to adopt the identities that they have. The existence proof that those epigenetic
+[65:41.52] reprogramming events can last decades is that my  tongue doesn't spontaneously turn into a kidney.
+[65:45.84] These epigenetic marks can persist for  decades throughout a human life, or hundreds
+[65:50.72] of years if you want to take the example of a  bowhead whale which uses the same mechanism.
+[65:56.72] We also know that with very targeted edits,  other groups have done this, folks like Luke
+[66:01.04] Gilbert now at the Arc Institute, who I think of  as one of the great unsung scientists of our time,
+[66:05.84] have been able to make a targeted edit in  a single locus and then show that you can
+[66:09.68] actually make cells divide 400-plus times over  multiple years in an incubator in the lab.
+[66:14.64] Imagine a hothouse where you're just trying  as hard as you can to break this mark down,
+[66:18.72] and it can actually persist for many years. Other companies have actually now dosed
+[66:23.12] some editors similar to the ones that  Luke developed in his lab in monkeys
+[66:26.88] and shown they last at least a couple of years. In principle, the upper bound here is really long.
+[66:31.20] You could potentially have one dose and it  lasts a very long time, potentially decades, as
+[66:35.52] long as it took you to age the first time maybe. We don't have data like that today. I don't want
+[66:39.76] to overstate. We do have data that these positive  effects can last several weeks after a dose.
+[66:46.48] You could imagine, even without many leaps  of faith up toward this upper bound limit
+[66:50.40] of what's possible just from the data we have in  hand now, that you could get doses every month,
+[66:55.60] every few months and actually have really  dramatic benefits that persist over time,
+[66:59.84] rather than needing to get an IV every  day, which might not be tractable.
+[67:03.36] We've got 1600 transcription  factors in the human genome.
+[67:06.16] Is it worth looking at non-human TFs  and seeing what effects they might have,
+[67:10.88] or are they unlikely to be the right search space? I think it's less likely. I think you have a prior
+[67:17.28] that evolution has given you a reasonable  basis set for navigating the states that
+[67:21.84] human cells might want to occupy. In our case, we know that the state
+[67:25.36] we're trying to access is encoded  by some combination of these TFs.
+[67:29.36] It does arise in development obviously. We're trying to make an old cell look young,
+[67:32.64] not look like some Frankenstein  cell that's never been seen before.
+[67:35.60] That said, we don't have any guarantees that the  way aging progresses is by following the same
+[67:40.16] basis set of these transcription factor programs  in the genome that are encoded during development.
+[67:45.76] I don't think it's unreasonable to ask, "Would  your eventual ideal reprogramming medicine
+[67:50.08] necessarily be a composition of the natural TFs,  or would it include something like TFs from other
+[67:55.28] organisms, as you posit, or even entirely  synthetic transcription factors as well?"
+[67:59.12] Things like Super-SOX. Super-SOX is  a particular publication from Sergiy
+[68:05.04] Velychko where they mutated the SOX2 gene and  they made more efficient iPSC reprogramming.
+[68:11.52] They could take somatic cells and turn them  into pluripotent stem cells more effectively
+[68:15.44] than you could with just the canonical Yamanaka  factors, which are Oct-4, Sox2, KLF4, and Myc.
+[68:22.40] iPSC reprogramming never happens in nature,  so there's no reason to necessarily believe
+[68:26.56] that the natural TFs are optimal. So even really simple optimizations,
+[68:30.00] like just mutagenizing one of the four  Yamanaka factors we already know about
+[68:33.52] or swapping some domains between a few  TFs, seem to improve things dramatically.
+[68:37.76] I think that's a pretty good signal that  actually there's a lot of gradient to climb
+[68:41.76] here and that potentially for us, the end-state  products we're developing in 2100 are more like
+[68:47.20] synthetic genes that have never existed, rather  than just compositions of the natural set.
+[68:51.28] What about the effects of aging? Your skin starts to sag because of the
+[68:57.52] effects of gravity over the course of decades? Is  that a cellular process? How would some cellular
+[69:02.80] therapy deal with that? The best evidence is
+[69:04.80] that it's probably not cellular. The reason your skin sags is there's a protein
+[69:07.76] in your skin called elastin, which does exactly  what you'd think it would based on the name.
+[69:11.04] It kind of keeps your skin elastic-y, like  a waistband, and holds it to your face.
+[69:15.20] You have these big polymerized  fibers of elastin in your face.
+[69:18.96] As far as we understand it, you only polymerize  it and form a long fiber during development.
+[69:23.44] Then the rest of your life, you make  the individual units of the polymer,
+[69:26.40] but for reasons no one as far as I can  tell understands, they fail to polymerize.
+[69:30.24] You can't make new long cords to  hold your skin up to your face.
+[69:34.00] So the eventual solution for something like  that is likely that you need to program cells
+[69:38.72] to states that are extra-physiological. There might not be a cell in your body.
+[69:42.64] It's not just like a young skin cell from a  20-year-old is better at making these fibers.
+[69:46.40] As far as we can tell, they don't. But you could probably program a cell to
+[69:50.56] be able to reinvigorate that polymerization  process, to run along the fiber and repair
+[69:54.72] it in places where it's damaged. Obviously these things get made
+[69:58.00] during development, so it's totally  physically feasible for this to occur.
+[70:01.68] Maybe there's even a developmental  state which would be sufficient to
+[70:04.08] achieve this. I don't think anyone knows. But  that would be the kind of state that one might
+[70:08.00] have to engineer de novo, even if our genome  doesn't necessarily encode for it explicitly.
+[70:12.56] Interesting. Okay, what is Eroom's Law? Eroom's Law is a funny portmanteau created
+[70:18.64] by a friend of mine, Jack Scannell. He inverted the notion of Moore's Law,
+[70:22.40] which is the doubling of compute density  on silicon chips every few years.
+[70:27.52] Moore's Law has graciously given  us massive increases in compute
+[70:30.56] performance over several decades. Eroom's Law is the inverse of that.
+[70:34.40] In biopharma, what we're actually seeing  is that there's a very consistent decrease
+[70:38.32] in the number of new molecular entities,  new medicines that we're able to invent,
+[70:41.84] per billion dollars invested. This trend actually starts way
+[70:44.80] back in the 1950s and persists through many  different technological transitions along the way.
+[70:49.44] It seems to be an incredibly consistent  feature of trying to make new medicines.
+[70:54.48] In a weird way, Eroom's Law is actually  very similar to the scaling laws you
+[70:59.12] have in ML, where you have this very  consistent logarithmic relationship.
+[71:03.60] You throw in more inputs and you get  consistently diminishing outputs.
+[71:08.00] The difference, of course, is that this trend  in ML has been used to raise exponentially more
+[71:15.20] investment and to drive more hype towards AI. Whereas in biotech, modulo NewLimit's new round,
+[71:22.96] it has driven down valuations,  driven down excitement and energy.
+[71:26.24] With AI at least you can internalize the extra  cost and the extra benefits because there's
+[71:31.04] this general purpose model you're training. This year you spend $100 million training
+[71:34.40] a model, next year $1 billion,  the year after that, $10 billion.
+[71:36.64] But it's one general purpose model, unlike, "We  made money on this drug and now we're going to
+[71:40.72] use that money to invest in 10 different  drugs in 10 different bespoke ways."
+[71:44.48] I was gearing up to ask you, what would a general  purpose platform—where even if you had diminishing
+[71:50.48] returns, at least you can have this less bespoke  way of designing drugs—look like for biotech?
+[71:55.92] I'm going to slightly dodge your question  first to maybe analyze something really
+[71:58.88] interesting that you highlighted. You have these two phenomena:
+[72:01.76] ML scaling and then scaling in terms  of the cost for new drug discovery.
+[72:05.60] Why is it that the patterns of  investment have been so different?
+[72:08.24] There are probably two key features  that might explain this difference.
+[72:10.88] One is that the returns to the scaled  output in the case of ML actually are
+[72:15.04] expected to increase super exponentially. If you actually reach AGI, it's going to be a much
+[72:20.08] larger value than just even a few logs back on  the performance curve that people are following.
+[72:25.12] Whereas in the life sciences thus  far, each of those products we're
+[72:28.72] generating further and further out on the  Eroom's Law curve as time moves forward,
+[72:32.24] haven't necessarily scaled in their potential  revenue and their potential returns quite so much.
+[72:36.88] You're seeing these increased costs  not counterbalanced by increased ROI.
+[72:40.40] The other piece of it that you highlighted is  that it’s unlike building a general model where
+[72:44.80] potentially by making larger investments, you can  be able to solve a broader addressable market,
+[72:49.04] moving from solving very narrow  tasks to eventually replacing large
+[72:52.48] fractions of white collar intelligence. In biotech, when you're traditionally
+[72:56.88] able to develop a medicine in a given  indication—"I was able to treat disease
+[72:59.92] X"—it doesn't necessarily engender you to be  able to then treat "disease Y" more readily.
+[73:05.04] Typically where these biotech firms in general  have been able to develop unique expertise is on
+[73:09.36] making molecules to target particular genes,  so "I'm really good at making a molecule
+[73:13.52] that intervenes on gene X or gene Y." It turns out that the ability to make
+[73:18.16] those molecules more rapidly isn't actually  reducing the largest risk in the process.
+[73:22.32] This means that the ability to go from  one or two outputs one year to then
+[73:26.56] four the next is much more limited. This brings us then to the question
+[73:29.84] of what the general model would be in biology. I think it reduces down to how do you actually
+[73:35.20] imbue those two properties that create the ML  scaling law curve of hope and bring those over
+[73:41.44] to biology so that you can take the Eroom's  law curve and potentially give it the same
+[73:45.12] sort of potential beneficial spin. There are a few different versions
+[73:49.28] of this you could imagine. But I'll address the first point.
+[73:52.24] How do you get to a place where you're  actually able to generate more revenue per
+[73:55.84] medicine so that potentially the outputs  you're generating are more valuable,
+[73:58.64] even if each output might cost a bit more? Traditionally, when we've developed medicines,
+[74:03.28] we go after fairly narrow indications, meaning  diseases that fairly small numbers of people get.
+[74:09.04] That's actually increased, in terms of the  narrow scope of what medicines are addressing,
+[74:14.00] as we've gone forward in time. This is sort of an ironic situation
+[74:17.68] where we've gone from addressing pretty broad  categories of disease, like infectious disease,
+[74:21.28] to narrower and narrower genetically-defined  diseases that have small patient populations.
+[74:25.52] Because these only affect a few people—if you  think about the value function of a medicine as
+[74:29.60] how many years of healthy life it gives how many  people—if the "how many people" is pretty small,
+[74:33.28] it just really bounds the amount  of value you're able to generate.
+[74:36.08] You need to then be able to find  medicines that treat most people.
+[74:39.52] All of us will one day get sick and die. So arguably, the TAM for any really successful
+[74:43.68] medicine could be everybody on planet Earth. We need to find a way to be able to route
+[74:48.24] toward medicines that address  these very large populations.
+[74:51.20] The second piece then is, how do we  actually build models that enable us
+[74:55.28] to take the success in one medicine we've  developed and lead that to an increased
+[74:59.28] probability of success on the next medicine? Traditionally, we haven't been able to do that.
+[75:03.04] Maybe you're better at making an antibody for gene  Y because you made one for gene X five years ago.
+[75:07.36] But it turns out making an antibody isn't  really the hard part of drug discovery.
+[75:11.36] Figuring out what to make an antibody to  target is the hard thing about drug discovery.
+[75:15.12] What gene do I intervene upon in order to  actually treat a disease in a given patient?
+[75:19.92] Most of the time, we just don't know. That's why even if a given drug firm
+[75:24.00] becomes very good at making antibodies to  gene X and they have a successful approval,
+[75:27.44] when they then go to treat disease Y they  don't necessarily know what gene to go after.
+[75:31.84] Most of the risk is not in how to make an antibody  to treat my particular target, it's in figuring
+[75:36.64] out what to target in the first place. I'm not sure how to understand this
+[75:41.84] claim that we know how to engage with  the right hook, we just don't know
+[75:49.12] what that hook is supposed to do in the body. I don't know if that's the way you describe it.
+[75:53.28] Another claim that I've seen is that with small  molecules we have this Goldilocks problem.
+[75:57.52] They have to be small enough to percolate  through the body and through cell walls,
+[76:01.84] etc., but big enough to interfere  with protein-protein interactions that
+[76:07.20] transcription factors might have. There it seems like getting the
+[76:10.72] hook is the big problem. In this particular case,
+[76:14.24] if we bound ourselves to, "We must use small  molecules as our modality," then there are lots
+[76:18.80] of targets which are very difficult to drug. There are many other modalities by which you
+[76:22.72] can drug some of these genes. I would say–I don't have formal
+[76:25.84] way of explaining this–if you were to write  out a list of well-known targets that many,
+[76:30.96] many folks would agree are the correct genes to  go after and to try and inhibit or activate in
+[76:35.36] order to treat a given set of diseases—and  the only reason we don't have medicines is
+[76:39.04] that we can't figure out a trick in order to  be able to drug them—it's a fairly small list.
+[76:43.04] It would probably fit on a single page. Whereas the number of possible indications
+[76:46.88] that one could go after, and the number  of possible genes that one could intervene
+[76:50.56] upon especially when you consider  their combinations, is astronomical.
+[76:54.24] The experiment you could run here is if you  lock 10 really smart drug developers in a room.
+[76:58.24] You tell them to write down some incredibly  high-conviction target disease pairs where
+[77:03.36] they're sure if they modulate this biology,  these patients are going to benefit.
+[77:06.56] All they need is some molecular hook, as  you put it, in order to do this. It's a
+[77:11.12] relatively short list. What you're not going  to get is anything approximating the panoply
+[77:15.20] of human pathologies that develop. You can actually look for this.
+[77:18.32] There are some existence proofs you  can look for out in the universe.
+[77:21.60] If the only problem was that we didn't have  the ability to drug something using current
+[77:26.32] therapeutics that we can put in humans, we  should still be able to treat it in the best
+[77:30.24] animal models of that disease because we  can use things like transgenic systems.
+[77:34.16] You can go in and you can engineer  the genome of that animal.
+[77:37.36] This gives you all sorts of superpowers that  you don't have in patients, but allow you to,
+[77:40.56] for instance, turn on arbitrarily complex groups  of genes in arbitrarily specific or broad groups
+[77:45.92] of cells in the organism, at any time you  want, at any dose you want in the animal.
+[77:50.16] For the majority of pathologies, we  just don't have many of those examples.
+[77:55.60] What is the answer to what is the general purpose  thing where every marginal discovery increases the
+[78:01.84] odds you make the next discovery? There are multiple ways one might
+[78:05.60] approach this problem. The most common today,
+[78:08.16] this is often what people are describing  when they talk about a virtual cell.
+[78:11.20] This is a very nebulous idea, sometimes numinous,  if you'll let me describe it in that way as well.
+[78:18.16] Concretely, what most people are trying  to do is measure some number of molecules,
+[78:22.72] or perceived emissions like the morphology of  a cell, and then perturb it many times, turn
+[78:28.40] some genes on, turn some genes off, and measure  how that molecular morphological state changes.
+[78:33.68] The notion is that there's a lot  of mutual information in biology.
+[78:36.48] If I measure something, most commonly all the  genes the cell is using at a given moment,
+[78:40.56] which you can get by RNA sequencing,  I get a decent enough picture of
+[78:44.80] most of the other complexity going on. I can take a bunch of healthy cells and a bunch
+[78:50.00] of cells that are in a diseased or aged state. I'm able then to compare those profiles and say,
+[78:54.80] "Okay, my diseased cells use these  genes, my healthy cells use these.
+[78:58.08] Are there any interventions that I'm  able to experimentally find in the
+[79:01.60] lab that shift one toward the other?" The hope would be that, because you're
+[79:05.04] never going to be able to scan combinatorially all  the possible groups of genes to make it concrete.
+[79:10.08] There's something like 20,000 genes in the genome. You can then choose however many
+[79:15.84] genes in your combination you want. It's not crazy to think of hundreds at a time.
+[79:19.20] That's what transcription factors control. That's  how development works. So the number of possible
+[79:22.96] combinations is truly astronomical. You just can't test it all.
+[79:25.76] The hope would be that by doing some sparse  sampling of those pairs—what your inputs are,
+[79:29.60] here's what the cell looked like  beforehand, here's the particular
+[79:32.32] genes I perturbed—you have some measurement  then of the state that the cell resulted in.
+[79:36.56] Here's which genes went  up, here's which went down.
+[79:40.72] Once I've trained a model to predict from  the perturbations to the output on the cell
+[79:44.48] state, you can start to ask what would happen  for some arbitrary combinations of genes.
+[79:47.76] Now in silico I can search all possible  things that one might do and potentially
+[79:51.92] discover targets that take my diseased  cells back to something like healthy cells.
+[79:55.84] So that's another version  of what an all-encompassing
+[79:58.88] model would look like where you actually  have compounding returns in drug discovery.
+[80:02.40] You basically described one of the models  you guys are working on at NewLimit.
+[80:07.04] You're training this model based  on this data where you're taking
+[80:10.32] the entire transcriptome and just labeling  it based on how old that cell actually is.
+[80:17.12] If you've got all this data you're collecting  on how different perturbations are having
+[80:21.76] different phenotypic effects on a  cell, why only record whether that
+[80:29.20] effect correlates with more or less aging? Why can't you also label it with all the other
+[80:36.24] effects that we might eventually care about  and eventually get the full virtual cell?
+[80:41.52] That's a more general purpose model, not just the  one that predicts whether a cell looks old or not.
+[80:48.64] Absolutely, we actually do both today. We can train these models where the inputs
+[80:54.24] are a notion of what that cell looked like at  the starting place, here's what a generic old
+[80:58.48] cell looked like, and then representations  of the transcription factors themselves.
+[81:02.24] We derive those from protein foundation models. They're language models trained
+[81:05.84] on protein sequences. It turns out that gives you a
+[81:08.16] really good base level understanding of biology. The model's starting from a pretty smart place.
+[81:13.28] Then you can predict a number of different targets  from some learned embedding, the same way you
+[81:17.04] could have multiple heads on a language model. One of those for us is actually just predicting
+[81:21.36] every gene the cell is expressing. Can I just recapitulate the entire state
+[81:25.04] and guess what effect these transcription  factors will have on every given gene?
+[81:28.88] You can think about that as an objective  rather than a value judgment on the cell.
+[81:32.72] I'm not asking whether or not I  want this particular transcriptome.
+[81:35.44] I'm just asking what it will look like. Then we also have something more like
+[81:40.08] value judgments. I believe that that
+[81:42.16] transcriptome looks like a younger cell. I'm going to select on that and train ahead
+[81:46.24] to predict it where I can denoise across  genes and then select for younger cells.
+[81:49.92] But you could do that for arbitrary  numbers of additional heads.
+[81:52.32] What are some other states you might want? Do I want to polarize T cells to a less
+[81:56.08] inflammatory state in somebody  with an autoimmune disease?
+[81:59.04] Do I want to make liver cells more functional  in a patient who's suffering from certain
+[82:03.44] types of metabolic syndrome, maybe even  orthogonal to the way that they age?
+[82:07.44] Do I want to go in and change the way a neuron  is functioning to a different state to treat a
+[82:10.56] particular type of neurodegenerative disease? These are all questions you can ask.
+[82:13.52] They're not the ones we're going after, but  that is the more general, broader vision.
+[82:16.48] This is so similar to, in LLMs, you first have  imitation learning with pre-training that builds
+[82:23.92] a general-purpose representation of the world. Then you do RL about a particular objective in
+[82:31.44] math or coding or whatever that you care about. You are describing an extremely similar
+[82:36.40] procedure where first you just learn  to predict perturbations in genes to
+[82:43.36] broad effects on the cell. That's the pre-training,
+[82:47.60] just learning how cells work. Then there's another afterward
+[82:52.16] layer of these value judgments of, "How would  we have to perturb it to have effect X?"
+[82:58.64] That actually seems very similar to "How  do we get the base model to answer this
+[83:03.44] math problem or answer this coding problem?" I don't know if people usually put it this way,
+[83:08.16] but it actually just seems extremely similar. That makes me more optimistic on this. LLMs
+[83:13.12] work and RL works. Yeah, they do. I
+[83:16.32] think the conceptual analogy is very apt. We don't actually use RL at the moment,
+[83:20.40] so I don't want to overstate the  level of sophistication we've got.
+[83:22.80] But I think the general problem  reduces down in a similar way.
+[83:25.84] You can think about your earlier  question of what does the general
+[83:28.96] model look like that enables you to actually  have compounding returns in drug discovery.
+[83:33.52] You might have something like this base model,  which as you said, just predicts this object
+[83:36.96] function of, "How are these perturbations  hitting these targets going to change which
+[83:40.88] genes are turned on and off in this cell?" Then there's an entirely other task, which is,
+[83:44.80] well, which genes do you want to turn on and off? What state do I want the cell to adopt?
+[83:49.04] Our lens on that is that across many  different diseases people have, age is
+[83:54.08] one of the strongest predictors of how they're  going to progress, whether that disease arises.
+[83:58.88] In many, many circumstances you have  evidence in humans where you can say,
+[84:02.32] "Ah, if I could make the cell younger, maybe  that's not a perfect fix, but that's going to
+[84:05.52] dramatically benefit not only patients who have a  diagnosed disease, but it might actually help most
+[84:09.92] of us stay healthier longer, even subclinically  before anyone would formally say that we're sick."
+[84:15.44] Now that's another more general function. The same way that in LLMs, you might have
+[84:19.12] to create these particular RLHF environments,  you need to have places where you can state a
+[84:24.00] value function of the particular task  that you're trying to optimize for.
+[84:28.24] In drug discovery, you would then need  to know, "Well, what are the cell states
+[84:31.20] I want to engineer for?" That's kind of the next
+[84:32.88] generation of what a target might be. Beyond just which genes do I want to move
+[84:36.56] up and down, and which gene perturbations  do I put in, you then need to know what
+[84:39.84] cell state am I engineering for? What do I want this T cell to do?
+[84:41.68] You’ll have a bunch of labelers in Nigeria  clicking different pictures of cells.
+[84:44.88] Like, "Oh, this one looks  young. This one looks old."
+[84:47.12] "This one looks really great. I love that  one." Potentially. Potentially. It's more
+[84:51.20] like developmental biologists locked in a  room, as my friend Cole Trapnell would say.
+[84:55.76] It seems like what you're describing  seems quite similar to Perturb-seq.
+[85:00.64] I don't know when it was done, what year was it? There were three papers almost
+[85:04.00] simultaneously in 2016. Okay, so almost a decade.
+[85:08.96] We're still waiting, I guess, for the  big breakthroughs it's supposed to cause.
+[85:12.72] This is the same procedure, so why  is this going to have an effect?
+[85:17.68] Why has this taken so long? Good  question. The original procedure
+[85:21.60] was created by a bunch of brilliant folks. There was a group in Ido Amit's lab at the
+[85:24.88] Weizmann Institute, Aviv Regev's lab at the Broad,  where Atray Dixit, a friend of mine, helped work
+[85:29.12] on this, and then Jonathan Weissman's lab at UCSF,  where Britt Adamson did a lot of the early work.
+[85:33.36] They all constructed this idea  where you can go in and you label a
+[85:37.76] perturbation that you're delivering to a cell. This is typically a transgenic perturbation,
+[85:41.36] meaning you're integrating some  new gene into the genome of a cell.
+[85:44.64] That turns another gene on or off. They used CRISPR, but there's lots of
+[85:47.76] ways to do it and the concept's pretty general. Then you attach on that new transgene, that new
+[85:52.56] gene you put into the genome of the cell, some  barcode that you can read out by DNA sequencing.
+[85:56.64] Now when you rip the cells open, you're able  to not only measure every gene they're using,
+[86:00.48] but you also sequence these barcodes, and you  know which genes you turned on and which are off.
+[86:04.16] You can then start to ask questions like,  "Well, I've turned on genes A, B, and C,
+[86:06.96] what did it do to the rest of the cell?" That's the general premise of the technology.
+[86:10.80] It's useful to just set that up because it  explains why this didn't all happen earlier.
+[86:14.80] The actual readout, ripping the cells open  and sequencing them, used to be pretty bad
+[86:18.00] and it used to be really expensive. It's gotten much better over time.
+[86:21.36] The metric people often think about  here is like cost per cell to sequence.
+[86:24.80] It used to be measured in dollars  and now it's measured in cents,
+[86:27.76] and down to the fractions of cents, because  that cost curve has improved dramatically.
+[86:33.20] The cost of sequencing has likewise come down. So even beyond the actual reagents necessary to
+[86:37.20] rip the cell open and turn its mRNAs into  DNAs that are ready for the sequencer,
+[86:40.80] now the sequencer is cheaper. The other piece is, actually getting
+[86:43.60] these genes in and then figuring out which  ones are there, it started out pretty bad.
+[86:48.00] When we started with this technology,  it was a beautiful proof of concept,
+[86:50.80] but I don't think anyone would tell  you it was 100% ready for prime time.
+[86:54.32] When you sequenced a cell, only  about 50% of the time could you
+[86:57.44] even tell which perturbation you put in. Sometimes you just wouldn't detect the barcode
+[87:01.28] and you'd have to throw the cell away. Or you detect the wrong barcode and
+[87:04.96] now you've mislabeled your data point. This might sound like a trivial sort of
+[87:08.96] technical piece, but imagine you're running  this experiment the old-fashioned way.
+[87:11.84] You test different groups of genes  in different test tubes on a bench.
+[87:14.96] Now imagine you hired someone who  every other tube labels it wrong.
+[87:18.72] When you then collect data from your experiment,  you basically have no idea what happened,
+[87:22.08] because you've just randomized all  your data labels. You wouldn't do much
+[87:25.20] science. You wouldn't get very far that way. A lot of those technologies have improved to
+[87:29.12] the point where you had a number of processes  which are pretty inefficient and you multiplied
+[87:33.28] a lot of these things together and ended  up with a very small outcome of successful
+[87:37.04] cells you could actually sequence. They've all improved to the degree
+[87:39.52] where now you can actually operate at scale. Groups like ours have had to do a bunch of
+[87:44.08] work in order to actually enable combinatorial  perturbations, turning on more than just one gene
+[87:48.32] at a time, which it turns out is much, much harder  for the same reason we were just alluding to.
+[87:52.56] Imagine you're having trouble figuring  out which one gene you put in this cell
+[87:55.60] and turned on or off. Now imagine you have to
+[87:57.60] do that five times correctly in a row. Well, if you start out with the original
+[88:02.00] performance where you could detect roughly 50%  of them, then the fraction of cells that would
+[88:06.64] be correctly labeled is like 1/2^n, where n is  the number of genes you're trying to detect.
+[88:11.44] Very quickly more of your data  is mislabeled than is labeled.
+[88:14.56] There's lots of technical reasons like  this that have gotten worked out over time.
+[88:18.40] Only now are we really able to scale up where  we're able to run experiments that are in the
+[88:22.88] millions of cells in just a single day at,  for instance, a small company like NewLimit.
+[88:27.92] There was a point even just six or seven  years ago where the companies that made
+[88:32.24] these reagents were publishing the very  first million-cell data set just as a
+[88:35.92] proof of concept and only they could do  it as the constructors of the technology.
+[88:39.44] Now two scientists in our labs  can generate that in an afternoon.
+[88:42.96] If it actually is the case that this is  very similar to the way LLM dynamics work,
+[88:52.08] then once this technology is mature and you  get the GPT-3 equivalent of the virtual cell,
+[88:58.80] what you would expect to happen is you get  many different companies, at least a couple,
+[89:03.60] that are doing these cheap, Perturb-seq-like  experiments and building their own virtual cells.
+[89:11.28] Then they're leasing this out to other people  who then have their own ideas about, "We want
+[89:17.12] to see if we can come up with the labels for this  particular thing we care about and test for that."
+[89:24.00] What it seems like is happening right now  is, at least at NewLimit, you are like,
+[89:28.00] "We know the end use case we're going after." It would be as if Cursor in 2018 was like, "We're
+[89:35.20] going to build our own LLM from scratch so that  we can enable our application," rather than some
+[89:40.32] foundation model company being like, "We don't  care what you use it for, we're going to build
+[89:43.36] this." Does that make sense? It seems like you're  combining two different layers of the stack.
+[89:50.32] Because nobody else is doing the other  layer, you're just doing both of them.
+[89:55.20] I don't know to what extent this analogy maps on. To play with the analogy a bit, imagine that
+[90:00.24] you think about NewLimit as an LLM company. If I'm going to put us in the shoes of Cursor,
+[90:04.40] which oh I so wish, imagine we're  trying to, in 2018, create Cursor Tab,
+[90:09.52] but we're not trying to create a full LLM. I don't know enough about the underlying
+[90:14.00] mechanics to know if that would have been  feasible, but it's a much more feasible problem
+[90:17.68] than trying to create the most recent Cursor agent  or compete with modern Claude Code. That's roughly
+[90:22.88] the equivalent. The problem we're breaking off is  a subset of the more general virtual cell problem.
+[90:29.68] We're trying to predict, "What do  groups of transcription factors do
+[90:32.56] to the age of very specific types of cells?" We only work on a few cell types at NewLimit
+[90:37.44] because those are some of the only cell types  today with which we believe we can get really
+[90:42.00] effective delivery of medicines. We think they're just more
+[90:45.20] important because we can act on them today. If we solve the problem of what TFs to use,
+[90:48.56] we can make a medicine pretty quickly. In a way, we're carving out a region of
+[90:52.24] this massive parameter space and saying, "If we  can learn the distribution of effects even just
+[90:56.88] in this small region, it's going to be really  effective for us, and we can make really amazing
+[91:01.04] products, unlike the world has ever seen." Over time, we can expand to the corpus
+[91:06.08] of predicting every possible gene  perturbation in every possible cell type.
+[91:10.48] I think that's maybe the way the  analogy maps on, but it is true that
+[91:13.28] we are vertically integrating here. We're generating our own data in a
+[91:16.24] way that's proprietary. We think we have a much,
+[91:18.48] much larger data set for this particular  regime than the rest of the world combined.
+[91:22.32] That enables us to build what  we think are the best models.
+[91:25.60] In many cases, what we found is that unlike  with LLMs, where a lot of the data that was
+[91:30.64] necessary to build these was a common good—it was  produced as a function of the internet and shared
+[91:35.92] across everyone, it's pretty common across all  the domains everyone wants to use it for—this
+[91:40.16] biological data is still in its infancy. Imagine we're in the early 1980s and we
+[91:46.08] are just now thinking about trying to create some  of the first web pages. That's the era we're in.
+[91:51.68] We're going after and generating some of our own  data in this very niche circumstance, building
+[91:56.00] the very high-quality corpus, the Wikipedia that  you might train your overly analogized- LLM on,
+[92:02.16] and then building the first products based  on that and then expanding from there.
+[92:06.08] We think that's necessary  because of where we are today.
+[92:08.40] There isn't this Internet-like equivalent of data  that everyone can go out and reap rewards from.
+[92:12.96] Interesting. This is more a question about the  broader pharma industry rather than just NewLimit.
+[92:19.28] In the future, how are people going to make money? With the GLPs, we've got peptides from China that
+[92:28.00] are just a gray market that  people can easily consume.
+[92:31.68] Presumably, with these future AI models,  even if you have a patent on a molecule,
+[92:36.24] finding an isomorphic molecule or an  isomorphic treatment is relatively easy.
+[92:41.04] If you do come up with these crazy treatments and  if pharma in general is able to come up with these
+[92:44.16] crazy treatments, will they be able to make money? The gray market piece, I'll put aside and say
+[92:50.64] that’s IP enforcement at a geostrategic  level that I'm not qualified to speak to.
+[92:57.20] It comes down to IP enforcement effectively. For that gray market piece, another reason that
+[93:04.32] the traditional pharmaceutical industry will still  continue to reap the majority of rewards here is
+[93:08.64] that most of the payment in the United States,  which provides most of the revenue for drug
+[93:14.00] discovery in the world, goes through a payment  system that is not just direct-to-consumer. It
+[93:18.32] goes through payers. If you have the opportunity  to either order a sketchy vial off of some website
+[93:24.48] from some company in Shenzhen, or you can go  through your doctor and get a prescription
+[93:29.52] with a relatively low co-pay for Tirzepatide, the  real thing, most patients will go for Tirzepatide.
+[93:35.44] You and I probably live in a milieu of people who  are much more comfortable with ordering the vials
+[93:39.36] from Shenzhen than most people might be. I don't consider that to be a tremendous
+[93:43.92] concern writ large. The broader point is,
+[93:47.04] if you have medicines with very long-term  durability, how do you reimburse them?
+[93:52.00] If the benefits are very long term and accrue  in the out-years… A challenge we have in
+[93:58.16] the US system is that the average person  churns insurers every three to four years.
+[94:02.48] That number fluctuates around, but  that's the right order of magnitude.
+[94:05.44] That means that if you had a medicine  which dramatically reduced the cost
+[94:09.28] of all other healthcare incidents, but it  happened exactly five years after you got
+[94:12.96] dosed with it, no insurer is technically  economically incentivized to cover that.
+[94:17.36] I think there are a couple of  models here that can make sense.
+[94:20.96] One is something called pay-for-performance where,  rather than reimbursing all of the cost of the
+[94:26.48] drug upfront, you reimburse it over time. Say you get a medicine that just makes you
+[94:31.76] generically healthier and you can measure the  reduced rates of heart attack and reduced rates
+[94:36.00] of obesity and various other things, and you  get this one dose and it lasts for 10 years.
+[94:40.16] Each year you would pay something like a tenth  of the cost of the medicine contingent on the
+[94:44.00] idea that it was actually still working for  you and you had some way of measuring that.
+[94:47.68] That's a big challenge in this industry. How would you demonstrate that any one of
+[94:51.76] these medicines is still working for the patient? In the few examples we have today, these are
+[94:55.76] things like gene therapies where you can just  measure the expression of the gene and it’s like,
+[94:59.28] "Okay, the drug is still there." It gets more complicated when you
+[95:02.40] have some of these longer-term net benefits. The idea would be that then each insurer is
+[95:06.80] incentivized to just pay for the time  of coverage that you're on their plan.
+[95:10.64] We already have a framework for this  post-Affordable Care Act in the US where
+[95:15.44] pre-existing conditions no longer really exist. Patients are able to freely move between payers,
+[95:19.92] and you could sort of treat the presence  of one of these therapeutics lowering
+[95:23.84] this patient's overall healthcare costs the  same way we treat a pre-existing condition.
+[95:28.08] This is something that the system  is still overall figuring out.
+[95:31.52] What I'm saying here is one hypothesis  about what the future might look like,
+[95:34.72] but there are alternative clever approaches  people might think about for reimbursement.
+[95:39.12] I think over time we're going to move  more toward a direct-to-consumer model
+[95:43.04] for many of these medicines which preserve and  promote health rather than just fixing disease.
+[95:47.68] You're seeing what are really some of the  most innovative examples of this right now
+[95:51.12] from Lilly around the incretin mimetics,  where they actually launched LillyDirect.
+[95:55.28] For the first time, rather than going to  a pharmacy, which interacts with a PBM,
+[95:58.72] which interacts with your primary care physician…  You can get a prescription from your doctor,
+[96:02.40] go straight to Lilly, the source of the good  stuff, and you're able to order high-quality
+[96:06.16] drugs from them, and not involve some  intermediary compounder in the middle that
+[96:10.32] might not even make your molecules properly. As these medicines develop that have actual
+[96:16.40] consumer demand—because you feel it in your daily  life and you're actually seeing a benefit from it,
+[96:20.56] it's not just something that your  physician is trying to get you to
+[96:23.52] take—that model will start to dominate. That means that this payment over time for
+[96:28.48] some of these long-term benefits might be able  to be abstracted away from our current payer
+[96:33.36] system where it churns every few years. A payment-over-time plan, the same way we
+[96:38.72] finance other large purchases  in life, seems very feasible.
+[96:41.20] The reason I'm interested in this is  that healthcare is already 20% of GDP.
+[96:46.80] It's grown notable percentages  in the last few years.
+[96:52.08] This is a fraction that is quickly growing. The overwhelming majority of this is going
+[97:02.40] towards administering treatments  that have already been invented.
+[97:07.20] That’s good, but nowhere near as good as  spending this enormous sum of resources
+[97:13.60] towards coming up with new treatments that  in the future will improve the lives of
+[97:17.76] people that will have these ailments. One question is just how do we make it
+[97:23.36] so that more… If we're going to spend 20%  of GDP on healthcare, it should at least go
+[97:28.08] towards coming up with new treatments rather  than just paying nurses and doctors to keep
+[97:32.08] administering stuff that kind of works now. Two, if the cost of drugs, at least from the
+[97:40.32] perspective of the payer, ends up being,  you need a doctor to give you some scan
+[97:45.52] before he can write you a prescription and  then they need to administer it and they
+[97:51.04] need to make sure that you're doing okay,  etc… Even if for you to manufacture this
+[97:58.40] therapy it might cost tens of dollars per patient,  for the healthcare system overall, it might be
+[98:05.52] tens of thousands of dollars per patient. I'm curious if you agree with those
+[98:08.80] orders of magnitude. I think that's correct. I
+[98:10.96] think the stat is something like drugs  are roughly 7% of healthcare spend.
+[98:14.24] I could be a little bit wrong  on that, but the OOM is right.
+[98:17.60] Basically, even if we invent de-aging technology,  or especially if we invent de-aging technology,
+[98:22.48] how should we think about the way  it will net out in the fraction
+[98:25.04] of GDP that we have to spend on healthcare? Will that increase because everybody's lining
+[98:29.68] up at the doctor's office to get a prescription  and you gotta go into the clinic every week?
+[98:34.56] Or will that decrease because the other downstream  ailments from aging aren't coming about?
+[98:38.96] I think the latter is much more  likely to be the case. Here are some
+[98:42.64] quick heuristics. There are many reasons  that healthcare costs so much in the US.
+[98:47.60] One of them is something like Baumol's  cost disease, which is very unrelated to
+[98:51.68] pharmaceutical discoveries but is something  that we will have to solve in the system.
+[98:55.52] Part of it's the disintermediation of the  actual customer and the actual provider.
+[99:00.56] These are things that biotech probably isn't  going to be able to solve as an industry alone.
+[99:04.96] That's probably a larger economic problem. But when you think about how this will affect
+[99:10.48] the total amount of healthcare  that will need to be delivered.
+[99:12.72] If you have more of these medicines for everyone,  medicines that keep you healthier longer rather
+[99:18.24] than medicines that only fix a problem once you're  already very sick, I think you actually avoid
+[99:23.28] a lot of the types of administration costs. It’s not just administration like admins at
+[99:27.60] hospitals, but the cost of administering existing  medicines and therapies to you. That’s going down.
+[99:32.72] One stat on why I think that's true. Something like a third of all Medicare costs are
+[99:36.56] spent in the final year of life, which is shocking  when you realize that the average person on
+[99:40.08] Medicare is probably a decade-plus covered by it. There's an incredible concentration of the actual
+[99:47.36] expenses once someone is already terribly sick. Helping prevent you from ever having to access
+[99:53.52] the intensive healthcare system, something like  an inpatient hospital visit, if you can prevent
+[99:57.84] even just a couple of those visits over a long  period of someone's life with a medicine like
+[100:02.72] an incretin mimetic, like a reprogramming medicine  that keeps your liver, your immune system younger,
+[100:06.88] on net that actually starts to drive healthcare  spend down because you're shifting some of
+[100:11.84] that burden from the administration  system to the pharmaceutical system.
+[100:15.12] The pharmaceutical system is  the only piece of healthcare
+[100:17.44] where technology has made us more efficient. As drugs go generic, the cost of administering
+[100:22.80] a given unit of healthcare is going down. The grand social contract is
+[100:27.20] that they eventually go generic. That's the way our current IP system works.
+[100:30.72] So if you were to get the question of, "When would  you like to be born as a patient?" you always want
+[100:35.20] to be born as close to today as possible. Because for a given unit in terms of
+[100:38.88] pharmaceuticals, for a given dollar unit of  expense, you can access more pharmaceutical
+[100:43.76] technology today than has ever been possible  in history, even as healthcare costs
+[100:48.00] everywhere else in the system have shot up. Pharmaceuticals are the one place where,
+[100:51.84] because of the mechanism of things going  generic and the fact that our old medicines
+[100:55.84] continue to work and persist over time,  you're able to get more benefit per dollar.
+[101:01.12] Okay, final question. Pharma is spending billions  of dollars per new drug it comes up with.
+[101:08.72] Surely they have noticed that the lack  of some general platform or some general
+[101:12.32] model has made it more and more expensive  and difficult to come up with new drugs.
+[101:16.40] You say Perturb-seq has existed since 2016. As far as you can tell, you have the most
+[101:21.60] amount of that kind of data which would  feed into a general-purpose model.
+[101:27.76] What is the traditional pharma  industry on the other coast up to?
+[101:33.04] If I went to the head of R&D at  Eli Lilly or Pfizer or something,
+[101:37.28] do they think that this is like they have some  different idea of the platform that needs to
+[101:42.08] be built or they're like, "No, we're all in  on the bespoke game, bespoke for each drug?"
+[101:47.36] I'll just correct one thing to  make sure I'm not overstating.
+[101:49.60] We have way more data for the limited  subproblem we're tackling, which is
+[101:53.92] overexpressing TFs in combinations. We have way more data than anyone,
+[101:57.60] full stop, there. But even more specifically, I feel very,
+[102:00.40] very confident we have more data than anyone  looking at trying to reprogram a cell's age.
+[102:04.72] That's where we're way larger  than the rest of the world.
+[102:07.84] When we think about just general single-cell  perturbation data of various flavors,
+[102:12.96] there are other groups which have  very large data sets as well.
+[102:15.76] We're still differentiated because we  do everything in human cells with the
+[102:18.32] right number of chromosomes, whereas it's very  common to do things in cancer cell lines which
+[102:21.76] have 200 chromosomes. Is that human? I don't know.  Depends on how you actually quantify these things.
+[102:27.20] So then, if you’re going to go ask the leaders  of some of the traditional pharmaceutical firms,
+[102:31.60] "Are you trying to build a general model?" I think some of them have in-house AI
+[102:35.92] innovation teams that are working on this. There are really smart people there.
+[102:38.88] But as a general trend, you  can think about some of the
+[102:42.24] modern pharmas a bit like venture capital firms. They've over time externalized a lot of their R&D.
+[102:49.52] They often have divisions of external  innovation, which you can think of as
+[102:52.96] the corp dev version of venture capital. They work with the biotech ecosystem to
+[102:57.60] have a number of smaller, nimble firms explore  really pioneer ideas, the types of things we're
+[103:04.24] working on, and then eventually partner with them  once they have assets that are later downstream.
+[103:09.68] The industry has sort of bifurcated  where smaller biotechs like ours
+[103:14.08] take on most of the early discovery. I'm going to get it a little bit wrong
+[103:17.12] from memory, but it's something like 70% of  molecules approved in a given year come from
+[103:20.88] originally small biotechs rather than large  pharmas, even though you look at the actual
+[103:24.88] dollars of R&D spend on the balance  sheet and it's largely in big pharma.
+[103:28.80] Another level of disintermediation. Part of the reason for that difference in
+[103:34.56] cost is they're running most of the trials. Most people partner with pharma to run
+[103:37.92] trials where a lot of the costs are incurred. It's not just that all large pharmas are horribly
+[103:41.52] inefficient or anything like that. Some of them would tell you,
+[103:45.68] "These ideas are really exciting. We have an external innovation department, if we
+[103:49.20] don't have one internally, or we're collaborating  with a startup that's doing something similar."
+[103:53.52] You can think of the market structure like you  have a bunch of biotechs, which are the startups
+[103:58.00] in your ecosystem, and then they're working  with something like an oligopsony of pharmas.
+[104:02.64] It's a limited number of buyers for  this particular type of product,
+[104:06.40] which is a therapeutic asset that is  ready for a phase one, phase two trial.
+[104:10.64] There's a very liquid market for the phase  one, phase two assets, and that's the point at
+[104:13.84] which these partnerships can come to fruition. That's what a lot of those leaders would say.
+[104:19.20] By contrast, for instance, Roche  bought Genentech back in 2013.
+[104:22.80] R&D is currently run by Aviv Regev, one of  the scientists I admire most in the world,
+[104:26.16] who's like a thousand times smarter than me. She's one of the people who invented this
+[104:30.72] technology and has a big group  doing this sort of work there.
+[104:33.60] So it's not like every pharma takes  that view, but that's a general trend.
+[104:38.24] Full disclosure, I am a small  angel investor in NewLimit now,
+[104:42.64] but that did not influence the decision to have  Jacob on. This is super fascinating. Thanks so
+[104:47.28] much for coming on the podcast. Awesome. Thanks, Dwarkesh.
