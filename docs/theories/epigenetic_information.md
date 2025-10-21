@@ -66,8 +66,8 @@ tags:
   </li>
   <li>Longevity Bottleneck (Various Proponents)
     <ul>
-      <li>Bottleneck: Specific damage‑response pathways drive aging.</li>
-      <li>Sinclair: If resets normalize many pathways at once and outperform bottleneck fixes on function/hazard at similar risk, that favors Sinclair; if targeted pathway relief equals OSK with lower risk, that favors Bottleneck.</li>
+      <li>Bottleneck: One or a few “choke points” (e.g., mitophagy, proteostasis, DNA‑repair) set the pace of aging. Fix the choke point and aging slows — no epigenetic reset required.</li>
+      <li>Sinclair: If OSK resets many pathways at once and beats single‑pathway fixes on function and survival at similar safety, that supports Sinclair. If targeted choke‑point fixes match OSK with lower risk/complexity, bottleneck wins.</li>
     </ul>
   </li>
 </ul>
