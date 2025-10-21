@@ -54,8 +54,8 @@ tags:
   </li>
   <li>Resilience / Criticality (Fedichev)
     <ul>
-      <li>Resilience: Hazard reductions can occur by tuning dynamics without a state reset.</li>
-      <li>Sinclair: If resets reduce hazard more broadly and durably than non‑epigenetic tuning, that favors epigenetic primacy; if dynamic tuning matches resets, resilience can suffice.</li>
+      <li>Resilience: Lower death risk by stabilizing the body’s control systems (make them less fragile) — no epigenetic reset required.</li>
+      <li>Sinclair: If OSK‑style resets cut risk more broadly and for longer than simple “stabilize‑the‑system” tweaks, that supports Sinclair; if basic resilience tuning matches those benefits, resilience may suffice.</li>
     </ul>
   </li>
   <li>Bioelectric / Morphogenetic Control (Levin)
