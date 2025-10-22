@@ -54,13 +54,13 @@ nav:
   - Overview: index.md
   - Theories:
       - theories/index.md
-      - Classic Models (Medawar, Williams, Hamilton, Kirkwood): theories/classic_models.md
       - Epigenetic Information (Sinclair): theories/epigenetic_information.md
       - Bioelectric / Morphogenetic Control (Levin): theories/bioelectric_morphogenetic_control.md
       - SENS Damage Repair (de Grey): theories/sens_damage_repair.md
       - Resilience / Criticality (Fedichev): theories/resilience_criticality.md
       - Pathogen Control (Lidsky): theories/pathogen_control.md
       - Longevity Bottleneck (Various Proponents): theories/longevity_bottleneck.md
+      - Classic Models (Medawar, Williams, Hamilton, Kirkwood): theories/classic_models.md
       - Other Theories: theories/other_theories.md
   - About: about.md
 
