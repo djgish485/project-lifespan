@@ -70,6 +70,12 @@ tags:
 
 ## Questions
 
+### What is the status and relevance of LEV Foundation’s Robust Mouse Rejuvenation studies?
+
+LEV Foundation’s RMR1 tested a SENS‑style combination in aged mice using factorial groups (single agents, “all‑but‑one,” and full stack) built from rapamycin, senescent‑cell ablation (galactose‑conjugated navitoclax), telomerase gene therapy (AAV‑mTERT, intranasal, monthly), and hematopoietic stem‑cell transplant with G‑CSF+AMD3100 mobilization. Design details and interim updates are public, but a full statistical analysis (median and maximum lifespan deltas, hazards, pathology) has not been posted yet. See overview and updates: https://www.levf.org/projects/robust-mouse-rejuvenation-study-1 and https://www.levf.org/projects/robust-mouse-rejuvenation-study-1/study-updates.
+
+RMR2 shifts to a different stack aimed at systemic repair/modulation (recombinant serum albumin, mesenchymal stem cells, Cdc42 inhibition with CASIN, a lipid‑metabolism targeted senolysis concept, and oxytocin). From a SENS perspective, these programs are direct tests of stacked repairs: clear, durable increases in both mean and maximum lifespan with acceptable safety would be strong evidence for SENS primacy; modest or antagonistic effects would argue for re‑tuning stacks or adding other modalities. Until LEVF publishes the RMR1 analysis, we treat outcomes as pending and will update this page when formal results appear. RMR2 overview: https://www.levf.org/projects/robust-mouse-rejuvenation-study-2.
+
 ## Sources
 
 - Web: https://vxtwitter.com/jpsenescence/status/1962604483357106366
