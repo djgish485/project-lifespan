@@ -8,12 +8,14 @@ Short, plain‑English summaries of additional aging frameworks beyond the seven
 - Criticisms/caveats: Effects depend on dose/schedule/sex/strain; high/continuous dosing can impair glucose handling (intermittent or combo regimens help)<sup><a class="ref-pop" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3727050" data-ref-url="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3727050" data-ref-summary="Lamming et al. 2013: dietary rapamycin causes glucose intolerance in HET3 mice with nuances vs injection.">†</a></sup><sup><a class="ref-pop" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5892694" data-ref-url="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5892694" data-ref-summary="Weiss et al. 2018: metformin blunts rapamycin‑induced glucose intolerance in female mice.">†</a></sup>. Benefits may be driven partly by anticancer effects (median > max lifespan gains). Human lifespan data are absent; a dog lifespan/healthspan trial is ongoing<sup><a class="ref-pop" href="https://dogagingproject.org/triad" data-ref-url="https://dogagingproject.org/triad" data-ref-summary="Dog Aging Project TRIAD: randomized trial of rapamycin in companion dogs.">†</a></sup>.
 - How it stacks with other theories: Best used with complementary levers—
 
-    - SENS‑style repair (fixes existing lesions) while mTOR dialing reduces “run‑on” damage.
-    - Senescent‑cell clearance to cut SASP/inflammation, then maintain with rapamycin.
-    - Proteostasis/autophagy boosters (lysosome/TFEB or chaperones) for housekeeping beyond mTOR.
-    - Systemic milieu/microbiome resets to improve the top‑down environment.
+  <ul>
+    <li>SENS‑style repair (fixes existing lesions) while mTOR dialing reduces “run‑on” damage.</li>
+    <li>Senescent‑cell clearance to cut SASP/inflammation, then maintain with rapamycin.</li>
+    <li>Proteostasis/autophagy boosters (lysosome/TFEB or chaperones) for housekeeping beyond mTOR.</li>
+    <li>Systemic milieu/microbiome resets to improve the top‑down environment.</li>
+  </ul>
 - What would convince skeptics: In normal aged animals, intermittent TORC1‑preferential regimens that (a) lower mortality and improve multi‑organ function, (b) show hazard‑shape changes beyond anticancer delay, and (c) translate in dogs—with acceptable safety.
- - **Crucially:** This is a complementary axis, not a complete, all‑causes theory. It doesn’t preclude other mechanisms (e.g., SENS repair, epigenetic reprogramming, senolytics, systemic milieu/microbiome, bioelectric control, pathogen context); stacks are the realistic path to large gains.
+- **Crucially:** This is a complementary axis, not a complete, all‑causes theory. It doesn’t preclude other mechanisms (e.g., SENS repair, epigenetic reprogramming, senolytics, systemic milieu/microbiome, bioelectric control, pathogen context); stacks are the realistic path to large gains.
 
 ## Somatic Mutation / Mosaicism
 - What it says: DNA “letter” changes build up in tissues, forming mutant clones that impair function and raise disease risk; this burden scales with lifespan and cell turnover.
