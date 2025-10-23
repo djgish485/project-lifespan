@@ -72,21 +72,24 @@ tags:
 
 ### What is the status and relevance of LEV Foundation’s Robust Mouse Rejuvenation studies?
 
-- RMR1 (EV Foundation)
-  <ul>
-    <li>What they’re attempting: A “stack vs parts” test in old, normal mice (factorial design). They try each part alone, “all‑but‑one,” and the full stack to see what truly drives benefit. Parts: rapamycin (mTOR dial‑down), targeted senescent‑cell removal (galactose‑conjugated navitoclax), telomerase gene therapy given through the nose once a month (AAV‑mTERT, intranasal), and a blood‑stem‑cell refresh (hematopoietic stem‑cell transplant after mobilization with G‑CSF + AMD3100).</li>
-    <li>End goal: Robust mouse rejuvenation — clear, durable, and safe gains in both average and maximum lifespan, plus better organ function, that hold up under full stats and replication.</li>
-    <li>Status (why few results): The protocol and interim notes are public, but the final statistics (median and maximum lifespan, risk‑of‑death curves/hazards, pathology) are not posted yet. Until those data appear, you can’t judge success or failure — early anecdotes aren’t proof, and “no results yet” can just mean ongoing follow‑up or analysis.</li>
-    <li>Links: https://www.levf.org/projects/robust-mouse-rejuvenation-study-1 and https://www.levf.org/projects/robust-mouse-rejuvenation-study-1/study-updates</li>
-  </ul>
-
-- RMR2
-  <ul>
-    <li>What they’re attempting: A different, body‑wide “tune‑up” stack aimed at systemic repair/modulation: cleaner circulating proteins (recombinant serum albumin), repair/support cells (mesenchymal stem cells), dialing down Cdc42 (CASIN), an experimental senolytic targeting lipid metabolism, and oxytocin.</li>
-    <li>End goal: Show that stacked repairs can reliably lift both mean and max lifespan with good safety (a strong test of SENS‑style repair primacy). If effects are small or clash, it argues for re‑tuning the stack or adding other tools.</li>
-    <li>Status (why few results): As with RMR1, treat outcomes as pending until a full statistical report is released. Formal numbers (lifespan, hazards, causes of death, safety) are what will move the needle.</li>
-    <li>Link: https://www.levf.org/projects/robust-mouse-rejuvenation-study-2</li>
-  </ul>
+<ul>
+  <li>RMR1 (EV Foundation)
+    <ul>
+      <li>What they’re attempting: A “stack vs parts” test in old, normal mice (factorial design). They try each part alone, “all‑but‑one,” and the full stack to see what truly drives benefit. Parts: rapamycin (mTOR dial‑down), targeted senescent‑cell removal (galactose‑conjugated navitoclax), telomerase gene therapy given through the nose once a month (AAV‑mTERT, intranasal), and a blood‑stem‑cell refresh (hematopoietic stem‑cell transplant after mobilization with G‑CSF + AMD3100).</li>
+      <li>End goal: Robust mouse rejuvenation — clear, durable, and safe gains in both average and maximum lifespan, plus better organ function, that hold up under full stats and replication.</li>
+      <li>Status (why few results): The protocol and interim notes are public, but the final statistics (median and maximum lifespan, risk‑of‑death curves/hazards, pathology) are not posted yet. Until those data appear, you can’t judge success or failure — early anecdotes aren’t proof, and “no results yet” can just mean ongoing follow‑up or analysis.</li>
+      <li>Links: https://www.levf.org/projects/robust-mouse-rejuvenation-study-1 and https://www.levf.org/projects/robust-mouse-rejuvenation-study-1/study-updates</li>
+    </ul>
+  </li>
+  <li>RMR2
+    <ul>
+      <li>What they’re attempting: A different, body‑wide “tune‑up” stack aimed at systemic repair/modulation: cleaner circulating proteins (recombinant serum albumin), repair/support cells (mesenchymal stem cells), dialing down Cdc42 (CASIN), an experimental senolytic targeting lipid metabolism, and oxytocin.</li>
+      <li>End goal: Show that stacked repairs can reliably lift both mean and max lifespan with good safety (a strong test of SENS‑style repair primacy). If effects are small or clash, it argues for re‑tuning the stack or adding other tools.</li>
+      <li>Status (why few results): As with RMR1, treat outcomes as pending until a full statistical report is released. Formal numbers (lifespan, hazards, causes of death, safety) are what will move the needle.</li>
+      <li>Link: https://www.levf.org/projects/robust-mouse-rejuvenation-study-2</li>
+    </ul>
+  </li>
+</ul>
 
 ## Sources
 
