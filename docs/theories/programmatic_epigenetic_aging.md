@@ -10,7 +10,7 @@ tags:
 
 # Programmatic Epigenetic Aging (de Magalhães)
 
-Note: This is a variant of Epigenetic Information (Sinclair) that puts the driver of epigenetic change in a developmentally set program (a “run‑on”), not in damage/repair workload. See Epigenetic Information (Sinclair): ../theories/epigenetic_information.md.
+Note: This is a variant of [Epigenetic Information (Sinclair)](../theories/epigenetic_information.md) that puts the driver of epigenetic change in a developmentally set program (a “run‑on”), not in damage/repair workload.
 
 ## Simple Summary
 
@@ -70,4 +70,3 @@ To be added (we will mirror Sinclair‑style formatting with popover references)
 
 - João Pedro de Magalhães — “Ageing as a software design flaw,” Genome Biology (2023): https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02888-y
 - Tweet summary of the distinction vs Sinclair (program‑driven vs damage‑driven drift): https://x.com/jpsenescence/status/1980764063815659922
-
