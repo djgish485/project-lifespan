@@ -19,6 +19,13 @@ Short, plain‑English summaries of additional aging frameworks beyond the seven
   <li><strong>Crucially:</strong> This is a complementary axis, not a complete, all‑causes theory. It doesn’t preclude other mechanisms (e.g., SENS repair, epigenetic reprogramming, senolytics, systemic milieu/microbiome, bioelectric control, pathogen context); stacks are the realistic path to large gains.</li>
 </ul>
 
+## Metabolic Stress / NAD Resilience (Brenner)
+- What it says: Aging reflects cumulative metabolic/inflammatory stress and loss of resilience; the epigenome/transcriptome mostly mirror current state. Brenner emphasizes the NAD system as a stress‑sensitive axis — support it and other resilience pathways to improve function in context, but don’t equate expression shifts with “age reversal.”
+- Recent progress: Quantitative NAD metabolomics reveals stress‑induced perturbations; precursor strategies (e.g., NR) show protection in disease/insult models. However, organism‑level lifespan extension in normal animals isn’t established.
+- Critique of reprogramming: “Making expression look young” (e.g., with hormones) doesn’t prove lower mortality or durable function gains<sup><a class="ref-pop" href="https://x.com/CharlesMBrenner/status/1977094540684370414" data-ref-url="https://x.com/CharlesMBrenner/status/1977094540684370414" data-ref-summary="Brenner tweet: youthful‑looking gene expression ≠ aging corrected / life extended.">†</a></sup>.
+- Key tests: In normal aged animals, show that (a) metabolic stress normalization or NAD‑targeted interventions lower hazard and improve multi‑organ function with good safety; and (b) for epigenetic resets, benefits extend beyond transcript/clock shifts to clear hazard reductions.
+- References: Brenner Lab overview on NAD metabolism<sup><a class="ref-pop" href="https://www.brennerlab.net/" data-ref-url="https://www.brennerlab.net/" data-ref-summary="Brenner Lab: NAD coenzymes, stress‑responsive metabolism, and intervention studies.">†</a></sup>.
+
 ## Somatic Mutation / Mosaicism
 - What it says: DNA “letter” changes build up in tissues, forming mutant clones that impair function and raise disease risk; this burden scales with lifespan and cell turnover.
 - Recent progress: Single‑cell and bulk sequencing show age‑related mutation/clonal expansion in many tissues (e.g., blood CHIP). Cross‑species work links mutation rates with lifespan.

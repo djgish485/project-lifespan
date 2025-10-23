@@ -70,6 +70,12 @@ tags:
       <li>Sinclair: If OSK resets many pathways at once and beats single‑pathway fixes on function and survival at similar safety, that supports Sinclair. If targeted choke‑point fixes match OSK with lower risk/complexity, bottleneck wins.</li>
     </ul>
   </li>
+  <li>Metabolic Stress / NAD Resilience (Brenner)
+    <ul>
+      <li>Brenner: “Rejuvenated” gene expression can be cosmetic; hormones and signals can shift transcripts without lowering mortality. Aging hazard tracks cumulative stress and resilience, with the epigenome mostly mirroring state<sup><a class="ref-pop" href="https://x.com/CharlesMBrenner/status/1977094540684370414" data-ref-url="https://x.com/CharlesMBrenner/status/1977094540684370414" data-ref-summary="Brenner tweet arguing that making gene expression look youthful (e.g., via hormones) does not prove aging is corrected or lifespan extended.">†</a></sup>.</li>
+      <li>Sinclair: Decisive wins would show broad, durable hazard reduction and function gains in normal aged mice under good safety — beyond transcript/clock shifts. If resets mainly change expression without lowering risk or with identity/tumor costs, Brenner’s critique stands.</li>
+    </ul>
+  </li>
 </ul>
 
 ## Questions

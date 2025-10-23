@@ -60,6 +60,12 @@ Note: This is a variant of [Epigenetic Information (Sinclair)](../theories/epige
       <li>Alternative: Stabilize control dynamics to lower hazard without resets. If basic tuning matches program‑rewinds on breadth/durability, resilience may suffice; otherwise, program‑level rewinds look stronger.</li>
     </ul>
   </li>
+  <li>Metabolic Stress / NAD Resilience (Brenner)
+    <ul>
+      <li>Brenner: Gene‑expression “youthfulness” can be misleading; many cues (e.g., hormones) shift transcripts without cutting death risk. He frames aging as cumulative stress and resilience loss, with the epigenome largely reflecting state<sup><a class="ref-pop" href="https://x.com/CharlesMBrenner/status/1977094540684370414" data-ref-url="https://x.com/CharlesMBrenner/status/1977094540684370414" data-ref-summary="Brenner tweet: youthful‑looking gene expression does not equal corrected aging or extended life.">†</a></sup>.</li>
+      <li>Design‑flaw: Program‑rewinds need to beat that bar — show organism‑level hazard drops and durable, multi‑organ function gains with good safety, not just expression/clock resets.</li>
+    </ul>
+  </li>
 </ul>
 
 ## Questions
