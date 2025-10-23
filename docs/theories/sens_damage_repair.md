@@ -86,10 +86,25 @@ tags:
       <li>What they’re attempting: A different, body‑wide “tune‑up” stack aimed at systemic repair/modulation: cleaner circulating proteins (recombinant serum albumin), repair/support cells (mesenchymal stem cells), dialing down Cdc42 (CASIN), an experimental senolytic targeting lipid metabolism, and oxytocin.</li>
       <li>End goal: Show that stacked repairs can reliably lift both mean and max lifespan with good safety (a strong test of SENS‑style repair primacy). If effects are small or clash, it argues for re‑tuning the stack or adding other tools.</li>
       <li>Status (why few results): As with RMR1, treat outcomes as pending until a full statistical report is released. Formal numbers (lifespan, hazards, causes of death, safety) are what will move the needle.</li>
-      <li>Link: https://www.levf.org/projects/robust-mouse-rejuvenation-study-2</li>
-    </ul>
+  <li>Link: https://www.levf.org/projects/robust-mouse-rejuvenation-study-2</li>
+  </ul>
   </li>
 </ul>
+
+### If RMR had big wins, wouldn’t we have heard by now? Why the wait?
+
+Short answer: lifespan trials mature slowly, and good groups avoid shouting before the data are locked and reproducible. A long gap raises the probability that results are mixed/modest or operationally noisy, but it’s not proof either way.
+
+- Why it can take a year (or more)
+  - Full curves need time: to claim shifts in median and maximum lifespan (e.g., 90th percentile) you often wait until most animals die and QC completes.
+  - Pathology is slow: blinded necropsy/histopathology and cause‑of‑death scoring across many cohorts takes months.
+  - Complex design: factorial arms (“parts,” “all‑but‑one,” full stack) require pre‑specified analyses and multiple‑testing control to avoid overclaiming.
+  - Publication choices: some teams wait for a preprint/journal submission rather than dribbling partial figures that can mislead.
+
+- How to read the silence (practically)
+  - Treat “no final report yet” as unknown, not failure. Reserve judgment until you see Kaplan–Meier curves, 90th‑percentile lifespans, hazard ratios, and pathology summaries.
+  - If results are truly large, expect a preprint/DOI with full stats; a prolonged delay nudges expectations toward modest/mixed effects or safety/ops issues, but data decide.
+  - Watch the official update pages for the first full analysis (not just anecdotes): RMR1 updates and RMR2 overview above.
 
 ## Sources
 
