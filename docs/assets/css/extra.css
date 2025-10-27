@@ -26,3 +26,14 @@
 .ref-popover__summary { margin-bottom: 4px; opacity: 0.9; }
 .ref-popover a { color: var(--md-accent-fg-color); text-decoration: none; }
 .ref-popover a:hover { text-decoration: underline; }
+
+/* Homepage: remove left sidebar margin so content is flush */
+@media screen and (min-width: 60em) {
+  /* Scope to homepage by canonical path suffix */
+  html:has(head link[rel="canonical"][href$="/project-lifespan/"]) body .md-sidebar--primary {
+    display: none !important;
+  }
+  html:has(head link[rel="canonical"][href$="/project-lifespan/"]) body .md-main__inner {
+    grid-template-columns: 0 minmax(0, 1fr) 20rem !important;
+  }
+}
