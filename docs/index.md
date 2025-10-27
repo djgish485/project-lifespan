@@ -4,16 +4,16 @@ title: Theories
 
 # Overview
 
-Understand the scientific landscape of human aging through a Popperian lens: clear claims, risky predictions, decisive tests, competing theories, and traceable evidence.
+Map the scientific landscape of human aging through a Popperian lens: sharp claims, risky predictions, severe tests, rival explanations, and traceable primary sources.
 
-We aim to:
+We focus on:
 
-- Explain major theories of aging for laypeople and practitioners.
-- Separate core claims from auxiliary assumptions and quantify predictions.
-- Track evidence and disconfirmations with citations to primary sources.
-- Propose simple, cheap, fast experiments — especially in mice — to falsify or corroborate claims.
+- Explaining major theories of aging for laypeople and practitioners.
+- Making predictions explicit and separating core claims from auxiliary assumptions.
+- Tracking evidence and disconfirmations with citations to primary sources.
+- Proposing simple, cheap, fast experiments — often in mice — that can decisively discriminate between rivals.
 
-Explore the theories, compare Popper Scores, and browse proposed experiments. Contribute improvements as we refine the map.
+Explore the theories below and browse proposed experiments. A lightweight comparison rubric is being piloted; scoring and weights will evolve as evidence accumulates. Contribute improvements as we refine the map.
 
 ## Theories of Aging
 
