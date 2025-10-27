@@ -30,10 +30,11 @@
 /* Homepage: remove left sidebar margin so content is flush */
 @media screen and (min-width: 60em) {
   /* Scope to homepage by canonical path suffix */
-  html:has(head link[rel="canonical"][href$="/project-lifespan/"]) body .md-sidebar--primary {
+  html:has(head link[rel="canonical"][href$="/project-lifespan/"]) body .md-sidebar--primary,
+  html:has(head link[rel="canonical"][href$="/project-lifespan/"]) body .md-sidebar--secondary {
     display: none !important;
   }
   html:has(head link[rel="canonical"][href$="/project-lifespan/"]) body .md-main__inner {
-    grid-template-columns: 0 minmax(0, 1fr) 20rem !important;
+    grid-template-columns: 0 minmax(0, 1fr) 0 !important;
   }
 }
