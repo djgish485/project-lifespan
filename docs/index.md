@@ -2,7 +2,7 @@
 title: Theories
 ---
 
-# Theories of Aging
+# Overview
 
 Understand the scientific landscape of human aging through a Popperian lens: clear claims, risky predictions, decisive tests, competing theories, and traceable evidence.
 
@@ -14,6 +14,8 @@ We aim to:
 - Propose simple, cheap, fast experiments — especially in mice — to falsify or corroborate claims.
 
 Explore the theories, compare Popper Scores, and browse proposed experiments. Contribute improvements as we refine the map.
+
+## Theories of Aging
 
 Start with these:
 

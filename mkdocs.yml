@@ -8,6 +8,7 @@ theme:
   features:
     - search.suggest
     - search.share
+    - navigation.expand
     - navigation.sections
     - navigation.tabs
     - navigation.top
@@ -52,7 +53,6 @@ extra_javascript:
 
 nav:
   - Theories:
-      - theories/index.md
       - Epigenetic Information (Sinclair): theories/epigenetic_information.md
       - Bioelectric / Morphogenetic Control (Levin): theories/bioelectric_morphogenetic_control.md
       - SENS Damage Repair (de Grey): theories/sens_damage_repair.md
