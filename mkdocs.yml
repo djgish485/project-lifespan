@@ -51,7 +51,6 @@ extra_javascript:
   - assets/js/popperscore.js
 
 nav:
-  - Overview: index.md
   - Theories:
       - theories/index.md
       - Epigenetic Information (Sinclair): theories/epigenetic_information.md

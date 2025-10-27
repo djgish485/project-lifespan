@@ -1,8 +1,8 @@
 ---
-title: Project Lifespan
+title: Theories
 ---
 
-# Project Lifespan
+# Theories of Aging
 
 Understand the scientific landscape of human aging through a Popperian lens: clear claims, risky predictions, decisive tests, competing theories, and traceable evidence.
 
@@ -15,3 +15,14 @@ We aim to:
 
 Explore the theories, compare Popper Scores, and browse proposed experiments. Contribute improvements as we refine the map.
 
+Start with these:
+
+- [Epigenetic Information (Sinclair)](theories/epigenetic_information.md)
+- [Bioelectric / Morphogenetic Control (Levin)](theories/bioelectric_morphogenetic_control.md)
+- [SENS Damage Repair (de Grey)](theories/sens_damage_repair.md)
+- [Resilience / Criticality (Fedichev)](theories/resilience_criticality.md)
+- [Pathogen Control (Lidsky)](theories/pathogen_control.md)
+- [Programmatic Epigenetic Aging (de Magalhães)](theories/programmatic_epigenetic_aging.md)
+- [Longevity Bottleneck (Various Proponents)](theories/longevity_bottleneck.md)
+- [Classic Models (Medawar, Williams, Hamilton, Kirkwood)](theories/classic_models.md)
+- [Other Theories](theories/other_theories.md)
