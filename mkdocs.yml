@@ -31,7 +31,6 @@ plugins:
   - awesome-pages
   - glightbox
   - redirects
-  - section-index
 
 markdown_extensions:
   - admonition
