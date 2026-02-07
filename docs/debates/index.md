@@ -38,12 +38,44 @@ python scripts/run_debate.py --config debates/configs/example_sinclair_vs_sens.y
 
 ## Completed runs
 
+### Deep theory clashes (Season 1)
+
+| Date | Debate | Clash axis | Winner | Decisive next test |
+|------|--------|------------|--------|--------------------|
+| 2026-02-07 | [Classics vs PC](classics_vs_pc_20260207T181720Z.md) | Ultimate cause | Critic (PC) | Pre-registered 2x2x2 factorial: longevity intervention x environment x anti-pathogen, with infection-ecology endpoints |
+| 2026-02-07 | [PC vs Classics](pc_vs_classics_20260207T183126Z.md) | Ultimate cause (reversed) | Critic (Classics) | Same factorial; PC needs empirical base beyond modeling and review |
+| 2026-02-07 | [Fedichev vs Bottleneck](fedichev_vs_bottleneck_20260207T184739Z.md) | What sets hazard | Critic (Bottleneck) | Resilience autocorrelation vs bottleneck pathway intervention head-to-head |
+| 2026-02-07 | [Sinclair vs Levin](sinclair_vs_levin_20260207T185829Z.md) | Locus of control | Critic (Levin) | OSK vs bioelectric modulation vs combo, with durability-across-re-injury endpoint |
+| 2026-02-07 | [SENS vs Bottleneck](sens_vs_bottleneck_20260207T191058Z.md) | What sets hazard | Critic (Bottleneck) | Single bottleneck fix vs multi-class repair stack on max lifespan |
+
+### Pathogen Control rivalries
+
+| Date | Debate | Winner | Decisive next test |
+|------|--------|--------|--------------------|
+| 2026-02-07 | [PC vs SENS](pc_vs_sens_20260207T192144Z.md) | Critic (SENS) | Stacked repairs under infection challenge; does repair extend pathogen persistence? |
+| 2026-02-07 | [PC vs Fedichev](pc_vs_fedichev_20260207T193345Z.md) | Critic (Fedichev) | Anti-pathogen intervention vs resilience-metric intervention on mortality hazard |
+| 2026-02-07 | [PC vs Levin](pc_vs_levin_20260207T194909Z.md) | Critic (Levin) | Bioelectric regeneration under pathogen challenge for infection tradeoffs |
+
+### Earlier runs
+
 | Date | Debate | Winner | Decisive next test |
 |------|--------|--------|--------------------|
 | 2026-02-07 | [Sinclair vs SENS](example_sinclair_vs_sens_20260207T162356Z.md) | Critic (SENS) | Pre-registered factorial OSK vs repair stack vs combo in aged WT mice |
 | 2026-02-07 | [PC vs Sinclair](pc_vs_sinclair_20260207T170732Z.md) | Critic (Sinclair) | OSK under chronic infection: does pathogen challenge penalize epigenetic reset? |
 
 ## Available configs
+
+### Deep theory clashes (Season 1)
+
+| Config | Defender | Critic | Clash axis | Focus |
+|--------|----------|--------|------------|-------|
+| `classics_vs_pc.yaml` | Classic Models | Pathogen Control | Ultimate cause (evolutionary) | Is aging adaptive or an emergent byproduct? |
+| `pc_vs_classics.yaml` | Pathogen Control | Classic Models | Ultimate cause (role-reversed) | Twin run to detect prompt/role bias |
+| `fedichev_vs_bottleneck.yaml` | Resilience/Criticality | Longevity Bottleneck | What sets hazard | Dynamical systems vs molecular choke points |
+| `sinclair_vs_levin.yaml` | Sinclair | Levin | Locus of control | Nuclear epigenetic state vs morphogenetic goal |
+| `sens_vs_bottleneck.yaml` | SENS | Longevity Bottleneck | What sets hazard | Multi-lesion repair stack vs few choke points |
+
+### Pathogen Control rivalries
 
 | Config | Defender | Critic | Focus |
 |--------|----------|--------|-------|

@@ -99,6 +99,7 @@ COMMON_RULES = """\
 RULES (you MUST follow all of these):
 - Use ONLY the provided repo context. If information is missing, say what's missing and propose a decisive test.
 - No rhetoric; list falsifiers.
+- Before arguing, state whether each claim is **ultimate (evolutionary)**, **proximate (mechanistic)**, or **measurement-level (biomarker/dynamics)**, and name the *bridge assumptions* connecting levels. This prevents talking past opponents who argue at a different level.
 - Prefer citations that already exist in this repo: DOIs in references.bib or URLs in references/links.yaml.
 - Output ONLY valid JSON matching the provided schema. No markdown fences, no preamble."""
 

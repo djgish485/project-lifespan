@@ -21,10 +21,30 @@ Context:
 
 ## Latest Debate Results
 
+### Deep theory clashes (Season 1)
+
+| Debate | Date | Clash axis | Winner | Decisive next test |
+|--------|------|------------|--------|--------------------|
+| [Classics vs PC](../debates/classics_vs_pc_20260207T181720Z.md) | 2026-02-07 | Ultimate cause | Critic (PC) | 2x2x2 factorial: longevity x environment x anti-pathogen |
+| [PC vs Classics](../debates/pc_vs_classics_20260207T183126Z.md) | 2026-02-07 | Ultimate cause (reversed) | Critic (Classics) | Same factorial; PC needs empirical base |
+| [Fedichev vs Bottleneck](../debates/fedichev_vs_bottleneck_20260207T184739Z.md) | 2026-02-07 | What sets hazard | Critic (Bottleneck) | Resilience autocorrelation vs pathway intervention |
+| [Sinclair vs Levin](../debates/sinclair_vs_levin_20260207T185829Z.md) | 2026-02-07 | Locus of control | Critic (Levin) | OSK vs bioelectric vs combo, durability endpoint |
+| [SENS vs Bottleneck](../debates/sens_vs_bottleneck_20260207T191058Z.md) | 2026-02-07 | What sets hazard | Critic (Bottleneck) | Bottleneck fix vs repair stack on max lifespan |
+
+### Pathogen Control rivalries
+
+| Debate | Date | Winner | Decisive next test |
+|--------|------|--------|--------------------|
+| [PC vs SENS](../debates/pc_vs_sens_20260207T192144Z.md) | 2026-02-07 | Critic (SENS) | Stacked repairs under infection challenge |
+| [PC vs Fedichev](../debates/pc_vs_fedichev_20260207T193345Z.md) | 2026-02-07 | Critic (Fedichev) | Anti-pathogen vs resilience metric on mortality |
+| [PC vs Levin](../debates/pc_vs_levin_20260207T194909Z.md) | 2026-02-07 | Critic (Levin) | Bioelectric regen under pathogen challenge |
+| [PC vs Sinclair](../debates/pc_vs_sinclair_20260207T170732Z.md) | 2026-02-07 | Critic (Sinclair) | OSK under chronic infection tradeoff |
+
+### Pilot run
+
 | Debate | Date | Winner | Decisive next test |
 |--------|------|--------|--------------------|
 | [Sinclair vs SENS](../debates/example_sinclair_vs_sens_20260207T162356Z.md) | 2026-02-07 | Critic (SENS) | Pre-registered factorial OSK vs repair stack vs combo in aged WT mice |
-| [PC vs Sinclair](../debates/pc_vs_sinclair_20260207T170732Z.md) | 2026-02-07 | Critic (Sinclair) | OSK under chronic infection tradeoff |
 
 ## Pairwise Discriminators (sketch)
 
