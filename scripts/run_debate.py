@@ -281,7 +281,7 @@ def call_codex(prompt: str, timeout: int = 300) -> dict:
 
 def call_gemini(prompt: str, timeout: int = 300) -> dict:
     """Call gemini in headless mode. Prompt via stdin (gemini appends -p to stdin)."""
-    cmd = ["gemini", "-p", "", "-o", "json"]
+    cmd = ["gemini", "-m", "gemini-3-flash-preview", "-p", "", "-o", "json"]
     result = subprocess.run(
         cmd, input=prompt, capture_output=True, text=True, timeout=timeout
     )
