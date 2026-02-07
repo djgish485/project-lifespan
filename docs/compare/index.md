@@ -24,6 +24,7 @@ Context:
 | Debate | Date | Winner | Decisive next test |
 |--------|------|--------|--------------------|
 | [Sinclair vs SENS](../debates/example_sinclair_vs_sens_20260207T162356Z.md) | 2026-02-07 | Critic (SENS) | Pre-registered factorial OSK vs repair stack vs combo in aged WT mice |
+| [PC vs Sinclair](../debates/pc_vs_sinclair_20260207T170732Z.md) | 2026-02-07 | Critic (Sinclair) | OSK under chronic infection tradeoff |
 
 ## Pairwise Discriminators (sketch)
 

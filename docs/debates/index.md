@@ -41,6 +41,7 @@ python scripts/run_debate.py --config debates/configs/example_sinclair_vs_sens.y
 | Date | Debate | Winner | Decisive next test |
 |------|--------|--------|--------------------|
 | 2026-02-07 | [Sinclair vs SENS](example_sinclair_vs_sens_20260207T162356Z.md) | Critic (SENS) | Pre-registered factorial OSK vs repair stack vs combo in aged WT mice |
+| 2026-02-07 | [PC vs Sinclair](pc_vs_sinclair_20260207T170732Z.md) | Critic (Sinclair) | OSK under chronic infection: does pathogen challenge penalize epigenetic reset? |
 
 ## Available configs
 
