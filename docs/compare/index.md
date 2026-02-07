@@ -38,7 +38,7 @@ Context:
   - Decisive test: Regeneration/rejuvenation protocols evaluated under pathogen challenge for tradeoffs predicted by PC vs none predicted by purely intrinsic control frameworks.
 
 - SENS (damage-repair) vs Sinclair (epigenetic reset)
-  - Decisive test: Head-to-head across pre-registered mouse studies: stacked repairs vs OSK. If OSK alone yields robust max-lifespan gains with acceptable safety, that favors Sinclair; if stacked repairs outperform OSK or OSK improves biomarkers without lifespan gains, that favors SENS.
+  - Decisive test: [Systemic OSK vs SENS Repairs in Aged WT Mice (Head-to-Head)](../experiments/osk_vs_sens_factorial.md) and the transcript/rationale in [Debate: Epigenetic Info vs SENS](../debates/sinclair_vs_sens.md).
 
 - Resilience/Criticality vs Sinclair
   - Decisive test: Compare hazard reductions from resilience interventions vs OSK under similar conditions. Comparable or better hazard shifts from resilience training without reprogramming favor Resilience; large OSK-specific gains favor Sinclair.
