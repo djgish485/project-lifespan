@@ -17,7 +17,7 @@ In naturally aged wild-type mice, partial epigenetic reprogramming (OSK-style; c
   - If damage-repair primacy holds: the SENS stack matches or beats OSK on survival and/or safety; OSK may shift clocks/biomarkers without durable hazard reduction.
 - Hazard: pre-register a target effect (e.g., OSK arm hazard ratio <= 0.85 vs vehicle; SENS stack hazard ratio <= 0.85 vs vehicle) and treat the head-to-head comparison as the primary discriminator.
 
-## Essentials Protocol
+## Design
 
 - Model: C57BL/6J (or standard WT strain used across the project), mixed sex; aged ~20 months at randomization.
 - N: >=40/arm (power based on expected hazard ratio; pre-register).
@@ -38,7 +38,7 @@ In naturally aged wild-type mice, partial epigenetic reprogramming (OSK-style; c
 - Single-agent components as pilot arms (optional) to avoid under-dosing the SENS stack.
 - Positive control benchmark (optional): rapamycin, to calibrate study sensitivity.
 
-## Endpoints and Analysis
+## Endpoints
 
 - Primary:
   - Survival (median; 90th percentile) and mortality hazard (pre-specified survival model).
@@ -70,4 +70,3 @@ This is a direct head-to-head discriminator:
 - OSK improves clocks/markers but does not improve hazard/survival vs vehicle under a pre-registered analysis.
 - OSK requires unacceptable tumor incidence to achieve any survival benefit.
 - The SENS stack yields no survival benefit beyond vehicle (suggesting the chosen stack is not a fair test and must be redesigned before drawing theory-level conclusions).
-
