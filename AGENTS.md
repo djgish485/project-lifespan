@@ -6,15 +6,17 @@ These notes capture working conventions and operational SOPs for agents contribu
 Remote Verification SOP (No Local Serve)
 ---------------------------------------
 
-We do not run a local `mkdocs serve` in this repo. Always verify using the live GitHub Pages site.
+Default git flow in this repo is **branch + PR**. Do not push to `main` unless the user explicitly asks.
+
+We do not run a local `mkdocs serve` in this repo. Verify using the live GitHub Pages site *after changes land on `main`*.
 
 1) Optional: strict build locally to catch issues early
    - `source .venv/bin/activate`
    - `mkdocs build --strict`
 
-2) Commit and push changes to `main` (CI builds + deploys Pages)
+2) Commit and push changes to your working branch (CI does not deploy Pages from branches by default)
 
-3) Verify on GitHub Pages with a cache‑buster
+3) If/when merged to `main`: verify on GitHub Pages with a cache‑buster
    - Example: `curl -sSf "http://dangish.net/project-lifespan/?_cb=TIMESTAMP"`
    - Confirm expected new text renders on the target page(s).
 
@@ -22,8 +24,8 @@ Notes
 - Do not keep any local dev servers running.
 - If a stale local server is suspected, kill any `mkdocs serve` processes and delete `.mkdocs*.pid`, but do not start a new one.
 
-Service Restart SOP (MkDocs dev server)
----------------------------------------
+Local Dev Server SOP (Only If Explicitly Requested)
+---------------------------------------------------
 
 MkDocs Material sometimes leaves stale servers running. Always restart the dev server after edits so users see changes immediately.
 
@@ -44,11 +46,11 @@ MkDocs Material sometimes leaves stale servers running. Always restart the dev s
 Agent-Run Policy (Do It For The User)
 -------------------------------------
 
-- The agent executes the full SOP on behalf of the user. Do not provide command instructions for the user to run; perform the actions directly and return verified links.
-- After edits, always run a strict build, restart the server cleanly, and verify the exact page content with `curl` (e.g., confirm new sections or text). Use a cache‑buster query parameter (like `?_cb=TIMESTAMP`) to avoid browser cache artifacts when checking.
-- If a stale or parallel server is suspected, kill any `mkdocs serve` process and the listener on port 8000 before starting a fresh serve, then confirm with `curl`.
-- Only report success after the expected content is visible on the live page; otherwise, repeat the SOP until the content is correct.
-- Default posture: whenever content changes, assume a full SOP run (build → kill stale → serve → verify) is required before handing back URLs.
+- The agent executes the SOP on behalf of the user. Do not provide command instructions for the user to run; perform the actions directly and return results.
+- Default posture: do work on a branch. Do not push to `main` unless explicitly requested.
+- After edits, always run a strict build (`mkdocs build --strict`) before pushing.
+- For branch work: report the branch name and latest commit SHA.
+- Only when changes land on `main`: verify the exact page content on GitHub Pages with `curl` using a cache‑buster query parameter (like `?_cb=TIMESTAMP`).
 
 Formatting – Critiques Sections (Current Standard)
 --------------------------------------------------
@@ -93,19 +95,20 @@ GitHub Pages Deployment (CI)
 
 - We deploy via GitHub Actions to GitHub Pages on every push to `main`.
 - Workflow: `.github/workflows/pages.yml` builds the site with `mkdocs build --strict` and publishes the `site/` artifact using `actions/deploy-pages`.
-- Agent policy: do not ask the user to run deploy commands; commit changes and rely on CI to publish. Provide the final Pages URL after CI completes.
+- Agent policy: do not push to `main` unless explicitly requested. Prefer pushing to a branch and (if needed) opening a PR; only after changes land on `main` will CI publish to Pages. Provide the final Pages URL after the `main` deploy completes.
 - Repo settings: Pages → Build and deployment should be set to “GitHub Actions”. If this is not yet enabled, the agent should request access or note that the setting needs to be toggled once; after that, deploys are automatic.
 
-Auto-Commit/Push Policy (Always)
----------------------------------
+Auto-Commit/Push Policy (Branch Default)
+----------------------------------------
 
 - After any content/config change that affects the site, the agent must:
-  - Create a clear, concise commit on `main` (use conventional commits when obvious, e.g., `docs(theories): add Longevity Bottleneck page`).
-  - Push immediately to `main` to trigger the Pages workflow.
-  - Do not pause for manual approval unless repository protections prevent pushing; if blocked, request the needed permission.
+  - Create a clear, concise commit on the current working branch (use conventional commits when obvious, e.g., `docs(theories): add Longevity Bottleneck page`).
+  - Push immediately to that branch.
+  - Only push/merge to `main` when explicitly requested (or when a PR is approved/merged).
 - Post-push verification:
-  - Poll the live Pages URL with a cache-buster (e.g., `?_cb=TIMESTAMP`) to confirm that the new content is visible.
-  - Only return success after the expected content renders on the live page; otherwise, investigate and repeat build/serve/verify locally and re-push if needed.
+  - For branch pushes: report the branch and commit SHA (Pages will not update yet).
+  - For `main`: poll the live Pages URL with a cache-buster (e.g., `?_cb=TIMESTAMP`) to confirm that the new content is visible.
+  - Only claim Pages success after the expected content renders on the live page; otherwise, investigate and repeat build/verify and re-push if needed.
 - Local preview is optional: a strict build can help catch errors, but do not start a local dev server.
 
 Formatting – Questions Sections
