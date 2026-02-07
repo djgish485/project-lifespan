@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "role": { "type": "string", "enum": ["defender", "critic", "judge"] },
+    "round": { "type": "integer", "minimum": 0 },
+    "theory_id": { "type": "string" },
+    "opponent_id": { "type": "string" },
+    "message_markdown": { "type": "string" },
+    "key_points": { "type": "array", "items": { "type": "string" } },
+    "criticisms": { "type": "array", "items": { "type": "string" } },
+    "falsifiers": { "type": "array", "items": { "type": "string" } },
+    "proposed_experiments": { "type": "array", "items": { "type": "string" } },
+    "repo_citations": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Prefer DOI URLs already in references.bib or link IDs in references/links.yaml"
+    }
+  },
+  "required": ["role", "round", "theory_id", "opponent_id", "message_markdown", "key_points", "criticisms", "falsifiers", "proposed_experiments", "repo_citations"],
+  "additionalProperties": false
+}

@@ -12,7 +12,7 @@ We do not run a local `mkdocs serve` in this repo. Always verify using the live 
    - `source .venv/bin/activate`
    - `mkdocs build --strict`
 
-2) Commit and push changes to `main` (CI builds + deploys Pages)
+2) Commit and push changes to the current working branch (CI builds + deploys Pages from `main`)
 
 3) Verify on GitHub Pages with a cache‑buster
    - Example: `curl -sSf "http://dangish.net/project-lifespan/?_cb=TIMESTAMP"`
@@ -99,11 +99,12 @@ GitHub Pages Deployment (CI)
 Auto-Commit/Push Policy (Always)
 ---------------------------------
 
+- **Branch rule: never commit directly to `main`.** Always commit to the current working branch (e.g., `experiment/debate-1`). Changes reach `main` only via PR or explicit user instruction.
 - After any content/config change that affects the site, the agent must:
-  - Create a clear, concise commit on `main` (use conventional commits when obvious, e.g., `docs(theories): add Longevity Bottleneck page`).
-  - Push immediately to `main` to trigger the Pages workflow.
+  - Create a clear, concise commit on the current branch (use conventional commits when obvious, e.g., `docs(theories): add Longevity Bottleneck page`).
+  - Push to the current branch. Do not push to `main` unless explicitly instructed.
   - Do not pause for manual approval unless repository protections prevent pushing; if blocked, request the needed permission.
-- Post-push verification:
+- Post-push verification (when deploying to Pages via `main`):
   - Poll the live Pages URL with a cache-buster (e.g., `?_cb=TIMESTAMP`) to confirm that the new content is visible.
   - Only return success after the expected content renders on the live page; otherwise, investigate and repeat build/serve/verify locally and re-push if needed.
 - Local preview is optional: a strict build can help catch errors, but do not start a local dev server.

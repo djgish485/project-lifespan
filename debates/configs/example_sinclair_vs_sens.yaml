@@ -1,0 +1,33 @@
+run_id: "example_sinclair_vs_sens"
+theory:
+  id: "sinclair"
+  page: "docs/theories/epigenetic_information.md"
+opponent:
+  id: "de_grey"
+  page: "docs/theories/sens_damage_repair.md"
+
+rounds: 4
+
+roles:
+  defender:
+    provider: "gemini"
+  critic:
+    provider: "codex"
+  judge:
+    provider: "claude"
+
+context:
+  extra_files:
+    - "docs/compare/rubric.md"
+    - "docs/compare/index.md"
+    - "data/claims.yaml"
+    - "data/evidence.csv"
+    - "references/references.bib"
+    - "references/links.yaml"
+  max_chars_per_file: 60000
+  include_evidence_rows_for_theory_ids: ["sinclair", "de_grey"]
+
+output:
+  runs_dir: "debates/runs"
+  publish_mkdocs_dir: "docs/debates"
+  write_raw_jsonl: true

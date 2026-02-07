@@ -1,0 +1,41 @@
+---
+title: Debates
+---
+
+# Debates
+
+Structured Popperian debates between aging theories, run by AI agents.
+
+## How it works
+
+Each debate pits a **Defender** (steelmanning a theory) against a **Critic**
+(attacking it from a rival theory's perspective). An optional **Judge**
+(Claude in print mode) evaluates which criticisms survived and which
+defenses held up, applying Popperian criteria.
+
+### Debate structure
+
+| Round | Role     | Task |
+|-------|----------|------|
+| 0     | Defender | Opening steelman: best case, risky predictions, discriminators |
+| 1     | Critic   | Strongest refutations, alternative explanations, falsifiers |
+| 2     | Defender | Responses + revised claims (no ad hoc moves; must specify revised falsifiers) |
+| 3     | Critic   | Final assessment: which critiques survived? What decisive experiment comes next? |
+| Final | Judge    | Verdict: winner, top surviving criticisms, strongest defenses, decisive next tests |
+
+### Running a debate
+
+```bash
+# Smoke-test CLI availability
+python scripts/agent_smoketest.py
+
+# Run a debate from config
+python scripts/run_debate.py --config debates/configs/example_sinclair_vs_sens.yaml
+
+# Skip the judge step
+python scripts/run_debate.py --config debates/configs/example_sinclair_vs_sens.yaml --no-judge
+```
+
+## Completed runs
+
+*No runs yet. Run your first debate using the instructions above.*
