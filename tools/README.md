@@ -10,12 +10,24 @@ These scripts are intentionally *not* used by MkDocs or the GitHub Pages build.
 
 ## Defender: Gemini
 
-`tools/ask_gemini.py` calls the Gemini REST API using a local markdown file as context.
+Use the **Gemini CLI** (already installed and logged-in on this machine) for Defender calls.
+
+Model: default to `gemini-3-flash-preview` (this is the available "Gemini 3 Flash" model id in the installed CLI).
+
+Verify model used:
+
+- Run with `-o json` and check `stats.models` in the output.
+- Example (expects `stats.models.gemini-3-flash-preview`): `GEMINI_OUTPUT=json bash tools/ask_gemini.sh - "Return only OK"`
+
+Wrappers:
+
+- Preferred: `bash tools/ask_gemini.sh docs/theories/pathogen_control.md "Prompt..."`
+- Legacy/compat: `python tools/ask_gemini.py docs/theories/pathogen_control.md "Prompt..."` (routes through the Gemini CLI)
 
 Environment:
 
-- `GEMINI_API_KEY` (or `GOOGLE_API_KEY`)
-- `GEMINI_MODEL` (default: `gemini-2.0-flash`)
+- `GEMINI_CLI_MODEL` (default: `gemini-3-flash-preview`)
+- `GEMINI_OUTPUT` (default: `text`; set `json` to debug model usage)
 
 ## Critic: Claude or GitHub Models
 
@@ -29,4 +41,3 @@ Environment:
 - `CRITIC_BACKEND` = `claude` (default) or `gh`
 - `CRITIC_CLAUDE_MODEL` (default: `sonnet`)
 - `CRITIC_GH_MODEL` (default: `o3-mini`)
-

@@ -16,9 +16,14 @@ Unique marker for verification: `ORCHESTRATOR_PROTOCOL_V1`
 ## Workspace
 
 - Transcript (published): `docs/debates/scratchpad.md`
-- Defender tool: `python tools/ask_gemini.py "<THEORY_FILE>" "<PROMPT>"`
+- Defender tool (Gemini CLI): `bash tools/ask_gemini.sh "<THEORY_FILE>" "<PROMPT>"`
 - Critic tool: `bash tools/ask_critic.sh "<ARGUMENT>"`
 - Tool notes: `tools/README.md`
+
+Defender model:
+
+- Default: `gemini-3-flash-preview` (set `GEMINI_CLI_MODEL` to override).
+- To confirm the actual model used, run with `GEMINI_OUTPUT=json` and check `stats.models` in the output.
 
 ## Coordination Loop
 
@@ -90,4 +95,3 @@ Use consistent sections:
 - `## Rebuttal (Defender)`
 - `## Verdict (Orchestrator)`
 - `## Discriminator Experiment`
-
