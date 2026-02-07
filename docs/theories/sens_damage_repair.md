@@ -95,6 +95,20 @@ tags:
 
 Short answer: lifespan trials mature slowly, and good groups avoid shouting before the data are locked and reproducible. A long gap raises the probability that results are mixed/modest or operationally noisy, but it’s not proof either way.
 
+## Debate Status
+
+!!! info "AI-moderated debate summary — not scientific consensus"
+
+**[Sinclair vs SENS (2026-02-07)](../debates/example_sinclair_vs_sens_20260207T162356Z.md)** — Judge: **Critic wins** (SENS perspective)
+
+Top surviving defenses (for SENS):
+
+- SENS-side interventions (Xu2018 senolytics: +36% post-treatment survival; deJesus2012 TERT: +24% median lifespan) have cleared a higher evidentiary bar with survival data in aged WT mice.
+- The critic correctly identified that Sinclair's primacy claim has not survived a severe test — no systemic aged-WT lifespan trial exists.
+- ICE does not cleanly separate software from hardware failure — compatible with damage-first causality.
+
+Decisive next test: Pre-registered factorial aged-WT lifespan trial — systemic cyclic OSK vs SENS repair stack vs combination — with max lifespan, hazard curves, and blinded pathology.
+
 ## Sources
 
 - Web: https://vxtwitter.com/jpsenescence/status/1962604483357106366

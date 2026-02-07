@@ -19,6 +19,12 @@ Context:
 
 - Rivals and complements include hyperfunction/mTOR [@Blagosklonny2022] and Hallmarks frameworks [@LopezOtin2013; @LopezOtin2023].
 
+## Latest Debate Results
+
+| Debate | Date | Winner | Decisive next test |
+|--------|------|--------|--------------------|
+| [Sinclair vs SENS](../debates/example_sinclair_vs_sens_20260207T162356Z.md) | 2026-02-07 | Critic (SENS) | Pre-registered factorial OSK vs repair stack vs combo in aged WT mice |
+
 ## Pairwise Discriminators (sketch)
 
 - Pathogen Control (Lidsky) vs Classic Models (damage accumulation / antagonistic pleiotropy / disposable soma)

@@ -139,6 +139,20 @@ No. In old mouse eyes, a small OSK program made vision better without making tel
     If reprogramming really extends lifespan, what about telomeres? Most gains won’t need longer telomeres in low‑turnover organs (brain, heart). For high‑turnover tissues (blood/marrow, gut, skin, some immune cells), telomeres can eventually become a limit if life is pushed far enough. In that case, add a small, targeted telomerase “maintenance” step (short pulses, tissue‑targeted, with tumor surveillance), monitor telomeres in those compartments, and reduce chronic inflammation/infection to slow erosion.
   </li>
 </ul>
+## Debate Status
+
+!!! info "AI-moderated debate summary — not scientific consensus"
+
+**[Sinclair vs SENS (2026-02-07)](../debates/example_sinclair_vs_sens_20260207T162356Z.md)** — Judge: **Critic wins** (SENS perspective)
+
+Top surviving criticisms:
+
+- No systemic aged-WT lifespan/hazard evidence for epigenetic primacy; peer-reviewed OSK results are tissue-local (retina) or model-specific (progeroid/ICE).
+- ICE does not isolate epigenetic primacy from damage-first causality — the model begins with DNA breaks.
+- Unrepaired damage classes (mutations, mtDNA, clonal expansions) are asserted sub-critical without quantitative evidence.
+
+Decisive next test: Pre-registered factorial aged-WT lifespan trial — systemic cyclic OSK vs SENS repair stack vs combination — with max lifespan, hazard curves, and blinded pathology.
+
 ## Sources
 
 - Tweet: https://vxtwitter.com/davidasinclair/status/1969276595895455925

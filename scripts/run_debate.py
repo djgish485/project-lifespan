@@ -17,6 +17,17 @@ import yaml
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCHEMA_PATH = REPO_ROOT / "debates" / "schemas" / "turn.schema.json"
 
+ALLOWED_TURN_KEYS = {
+    "role", "round", "theory_id", "opponent_id", "message_markdown",
+    "key_points", "criticisms", "falsifiers", "proposed_experiments",
+    "repo_citations",
+}
+
+
+def sanitize_turn(turn: dict) -> dict:
+    """Keep only schema-defined keys; drop CLI wrapper cruft like $schema, type, etc."""
+    return {k: v for k, v in turn.items() if k in ALLOWED_TURN_KEYS}
+
 
 # ---------------------------------------------------------------------------
 # Context building
@@ -92,12 +103,24 @@ RULES (you MUST follow all of these):
 - Output ONLY valid JSON matching the provided schema. No markdown fences, no preamble."""
 
 SCHEMA_INSTRUCTIONS = """\
-Your output must be a single JSON object matching this schema:
-{schema_text}"""
+Your output must be a single JSON object with EXACTLY these keys (no others):
+{{
+  "role": "<defender|critic|judge>",
+  "round": <integer>,
+  "theory_id": "<string>",
+  "opponent_id": "<string>",
+  "message_markdown": "<your full argument in markdown>",
+  "key_points": ["<point1>", ...],
+  "criticisms": ["<criticism1>", ...],
+  "falsifiers": ["<falsifier1>", ...],
+  "proposed_experiments": ["<experiment1>", ...],
+  "repo_citations": ["<doi_or_url>", ...]
+}}
+Use empty arrays [] for fields not applicable to your role."""
 
 
 def make_defender_prompt(round_num: int, config: dict, context: str,
-                         transcript: list[dict], schema_text: str) -> str:
+                         transcript: list[dict]) -> str:
     theory_id = config["theory"]["id"]
     opponent_id = config["opponent"]["id"]
 
@@ -136,7 +159,7 @@ Set role="defender", round={round_num}, theory_id="{theory_id}", opponent_id="{o
 
 {COMMON_RULES}
 
-{SCHEMA_INSTRUCTIONS.format(schema_text=schema_text)}
+{SCHEMA_INSTRUCTIONS}
 
 ## REPO CONTEXT
 
@@ -144,7 +167,7 @@ Set role="defender", round={round_num}, theory_id="{theory_id}", opponent_id="{o
 
 
 def make_critic_prompt(round_num: int, config: dict, context: str,
-                       transcript: list[dict], schema_text: str) -> str:
+                       transcript: list[dict]) -> str:
     theory_id = config["theory"]["id"]
     opponent_id = config["opponent"]["id"]
 
@@ -183,15 +206,14 @@ Set role="critic", round={round_num}, theory_id="{theory_id}", opponent_id="{opp
 
 {COMMON_RULES}
 
-{SCHEMA_INSTRUCTIONS.format(schema_text=schema_text)}
+{SCHEMA_INSTRUCTIONS}
 
 ## REPO CONTEXT
 
 {context}"""
 
 
-def make_judge_prompt(config: dict, context: str, transcript: list[dict],
-                      schema_text: str) -> str:
+def make_judge_prompt(config: dict, context: str, transcript: list[dict]) -> str:
     theory_id = config["theory"]["id"]
     opponent_id = config["opponent"]["id"]
     full_transcript = json.dumps(transcript, indent=2)
@@ -216,7 +238,7 @@ Include 3-7 key_points summarizing your verdict.
 
 {COMMON_RULES}
 
-{SCHEMA_INSTRUCTIONS.format(schema_text=schema_text)}
+{SCHEMA_INSTRUCTIONS}
 
 ## REPO CONTEXT
 
@@ -270,13 +292,14 @@ def call_gemini(prompt: str, timeout: int = 300) -> dict:
     return extract_json(result.stdout)
 
 
-def call_claude(prompt: str, schema_text: str, timeout: int = 300) -> dict:
+def call_claude(prompt: str, timeout: int = 300) -> dict:
     """Call claude in print mode with JSON schema. Prompt via stdin."""
+    schema_json = SCHEMA_PATH.read_text()
     cmd = [
         "claude", "-p",
         "--no-chrome",
         "--output-format", "json",
-        "--json-schema", schema_text,
+        "--json-schema", schema_json,
     ]
     result = subprocess.run(
         cmd, input=prompt, capture_output=True, text=True, timeout=timeout
@@ -335,7 +358,7 @@ def extract_json(text: str) -> dict:
 PROVIDER_CALLERS = {
     "codex": call_codex,
     "gemini": call_gemini,
-    "claude": lambda prompt, **kw: call_claude(prompt, kw.get("schema_text", "{}")),
+    "claude": call_claude,
 }
 
 
@@ -353,9 +376,6 @@ def run_debate(config: dict, no_judge: bool = False, timeout: int = 300):
     print(f"Theory: {config['theory']['id']} vs Opponent: {config['opponent']['id']}")
     print(f"Rounds: {rounds}  |  Timestamp: {timestamp}")
     print(f"{'='*60}\n")
-
-    # Load schema
-    schema_text = SCHEMA_PATH.read_text()
 
     # Build context
     print("Building context pack...")
@@ -376,12 +396,12 @@ def run_debate(config: dict, no_judge: bool = False, timeout: int = 300):
             # Defender turn
             role = "defender"
             provider = roles_config["defender"]["provider"]
-            prompt = make_defender_prompt(round_num, config, context, transcript, schema_text)
+            prompt = make_defender_prompt(round_num, config, context, transcript)
         else:
             # Critic turn
             role = "critic"
             provider = roles_config["critic"]["provider"]
-            prompt = make_critic_prompt(round_num, config, context, transcript, schema_text)
+            prompt = make_critic_prompt(round_num, config, context, transcript)
 
         print(f"\n--- Round {round_num} ({role}, provider={provider}) ---")
         print(f"  Prompt size: {len(prompt)} chars")
@@ -392,15 +412,13 @@ def run_debate(config: dict, no_judge: bool = False, timeout: int = 300):
             sys.exit(1)
 
         try:
-            if provider == "claude":
-                turn = caller(prompt, schema_text=schema_text, timeout=timeout)
-            else:
-                turn = caller(prompt, timeout=timeout)
+            turn = caller(prompt, timeout=timeout)
         except Exception as e:
             print(f"  [ERROR] {provider} call failed: {e}", file=sys.stderr)
             sys.exit(1)
 
-        # Ensure required fields are set correctly
+        # Sanitize and ensure required fields are set correctly
+        turn = sanitize_turn(turn)
         turn["role"] = role
         turn["round"] = round_num
         turn["theory_id"] = config["theory"]["id"]
@@ -416,20 +434,18 @@ def run_debate(config: dict, no_judge: bool = False, timeout: int = 300):
     if not no_judge and "judge" in roles_config:
         provider = roles_config["judge"]["provider"]
         print(f"\n--- Judge ({provider}) ---")
-        prompt = make_judge_prompt(config, context, transcript, schema_text)
+        prompt = make_judge_prompt(config, context, transcript)
         print(f"  Prompt size: {len(prompt)} chars")
 
         caller = PROVIDER_CALLERS.get(provider)
         try:
-            if provider == "claude":
-                judge_turn = caller(prompt, schema_text=schema_text, timeout=timeout)
-            else:
-                judge_turn = caller(prompt, timeout=timeout)
+            judge_turn = caller(prompt, timeout=timeout)
         except Exception as e:
             print(f"  [ERROR] Judge call failed: {e}", file=sys.stderr)
             judge_turn = None
 
         if judge_turn:
+            judge_turn = sanitize_turn(judge_turn)
             judge_turn["role"] = "judge"
             judge_turn["round"] = rounds
             judge_turn["theory_id"] = config["theory"]["id"]

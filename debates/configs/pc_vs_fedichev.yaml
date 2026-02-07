@@ -1,0 +1,34 @@
+run_id: "pc_vs_fedichev"
+theory:
+  id: "lidsky"
+  page: "docs/theories/pathogen_control.md"
+opponent:
+  id: "fedichev"
+  page: "docs/theories/resilience_criticality.md"
+
+rounds: 4
+
+roles:
+  defender:
+    provider: "gemini"
+  critic:
+    provider: "codex"
+  judge:
+    provider: "claude"
+
+context:
+  extra_files:
+    - "docs/compare/rubric.md"
+    - "docs/compare/index.md"
+    - "docs/experiments/pathogen_burden_resilience.md"
+    - "data/claims.yaml"
+    - "data/evidence.csv"
+    - "references/references.bib"
+    - "references/links.yaml"
+  max_chars_per_file: 60000
+  include_evidence_rows_for_theory_ids: ["lidsky", "fedichev"]
+
+output:
+  runs_dir: "debates/runs"
+  publish_mkdocs_dir: "docs/debates"
+  write_raw_jsonl: true

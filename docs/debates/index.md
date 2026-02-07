@@ -38,4 +38,16 @@ python scripts/run_debate.py --config debates/configs/example_sinclair_vs_sens.y
 
 ## Completed runs
 
-*No runs yet. Run your first debate using the instructions above.*
+| Date | Debate | Winner | Decisive next test |
+|------|--------|--------|--------------------|
+| 2026-02-07 | [Sinclair vs SENS](example_sinclair_vs_sens_20260207T162356Z.md) | Critic (SENS) | Pre-registered factorial OSK vs repair stack vs combo in aged WT mice |
+
+## Available configs
+
+| Config | Defender | Critic | Focus |
+|--------|----------|--------|-------|
+| `example_sinclair_vs_sens.yaml` | Sinclair | SENS | Epigenetic reset vs damage repair primacy |
+| `pc_vs_sinclair.yaml` | Pathogen Control | Sinclair | OSK under chronic infection tradeoff |
+| `pc_vs_sens.yaml` | Pathogen Control | SENS | Stacked repairs under chronic infection |
+| `pc_vs_fedichev.yaml` | Pathogen Control | Resilience | Anti-pathogen vs resilience metrics |
+| `pc_vs_levin.yaml` | Pathogen Control | Bioelectric | Bioelectric regeneration under pathogen challenge |
