@@ -28,8 +28,3 @@ Start with these:
 - [Longevity Bottleneck (Various Proponents)](theories/longevity_bottleneck.md)
 - [Classic Models (Medawar, Williams, Hamilton, Kirkwood)](theories/classic_models.md)
 - [Other Theories](theories/other_theories.md)
-
-## Agent Debate Workflow (Experimental)
-
-- [Debate Orchestrator Protocol (Codex)](protocols/orchestrator.md)
-- [Debate Scratchpad](debates/scratchpad.md)
