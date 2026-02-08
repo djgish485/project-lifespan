@@ -1,0 +1,42 @@
+INFO    -  DeprecationWarning: warning_filter doesn't do anything since MkDocs 1.2 and will be removed soon. All messages on the `mkdocs` logger get counted automatically.
+  File "/Users/dgish/code-git/project_lifespan-gemini/.venv/lib/python3.12/site-packages/mkdocs_bibtex/utils.py", line 10, in <module>
+    from mkdocs.utils import warning_filter
+  File "/Users/dgish/code-git/project_lifespan-gemini/.venv/lib/python3.12/site-packages/mkdocs/utils/__init__.py", line 403, in __getattr__
+    warnings.warn(
+
+INFO    -  Building documentation...
+INFO    -  [macros] - Macros arguments: {'module_name': 'main', 'modules': [], 'render_by_default': True, 'include_dir': '', 'include_yaml': [], 'j2_block_start_string': '', 'j2_block_end_string': '', 'j2_variable_start_string': '', 'j2_variable_end_string': '', 'on_undefined': 'keep', 'on_error_fail': False, 'verbose': False}
+INFO    -  [macros] - Found local Python module 'main' in: /Users/dgish/code-git/project_lifespan-gemini
+INFO    -  [macros] - Found external Python module 'main' in: /Users/dgish/code-git/project_lifespan-gemini
+INFO    -  [macros] - Extra variables (config file): ['popper']
+INFO    -  [macros] - Extra filters (module): ['pretty']
+INFO    -  Loading data from bib files: ['references/references.bib']
+INFO    -  NavPluginOrder: The plugin "macros" might not work correctly when placed before awesome-pages in the list of plugins. It defines an on_nav handler that will be overridden by awesome-pages in some circumstances.
+  File "/Users/dgish/code-git/project_lifespan-gemini/.venv/lib/python3.12/site-packages/mkdocs/plugins.py", line 566, in run_event
+    result = method(item, **kwargs)
+  File "/Users/dgish/code-git/project_lifespan-gemini/.venv/lib/python3.12/site-packages/mkdocs_awesome_pages_plugin/plugin.py", line 93, in on_config
+    warnings.warn(NavPluginOrder(name))
+
+INFO    -  Cleaning site directory
+INFO    -  The following pages exist in the docs directory, but are not included in the "nav" configuration:
+  - index.md
+  - contribute.md
+  - compare/index.md
+  - compare/rubric.md
+  - concepts/index.md
+  - evidence/index.md
+  - experiments/index.md
+  - experiments/_template.md
+  - experiments/anti_pathogen_bottleneck.md
+  - experiments/bioelectric_infection_tradeoff.md
+  - experiments/osk_infection_tradeoff.md
+  - experiments/osk_mouse_lifespan.md
+  - experiments/pathogen_burden_resilience.md
+  - experiments/rejuvenation_pathogen_tradeoff.md
+  - experiments/resilience_training.md
+  - experiments/sens_stack_infection_tradeoff.md
+  - experiments/sens_stack_mouse.md
+  - experiments/vmem_regeneration.md
+  - theories/_template.md
+INFO    -  Documentation built in 0.96 seconds
+INFO    -  [19:23:44] Serving on http://127.0.0.1:8001/project-lifespan/

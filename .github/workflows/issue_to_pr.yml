@@ -1,0 +1,91 @@
+name: Issue to Pull Request
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  create_pr:
+    if: contains(github.event.issue.labels.*.name, 'change-request')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Parse Issue Body and Apply Changes
+        id: apply_changes
+        shell: python
+        run: |
+          import os
+          import re
+          
+          body = os.environ['ISSUE_BODY']
+          
+          # Simple parser: looks for "File: path/to/file" and "```markdown ... ```" blocks
+          # This is a basic implementation; a robust one would handle diffs more gracefully.
+          
+          # Regex to find file blocks
+          # Format expected in issue:
+          # File: `docs/index.md`
+          # ```markdown
+          # New content...
+          # ```
+          
+          files_processed = []
+          
+          # Split by "File:" marker
+          segments = re.split(r'File: `(.*?)`', body)
+          
+          # The first segment is intro text, skip it.
+          # Then we have pairs: [path, content_block, path, content_block...]
+          
+          if len(segments) < 2:
+              print("No file blocks found.")
+              exit(0)
+              
+          for i in range(1, len(segments), 2):
+              path = segments[i].strip()
+              content_raw = segments[i+1]
+              
+              # Extract content from code block
+              match = re.search(r'```(?:markdown|md|txt)?
+(.*?)```', content_raw, re.DOTALL)
+              if match:
+                  new_content = match.group(1)
+                  
+                  # Ensure directory exists
+                  os.makedirs(os.path.dirname(path), exist_ok=True)
+                  
+                  with open(path, 'w') as f:
+                      f.write(new_content)
+                  
+                  files_processed.append(path)
+                  print(f"Updated {path}")
+              else:
+                  print(f"Could not parse content for {path}")
+
+          # Set output for next step
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
+              print(f"files={','.join(files_processed)}", file=fh)
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+
+      - name: Create Pull Request
+        if: steps.apply_changes.outputs.files != ''
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "feat: Update content based on Issue #${{ github.event.issue.number }}"
+          title: "feat: Update content (Issue #${{ github.event.issue.number }})"
+          body: |
+            Automated PR generated from Issue #${{ github.event.issue.number }}.
+            
+            Closes #${{ github.event.issue.number }}
+          branch: "update/issue-${{ github.event.issue.number }}"
+          base: main
+          labels: "automated-pr"
