@@ -1,0 +1,35 @@
+run_id: "levin_vs_sinclair"
+theory:
+  id: "levin"
+  page: "docs/theories/bioelectric_morphogenetic_control.md"
+opponent:
+  id: "sinclair"
+  page: "docs/theories/epigenetic_information.md"
+
+rounds: 4
+
+roles:
+  defender:
+    provider: "gemini"
+  critic:
+    provider: "codex"
+  judge:
+    provider: "claude"
+
+context:
+  extra_files:
+    - "docs/compare/rubric.md"
+    - "docs/compare/index.md"
+    - "docs/experiments/vmem_regeneration.md"
+    - "docs/experiments/osk_mouse_lifespan.md"
+    - "data/claims.yaml"
+    - "data/evidence.csv"
+    - "references/references.bib"
+    - "references/links.yaml"
+  max_chars_per_file: 60000
+  include_evidence_rows_for_theory_ids: ["sinclair", "levin"]
+
+output:
+  runs_dir: "debates/runs"
+  publish_mkdocs_dir: "docs/debates"
+  write_raw_jsonl: true

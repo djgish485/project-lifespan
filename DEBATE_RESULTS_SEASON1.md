@@ -119,21 +119,41 @@ OSK under chronic infection: does pathogen challenge penalize epigenetic reset?
 
 ---
 
-## Score Summary
+## Season 2: Bidirectional Stress-Tests
+
+Ran reverse debates for the apparent Season 1 "winners" (Bottleneck, Levin) to check whether their scores were one-way artifacts.
+
+### Bottleneck defending vs SENS criticizing → Critic (SENS) wins
+
+Bottleneck's "saturation after clamp" prediction has not been tested. SENS-compatible interventions (senolytics, TERT) have actual survival data in the repo.
+
+### Bottleneck defending vs Fedichev criticizing → Critic (Fedichev) wins
+
+Bottleneck's Pathway Residual concept was never operationalized with pre-registered definitions, thresholds, or time-order evidence.
+
+### Levin defending vs Sinclair criticizing → Critic (Sinclair) wins
+
+Levin's three bridge assumptions (Goal-to-Morphostasis, Control-to-Transcript, Pattern-to-State) remain untested in aged mammals, while Sinclair has partial mammalian evidence.
+
+**Bidirectional verdict:** Critic wins in both directions for all three pairs. The Season 1 "winners" have the same vulnerability as every other theory — untested bridge assumptions and missing severe tests. No theory has earned a stable advantage.
+
+---
+
+## Score Summary (Seasons 1 + 2 combined, 13 debates)
 
 | Theory | Won as Critic | Lost as Defender | Net |
 |--------|:---:|:---:|:---:|
-| Longevity Bottleneck | 2 (vs Fedichev, vs SENS) | 0 | +2 |
+| SENS | 3 (vs Sinclair, vs PC, vs Bottleneck) | 1 (vs Bottleneck) | +2 |
+| Levin | 2 (vs Sinclair, vs PC) | 1 (vs Sinclair) | +1 |
+| Longevity Bottleneck | 2 (vs Fedichev, vs SENS) | 2 (vs SENS, vs Fedichev) | 0 |
 | Classic Models | 1 (vs PC) | 1 (vs PC) | 0 |
+| Fedichev/Resilience | 2 (vs PC, vs Bottleneck) | 1 (vs Bottleneck) | +1 |
+| Sinclair | 3 (vs PC, pilot vs SENS, vs Levin) | 1 (vs Levin) | +2 |
 | Pathogen Control | 1 (vs Classics) | 4 (vs Classics, SENS, Fedichev, Levin) | -3 |
-| SENS | 2 (vs Sinclair, vs PC) | 1 (vs Bottleneck) | +1 |
-| Levin | 2 (vs Sinclair, vs PC) | 0 | +2 |
-| Fedichev/Resilience | 1 (vs PC) | 1 (vs Bottleneck) | 0 |
-| Sinclair | 2 (vs PC, pilot vs SENS) | 1 (vs Levin) | +1 |
 
-**Strongest performers:** Longevity Bottleneck (+2) and Levin (+2) — both have empirical grounding and haven't been successfully attacked.
+**After bidirectional testing:** SENS and Sinclair rise to +2. Bottleneck drops to 0 (its earlier lead was an artifact of only being tested as critic). PC remains weakest at -3.
 
-**Weakest performer:** Pathogen Control (-3) — generates the riskiest predictions but lacks any in-repo severe tests.
+**Key insight:** No theory holds a stable lead — every theory loses when defending. The system is functioning as a gap-finder, not a truth-determiner.
 
 ---
 
@@ -151,7 +171,7 @@ These experiments appeared independently across multiple judge verdicts:
 
 ## Files for Expert Review
 
-### New debate transcript pages (drag all to send):
+### All debate transcript pages (drag all to send):
 
 ```
 docs/debates/classics_vs_pc_20260207T181720Z.md
@@ -162,27 +182,29 @@ docs/debates/sens_vs_bottleneck_20260207T191058Z.md
 docs/debates/pc_vs_sens_20260207T192144Z.md
 docs/debates/pc_vs_fedichev_20260207T193345Z.md
 docs/debates/pc_vs_levin_20260207T194909Z.md
+docs/debates/bottleneck_vs_sens_20260208T120248Z.md
+docs/debates/bottleneck_vs_fedichev_20260208T121235Z.md
+docs/debates/levin_vs_sinclair_20260208T121927Z.md
 ```
 
-### New config files:
+### Research agenda + backlog:
 
 ```
-debates/configs/classics_vs_pc.yaml
-debates/configs/pc_vs_classics.yaml
-debates/configs/fedichev_vs_bottleneck.yaml
-debates/configs/sinclair_vs_levin.yaml
-debates/configs/sens_vs_bottleneck.yaml
+docs/experiments/research_agenda.md
+docs/debates/backlog.md
+debates/backlog.yaml
 ```
 
-### Updated index pages:
+### Index pages:
 
 ```
 docs/debates/index.md
 docs/compare/index.md
 ```
 
-### Updated script:
+### Scripts:
 
 ```
 scripts/run_debate.py
+scripts/render_backlog.py
 ```

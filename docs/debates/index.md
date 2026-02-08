@@ -48,6 +48,14 @@ python scripts/run_debate.py --config debates/configs/example_sinclair_vs_sens.y
 | 2026-02-07 | [Sinclair vs Levin](sinclair_vs_levin_20260207T185829Z.md) | Locus of control | Critic (Levin) | OSK vs bioelectric modulation vs combo, with durability-across-re-injury endpoint |
 | 2026-02-07 | [SENS vs Bottleneck](sens_vs_bottleneck_20260207T191058Z.md) | What sets hazard | Critic (Bottleneck) | Single bottleneck fix vs multi-class repair stack on max lifespan |
 
+### Bidirectional stress-tests (Season 2)
+
+| Date | Debate | Clash axis | Winner | Decisive next test |
+|------|--------|------------|--------|--------------------|
+| 2026-02-08 | [Bottleneck vs SENS](bottleneck_vs_sens_20260208T120248Z.md) | What sets hazard (reversed) | Critic (SENS) | Bottleneck's "saturation after clamp" is untested; SENS has survival data |
+| 2026-02-08 | [Bottleneck vs Fedichev](bottleneck_vs_fedichev_20260208T121235Z.md) | What sets hazard (reversed) | Critic (Fedichev) | Pathway Residual never operationalized with thresholds |
+| 2026-02-08 | [Levin vs Sinclair](levin_vs_sinclair_20260208T121927Z.md) | Locus of control (reversed) | Critic (Sinclair) | Levin's bridge assumptions untested in aged mammals |
+
 ### Pathogen Control rivalries
 
 | Date | Debate | Winner | Decisive next test |
@@ -74,6 +82,14 @@ python scripts/run_debate.py --config debates/configs/example_sinclair_vs_sens.y
 | `fedichev_vs_bottleneck.yaml` | Resilience/Criticality | Longevity Bottleneck | What sets hazard | Dynamical systems vs molecular choke points |
 | `sinclair_vs_levin.yaml` | Sinclair | Levin | Locus of control | Nuclear epigenetic state vs morphogenetic goal |
 | `sens_vs_bottleneck.yaml` | SENS | Longevity Bottleneck | What sets hazard | Multi-lesion repair stack vs few choke points |
+
+### Bidirectional stress-tests (Season 2)
+
+| Config | Defender | Critic | Focus |
+|--------|----------|--------|-------|
+| `bottleneck_vs_sens.yaml` | Longevity Bottleneck | SENS | Reverse: can Bottleneck cash out its own discriminator? |
+| `bottleneck_vs_fedichev.yaml` | Longevity Bottleneck | Fedichev | Reverse: Pathway Residual operationalization |
+| `levin_vs_sinclair.yaml` | Levin | Sinclair | Reverse: can Levin defend bridge assumptions in mammals? |
 
 ### Pathogen Control rivalries
 

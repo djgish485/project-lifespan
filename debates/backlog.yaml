@@ -1,0 +1,129 @@
+# Surviving criticisms backlog — extracted from debate judge verdicts
+# Types: measurement-gap | bridge-assumption | missing-severe-test | definitional-escape
+# Status: open | in-progress | resolved
+
+- id: S1-PC-CLASSICS-01
+  theories: [lidsky, classic_models]
+  type: missing-severe-test
+  statement: "PC's in-repo evidence is exclusively modeling and review — zero severe tests passed."
+  born_from: "debates/pc_vs_classics_20260207T183126Z.md"
+  resolution_path: "docs/experiments/research_agenda.md#1-pathogen-challenge-factorial-2x2x2"
+  status: open
+  resolution_evidence: null
+
+- id: S1-PC-CLASSICS-02
+  theories: [lidsky, classic_models]
+  type: bridge-assumption
+  statement: "PC's adaptive lifespan setpoint relies on inclusive-fitness bridges that are empirically untested."
+  born_from: "debates/pc_vs_classics_20260207T183126Z.md"
+  resolution_path: "docs/experiments/research_agenda.md#1-pathogen-challenge-factorial-2x2x2"
+  status: open
+  resolution_evidence: null
+
+- id: S1-CLASSICS-PC-01
+  theories: [classic_models, lidsky]
+  type: definitional-escape
+  statement: "Classic Models' generic 'tradeoff' framing can absorb almost any result post hoc, reducing falsifiability."
+  born_from: "debates/classics_vs_pc_20260207T181720Z.md"
+  resolution_path: null
+  status: open
+  resolution_evidence: null
+
+- id: S1-CLASSICS-PC-02
+  theories: [classic_models, lidsky]
+  type: measurement-gap
+  statement: "Classics cannot predict population-structure-linked lifespan patterns (dispersal, eusociality, cohorting)."
+  born_from: "debates/classics_vs_pc_20260207T181720Z.md"
+  resolution_path: null
+  status: open
+  resolution_evidence: null
+
+- id: S1-FEDICHEV-BOTTLENECK-01
+  theories: [fedichev, longevity_bottleneck]
+  type: bridge-assumption
+  statement: "DOSI/autocorrelation metrics haven't been shown to causally drive mortality independent of pathway biomarkers."
+  born_from: "debates/fedichev_vs_bottleneck_20260207T184739Z.md"
+  resolution_path: "docs/experiments/research_agenda.md#4-resilience-vs-pathway-mediation-study"
+  status: open
+  resolution_evidence: null
+
+- id: S1-SINCLAIR-LEVIN-01
+  theories: [sinclair, levin]
+  type: measurement-gap
+  statement: "No study has tested whether OSK functional rescue requires intact bioelectric network communication."
+  born_from: "debates/sinclair_vs_levin_20260207T185829Z.md"
+  resolution_path: "docs/experiments/research_agenda.md#2-osk-vs-bioelectric-vs-combo-aged-regeneration"
+  status: open
+  resolution_evidence: null
+
+- id: S1-SINCLAIR-LEVIN-02
+  theories: [sinclair, levin]
+  type: bridge-assumption
+  statement: "Temporal ordering of epigenetic drift vs controller-state variables has not been established."
+  born_from: "debates/sinclair_vs_levin_20260207T185829Z.md"
+  resolution_path: "docs/experiments/research_agenda.md#2-osk-vs-bioelectric-vs-combo-aged-regeneration"
+  status: open
+  resolution_evidence: null
+
+- id: S1-SENS-BOTTLENECK-01
+  theories: [de_grey, longevity_bottleneck]
+  type: missing-severe-test
+  statement: "SENS's core predictions (factorial synergy, multi-class necessity) are untested — all cited evidence is compatible with bottleneck primacy."
+  born_from: "debates/sens_vs_bottleneck_20260207T191058Z.md"
+  resolution_path: "docs/experiments/research_agenda.md#5-rmr1-factorial-publication"
+  status: open
+  resolution_evidence: null
+
+- id: S1-SENS-BOTTLENECK-02
+  theories: [de_grey, longevity_bottleneck]
+  type: missing-severe-test
+  statement: "RMR1 factorial interaction terms and all-but-one arms not yet published."
+  born_from: "debates/sens_vs_bottleneck_20260207T191058Z.md"
+  resolution_path: "docs/experiments/research_agenda.md#5-rmr1-factorial-publication"
+  status: open
+  resolution_evidence: null
+
+- id: S1-PC-SENS-01
+  theories: [lidsky, de_grey]
+  type: bridge-assumption
+  statement: "PC's bridge from epidemic selection to individual senescence program is empirically untested."
+  born_from: "debates/pc_vs_sens_20260207T192144Z.md"
+  resolution_path: "docs/experiments/research_agenda.md#1-pathogen-challenge-factorial-2x2x2"
+  status: open
+  resolution_evidence: null
+
+- id: S1-PC-FEDICHEV-01
+  theories: [lidsky, fedichev]
+  type: missing-severe-test
+  statement: "PC has not survived any severe test of its own proposed falsifiers."
+  born_from: "debates/pc_vs_fedichev_20260207T193345Z.md"
+  resolution_path: "docs/experiments/research_agenda.md#1-pathogen-challenge-factorial-2x2x2"
+  status: open
+  resolution_evidence: null
+
+- id: S2-BOTTLENECK-SENS-01
+  theories: [longevity_bottleneck, de_grey]
+  type: missing-severe-test
+  statement: "Bottleneck's 'saturation after clamp' prediction has not been tested — no clamp + add-on experiment exists."
+  born_from: "debates/bottleneck_vs_sens_20260208T120248Z.md"
+  resolution_path: "docs/experiments/research_agenda.md#3-bottleneck-clamp-sens-add-on"
+  status: open
+  resolution_evidence: null
+
+- id: S2-BOTTLENECK-FEDICHEV-01
+  theories: [longevity_bottleneck, fedichev]
+  type: definitional-escape
+  statement: "Pathway Residual was never operationalized with pre-registered definitions, quantitative thresholds, or time-order evidence."
+  born_from: "debates/bottleneck_vs_fedichev_20260208T121235Z.md"
+  resolution_path: "docs/experiments/research_agenda.md#4-resilience-vs-pathway-mediation-study"
+  status: open
+  resolution_evidence: null
+
+- id: S2-LEVIN-SINCLAIR-01
+  theories: [levin, sinclair]
+  type: bridge-assumption
+  statement: "Levin's three bridge assumptions (Goal-to-Morphostasis, Control-to-Transcript, Pattern-to-State) remain untested in aged mammals."
+  born_from: "debates/levin_vs_sinclair_20260208T121927Z.md"
+  resolution_path: "docs/experiments/research_agenda.md#2-osk-vs-bioelectric-vs-combo-aged-regeneration"
+  status: open
+  resolution_evidence: null

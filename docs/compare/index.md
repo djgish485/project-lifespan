@@ -31,6 +31,14 @@ Context:
 | [Sinclair vs Levin](../debates/sinclair_vs_levin_20260207T185829Z.md) | 2026-02-07 | Locus of control | Critic (Levin) | OSK vs bioelectric vs combo, durability endpoint |
 | [SENS vs Bottleneck](../debates/sens_vs_bottleneck_20260207T191058Z.md) | 2026-02-07 | What sets hazard | Critic (Bottleneck) | Bottleneck fix vs repair stack on max lifespan |
 
+### Bidirectional stress-tests (Season 2)
+
+| Debate | Date | Clash axis | Winner | Decisive next test |
+|--------|------|------------|--------|--------------------|
+| [Bottleneck vs SENS](../debates/bottleneck_vs_sens_20260208T120248Z.md) | 2026-02-08 | What sets hazard (reversed) | Critic (SENS) | Bottleneck's saturation claim untested |
+| [Bottleneck vs Fedichev](../debates/bottleneck_vs_fedichev_20260208T121235Z.md) | 2026-02-08 | What sets hazard (reversed) | Critic (Fedichev) | Pathway Residual not operationalized |
+| [Levin vs Sinclair](../debates/levin_vs_sinclair_20260208T121927Z.md) | 2026-02-08 | Locus of control (reversed) | Critic (Sinclair) | Levin's bridges untested in mammals |
+
 ### Pathogen Control rivalries
 
 | Debate | Date | Winner | Decisive next test |
