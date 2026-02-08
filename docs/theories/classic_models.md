@@ -44,9 +44,10 @@ tags:
   </li>
   <li>Pathogen Control (Lidsky)
     <ul>
-      <li>PC: Longevity gains often trade off with infection ecology.</li>
-      <li>Classics: No intrinsic infection penalty required; tradeoffs are resource‑based. If rejuvenation under pathogen challenge shows no infection downside, that favors Classics; if penalties appear without anti‑pathogen measures, it favors PC.</li>
-      <li>PC highlights lifespan differences that track population structure (dispersal, eusociality, cohorting) — patterns Classics do not naturally predict.</li>
+      <li>PC: Aging is an adaptive program to limit epidemics; lifespan tracks population structure.</li>
+      <li>Classics: Aging is passive decay/tradeoff; "outliers" like bats/queens are explained by reduced extrinsic mortality, not infection management.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/lidsky_vs_classics">Pathogen Control vs. Classics Debate</a> identified a crucial disagreement on whether longevity extension incurs obligatory infection penalties.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/lidsky_vs_classics_rewilded">Lifespan Extension Under Controlled Pathogen Challenge</a>.</li>
     </ul>
   </li>
   <li>Resilience / Criticality (Fedichev)
@@ -65,6 +66,14 @@ tags:
     <ul>
       <li>Bottleneck: A small number of pathways dominate aging.</li>
       <li>Classics: Diffuse damage/tradeoffs across systems; single chokepoints are unlikely to explain most aging.</li>
+    </ul>
+  </li>
+  <li>Programmatic Epigenetic Aging (de Magalhães)
+    <ul>
+      <li>Programmatic: Aging is an orderly, purposeful program run‑on; genes drive it.</li>
+      <li>Classics: Orderly patterns reflect systematic decay (like rust on a bridge), not a program. Reversibility (reprogramming) may just reactivate latent maintenance machinery.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/programmatic_vs_classics">Programmatic vs. Classics Debate</a> identified a crucial disagreement on whether the clock drives aging or reads it.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/programmatic_clock_editing">Epigenetic Clock Editing vs. Damage Accumulation</a>.</li>
     </ul>
   </li>
 </ul>

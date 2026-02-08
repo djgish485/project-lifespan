@@ -44,12 +44,16 @@ tags:
     <ul>
       <li>SENS: Specific damage classes cause aging; repair them and you extend lifespan.</li>
       <li>Levin: Damage accelerates aging but isn’t primary; restoring morphogenetic “goals” may rejuvenate without fixing all damages. If pattern-aware cues outperform or obviate large repair stacks, that conflicts with damage-first primacy.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/sens_vs_bioelectric">Pilot Debate</a> identified a crucial disagreement on whether the "controller" or "substrate" is rate-limiting.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/sens_vs_bioelectric_factorial">Factorial Senolytic × Bioelectric Intervention</a>.</li>
     </ul>
   </li>
   <li>Epigenetic Information (Sinclair)
     <ul>
       <li>Sinclair: Aging is mis-specified epigenetic state; reset (e.g., OSK) to rejuvenate.</li>
-      <li>Levin: The pattern-level “goal” sits upstream; epigenetic drift is a downstream accelerator. Pattern-aware, spatially targeted cues may beat broad resets; OSK might just be a coarse way of injecting “regenerative information.”</li>
+      <li>Levin: The pattern-level "goal" sits upstream; epigenetic drift is a downstream accelerator. Pattern-aware, spatially targeted cues may beat broad resets.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/bioelectric_vs_programmatic">Bioelectric vs. Programmatic Debate</a> identified a crucial disagreement on whether the "pattern" or "code" is upstream.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/bioelectric_epigenetic_clamping">Epigenetic Clamping Under Bioelectric Pattern Switching</a>.</li>
     </ul>
   </li>
   <li>Resilience / Criticality (Fedichev)

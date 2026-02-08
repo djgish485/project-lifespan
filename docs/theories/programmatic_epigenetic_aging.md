@@ -42,7 +42,10 @@ Note: This is a variant of [Epigenetic Information (Sinclair)](../theories/epige
   </li>
   <li>Bioelectric / Morphogenetic Control (Levin)
     <ul>
-      <li>Alignment: Both programmatic/top‑down. Tension over locus of control — epigenetic program vs bioelectric networks. Discriminator: bioelectric‑only vs epigenetic‑only rejuvenation on the same tissue, with identity/tumor guards.</li>
+      <li>Alignment: Both programmatic/top‑down. Tension over locus of control — epigenetic program vs bioelectric networks.</li>
+      <li>Levin: Bioelectric pattern is the setpoint; epigenome reorganizes to match it.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/bioelectric_vs_programmatic">Bioelectric vs. Programmatic Debate</a> identified a crucial disagreement on whether the "pattern" or "code" is upstream.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/bioelectric_epigenetic_clamping">Epigenetic Clamping Under Bioelectric Pattern Switching</a>.</li>
     </ul>
   </li>
   <li>Pathogen Control (Lidsky)
@@ -52,7 +55,10 @@ Note: This is a variant of [Epigenetic Information (Sinclair)](../theories/epige
   </li>
   <li>Classic Models (Medawar, Williams, Hamilton, Kirkwood)
     <ul>
-      <li>Challenge: If safe program‑rewinds extend maximum lifespan with limited costs, strict tradeoff/accumulated‑damage accounts weaken; if they don’t, classics retain primacy.</li>
+      <li>Classics: Aging is non-programmed degradation; "clocks" merely read out damage/state.</li>
+      <li>Programmatic: Aging is the continued execution of a developmental program; clocks are drivers. If rewinding the clock (reprogramming) restores function without independent damage repair, the program is primary.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/programmatic_vs_classics">Programmatic vs. Classics Debate</a> identified a crucial disagreement on whether the clock drives aging or reads it.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/programmatic_clock_editing">Epigenetic Clock Editing vs. Damage Accumulation</a>.</li>
     </ul>
   </li>
   <li>Resilience / Criticality (Fedichev)
