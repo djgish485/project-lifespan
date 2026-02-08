@@ -74,8 +74,11 @@ Based on the ability to explain anomalies (like "context-only" rejuvenation or t
 The hardware breaks because the software (epigenetic/bioelectric) stops maintaining it. Reprogramming proves the hardware *can* work if the software is rebooted. (Exception: Genomic mutations and crosslinks are "bricked" hardware that software might not fix).
 
 ### Q: Is aging "Adaptive" (Selected) or "Passive" (Decay)?
-**A: Passive Decay of an Adaptive Program (Quasi-Program).**
-We are not "programmed to die." We are programmed to develop (Hyperfunction). Aging is the aimless continuation of developmental drivers past their expiration date. It's not a bug, it's a feature running too long.
+**A: Major Scientific Fault Line: Adaptive Suicide Program vs. Passive Quasi-Program.**
+The Engine identifies two primary interpretations of the programmatic data:
+1.  **The Quasi-Program (Weak Theory):** Aging is the aimless continuation of developmental drivers past their expiration date (Hyperfunction). We are not "programmed to die"; we just lack a "stop" command.
+2.  **The Suicide Program (Strong Theory/Deigin):** Aging is an evolved, adaptive mechanism (Phenoptosis) selected to accelerate evolution or clear the niche for the next generation.
+**Current Synthesis:** While the "Quasi-Program" is the more conservative consensus, the precision of epigenetic clocks and the existence of extreme programmed death in other species (semelparity) prevents the rejection of the "Strong" theory. We frame it as **Passive Decay of an Adaptive Program** with a high degree of deterministic execution.
 
 ### Q: What is the "Crucial Lever"?
 **A: The Interface (Epigenetics) guided by The Controller (Bioelectricity).**

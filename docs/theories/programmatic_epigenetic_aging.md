@@ -16,10 +16,11 @@ Note: This theory posits that the driver of epigenetic change is a developmental
 ## Simple Summary
 
 - **Strong vs. Weak Epigenetics:** Yuri Deigin distinguishes between the **Strong Epigenetic Theory (SET)** — aging as an evolved suicide program (phenoptosis) — and the **Weak Epigenetic Theory (WET)** — Sinclair's view that aging is accidental drift caused by damage/repair.
+- **Internal Drivers:** SET (v5.1) formalizes that aging is driven by internal, genetically pre-programmed epigenetic changes rather than reactive "wear and tear" to external damage.
 - **Software Design Flaw:** João Pedro de Magalhães frames aging as a "quasi-program" or "run-on" of developmental software. It’s not necessarily selected *for* death, but rather the system lacks a "stop" command, leading to mis-regulation.
-- **Mechanism:** Development writes a time-ordered "layout" for gene control. After maturity, that layout continues shifting per its script (SET) or due to "run-on" (Design Flaw), not primarily because DNA letters break. Partial reprogramming works by rewinding this script's trajectory.
+- **Mechanism:** Development writes a time-ordered "layout" for gene control. After maturity, that layout continues shifting per its script (SET) or due to "run-on" (Design Flaw). SET emphasizes that these shifts are regulated and deterministic (e.g., programmed increases in DNA methylation at specific sites) rather than stochastic noise.
 - **Predictions:** Cutting molecular damage (DNA breaks, oxidative stress) will have limited effect unless the program's trajectory is altered. Small, safe nudges to the program (identity cues, carefully dosed reprogramming) should broadly restore function.
-- **Evidence snapshot:** Precise epigenetic DNA methylation clocks support a programmed driver; semelparous species (e.g., Pacific salmon) show extreme programmed aging. Deigin's 2026 preprint (v5.1) formalizes the "Suicide Program" account.
+- **Evidence snapshot:** Precise epigenetic DNA methylation clocks support a programmed driver; methylation increases (not just dilution) at specific sites suggest a regulated script. Semelparous species (e.g., Pacific salmon) show extreme programmed aging. Deigin's 2026 preprint (v5.1) formalizes the "Suicide Program" account.
 
 ## Conflicts With Other Theories
 
