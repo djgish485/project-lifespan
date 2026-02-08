@@ -1,23 +1,20 @@
 ---
-title: Programmatic Epigenetic Aging (de Magalhães / Deigin)
+title: Programmatic Epigenetic Aging (de Magalhães)
 summary: >-
-  Aging reflects a programmed “run‑on” of developmental epigenetic states (Strong Epigenetic Theory), not primarily damage‑driven drift (Weak Epigenetic Theory); partial reprogramming rewinds the program’s trajectory.
+  A variant of Sinclair’s epigenetic information theory: aging reflects a programmed “run‑on” of developmental epigenetic state changes, not primarily damage‑driven drift; partial reprogramming rewinds the program’s trajectory.
 tags:
   - epigenetics
   - development
   - reprogramming
 ---
 
-# Programmatic Epigenetic Aging (de Magalhães / Deigin)
+# Programmatic Epigenetic Aging (de Magalhães)
 
-Note: This school of thought, often termed the **Strong Epigenetic Theory (SET)** by Yuri Deigin, argues that aging is the continued execution of a developmental program (a “run‑on”), rather than random information loss driven by damage (Sinclair’s “Weak” theory).
+Note: This is a variant of [Epigenetic Information (Sinclair)](../theories/epigenetic_information.md) that puts the driver of epigenetic change in a developmentally set program (a “run‑on”), not in damage/repair workload.
 
 ## Simple Summary
 
-- Variant framing: Aging is an epigenetic control problem, but here the primary cause is programmatic — the developmental “software” keeps advancing epigenetic states after they’re useful (a run‑on), leading to mis‑regulation and decline.
-- Strong vs. Weak: 
-    - **Weak Epigenetics (Sinclair):** Damage (like DNA breaks) causes epigenetic factors to relocate, leading to accidental information loss/noise.
-    - **Strong Epigenetics (Deigin/de Magalhães):** Developmental trajectories continue past maturity as a "quasi-program"; changes are non-random and predictable.
+- Variant framing: Aging is an epigenetic control problem like Sinclair argues, but here the primary cause is programmatic — the developmental “software” keeps advancing epigenetic states after they’re useful (a run‑on), leading to mis‑regulation and decline.
 - Mechanism (lay): Development writes a time‑ordered “layout” for gene control. After maturity, that layout keeps shifting per its script, not because DNA letters break. Partial reprogramming works by rewinding that script (trajectory), not by repairing damage.
 - Predictions: Cutting molecular damage alone (fewer DNA breaks, steadier mitochondria) should have limited effect unless the program’s trajectory is changed. Small, safe nudges to the trajectory (tempo/identity cues; carefully dosed reprogramming) should broadly restore function.
 - Discriminators vs Sinclair: If lowering damage slows hazard and preserves function broadly without changing the program, that favors Sinclair. If program‑nudges outperform damage‑cuts without fixing damage, that favors design‑flaw.
@@ -84,6 +81,4 @@ To be added (we will mirror Sinclair‑style formatting with popover references)
 ## Sources
 
 - João Pedro de Magalhães — “Ageing as a software design flaw,” Genome Biology (2023): https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02888-y
-- Yuri Deigin — “Strong Epigenetic Theory of Aging” (X Thread 2026): https://x.com/ydeigin/status/2014009970581266930
-- Yuri Deigin — "WET vs SET" (X Thread 2026): https://x.com/ydeigin/status/2016208439278510390
 - Tweet summary of the distinction vs Sinclair (program‑driven vs damage‑driven drift): https://x.com/jpsenescence/status/1980764063815659922
