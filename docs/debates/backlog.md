@@ -7,7 +7,7 @@ title: Open Criticisms Backlog
 Surviving criticisms extracted from debate judge verdicts. Each item is tracked
 until resolved by new evidence, experiment results, or theoretical revision.
 
-**Total:** 14 | **Open:** 14 | **In Progress:** 0 | **Resolved:** 0
+**Total:** 14 | **Open:** 12 | **In Progress:** 0 | **Resolved:** 2
 
 **See also:** [Research Agenda](../experiments/research_agenda.md) for the decisive experiments that would resolve many of these.
 
@@ -161,26 +161,20 @@ until resolved by new evidence, experiment results, or theoretical revision.
 
 ---
 
-## Definitional Escape (2)
+## Resolved
 
-### `S1-CLASSICS-PC-01`
+### ~~`S1-CLASSICS-PC-01`~~
 
 **Theories:** classic_models, lidsky  
-**Status:** Open  
-**Statement:** Classic Models' generic 'tradeoff' framing can absorb almost any result post hoc, reducing falsifiability.
-
-**Source:** [classics_vs_pc_20260207T181720Z.md](classics_vs_pc_20260207T181720Z.md)
+**Statement:** Classic Models' generic 'tradeoff' framing can absorb almost any result post hoc, reducing falsifiability.  
+**Resolution:** Season 3 operationalization: classics-p1 now commits to specific tradeoff thresholds (tumor >= 10%, reproduction >= 20% decline, stress resistance >= 30% decline) for any >= 15% max lifespan gain. No longer post hoc absorbable.
 
 ---
 
-### `S2-BOTTLENECK-FEDICHEV-01`
+### ~~`S2-BOTTLENECK-FEDICHEV-01`~~
 
 **Theories:** longevity_bottleneck, fedichev  
-**Status:** Open  
-**Statement:** Pathway Residual was never operationalized with pre-registered definitions, quantitative thresholds, or time-order evidence.
-
-**Source:** [bottleneck_vs_fedichev_20260208T121235Z.md](bottleneck_vs_fedichev_20260208T121235Z.md)
-  
-**Resolution path:** [docs/experiments/research_agenda.md#4-resilience-vs-pathway-mediation-study](../experiments/research_agenda.md#4-resilience-vs-pathway-mediation-study)
+**Statement:** Pathway Residual was never operationalized with pre-registered definitions, quantitative thresholds, or time-order evidence.  
+**Resolution:** Season 3 operationalization: bottleneck-p2 now defines Pathway Residual as 'remaining variance in mortality hazard < 20% of pre-intervention variance after verified bottleneck relief.' Falsifier: > 50% unexplained variance favors SENS or Fedichev.
 
 ---

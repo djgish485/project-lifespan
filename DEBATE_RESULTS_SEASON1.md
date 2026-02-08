@@ -169,6 +169,44 @@ These experiments appeared independently across multiple judge verdicts:
 
 ---
 
+## Season 3: Operationalization & Closure
+
+Per expert review, Season 3 shifts from "more debates" to "close the backlog."
+
+### Claims registered (14 predictions across 7 theories)
+
+Every theory now has 1-3 core claims in `data/claims.yaml`, each with:
+
+- Measurable prediction with numeric threshold
+- Specific organism and timeframe
+- Explicit falsifier with threshold
+- Link to decisive test
+
+| Theory | Claims | Predictions | All have thresholds? |
+|--------|:---:|:---:|:---:|
+| Sinclair | 1 | 2 | Yes |
+| Levin | 1 | 2 | Yes |
+| SENS | 1 | 2 | Yes |
+| Fedichev | 1 | 2 | Yes |
+| PC (Lidsky) | 1 | 2 | Yes |
+| Bottleneck | 1 | 2 | Yes |
+| Classic Models | 1 | 2 | Yes |
+
+### Backlog closure: 14 → 12 open (2 resolved without new debates)
+
+| Resolved item | Type | How |
+|---------------|------|-----|
+| S1-CLASSICS-PC-01 | Definitional escape | Classics now commits to specific tradeoff thresholds (classics-p1) |
+| S2-BOTTLENECK-FEDICHEV-01 | Definitional escape | Pathway Residual operationalized with variance threshold (bottleneck-p2) |
+
+### Progress metrics
+
+- **Backlog closure rate:** 2/14 resolved (14.3%) — without running any new debates
+- **Prediction tightening:** 0/14 → 14/14 predictions have numeric thresholds + falsifiers
+- **Verdict flip readiness:** 0 — no new severe test data yet, but the system is now ready to process it
+
+---
+
 ## Files for Expert Review
 
 ### All debate transcript pages (drag all to send):

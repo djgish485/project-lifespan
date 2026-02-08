@@ -25,9 +25,9 @@
   type: definitional-escape
   statement: "Classic Models' generic 'tradeoff' framing can absorb almost any result post hoc, reducing falsifiability."
   born_from: "debates/classics_vs_pc_20260207T181720Z.md"
-  resolution_path: null
-  status: open
-  resolution_evidence: null
+  resolution_path: "data/claims.yaml"
+  status: resolved
+  resolution_evidence: "Season 3 operationalization: classics-p1 now commits to specific tradeoff thresholds (tumor >= 10%, reproduction >= 20% decline, stress resistance >= 30% decline) for any >= 15% max lifespan gain. No longer post hoc absorbable."
 
 - id: S1-CLASSICS-PC-02
   theories: [classic_models, lidsky]
@@ -115,9 +115,9 @@
   type: definitional-escape
   statement: "Pathway Residual was never operationalized with pre-registered definitions, quantitative thresholds, or time-order evidence."
   born_from: "debates/bottleneck_vs_fedichev_20260208T121235Z.md"
-  resolution_path: "docs/experiments/research_agenda.md#4-resilience-vs-pathway-mediation-study"
-  status: open
-  resolution_evidence: null
+  resolution_path: "data/claims.yaml"
+  status: resolved
+  resolution_evidence: "Season 3 operationalization: bottleneck-p2 now defines Pathway Residual as 'remaining variance in mortality hazard < 20% of pre-intervention variance after verified bottleneck relief.' Falsifier: > 50% unexplained variance favors SENS or Fedichev."
 
 - id: S2-LEVIN-SINCLAIR-01
   theories: [levin, sinclair]

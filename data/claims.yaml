@@ -1,5 +1,6 @@
 # Registry of claims and associated predictions.
-# This is optional scaffolding for future automation.
+# Each claim must include: measurable prediction, specific falsifier, decisive next test.
+# Season 3: operationalized to prevent definitional escape.
 
 theories:
   - id: sinclair
@@ -9,21 +10,146 @@ theories:
         text: Loss of epigenetic information is a principal cause of aging phenotypes.
         predictions:
           - id: sinclair-p1
-            text: Partial reprogramming in adult mice extends maximum lifespan by >= 10% without increasing tumor incidence.
+            text: Partial reprogramming (cyclic OSK or equivalent) in aged (18+ month) WT C57BL/6J mice extends maximum lifespan by >= 10% without increasing tumor incidence above 5% over controls.
             severity: high
+            organism: C57BL/6J mouse
+            timeframe: lifetime study (start 18mo, follow to death)
+            threshold: max lifespan gain >= 10%, tumor incidence delta <= 5%
+            falsifier: If OSK extends median lifespan by < 5% OR tumor incidence exceeds controls by > 10%, the claim that reprogramming is a safe, effective anti-aging intervention is falsified.
+            decisive_test: "docs/experiments/osk_mouse_lifespan.md"
+          - id: sinclair-p2
+            text: Epigenetic clocks (Horvath/Thompson) are causally upstream of functional decline — reversing clock age restores function proportionally.
+            severity: medium
+            organism: C57BL/6J mouse
+            threshold: correlation r >= 0.7 between clock reversal magnitude and functional recovery across 3+ tissues
+            falsifier: If OSK reverses clock age by >= 50% but functional recovery is < 20% of young baseline, clock-primacy is challenged.
+            decisive_test: "docs/experiments/research_agenda.md#2-osk-vs-bioelectric-vs-combo-aged-regeneration"
+
   - id: levin
     name: Michael Levin (Bioelectricity)
-    claims: []
+    claims:
+      - id: levin-c1
+        text: Morphogenetic goal-directedness (bioelectric pattern control) is upstream of epigenetic state in determining tissue structure and function during aging.
+        predictions:
+          - id: levin-p1
+            text: Pattern-aware bioelectric modulation (Vmem writing at lesion + neighbors) in aged mice yields functional regeneration with durability across re-injury, even without epigenetic reprogramming.
+            severity: high
+            organism: C57BL/6J mouse (20+ months)
+            timeframe: 8-week primary endpoint + re-injury at 8 weeks
+            threshold: regrowth >= 60% of young-animal baseline; re-injury recovery >= 50% of first recovery
+            falsifier: If pattern-aware Vmem modulation yields < 20% regrowth in aged mammals, or if adding OSK to bioelectric does not improve durability, bioelectric primacy in aging is challenged.
+            decisive_test: "docs/experiments/vmem_regeneration.md"
+          - id: levin-p2
+            text: OSK functional rescue requires intact bioelectric network communication.
+            severity: high
+            organism: C57BL/6J mouse
+            threshold: OSK + gap-junction disruption (carbenoxolone or Cx43 dominant-negative) yields < 50% of OSK-alone rescue
+            falsifier: If OSK works fully (>= 80% rescue) even with gap-junction disruption, bioelectric dependence is falsified.
+            decisive_test: "docs/experiments/research_agenda.md#2-osk-vs-bioelectric-vs-combo-aged-regeneration"
+
   - id: de_grey
     name: Aubrey de Grey (SENS)
-    claims: []
+    claims:
+      - id: sens-c1
+        text: Aging is caused by accumulation of 7 classes of molecular/cellular damage, and comprehensive repair of multiple classes simultaneously is necessary and sufficient for robust lifespan extension.
+        predictions:
+          - id: sens-p1
+            text: A multi-class repair stack (senolytics + TERT + crosslink breaker + at minimum one additional class) extends maximum lifespan in aged mice significantly more than the best single-class intervention alone.
+            severity: high
+            organism: C57BL/6J mouse (20+ months)
+            timeframe: lifetime study
+            threshold: stack yields >= 15% max lifespan gain over best single agent; interaction term p < 0.05
+            falsifier: If multi-class stack yields <= 5% additional max lifespan over best single agent (e.g., senolytics alone), multi-class necessity is challenged.
+            decisive_test: "docs/experiments/sens_stack_mouse.md"
+          - id: sens-p2
+            text: After verified bottleneck clamp (rapamycin + D+Q to pre-specified SASP/mTOR thresholds), adding TERT or crosslink breaker yields additional max lifespan gain >= 10%.
+            severity: high
+            organism: C57BL/6J mouse
+            threshold: additional gain >= 10% over clamp-only arm
+            falsifier: If clamp + add-on yields <= 3% additional gain, bottleneck saturation (not multi-class repair) explains lifespan limits.
+            decisive_test: "docs/experiments/research_agenda.md#3-bottleneck-clamp-sens-add-on"
+
   - id: fedichev
     name: Peter Fedichev (Resilience/Criticality)
-    claims: []
+    claims:
+      - id: fedichev-c1
+        text: Aging is driven by loss of physiological resilience, measurable as critical slowing (increased autocorrelation time and variance in biomarker fluctuations), and this resilience loss is the primary driver of mortality hazard increase.
+        predictions:
+          - id: fedichev-p1
+            text: DOSI autocorrelation time measured from longitudinal blood panels predicts all-cause mortality hazard ratio >= 1.5 per SD increase, independent of standard bottleneck biomarkers (CRP, IL-6, GDF-15, p16).
+            severity: high
+            organism: human (longitudinal cohort)
+            threshold: HR >= 1.5 per SD, maintained after adjusting for bottleneck biomarkers
+            falsifier: If DOSI autocorrelation adds < 5% incremental predictive value (C-statistic) over bottleneck biomarkers alone, resilience dynamics are not independently informative.
+            decisive_test: "docs/experiments/research_agenda.md#4-resilience-vs-pathway-mediation-study"
+          - id: fedichev-p2
+            text: An intervention that improves DOSI/autocorrelation without changing bottleneck biomarkers (p16, SASP, mTOR) still reduces mortality hazard.
+            severity: high
+            organism: C57BL/6J mouse
+            threshold: hazard reduction >= 15% with no significant change in bottleneck markers
+            falsifier: If no intervention can improve resilience metrics without concurrent bottleneck-marker improvement, resilience is downstream of pathway state.
+            decisive_test: "docs/experiments/resilience_training.md"
+
   - id: lidsky
-    name: Peter Lidsky
-    claims: []
+    name: Peter Lidsky (Pathogen Control)
+    claims:
+      - id: pc-c1
+        text: Lifespan is an adaptive setpoint shaped by infectious disease dynamics; senescence evolved as an anti-pathogen barrier that limits within-host persistence and between-host transmission at the cost of individual longevity.
+        predictions:
+          - id: pc-p1
+            text: In aged mice, longevity interventions (rapamycin, senolytics, or OSK) applied under dirty/rewilded conditions increase pathogen burden or transmission proxies compared to SPF controls, and this penalty is rescued by concurrent anti-pathogen treatment.
+            severity: high
+            organism: C57BL/6J mouse (18+ months)
+            timeframe: 6 months post-intervention
+            threshold: >= 2-fold increase in pathogen burden (qPCR titers for MHV, MNV, or Helicobacter) in dirty+intervention vs dirty+vehicle; rescue arm reduces burden to within 1.5x of vehicle
+            falsifier: If longevity intervention in dirty environment shows no increase in pathogen burden/transmission (< 1.3x) across 3+ pathogen classes, the infection-tradeoff prediction is falsified.
+            decisive_test: "docs/experiments/research_agenda.md#1-pathogen-challenge-factorial-2x2x2"
+          - id: pc-p2
+            text: Population structure (dispersal rate, cohort mixing) predicts maximum lifespan after controlling for body mass, metabolic rate, and extrinsic mortality, in phylogenetic comparative analysis across >= 50 mammalian species.
+            severity: medium
+            organism: multi-species comparative
+            threshold: population-structure variables add >= 5% incremental R-squared over standard allometric + extrinsic-mortality predictors
+            falsifier: If population-structure variables add < 2% incremental R-squared, structure is not a meaningful lifespan predictor.
+            decisive_test: "docs/experiments/research_agenda.md#1-pathogen-challenge-factorial-2x2x2"
+
   - id: longevity_bottleneck
     name: Longevity Bottleneck
-    claims: []
+    claims:
+      - id: bottleneck-c1
+        text: A small number of molecular choke-point pathways (primarily senescence/SASP and mTOR-mediated damage responses) dominate the mortality hazard, and targeted relief of these bottlenecks captures most achievable lifespan gains.
+        predictions:
+          - id: bottleneck-p1
+            text: After verified clamp of the dominant bottleneck pathway (rapamycin + D+Q to SASP/mTOR thresholds), additional repair classes (TERT, crosslink breaker) yield <= 3% additional max lifespan gain — i.e., hazard saturates after bottleneck relief.
+            severity: high
+            organism: C57BL/6J mouse (20+ months)
+            threshold: additional gain from non-bottleneck repairs <= 3% of max lifespan
+            falsifier: If clamp + TERT or clamp + crosslink breaker yields >= 10% additional max lifespan gain, the bottleneck saturation prediction is falsified.
+            decisive_test: "docs/experiments/research_agenda.md#3-bottleneck-clamp-sens-add-on"
+          - id: bottleneck-p2
+            text: "Pathway Residual: after verified bottleneck pathway relief, remaining variance in mortality hazard is < 20% of pre-intervention variance — i.e., the bottleneck explains >= 80% of age-dependent hazard."
+            severity: high
+            organism: C57BL/6J mouse
+            threshold: residual hazard variance < 20% of pre-intervention
+            falsifier: If bottleneck relief leaves > 50% of hazard variance unexplained, multi-pathway (SENS-like) or dynamical (Fedichev-like) models are favored.
+            decisive_test: "docs/experiments/research_agenda.md#3-bottleneck-clamp-sens-add-on"
 
+  - id: classic_models
+    name: Classic Models (Medawar, Williams, Hamilton, Kirkwood)
+    claims:
+      - id: classics-c1
+        text: Aging is an emergent byproduct of weakening selection pressure with age (mutation accumulation, antagonistic pleiotropy) and/or optimal resource allocation (disposable soma), not an adaptation.
+        predictions:
+          - id: classics-p1
+            text: "Any longevity intervention that yields >= 15% max lifespan gain will produce measurable fitness costs: either increased tumor incidence (>= 10% over controls), reduced reproduction (>= 20% decline), or impaired stress resistance (>= 30% decline in cold/infection challenge survival)."
+            severity: high
+            organism: C57BL/6J mouse
+            threshold: at least one fitness cost exceeds stated thresholds for any intervention achieving >= 15% max lifespan gain
+            falsifier: If a longevity intervention yields >= 15% max lifespan gain with no measurable fitness cost exceeding any stated threshold, the inevitability-of-tradeoffs prediction is falsified.
+            decisive_test: "docs/experiments/research_agenda.md#1-pathogen-challenge-factorial-2x2x2"
+          - id: classics-p2
+            text: Population structure variables (dispersal, cohort mixing, contact networks) do not independently predict lifespan after controlling for extrinsic mortality, body mass, and metabolic rate.
+            severity: medium
+            organism: multi-species comparative (>= 50 mammals)
+            threshold: population-structure variables add < 2% incremental R-squared
+            falsifier: If structure variables add >= 5% incremental R-squared, Classics must explain why structure matters beyond extrinsic mortality.
+            decisive_test: "docs/experiments/research_agenda.md#1-pathogen-challenge-factorial-2x2x2"
