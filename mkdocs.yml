@@ -46,9 +46,11 @@ markdown_extensions:
 
 extra_css:
   - assets/css/extra.css
+  - assets/css/chat.css
 
 extra_javascript:
   - assets/js/popperscore.js
+  - assets/js/chat.js
 
 nav:
   - Theories:
@@ -61,6 +63,8 @@ nav:
       - Longevity Bottleneck (Various Proponents): theories/longevity_bottleneck.md
       - Classic Models (Medawar, Williams, Hamilton, Kirkwood): theories/classic_models.md
       - Other Theories: theories/other_theories.md
+  - Grand Synthesis: synthesis.md
+  - Debates: debates/index.md
   - About: about.md
 
 extra:

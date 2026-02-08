@@ -36,8 +36,10 @@ tags:
 <ul>
   <li>SENS Damage Repair (de Grey)
     <ul>
-      <li>SENS: Multiple damages jointly cause aging; targeted repairs are necessary.</li>
-      <li>Sinclair: If a correct state reset (e.g., OSK) restores function broadly without bespoke repairs, that undercuts damage‑first primacy. If repairs match or beat resets with lower cancer risk, that challenges Sinclair.</li>
+      <li>SENS: Multiple damages jointly cause aging; targeted repairs are necessary. Epigenetic drift is downstream of damage to maintenance machinery.</li>
+      <li>Sinclair: Epigenetic reset acts upstream, reactivating repair machinery. If a correct state reset restores function broadly without bespoke repairs, that undercuts damage‑first primacy.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/sinclair_vs_sens">Sinclair vs. SENS Debate</a> identified a crucial disagreement on whether damage constrains the reset.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/sinclair_vs_sens_damage_clamp">Epigenetic Reset Under Clamped Damage Load</a>.</li>
     </ul>
   </li>
   <li>Classic Models (Medawar, Williams, Hamilton, Kirkwood)
@@ -67,8 +69,10 @@ tags:
   </li>
   <li>Longevity Bottleneck (Various Proponents)
     <ul>
-      <li>Bottleneck: One or a few “choke points” (e.g., mitophagy, proteostasis, DNA‑repair) set the pace of aging. Fix the choke point and aging slows — no epigenetic reset required.</li>
-      <li>Sinclair: If OSK resets many pathways at once and beats single‑pathway fixes on function and survival at similar safety, that supports Sinclair. If targeted choke‑point fixes match OSK with lower risk/complexity, bottleneck wins.</li>
+      <li>Bottleneck: A small number of pathways dominate aging (e.g., inflammation, mTOR); relieve the chokepoint.</li>
+      <li>Sinclair: Epigenetic information loss sits upstream of these pathways. Resetting the information should restore function more broadly and additively to pathway suppression.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/bottleneck_vs_sinclair">Bottleneck vs. Sinclair Debate</a> identified a crucial disagreement on whether pathway suppression captures all gains or if information restoration adds value.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/bottleneck_vs_sinclair_factorial">Factorial Bottleneck Suppression vs. Epigenetic Reprogramming</a>.</li>
     </ul>
   </li>
   <li>Metabolic Stress / NAD Resilience (Brenner)

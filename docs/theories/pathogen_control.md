@@ -56,8 +56,10 @@ tags:
   </li>
   <li>Classic Models (Medawar, Williams, Hamilton, Kirkwood)
     <ul>
-      <li>Classics: Longevity gains need not show infection costs; tradeoffs are resource‑based.</li>
-      <li>PC: Longevity gains often trade off with infection ecology; lifespan is selected to constrain epidemics.</li>
+      <li>Classics: Aging is non-adaptive; results from declining selection and resource tradeoffs (Disposable Soma).</li>
+      <li>PC: Aging is an <em>adaptive</em> program selected to limit infection spread. Comparative outliers (bats, eusocials) are explained by population structure, not just extrinsic mortality.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/lidsky_vs_classics">Pathogen Control vs. Classics Debate</a> identified a crucial disagreement on whether longevity extension incurs obligatory infection penalties.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/lidsky_vs_classics_rewilded">Lifespan Extension Under Controlled Pathogen Challenge</a>.</li>
     </ul>
   </li>
   <li>Bioelectric / Morphogenetic Control (Levin)

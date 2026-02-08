@@ -17,6 +17,18 @@ theories:
   - id: de_grey
     name: Aubrey de Grey (SENS)
     claims: []
+  - id: deigin
+    name: Yuri Deigin (Strong Epigenetic Theory)
+    claims:
+      - id: deigin-c1
+        text: Aging is an evolved, pre-programmed suicide script (phenoptosis).
+        predictions:
+          - id: deigin-p1
+            text: Eliminating all external molecular damage (DNA breaks, ROS) will not stop the ticking of the epigenetic clock.
+            severity: high
+          - id: deigin-p2
+            text: Systematic increases in methylation at specific CpG sites are regulated developmental signals, not stochastic noise.
+            severity: medium
   - id: fedichev
     name: Peter Fedichev (Resilience/Criticality)
     claims: []
