@@ -51,6 +51,7 @@ extra_javascript:
   - assets/js/popperscore.js
 
 nav:
+  - Grand Synthesis: synthesis/grand_synthesis.md
   - Theories:
       - Epigenetic Information (Sinclair): theories/epigenetic_information.md
       - Bioelectric / Morphogenetic Control (Levin): theories/bioelectric_morphogenetic_control.md
