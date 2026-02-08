@@ -4,13 +4,13 @@ Date: 2026-02-08
 
 ## Round 1: Opening Statement (Programmatic Epigenetic Aging)
 
-## Opening Statement: Programmatic Epigenetic Aging
+## Opening Statement: Programmatic Epigenetic Aging (SET)
 
-Ladies and gentlemen, I submit that aging is not primarily the accumulation of molecular damage, but the continued execution of a developmental epigenetic program past its useful window — a "software design flaw," as João Pedro de Magalhães articulates it.
+Ladies and gentlemen, I submit that aging is not primarily the accumulation of molecular damage, but the continued execution of a developmental epigenetic program past its useful window. Whether you frame it as a **"software design flaw"** (João Pedro de Magalhães) or, more provocatively, as an evolved **"Suicide Program"** (Yuri Deigin's **Strong Epigenetic Theory**), the conclusion is the same: aging is an active programmatic event, not a passive thermodynamic collapse.
 
 ### The Strongest Evidence
 
-**1. Epigenetic clocks are too orderly for damage.** Horvath's pan-tissue clock and its successors predict biological age with extraordinary precision across dozens of tissue types. Damage accumulation is stochastic and tissue-specific; a programmatic trajectory is coherent and predictable. The clocks behave like readouts of a running program, not tallies of random insults.
+**1. Epigenetic clocks are too orderly for damage.** Horvath's pan-tissue clock and its successors predict biological age with extraordinary precision across dozens of tissue types. Damage accumulation is stochastic and tissue-specific; a programmatic trajectory is coherent and predictable. As Deigin formalizes in his 2026 SET preprint (v5.1), the precision of these clocks is the signature of an intentional script, not accidental drift.
 
 **2. Partial reprogramming rejuvenates without repairing damage.** Yamanaka factor (OSKM) expression in aged mice — the Sinclair lab's ICE model, the Izpisua Belmonte lab's cyclic reprogramming work — restores youthful gene expression, reverses epigenetic age, and recovers tissue function *without evidence of independent DNA damage repair*. If damage were upstream, you would need to fix it first. Instead, rewinding the epigenetic trajectory suffices. This is the signature of a program-driven process.
 

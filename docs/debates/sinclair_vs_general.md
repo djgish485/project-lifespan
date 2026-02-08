@@ -4,9 +4,9 @@ Date: 2026-02-08
 
 ## Round 1: Opening Statement (Epigenetic Information)
 
-## Opening Statement: The Epigenetic Information Theory of Aging
+## Opening Statement: The Epigenetic Information Theory of Aging (WET)
 
-Ladies and gentlemen, I submit that aging is primarily driven by the progressive loss of epigenetic information — the scrambling of chemical tags and three-dimensional chromatin architecture that tells cells which genes to read. The DNA sequence remains largely intact; it is the *instructions for reading it* that degrade. And crucially, those instructions can be restored.
+Ladies and gentlemen, I submit that aging is primarily driven by the progressive loss of epigenetic information — the scrambling of chemical tags and three-dimensional chromatin architecture that tells cells which genes to read. This is sometimes called the **"Weak Epigenetic Theory"** (WET) by those who prefer a more strictly programmed "Strong" account; but whether the information loss is accidental drift (WET) or a programmed script (SET), the central causal lever remains the same: the epigenetic layer.
 
 ### The Strongest Evidence
 
