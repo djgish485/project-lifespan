@@ -24,9 +24,9 @@ The debates strongly suggest that aging is not a single layer event, but a hiera
 *   **Status:** The "Governor." If the pattern holds, the body repairs itself. Aging is the loss of the geometric/bioelectric goal.
 
 ### **Level 2: The Interface (Code & Program)**
-*   **Theories:** *Epigenetic Info (Sinclair), Programmatic Aging (de Magalhães)*
+*   **Theories:** *Epigenetic Info (Sinclair), Programmatic Aging (de Magalhães / Deigin)*
 *   **Verdict:** **The Mechanism.** This is how the Level 1 controller talks to the cells. The epigenetic "clock" is the execution script. Aging appears as a "software run-on" or "noise" at this layer.
-*   **Status:** The "Operating System." It's the most druggable/editable layer we currently have (OSK), but it serves the pattern above it.
+*   **Status:** The "Operating System." It's the most druggable/editable layer we currently have (OSK), but it serves the pattern above it. The field is currently debating whether this is a **Strong** program (Deigin) or a **Weak** drift (Sinclair).
 
 ### **Level 3: The Dynamics (Feedback & Resilience)**
 *   **Theories:** *Resilience/Criticality (Fedichev), Longevity Bottleneck*

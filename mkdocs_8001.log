@@ -63,5 +63,5 @@ INFO    -  The following pages exist in the docs directory, but are not included
   - experiments/vmem_regeneration.md
   - theories/_template.md
   - theories/general_critic.md
-INFO    -  Documentation built in 1.63 seconds
-INFO    -  [18:33:34] Serving on http://127.0.0.1:8001/project-lifespan/
+INFO    -  Documentation built in 1.65 seconds
+INFO    -  [18:41:09] Serving on http://127.0.0.1:8001/project-lifespan/

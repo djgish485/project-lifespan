@@ -21,9 +21,12 @@ tags:
 
 # Epigenetic Information (Sinclair)
 
+Note: This framework is often referred to as the **Weak Epigenetic Theory (WET)** by proponents of programmatic aging, as it identifies random damage (e.g., DNA breaks) as the primary driver of epigenetic information loss.
+
 ## Simple Summary
 
 - Idea: Aging is driven by loss/mis‑placement of epigenetic information that scrambles gene control; partial reprogramming (e.g., OSK) can restore youthful programs without changing DNA.
+- WET vs. SET: Unlike the "Strong" theory (which posits a programmed trajectory), the "Weak" theory suggests that epigenetic drift is an accidental consequence of cellular stress and repair workloads (the "Relocation of Chromatin Modifiers" or RCM hypothesis).
 - Mechanism: Everyday repair jobs slightly scramble the “labels and shelving” of DNA (chemical tags and how DNA folds into loops). Over time, cells start turning on the wrong genes for the job; partial reprogramming attempts to put the labels and folding back to a youthful layout.
 - Library picture: The DNA sequence is all the “books,” while chromatin (DNA plus its packaging proteins) and epigenetic marks decide which shelves are open, lit, and easy to reach. With age, the wrong shelves get taped shut or opened; OSK/Yamanaka‑style reprogramming tries to re‑open the youthful shelves and close some of the noisy, age‑linked ones, nudging the whole “chromatin landscape” back toward a younger layout.
 - Evidence so far: Tissue wins are strongest (retina/optic nerve; progeroid models). The ICE mouse shows that inducing repair‑heavy breaks accelerates aging phenotypes that OSK partially reverses. Whole‑animal lifespan extension with acceptable safety is still unproven.
