@@ -31,8 +31,10 @@ tags:
 <ul>
   <li>Epigenetic Information (Sinclair)
     <ul>
-      <li>Sinclair: Correcting epigenetic state can restore function without enumerating damage.</li>
-      <li>SENS: Repaired damages are necessary and sufficient for large lifespan gains; biomarker resets may not translate without repairs.</li>
+      <li>Sinclair: Correcting epigenetic state can restore function without enumerating damage; it acts upstream.</li>
+      <li>SENS: Repaired damages are necessary and sufficient; epigenetic resets will fail or require cycling if underlying damage (the substrate) is not fixed.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/sinclair_vs_sens">Sinclair vs. SENS Debate</a> identified a crucial disagreement on whether damage constrains the reset.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/sinclair_vs_sens_damage_clamp">Epigenetic Reset Under Clamped Damage Load</a>.</li>
     </ul>
   </li>
   <li>Classic Models (Medawar, Williams, Hamilton, Kirkwood)
@@ -50,14 +52,18 @@ tags:
   </li>
   <li>Resilience / Criticality (Fedichev)
     <ul>
-      <li>Resilience: Hazard can drop by tuning dynamics without repairs.</li>
-      <li>SENS: Fixing concrete damages shifts the whole hazard curve; resilience‑only wins should be smaller/transient if damage is primary.</li>
+      <li>Resilience: Hazard can drop by tuning dynamics without repairs; damage is secondary to stability.</li>
+      <li>SENS: Fixing concrete damages shifts the hazard curve; resilience is just a readout of substrate integrity. Resilience-only interventions should fail to extend max lifespan.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/sens_vs_fedichev">SENS vs. Fedichev Debate</a> identified a crucial disagreement on whether resilience dynamics can be decoupled from damage.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/sens_vs_fedichev_crossover">Damage Repair vs. Resilience Enhancement Crossover</a>.</li>
     </ul>
   </li>
   <li>Bioelectric / Morphogenetic Control (Levin)
     <ul>
-      <li>Levin: Pattern reset may obviate some repairs.</li>
+      <li>Levin: Pattern reset may obviate some repairs; the "controller" degrades independently of damage.</li>
       <li>SENS: If damage blocks pattern control, repairs are prerequisite; strong repair‑first wins favor SENS primacy.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/sens_vs_bioelectric">Pilot Debate</a> identified a crucial disagreement on whether the "controller" or "substrate" is rate-limiting.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/sens_vs_bioelectric_factorial">Factorial Senolytic × Bioelectric Intervention</a>.</li>
     </ul>
   </li>
   <li>Longevity Bottleneck (Various Proponents)

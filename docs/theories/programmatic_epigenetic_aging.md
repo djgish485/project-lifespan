@@ -1,24 +1,25 @@
 ---
-title: Programmatic Epigenetic Aging (de Magalhães)
+title: Programmatic Epigenetic Aging (de Magalhães / Deigin)
 summary: >-
-  A variant of Sinclair’s epigenetic information theory: aging reflects a programmed “run‑on” of developmental epigenetic state changes, not primarily damage‑driven drift; partial reprogramming rewinds the program’s trajectory.
+  Aging reflects a programmed trajectory or "suicide program" of epigenetic state changes, not primarily damage-driven drift; "Strong" (Deigin) and "Weak" (Sinclair) theories differ on whether these changes are adaptive or accidental.
 tags:
   - epigenetics
   - development
   - reprogramming
+  - phenoptosis
 ---
 
-# Programmatic Epigenetic Aging (de Magalhães)
+# Programmatic Epigenetic Aging (de Magalhães / Deigin)
 
-Note: This is a variant of [Epigenetic Information (Sinclair)](../theories/epigenetic_information.md) that puts the driver of epigenetic change in a developmentally set program (a “run‑on”), not in damage/repair workload.
+Note: This theory posits that the driver of epigenetic change is a developmentally set program or "suicide script," contrasting with [Epigenetic Information (Sinclair)](../theories/epigenetic_information.md) which emphasizes damage-driven drift.
 
 ## Simple Summary
 
-- Variant framing: Aging is an epigenetic control problem like Sinclair argues, but here the primary cause is programmatic — the developmental “software” keeps advancing epigenetic states after they’re useful (a run‑on), leading to mis‑regulation and decline.
-- Mechanism (lay): Development writes a time‑ordered “layout” for gene control. After maturity, that layout keeps shifting per its script, not because DNA letters break. Partial reprogramming works by rewinding that script (trajectory), not by repairing damage.
-- Predictions: Cutting molecular damage alone (fewer DNA breaks, steadier mitochondria) should have limited effect unless the program’s trajectory is changed. Small, safe nudges to the trajectory (tempo/identity cues; carefully dosed reprogramming) should broadly restore function.
-- Discriminators vs Sinclair: If lowering damage slows hazard and preserves function broadly without changing the program, that favors Sinclair. If program‑nudges outperform damage‑cuts without fixing damage, that favors design‑flaw.
-- Evidence snapshot: Concept is articulated in de Magalhães’ “software design flaw” review; development‑linked epigenetic trajectories and clocks support programmability. Decisive, whole‑animal lifespan extension with strong safety remains to be shown.
+- **Strong vs. Weak Epigenetics:** Yuri Deigin distinguishes between the **Strong Epigenetic Theory (SET)** — aging as an evolved suicide program (phenoptosis) — and the **Weak Epigenetic Theory (WET)** — Sinclair's view that aging is accidental drift caused by damage/repair.
+- **Software Design Flaw:** João Pedro de Magalhães frames aging as a "quasi-program" or "run-on" of developmental software. It’s not necessarily selected *for* death, but rather the system lacks a "stop" command, leading to mis-regulation.
+- **Mechanism:** Development writes a time-ordered "layout" for gene control. After maturity, that layout continues shifting per its script (SET) or due to "run-on" (Design Flaw), not primarily because DNA letters break. Partial reprogramming works by rewinding this script's trajectory.
+- **Predictions:** Cutting molecular damage (DNA breaks, oxidative stress) will have limited effect unless the program's trajectory is altered. Small, safe nudges to the program (identity cues, carefully dosed reprogramming) should broadly restore function.
+- **Evidence snapshot:** Precise epigenetic DNA methylation clocks support a programmed driver; semelparous species (e.g., Pacific salmon) show extreme programmed aging. Deigin's 2026 preprint (v5.1) formalizes the "Suicide Program" account.
 
 ## Conflicts With Other Theories
 
@@ -26,12 +27,12 @@ Note: This is a variant of [Epigenetic Information (Sinclair)](../theories/epige
   <li>Epigenetic Information (Sinclair)
     <ul>
       <li>Agreement: Epigenetic control is central; resets can rejuvenate.</li>
-      <li>Difference: Driver of drift — program‑driven (design‑flaw) vs damage‑driven (Sinclair). Head‑to‑head tests should pit damage‑reduction against program‑nudging under matched safety.</li>
+      <li>Difference: Driver of change — program-driven (SET/Deigin) vs damage-driven drift (WET/Sinclair). SET predicts that blocking damage won't stop the clock; WET predicts it will.</li>
     </ul>
   </li>
   <li>Hyperfunction / Quasi‑Program (mTOR)
     <ul>
-      <li>Close cousin: Run‑on of developmental programs. Here, the emphasis is on epigenetic state trajectories (not only mTOR/growth signaling). Expect benefit from altering tempo/identity controls, not just dialing down growth.</li>
+      <li>Close alignment: Both view aging as a run-on of developmental drivers. SET (Deigin) leans more toward an adaptive "suicide program," while Hyperfunction (Blagosklonny) and de Magalhães emphasize the non-adaptive "quasi-program."</li>
     </ul>
   </li>
   <li>SENS Damage Repair (de Grey)
@@ -42,17 +43,23 @@ Note: This is a variant of [Epigenetic Information (Sinclair)](../theories/epige
   </li>
   <li>Bioelectric / Morphogenetic Control (Levin)
     <ul>
-      <li>Alignment: Both programmatic/top‑down. Tension over locus of control — epigenetic program vs bioelectric networks. Discriminator: bioelectric‑only vs epigenetic‑only rejuvenation on the same tissue, with identity/tumor guards.</li>
+      <li>Alignment: Both programmatic/top‑down. Tension over locus of control — epigenetic program vs bioelectric networks.</li>
+      <li>Levin: Bioelectric pattern is the setpoint; epigenome reorganizes to match it.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/bioelectric_vs_programmatic">Bioelectric vs. Programmatic Debate</a> identified a crucial disagreement on whether the "pattern" or "code" is upstream.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/bioelectric_epigenetic_clamping">Epigenetic Clamping Under Bioelectric Pattern Switching</a>.</li>
     </ul>
   </li>
   <li>Pathogen Control (Lidsky)
     <ul>
-      <li>Complement: Lidsky explains why lifespans evolved (pathogen ecology/population structure). Design‑flaw explains how aging unfolds (epigenetic trajectory). Infection tradeoffs predicted by Lidsky are not required by design‑flaw.</li>
+      <li>Complement: Lidsky explains why lifespans evolved (pathogen ecology/population structure). Programmatic theories explain how aging unfolds (epigenetic trajectory). SET suggests aging may be an adaptive mechanism to accelerate evolution or clear the population for younger cohorts.</li>
     </ul>
   </li>
   <li>Classic Models (Medawar, Williams, Hamilton, Kirkwood)
     <ul>
-      <li>Challenge: If safe program‑rewinds extend maximum lifespan with limited costs, strict tradeoff/accumulated‑damage accounts weaken; if they don’t, classics retain primacy.</li>
+      <li>Classics: Aging is non-programmed degradation; "clocks" merely read out damage/state.</li>
+      <li>Programmatic: Aging is the continued execution of a developmental program; clocks are drivers. If rewinding the clock (reprogramming) restores function without independent damage repair, the program is primary.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/programmatic_vs_classics">Programmatic vs. Classics Debate</a> identified a crucial disagreement on whether the clock drives aging or reads it.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/programmatic_clock_editing">Epigenetic Clock Editing vs. Damage Accumulation</a>.</li>
     </ul>
   </li>
   <li>Resilience / Criticality (Fedichev)
@@ -75,4 +82,5 @@ To be added (we will mirror Sinclair‑style formatting with popover references)
 ## Sources
 
 - João Pedro de Magalhães — “Ageing as a software design flaw,” Genome Biology (2023): https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-02888-y
+- Yuri Deigin — “The Strong Epigenetic Theory – Aging as a Suicide Program,” v5.1 Preprint (Jan 2026): https://x.com/ydeigin/status/2014009970581266930
 - Tweet summary of the distinction vs Sinclair (program‑driven vs damage‑driven drift): https://x.com/jpsenescence/status/1980764063815659922

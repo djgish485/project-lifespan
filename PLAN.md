@@ -48,3 +48,21 @@ Status legend: [ ] pending, [~] in progress, [x] done
 5. [x] Normalize formatting and rival links (headers, nested experiments, Sources hyperlinks)
 6. [x] Build + restart; verify layout
 7. [x] Record mirroring rule in AGENTS.md
+
+## Epistemological Engine (Automated Debates)
+
+Status legend: [ ] pending, [~] in progress, [x] done
+
+**Goal:** Automate Popperian debates between theories to refine "Conflicts", generate "Crucial Experiments", and score theories.
+
+1. [ ] **Infrastructure Setup**
+    - [ ] Create directory structure (`data/debates`, `docs/debates`).
+    - [ ] Create `scripts/conduct_debate.py` (Orchestrator).
+    - [ ] Create `scripts/summarize_debate.py` (Judge/Synthesizer).
+2. [ ] **Pilot Debate: SENS vs. Bioelectric**
+    - [ ] Run the pilot debate script.
+    - [ ] Generate transcript artifact.
+    - [ ] Update `docs/theories/sens_damage_repair.md` and `docs/theories/bioelectric_morphogenetic_control.md` based on results.
+3. [ ] **Site Integration**
+    - [ ] Add "Debates" section to `mkdocs.yml`.
+    - [ ] Create `docs/debates/index.md` index page.

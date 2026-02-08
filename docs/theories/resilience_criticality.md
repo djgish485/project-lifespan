@@ -41,10 +41,20 @@ tags:
       <li>PC further predicts lifespan differences that track population structure (dispersal, eusociality, cohorting), which resilience alone does not specify.</li>
     </ul>
   </li>
-  <li>Epigenetic Information (Sinclair) and SENS Damage Repair (de Grey)
+  <li>Epigenetic Information (Sinclair)
     <ul>
-      <li>Sinclair/SENS: Reset/repair is primary; dynamics follow.</li>
-      <li>Resilience: Tuning dynamics shifts hazard broadly; state resets/repairs may not be required for large gains.</li>
+      <li>Sinclair: Epigenetic drift is the primary driver; "resetting" the software restores youth.</li>
+      <li>Resilience: Epigenetic changes are likely downstream of dynamic instability; a "reset" might not restore the control loop's stability near the critical point.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/sinclair_vs_fedichev">Sinclair vs. Fedichev Debate</a> identified a crucial disagreement on causal priority.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/sinclair_vs_fedichev_resilience">Decoupling Epigenetic Reset from Resilience Dynamics</a>.</li>
+    </ul>
+  </li>
+  <li>SENS Damage Repair (de Grey)
+    <ul>
+      <li>SENS: Repairing specific damages (parts) restores function; resilience is just a readout.</li>
+      <li>Resilience: The system's dynamic state (recovery rate) governs hazard; fixing parts without restoring stability may yield diminishing returns.</li>
+      <li><strong>Debate Status:</strong> The <a href="../../debates/sens_vs_fedichev">SENS vs. Fedichev Debate</a> identified a crucial disagreement on whether resilience dynamics can be decoupled from damage.</li>
+      <li><strong>Crucial Experiment:</strong> <a href="../../experiments/sens_vs_fedichev_crossover">Damage Repair vs. Resilience Enhancement Crossover</a>.</li>
     </ul>
   </li>
   <li>Bioelectric / Morphogenetic Control (Levin)

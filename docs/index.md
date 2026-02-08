@@ -28,3 +28,6 @@ Start with these:
 - [Longevity Bottleneck (Various Proponents)](theories/longevity_bottleneck.md)
 - [Classic Models (Medawar, Williams, Hamilton, Kirkwood)](theories/classic_models.md)
 - [Other Theories](theories/other_theories.md)
+
+---
+*Current Git Branch:* `experiment/gemini`
