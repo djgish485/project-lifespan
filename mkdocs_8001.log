@@ -64,4 +64,4 @@ INFO    -  The following pages exist in the docs directory, but are not included
   - theories/_template.md
   - theories/general_critic.md
 INFO    -  Documentation built in 1.63 seconds
-INFO    -  [14:08:28] Serving on http://127.0.0.1:8001/project-lifespan/
+INFO    -  [18:33:34] Serving on http://127.0.0.1:8001/project-lifespan/
