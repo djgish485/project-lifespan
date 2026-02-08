@@ -167,6 +167,7 @@ until resolved by new evidence, experiment results, or theoretical revision.
 
 **Theories:** classic_models, lidsky  
 **Statement:** Classic Models' generic 'tradeoff' framing can absorb almost any result post hoc, reducing falsifiability.  
+**Resolution kind:** Spec-resolved (definitional fix, no new data)  
 **Resolution:** Season 3 operationalization: classics-p1 now commits to specific tradeoff thresholds (tumor >= 10%, reproduction >= 20% decline, stress resistance >= 30% decline) for any >= 15% max lifespan gain. No longer post hoc absorbable.
 
 ---
@@ -175,6 +176,7 @@ until resolved by new evidence, experiment results, or theoretical revision.
 
 **Theories:** longevity_bottleneck, fedichev  
 **Statement:** Pathway Residual was never operationalized with pre-registered definitions, quantitative thresholds, or time-order evidence.  
+**Resolution kind:** Spec-resolved (definitional fix, no new data)  
 **Resolution:** Season 3 operationalization: bottleneck-p2 now defines Pathway Residual as 'remaining variance in mortality hazard < 20% of pre-intervention variance after verified bottleneck relief.' Falsifier: > 50% unexplained variance favors SENS or Fedichev.
 
 ---

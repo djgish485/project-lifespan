@@ -64,7 +64,13 @@ nav:
   - Debates:
       - Overview: debates/index.md
       - Open Criticisms: debates/backlog.md
-  - Research Agenda: experiments/research_agenda.md
+  - Research Agenda:
+      - Overview: experiments/research_agenda.md
+      - "Pre-Reg #1: Pathogen Factorial": experiments/prereg_pathogen_factorial.md
+      - "Pre-Reg #2: OSK vs Bioelectric": experiments/prereg_osk_bioelectric_combo.md
+      - "Pre-Reg #3: Bottleneck-Clamp + SENS": experiments/prereg_bottleneck_clamp_sens.md
+      - "Pre-Reg #4: Resilience Mediation": experiments/prereg_resilience_mediation.md
+      - "Pre-Reg #5: RMR1 Analysis Plan": experiments/prereg_rmr1_analysis.md
   - About: about.md
 
 extra:

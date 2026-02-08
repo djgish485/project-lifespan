@@ -64,6 +64,13 @@ python scripts/run_debate.py --config debates/configs/example_sinclair_vs_sens.y
 | 2026-02-07 | [PC vs Fedichev](pc_vs_fedichev_20260207T193345Z.md) | Critic (Fedichev) | Anti-pathogen intervention vs resilience-metric intervention on mortality hazard |
 | 2026-02-07 | [PC vs Levin](pc_vs_levin_20260207T194909Z.md) | Critic (Levin) | Bioelectric regeneration under pathogen challenge for infection tradeoffs |
 
+### Season 3 reruns (post-operationalization)
+
+| Date | Debate | Clash axis | Winner | Key finding |
+|------|--------|------------|--------|-------------|
+| 2026-02-08 | [Classics vs PC (S3)](classics_vs_pc_20260208T160443Z.md) | Ultimate cause | Critic (PC) | Classics-p1 tradeoff thresholds resolved definitional escape, but disjunctive structure reduces riskiness; 2 new criticisms identified |
+| 2026-02-08 | [Bottleneck vs Fedichev (S3)](bottleneck_vs_fedichev_20260208T161116Z.md) | What sets hazard | Critic (Fedichev) | Bottleneck-p2 Pathway Residual operationalized, but Gompertz slope invariance + incomplete panel escape are new vulnerabilities |
+
 ### Earlier runs
 
 | Date | Debate | Winner | Decisive next test |

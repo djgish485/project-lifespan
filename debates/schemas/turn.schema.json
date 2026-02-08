@@ -15,6 +15,39 @@
       "type": "array",
       "items": { "type": "string" },
       "description": "Prefer DOI URLs already in references.bib or link IDs in references/links.yaml"
+    },
+    "backlog_edits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "action": { "type": "string", "enum": ["create", "update", "resolve"] },
+          "id": { "type": "string", "description": "Backlog item ID, e.g. S3-THEORY1-THEORY2-01" },
+          "type": { "type": "string", "enum": ["measurement-gap", "bridge-assumption", "missing-severe-test", "definitional-escape"] },
+          "statement": { "type": "string" },
+          "resolution_evidence": { "type": "string" }
+        },
+        "required": ["action", "id"]
+      },
+      "description": "Judge only: proposed edits to debates/backlog.yaml (create new items, update existing, or resolve with evidence)"
+    },
+    "claim_edits": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "action": { "type": "string", "enum": ["propose", "strengthen", "weaken"] },
+          "theory_id": { "type": "string" },
+          "claim_id": { "type": "string" },
+          "rationale": { "type": "string" }
+        },
+        "required": ["action", "theory_id", "rationale"]
+      },
+      "description": "Judge only: proposed edits to data/claims.yaml (propose new claims, strengthen or weaken existing)"
+    },
+    "changes_since_prior": {
+      "type": "string",
+      "description": "Judge only: markdown summary of what changed vs prior debate on same theory pairing, if any"
     }
   },
   "required": ["role", "round", "theory_id", "opponent_id", "message_markdown", "key_points", "criticisms", "falsifiers", "proposed_experiments", "repo_citations"],

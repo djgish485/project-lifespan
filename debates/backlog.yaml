@@ -1,6 +1,7 @@
 # Surviving criticisms backlog — extracted from debate judge verdicts
 # Types: measurement-gap | bridge-assumption | missing-severe-test | definitional-escape
 # Status: open | in-progress | resolved
+# Resolution kind: spec (definitional fix, no new data) | evidence (severe test produced data)
 
 - id: S1-PC-CLASSICS-01
   theories: [lidsky, classic_models]
@@ -27,6 +28,7 @@
   born_from: "debates/classics_vs_pc_20260207T181720Z.md"
   resolution_path: "data/claims.yaml"
   status: resolved
+  resolution_kind: spec
   resolution_evidence: "Season 3 operationalization: classics-p1 now commits to specific tradeoff thresholds (tumor >= 10%, reproduction >= 20% decline, stress resistance >= 30% decline) for any >= 15% max lifespan gain. No longer post hoc absorbable."
 
 - id: S1-CLASSICS-PC-02
@@ -117,6 +119,7 @@
   born_from: "debates/bottleneck_vs_fedichev_20260208T121235Z.md"
   resolution_path: "data/claims.yaml"
   status: resolved
+  resolution_kind: spec
   resolution_evidence: "Season 3 operationalization: bottleneck-p2 now defines Pathway Residual as 'remaining variance in mortality hazard < 20% of pre-intervention variance after verified bottleneck relief.' Falsifier: > 50% unexplained variance favors SENS or Fedichev."
 
 - id: S2-LEVIN-SINCLAIR-01

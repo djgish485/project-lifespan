@@ -20,7 +20,7 @@ SCHEMA_PATH = REPO_ROOT / "debates" / "schemas" / "turn.schema.json"
 ALLOWED_TURN_KEYS = {
     "role", "round", "theory_id", "opponent_id", "message_markdown",
     "key_points", "criticisms", "falsifiers", "proposed_experiments",
-    "repo_citations",
+    "repo_citations", "backlog_edits", "claim_edits", "changes_since_prior",
 }
 
 
@@ -214,6 +214,34 @@ Set role="critic", round={round_num}, theory_id="{theory_id}", opponent_id="{opp
 {context}"""
 
 
+JUDGE_STRUCTURED_OUTPUT = """\
+In ADDITION to the standard fields, you MUST also produce these three judge-only fields:
+
+1. "backlog_edits": An array of proposed edits to the criticism backlog (debates/backlog.yaml).
+   Each edit is an object with:
+   - "action": "create" (new criticism), "update" (modify existing), or "resolve" (mark resolved with evidence)
+   - "id": Backlog item ID. For new items use format "S3-{THEORY1}-{THEORY2}-NN". For existing items use the existing ID.
+   - "type": One of "measurement-gap", "bridge-assumption", "missing-severe-test", "definitional-escape"
+   - "statement": The criticism statement (required for create/update)
+   - "resolution_evidence": How it was resolved (required for resolve)
+   You MUST create at least one backlog edit (even if just reaffirming an existing open item via "update").
+
+2. "claim_edits": An array of proposed edits to the claims registry (data/claims.yaml).
+   Each edit is an object with:
+   - "action": "propose" (new claim/prediction), "strengthen" (evidence supports), or "weaken" (evidence undermines)
+   - "theory_id": Which theory this applies to
+   - "claim_id": Existing claim ID (for strengthen/weaken) or proposed new ID (for propose)
+   - "rationale": Why this edit is warranted based on the debate
+   You MUST produce at least one claim edit.
+
+3. "changes_since_prior": A markdown string summarizing what changed compared to any prior debate
+   on this same theory pairing. If the repo context includes prior debate transcripts or backlog items
+   for these theories, note: what criticisms were previously raised, which have been addressed,
+   which are new. If no prior debate exists, state "First debate on this pairing."
+
+These structured outputs allow automated backlog and claims tracking."""
+
+
 def make_judge_prompt(config: dict, context: str, transcript: list[dict]) -> str:
     theory_id = config["theory"]["id"]
     opponent_id = config["opponent"]["id"]
@@ -237,9 +265,16 @@ Your message_markdown must include:
 Set role="judge", round={len(transcript)}, theory_id="{theory_id}", opponent_id="{opponent_id}".
 Include 3-7 key_points summarizing your verdict.
 
+{JUDGE_STRUCTURED_OUTPUT}
+
 {COMMON_RULES}
 
 {SCHEMA_INSTRUCTIONS}
+
+Your output must ALSO include these additional keys (alongside the standard ones):
+- "backlog_edits": [array of backlog edit objects as described above]
+- "claim_edits": [array of claim edit objects as described above]
+- "changes_since_prior": "markdown string"
 
 ## REPO CONTEXT
 
@@ -555,6 +590,41 @@ def format_transcript_md(config: dict, timestamp: str,
             lines.append("**Summary:**")
             for kp in judge_turn["key_points"]:
                 lines.append(f"- {kp}")
+            lines.append("")
+
+        # Changes since prior debate
+        if judge_turn.get("changes_since_prior"):
+            lines.append("### What Changed Since Prior Debate")
+            lines.append("")
+            lines.append(judge_turn["changes_since_prior"])
+            lines.append("")
+
+        # Backlog edits
+        if judge_turn.get("backlog_edits"):
+            lines.append("### Proposed Backlog Edits")
+            lines.append("")
+            lines.append("| Action | ID | Type | Statement |")
+            lines.append("|--------|-----|------|-----------|")
+            for edit in judge_turn["backlog_edits"]:
+                action = edit.get("action", "?")
+                bid = edit.get("id", "?")
+                btype = edit.get("type", "—")
+                stmt = edit.get("statement", edit.get("resolution_evidence", "—"))
+                lines.append(f"| {action} | `{bid}` | {btype} | {stmt} |")
+            lines.append("")
+
+        # Claim edits
+        if judge_turn.get("claim_edits"):
+            lines.append("### Proposed Claim Edits")
+            lines.append("")
+            lines.append("| Action | Theory | Claim ID | Rationale |")
+            lines.append("|--------|--------|----------|-----------|")
+            for edit in judge_turn["claim_edits"]:
+                action = edit.get("action", "?")
+                tid = edit.get("theory_id", "?")
+                cid = edit.get("claim_id", "—")
+                rationale = edit.get("rationale", "—")
+                lines.append(f"| {action} | {tid} | `{cid}` | {rationale} |")
             lines.append("")
     else:
         lines.append("## Judge Verdict")

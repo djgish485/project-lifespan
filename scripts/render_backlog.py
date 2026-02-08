@@ -92,10 +92,13 @@ def render():
         lines.append("")
         for item in resolved:
             theories = ", ".join(item["theories"])
+            kind = item.get("resolution_kind", "unknown")
+            kind_label = {"spec": "Spec-resolved (definitional fix, no new data)", "evidence": "Evidence-resolved (severe test produced data)"}.get(kind, kind)
             lines.append(f"### ~~`{item['id']}`~~")
             lines.append("")
             lines.append(f"**Theories:** {theories}  ")
             lines.append(f"**Statement:** {item['statement']}  ")
+            lines.append(f"**Resolution kind:** {kind_label}  ")
             lines.append(f"**Resolution:** {item.get('resolution_evidence', 'N/A')}")
             lines.append("")
             lines.append("---")

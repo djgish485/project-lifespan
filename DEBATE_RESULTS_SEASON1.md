@@ -199,11 +199,45 @@ Every theory now has 1-3 core claims in `data/claims.yaml`, each with:
 | S1-CLASSICS-PC-01 | Definitional escape | Classics now commits to specific tradeoff thresholds (classics-p1) |
 | S2-BOTTLENECK-FEDICHEV-01 | Definitional escape | Pathway Residual operationalized with variance threshold (bottleneck-p2) |
 
+### Season 3 reruns (post-operationalization debates)
+
+Reran 2 debates for the backlog items that were fixed, using the upgraded judge format (backlog edits + claim edits + "what changed" diff):
+
+| Date | Debate | Winner | New backlog items | Key finding |
+|------|--------|--------|:-:|-------------|
+| 2026-02-08 | Classics vs PC (S3) | Critic (PC) | +2 (S3-CLASSICS-PC-01, S3-CLASSICS-PC-02) | Classics-p1 tradeoff resolved definitional escape but disjunctive structure reduces riskiness |
+| 2026-02-08 | Bottleneck vs Fedichev (S3) | Critic (Fedichev) | +4 (S3-BOTTLENECK-FEDICHEV-01 through 03, S3-FEDICHEV-BOTTLENECK-01) | Pathway Residual operationalized but Gompertz slope + incomplete panel are new issues |
+
+**Backlog after S3 reruns:** 12 open + 6 new from reruns = 18 total (2 resolved)
+
+### All 5 decisive experiments at pre-registration grade
+
+| # | Experiment | Animals | Key test | Pre-reg file |
+|:-:|-----------|:-:|----------|-------------|
+| 1 | Pathogen-Challenge Factorial (2x2x2) | 280 | PC vs Classics, SENS, Fedichev | `prereg_pathogen_factorial.md` |
+| 2 | OSK vs Bioelectric vs Combo | 108 | Sinclair vs Levin primacy | `prereg_osk_bioelectric_combo.md` |
+| 3 | Bottleneck-Clamp + SENS Add-on | 132 | Multi-class necessity vs saturation | `prereg_bottleneck_clamp_sens.md` |
+| 4 | Resilience vs Pathway Mediation | 160 | Causal direction: DOSI vs pathway | `prereg_resilience_mediation.md` |
+| 5 | RMR1 Factorial Analysis Plan | N/A (existing data) | Interaction terms, all-but-one arms | `prereg_rmr1_analysis.md` |
+
+Each includes: directional hypotheses with numeric thresholds, power analysis, randomization, blinding, pre-specified statistical analysis plan, stopping rules, and a decision matrix mapping outcomes to theory verdicts.
+
+### Judge output format upgrade
+
+The judge prompt now produces three structured fields:
+1. **Backlog edits**: create/update/resolve items with IDs, types, statements
+2. **Claim edits**: propose/strengthen/weaken claims with rationale
+3. **"What changed" diff**: markdown summary vs prior debates on same pairing
+
+This enables automated backlog and claims tracking going forward.
+
 ### Progress metrics
 
-- **Backlog closure rate:** 2/14 resolved (14.3%) — without running any new debates
+- **Backlog closure rate:** 2/20 resolved (10%) — 6 new items discovered in S3 reruns
 - **Prediction tightening:** 0/14 → 14/14 predictions have numeric thresholds + falsifiers
 - **Verdict flip readiness:** 0 — no new severe test data yet, but the system is now ready to process it
+- **Pre-registration:** 5/5 decisive experiments at pre-registration grade
+- **Judge automation:** Structured backlog/claim edits now produced automatically
 
 ---
 
@@ -223,14 +257,18 @@ docs/debates/pc_vs_levin_20260207T194909Z.md
 docs/debates/bottleneck_vs_sens_20260208T120248Z.md
 docs/debates/bottleneck_vs_fedichev_20260208T121235Z.md
 docs/debates/levin_vs_sinclair_20260208T121927Z.md
+docs/debates/classics_vs_pc_20260208T160443Z.md
+docs/debates/bottleneck_vs_fedichev_20260208T161116Z.md
 ```
 
-### Research agenda + backlog:
+### Research agenda + backlog + pre-registration:
 
 ```
 docs/experiments/research_agenda.md
+docs/experiments/prereg_pathogen_factorial.md
 docs/debates/backlog.md
 debates/backlog.yaml
+data/claims.yaml
 ```
 
 ### Index pages:

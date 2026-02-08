@@ -12,6 +12,8 @@ These five experiments emerged independently across multiple judge verdicts in S
 
 ## 1. Pathogen-Challenge Factorial (2x2x2)
 
+**Status:** Upgraded to pre-registration grade — see [Full Pre-Registration Protocol](prereg_pathogen_factorial.md)
+
 **Discriminates:** PC vs Classics, PC vs SENS, PC vs Fedichev
 
 **Design:** Pre-registered factorial in aged C57BL/6J mice:
@@ -50,6 +52,8 @@ These five experiments emerged independently across multiple judge verdicts in S
 ---
 
 ## 2. OSK vs Bioelectric vs Combo Aged Regeneration
+
+**Status:** Upgraded to pre-registration grade — see [Full Pre-Registration Protocol](prereg_osk_bioelectric_combo.md)
 
 **Discriminates:** Sinclair vs Levin
 
@@ -93,6 +97,8 @@ This dual measurement enables **mediation analysis** to distinguish whether func
 
 ## 3. Bottleneck-Clamp + SENS Add-on
 
+**Status:** Upgraded to pre-registration grade — see [Full Pre-Registration Protocol](prereg_bottleneck_clamp_sens.md)
+
 **Discriminates:** SENS vs Longevity Bottleneck
 
 **Design:** In aged C57BL/6J mice (20+ months):
@@ -120,6 +126,8 @@ This dual measurement enables **mediation analysis** to distinguish whether func
 ---
 
 ## 4. Resilience vs Pathway Mediation Study
+
+**Status:** Upgraded to pre-registration grade — see [Full Pre-Registration Protocol](prereg_resilience_mediation.md)
 
 **Discriminates:** Fedichev vs Longevity Bottleneck
 
@@ -150,6 +158,8 @@ This dual measurement enables **mediation analysis** to distinguish whether func
 ---
 
 ## 5. RMR1 Factorial Publication
+
+**Status:** Upgraded to pre-registration grade — see [Pre-Registered Analysis Plan](prereg_rmr1_analysis.md)
 
 **Discriminates:** SENS vs Longevity Bottleneck (directly, with existing data)
 

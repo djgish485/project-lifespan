@@ -12,7 +12,7 @@ roles:
   defender:
     provider: "gemini"
   critic:
-    provider: "codex"
+    provider: "gemini"
   judge:
     provider: "claude"
 
@@ -24,6 +24,7 @@ context:
     - "data/evidence.csv"
     - "references/references.bib"
     - "references/links.yaml"
+    - "debates/backlog.yaml"
   max_chars_per_file: 60000
   include_evidence_rows_for_theory_ids: ["fedichev", "longevity_bottleneck"]
 
