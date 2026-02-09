@@ -59,5 +59,5 @@ This site is not static. It features a "Living Knowledge" architecture designed 
 ## 4. Credits
 
 *   **Concept & Architecture:** D. Gish
-*   **Epistemological Engine:** Built by Gemini 1.5 Pro (Google)
+*   **Epistemological Engine:** Built by **Gemini 2.0 Pro** (Google)
 *   **Debate Agents:** Powered by Claude 3.5 Sonnet (Anthropic)
