@@ -38,7 +38,7 @@ The engine instantiates three distinct AI agents for each debate:
 The intelligence behind the engine is a hybrid system:
 
 *   **Debate Simulation:** The debates were simulated using the **Claude 3.5 Sonnet** model (via the local `claude` CLI). Claude was chosen for its high verbal reasoning capability and ability to maintain distinct personas without breaking character.
-*   **Orchestration & Synthesis:** The **Gemini 3.0 Pro** model (via the `gemini` CLI default Auto mode) acted as the "Meta-Agent." It wrote the python scripts, managed the file system, synthesized the "Grand Synthesis" from the raw debate logs, and built the interactive website features.
+*   **Orchestration & Synthesis:** The **Gemini 3.0** model family (Pro/Flash via CLI Auto routing) acted as the "Meta-Agent." It wrote the python scripts, managed the file system, synthesized the "Grand Synthesis" from the raw debate logs, and built the interactive website features.
 
 ## 3. The Interactive Layer ("Living Knowledge")
 
