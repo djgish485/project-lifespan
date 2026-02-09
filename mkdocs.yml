@@ -4,6 +4,7 @@ site_url: https://djgish485.github.io/project-lifespan
 repo_url: https://github.com/djgish485/project-lifespan
 theme:
   name: material
+  custom_dir: overrides
   language: en
   features:
     - search.suggest
@@ -64,6 +65,7 @@ nav:
       - Other Theories: theories/other_theories.md
   - Debates:
       - Overview: debates/index.md
+      - Methodology: debates/methodology.md
       - Open Criticisms: debates/backlog.md
   - Research Agenda:
       - Overview: experiments/research_agenda.md
@@ -75,6 +77,7 @@ nav:
   - About: about.md
 
 extra:
+  git_branch: experiment/chatgpt-pro-season-3-operationalization
   popper:
     criteria:
       - id: falsifiability
